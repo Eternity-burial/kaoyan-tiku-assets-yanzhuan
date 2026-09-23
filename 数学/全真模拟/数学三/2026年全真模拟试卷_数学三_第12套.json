@@ -1,0 +1,528 @@
+{
+  "paper": {
+    "id": 52,
+    "subject": "数学三",
+    "examYear": 2026,
+    "seqNo": 12,
+    "title": "26模拟卷 · 数学三 · 第12套",
+    "intro": null,
+    "fullScore": 150,
+    "minutes": 180,
+    "questionCount": 22,
+    "doneCount": 0
+  },
+  "questions": [
+    {
+      "id": 2000052001,
+      "paperId": 52,
+      "seq": 1,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "\\( f(x,y)=x^{4}+y^{4}-(x+y)^{2} \\) 有",
+      "options": {
+        "A": "2 个极小值点, 1 个极大值点.",
+        "B": "1 个极小值点, 1 个极大值点.",
+        "C": "3 个极小值点,无极大值点.",
+        "D": "2 个极小值点,无极大值点."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "令  \\( \\left\\{\\begin{aligned}f_{x}^{\\prime}&=4x^{3}-2x-2y=0,\\\\ f_{y}^{\\prime}&=4y^{3}-2x-2y=0,\\end{aligned}\\right. \\)\n得到函数 \\( f(x,y) \\) 的3个驻点(0,0),(1,1),(-1,-1).求二阶偏导数,得\n\\[\nf _ {x x} ^ {\\prime \\prime} (x, y) = 1 2 x ^ {2} - 2, f _ {x y} ^ {\\prime \\prime} (x, y) = - 2, f _ {y y} ^ {\\prime \\prime} (x, y) = 1 2 y ^ {2} - 2.\n\\]\n在点(1,1)处，\n\\[\nA = f _ {x x} ^ {\\prime \\prime} (1, 1) = 1 0, B = f _ {x y} ^ {\\prime \\prime} (1, 1) = - 2, C = f _ {y y} ^ {\\prime \\prime} (1, 1) = 1 0,\n\\]\n则 \\(AC - B^{2} > 0, A > 0\\)\n故(1,1)是函数 \\( f(x,y) \\) 的极小值点；\n在点 \\( (-1,-1) \\) 处，\n\\[\nA = f _ {x x} ^ {\\prime \\prime} (- 1, - 1) = 1 0, B = f _ {x y} ^ {\\prime \\prime} (- 1, - 1) = - 2, C = f _ {y y} ^ {\\prime \\prime} (- 1, - 1) = 1 0,\n\\]\n则 \\(AC - B^{2} > 0, A > 0\\)\n故 \\( (-1,-1) \\) 是函数 \\( f(x,y) \\) 的极小值点；\n在点 \\( (0,0) \\) 处，\n\\[\nA = f _ {x x} ^ {\\prime \\prime} (0, 0) = - 2, B = f _ {x y} ^ {\\prime \\prime} (0, 0) = - 2, C = f _ {y y} ^ {\\prime \\prime} (0, 0) = - 2,\n\\]\n则 \\(AC - B^{2} = 0\\)\n无法使用充分条件判断. 对于 \\(0 < |x| < 1\\), 有\n\\[\nf (x, 0) = x ^ {4} - x ^ {2} <   0, f (x, - x) = 2 x ^ {4} > 0, f (0, 0) = 0,\n\\]\n故 \\( (0,0) \\) 不是函数 \\( f(x,y) \\) 的极值点.故选D.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052002,
+      "paperId": 52,
+      "seq": 2,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x, y) \\) 连续，且 \\( f(x, y) = f(y, x) = f(-x, y) \\)，则 \\( \\int_{-2}^{2} dx \\int_{\\sqrt{4 - x^2}}^{2} f(x, y) \\, \\mathrm{d}y = \\)",
+      "options": {
+        "A": "\\(\\int_0^2\\left[\\int_{-2}^{-\\sqrt{4 - y^2}}f(x,y)\\mathrm{d}x + \\int_{-\\sqrt{4 - y^2}}^{2}f(x,y)\\mathrm{d}x\\right]\\mathrm{d}y.\\)",
+        "B": "\\(2\\int_0^2\\left[\\int_{\\sqrt{4 - y^2}}^{2}f(x,y)\\mathrm{d}y\\right]\\mathrm{d}x.\\)",
+        "C": "\\(4\\int_{0}^{\\frac{\\pi}{4}}d\\theta \\int_{2}^{2\\sec \\theta}f(r\\cos \\theta ,r\\sin \\theta)rdr.\\)",
+        "D": "\\(4\\int_{0}^{\\arctan \\frac{1}{2}}d\\theta \\int_{2}^{2\\sec \\theta}f(r\\cos \\theta ,r\\sin \\theta)rdr.\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "由题意知,此二重积分的积分区域为\n\\[\nD = \\{(x, y) | \\sqrt {4 - x ^ {2}} \\leqslant y \\leqslant 2, - 2 \\leqslant x \\leqslant 2 \\},\n\\]\n对应图像如图所示.\n参考答案与分析 卷(六)\n![](/uploads/books/b039989ee5bc16848e475ec5f28074edf3c7742abf0100b982e1e9de91c7eae3.jpg)\n\\[\n\\begin{array}{l} I = \\int_ {- 2} ^ {2} \\mathrm{d} x \\int_ {\\sqrt {4 - x ^ {2}}} ^ {2} f (x, y) \\mathrm{d} y \\\\ = \\int_ {0} ^ {2} \\left[ \\int_ {- 2} ^ {- \\sqrt {4 - y ^ {2}}} f (x, y) d x + \\int_ {\\sqrt {4 - y ^ {2}}} ^ {2} f (x, y) d x \\right] d y. \\\\ \\end{array}\n\\]\n故选项A错误.\n又 \\( f(x,y)=f(-x,y) \\) ，且积分区域关于y轴对称，则 \\( I=2\\int_{0}^{2}\\left[\\int_{\\sqrt{4-y^{2}}}^{2}f(x,y)\\mathrm{d}x\\right]\\mathrm{d}y \\) 。故选项B错误。\n记 \\(D_{1} = \\{(x,y)|(x,y)\\in D,x > y\\}\\) ，由 \\(f(x,y) = f(y,x)\\) ，得 \\(I = 4\\iint_{D_1}f(x,y)\\mathrm{d}x\\mathrm{d}y.\\)\n用极坐标来表示， \\(I = 4\\int_{0}^{\\frac{\\pi}{4}}\\mathrm{d}\\theta \\int_{2}^{2\\sec \\theta}f(r\\cos \\theta ,r\\sin \\theta)r\\mathrm{d}r.\\) 故选C.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052003,
+      "paperId": 52,
+      "seq": 3,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "若级数 \\(\\sum_{n=1}^{\\infty} (-1)^{n+1} \\frac{\\sqrt{n+1} - \\sqrt{n}}{n^p}\\) 条件收敛, 则 \\(p\\) 的取值范围为",
+      "options": {
+        "A": "\\(\\left(-1, \\frac{1}{2}\\right]\\).",
+        "B": "\\((-1, 1)\\).",
+        "C": "\\((0,1)\\).",
+        "D": "\\( \\left(-\\frac{1}{2},\\frac{1}{2}\\right]. \\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "令 \\(a_{n} = \\frac{\\sqrt{n + 1} - \\sqrt{n}}{n^{p}} >0\\) ，则当 \\(n\\to \\infty\\) 时，\n\\[\na _ {n} = \\frac {1}{(\\sqrt {n + 1} + \\sqrt {n}) n ^ {p}} = \\frac {1}{\\sqrt {n} \\left(\\sqrt {1 + \\frac {1}{n}} + 1\\right) n ^ {p}} \\sim \\frac {1}{2 n ^ {\\frac {1}{p + \\frac {1}{2}}}}.\n\\]\n故当 \\( p+\\frac{1}{2}>1 \\) ，即 \\( p>\\frac{1}{2} \\) 时， \\( \\sum_{n=1}^{\\infty}a_{n} \\) 收敛，则原级数绝对收敛；\n当 \\( p+\\frac{1}{2}\\leqslant1 \\) ，即 \\( p\\leqslant\\frac{1}{2} \\) 时， \\( \\sum_{n=1}^{\\infty}a_{n} \\) 发散，则原级数非绝对收敛.\n当 \\(0 < p + \\frac{1}{2} \\leqslant 1\\)，即 \\(-\\frac{1}{2} < p \\leqslant \\frac{1}{2}\\) 时，显然 \\(a_{n} \\to 0 (n \\to \\infty)\\). 令\n\\[\nf (x) = x ^ {p} (\\sqrt {x + 1} + \\sqrt {x}) (x > 0),\n\\]\n由于 \\(f^{\\prime}(x) = x^{p - 1}(\\sqrt{x + 1} +\\sqrt{x})\\left(p + \\frac{\\sqrt{x}}{2\\sqrt{x + 1}}\\right),\\)\n且 \\(x^{p - 1} > 0,\\sqrt{x + 1} +\\sqrt{x} >0\\)\n而 \\(\\lim_{x\\to +\\infty}\\left(p + \\frac{\\sqrt{x}}{2\\sqrt{x + 1}}\\right) = p + \\frac{1}{2} >0,\\)\n所以当 \\(x\\) 充分大时, \\(f(x)\\) 单调增加, 于是当 \\(n\\) 充分大时, \\(a_{n} = \\frac{1}{f(n)}\\) 单调减少, 故由莱布尼茨判别法可知, 当 \\(-\\frac{1}{2} < p \\leqslant \\frac{1}{2}\\) 时, 原级数条件收敛;\n当 \\( p+\\frac{1}{2}\\leqslant0 \\) ，即 \\( p\\leqslant-\\frac{1}{2} \\) 时， \\( a_{n} \\) 不趋于 \\( 0(n\\to\\infty) \\) ，故当 \\( p\\leqslant-\\frac{1}{2} \\) 时，原级数发散。故选D.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052004,
+      "paperId": 52,
+      "seq": 4,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(t) \\) 连续, 令 \\( F(x, y) = \\int_{0}^{y - x} (y - x - t)f(t)dt \\), 则",
+      "options": {
+        "A": "\\(\\frac{\\partial F}{\\partial x} = \\frac{\\partial F}{\\partial y}, \\frac{\\partial^2 F}{\\partial x^2} = \\frac{\\partial^2 F}{\\partial y^2}\\).",
+        "B": "\\(\\frac{\\partial F}{\\partial x} = \\frac{\\partial F}{\\partial y}, \\frac{\\partial^2 F}{\\partial x^2} = -\\frac{\\partial^2 F}{\\partial y^2}\\).",
+        "C": "\\(\\frac{\\partial F}{\\partial x} = -\\frac{\\partial F}{\\partial y}, \\frac{\\partial^2 F}{\\partial x^2} = \\frac{\\partial^2 F}{\\partial y^2}\\).",
+        "D": "\\(\\frac{\\partial F}{\\partial x} = -\\frac{\\partial F}{\\partial y}, \\frac{\\partial^2 F}{\\partial x^2} = -\\frac{\\partial^2 F}{\\partial y^2}\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "\\(F(x,y) = y\\int_{0}^{y - x}f(t)\\mathrm{d}t - x\\int_{0}^{y - x}f(t)\\mathrm{d}t - \\int_{0}^{y - x}tf(t)\\mathrm{d}t,\\)\n则\n\\[\n\\frac {\\partial F}{\\partial x} = - y f (y - x) - \\int_ {0} ^ {y - x} f (t) \\mathrm{d} t + x f (y - x) + (y - x) f (y - x) = - \\int_ {0} ^ {y - x} f (t) \\mathrm{d} t,\n\\]\n\\[\n\\frac {\\partial^ {2} F}{\\partial x ^ {2}} = f (y - x),\n\\]\n\\[\n\\frac {\\partial F}{\\partial y} = \\int_ {0} ^ {y - x} f (t) \\mathrm{d} t + y f (y - x) - x f (y - x) - (y - x) f (y - x) = \\int_ {0} ^ {y - x} f (t) \\mathrm{d} t,\n\\]\n\\[\n\\frac {\\partial^ {2} F}{\\partial y ^ {2}} = f (y - x),\n\\]\n可得\n\\[\n\\frac {\\partial F}{\\partial x} = - \\frac {\\partial F}{\\partial y} \\cdot \\frac {\\partial^ {2} F}{\\partial x ^ {2}} = \\frac {\\partial^ {2} F}{\\partial y ^ {2}}.\n\\]\n故选C.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052005,
+      "paperId": 52,
+      "seq": 5,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(A, B\\) 是 \\(n\\) 阶矩阵, \\(A^{*}, B^{*}\\) 分别是 \\(A, B\\) 对应的伴随矩阵, 则分块矩阵 \\(C = \\begin{pmatrix} O & A \\\\ B & O \\end{pmatrix}\\) 的伴随矩阵 \\(C^{*} =\\)",
+      "options": {
+        "A": "\\(\\left( \\begin{array}{cc}O & |A|A^{*}\\\\ |B|B^{*} & O \\end{array} \\right).\\)",
+        "B": "\\(\\left( \\begin{array}{cc}O & (-1)^{n}|A|B^{*}\\\\ (-1)^{n}|B|A^{*} & O \\end{array} \\right).\\)",
+        "C": "\\(\\left( \\begin{array}{cc}O & |B|A^{*}\\\\ |A|B^{*} & O \\end{array} \\right).\\)",
+        "D": "\\(\\left( \\begin{array}{cc}O & (-1)^{n}|B|B^{*}\\\\ (-1)^{n}|A|A^{*} & O \\end{array} \\right).\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "代入选项逐个验算即可,其中\n\\[\n\\begin{array}{l} \\left( \\begin{array}{c c} \\boldsymbol {O} & \\boldsymbol {A} \\\\ \\boldsymbol {B} & \\boldsymbol {O} \\end{array} \\right) \\left( \\begin{array}{c c} \\boldsymbol {O} & (- 1) ^ {n} | \\boldsymbol {A} | \\boldsymbol {B} ^ {*} \\\\ (- 1) ^ {n} | \\boldsymbol {B} | \\boldsymbol {A} ^ {*} & \\boldsymbol {O} \\end{array} \\right) \\\\ = \\left( \\begin{array}{c c} (- 1) ^ {n} | \\boldsymbol {B} | \\boldsymbol {A} \\boldsymbol {A} ^ {*} & \\boldsymbol {O} \\\\ \\boldsymbol {O} & (- 1) ^ {n} | \\boldsymbol {A} | \\boldsymbol {B} \\boldsymbol {B} ^ {*} \\end{array} \\right) \\\\ = (- 1) ^ {n} | \\boldsymbol {A} | | \\boldsymbol {B} | \\left( \\begin{array}{c c} \\boldsymbol {E} & \\boldsymbol {O} \\\\ \\boldsymbol {O} & \\boldsymbol {E} \\end{array} \\right) = | \\boldsymbol {C} | \\left( \\begin{array}{c c} \\boldsymbol {E} & \\boldsymbol {O} \\\\ \\boldsymbol {O} & \\boldsymbol {E} \\end{array} \\right) = \\boldsymbol {C C} ^ {*}. \\\\ \\end{array}\n\\]\n故选B.\n参考答案与分析 卷(六)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052006,
+      "paperId": 52,
+      "seq": 6,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设矩阵 \\(A = \\begin{pmatrix} 1 & -1 & 1 \\\\ -2 & 2 & 1 \\\\ 1 & -1 & k \\end{pmatrix}, r((3E - A)^2) < r(3E - A)\\), 其中 \\(E\\) 是 3 阶单位矩阵, 则常数 \\(k =\\)",
+      "options": {
+        "A": "3.",
+        "B": "4.",
+        "C": "5.",
+        "D": "6."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "直接计算, 得\n\\[\n3 \\boldsymbol {E} - \\boldsymbol {A} = \\left( \\begin{array}{c c c} 2 & 1 & - 1 \\\\ 2 & 1 & - 1 \\\\ - 1 & 1 & 3 - k \\end{array} \\right),\n\\]\n\\[\n(3 \\boldsymbol {E} - \\boldsymbol {A}) ^ {2} = \\left( \\begin{array}{c c c} 2 & 1 & - 1 \\\\ 2 & 1 & - 1 \\\\ - 1 & 1 & 3 - k \\end{array} \\right) \\left( \\begin{array}{c c c} 2 & 1 & - 1 \\\\ 2 & 1 & - 1 \\\\ - 1 & 1 & 3 - k \\end{array} \\right) = \\left( \\begin{array}{c c c} 7 & 2 & k - 6 \\\\ 7 & 2 & k - 6 \\\\ k - 3 & 3 - k & (3 - k) ^ {2} \\end{array} \\right).\n\\]\n因为无论 k 取何值, 都有  \\( r(3E-A)=2 \\) , 所以当且仅当 k=3 时,  \\( r((3E-A)^{2})=1 \\) , 满足  \\( r((3E-A)^{2})<r(3E-A) \\) . 因此, k=3. 故选 A.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052007,
+      "paperId": 52,
+      "seq": 7,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(n\\) 阶方阵 \\(A = (\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{n}), B = (\\beta_{1}, \\beta_{2}, \\cdots, \\beta_{n}), AB = (\\gamma_{1}, \\gamma_{2}, \\cdots, \\gamma_{n})\\), 记向量组 \\(I: \\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{n}\\), 向量组 \\(II: \\beta_{1}, \\beta_{2}, \\cdots, \\beta_{n}\\), 向量组 \\(III: \\gamma_{1}, \\gamma_{2}, \\cdots, \\gamma_{n}\\). 如果向量组 \\(III\\) 线性相关, 则",
+      "options": {
+        "A": "向量组 \\(I\\) 线性相关.",
+        "B": "向量组 \\(II\\) 线性相关.",
+        "C": "向量组 \\(I\\) 与 \\(II\\) 都线性相关.",
+        "D": "向量组 \\(I\\) 与 \\(II\\) 至少有一个线性相关."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "若向量组Ⅰ与向量组Ⅱ均线性无关,则有 \\( r(A)=r(B)=n \\) ,进而可知 \\( r(AB)=n \\) ,即向量组Ⅲ线性无关.上述命题的逆否命题亦成立,即向量组Ⅲ线性相关时,向量组Ⅰ与Ⅱ至少有一个线性相关.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052008,
+      "paperId": 52,
+      "seq": 8,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设随机变量 \\((X_{1}, X_{2}) \\sim N(0, 0; \\sigma_{1}^{2}, \\sigma_{2}^{2}; \\rho), \\sigma_{1} \\neq \\sigma_{2}\\), 若 \\(Y_{1} = X_{1} \\cos \\alpha + X_{2} \\sin \\alpha\\) 与 \\(Y_{2} = X_{2} \\cos \\alpha - X_{1} \\sin \\alpha\\) 相互独立, \\(\\cos 2\\alpha \\neq 0\\), 则 \\(\\tan 2\\alpha =\\)",
+      "options": {
+        "A": "\\(\\rho \\frac{\\sigma_1^2\\sigma_2^2}{\\sigma_1^2 - \\sigma_2^2}\\).",
+        "B": "\\(\\rho \\frac{\\sigma_1^2\\sigma_2^2}{\\sigma_2^2 - \\sigma_1^2}\\)",
+        "C": "\\(2 \\rho \\frac{\\sigma_1 \\sigma_2}{\\sigma_1^2 - \\sigma_2^2}\\).",
+        "D": "\\(2 \\rho \\frac{\\sigma_1 \\sigma_2}{\\sigma_2^2 - \\sigma_1^2}\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "\\(\\operatorname{Cov}(Y_1,Y_2) = \\operatorname{Cov}(X_1\\cos \\alpha +X_2\\sin \\alpha ,X_1(-\\sin \\alpha) + X_2\\cos \\alpha)\\)\n\\[\n= \\cos \\alpha \\cdot (- \\sin \\alpha) \\cdot D (X _ {1}) + (\\cos^ {2} \\alpha - \\sin^ {2} \\alpha) \\operatorname{Cov} (X _ {1}, X _ {2}) + \\cos \\alpha \\cdot \\sin \\alpha \\cdot D (X _ {2})\n\\]\n\\[\n= \\cos \\alpha \\cdot \\sin \\alpha \\left(\\sigma_ {2} ^ {2} - \\sigma_ {1} ^ {2}\\right) + \\rho \\sigma_ {1} \\sigma_ {2} \\left(\\cos^ {2} \\alpha - \\sin^ {2} \\alpha\\right)\n\\]\n\\[\n= \\frac {1}{2} \\left(\\sigma_ {2} ^ {2} - \\sigma_ {1} ^ {2}\\right) \\sin 2 \\alpha + \\rho \\sigma_ {1} \\sigma_ {2} \\cos 2 \\alpha\n\\]\n\\[\n= \\cos 2 \\alpha \\left[ \\frac {1}{2} \\left(\\sigma_ {2} ^ {2} - \\sigma_ {1} ^ {2}\\right) \\tan 2 \\alpha + \\rho \\sigma_ {1} \\sigma_ {2} \\right] = 0.\n\\]\n由 \\(\\cos 2\\alpha \\neq 0\\) ，有 \\(\\frac{1}{2} (\\sigma_2^2 -\\sigma_1^2)\\tan 2\\alpha = -\\rho \\sigma_1\\sigma_2\\) ，即 \\(\\tan 2\\alpha = 2\\rho \\frac{\\sigma_1\\sigma_2}{\\sigma_1^2 - \\sigma_2^2}\\) ，选C.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052009,
+      "paperId": 52,
+      "seq": 9,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(X_{1}, X_{2}\\) 是取自正态总体 \\(X \\sim N(1, 1)\\) 的简单随机样本, 则 \\(\\frac{X_{1} - 1}{|1 - X_{2}|}\\) 服从",
+      "options": {
+        "A": "\\(t(1)\\).",
+        "B": "\\(F(1,1)\\).",
+        "C": "\\(\\chi^2 (1)\\)",
+        "D": "\\(N(1,1)\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "由题可知， \\( X_{1} \\) ， \\( X_{2} \\) 相互独立，故由t分布形式可知\n\\[\n\\frac {X _ {1} - 1}{| 1 - X _ {2} |} = \\frac {\\frac {X _ {1} - 1}{1}}{\\sqrt {\\left(\\frac {X _ {2} - 1}{1}\\right) ^ {2}} / 1} \\sim t (1).\n\\]\n故选A.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052010,
+      "paperId": 52,
+      "seq": 10,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(X_{1}, \\cdots, X_{n}\\) 与 \\(Y_{1}, \\cdots, Y_{n}\\) 是来自正态总体 \\(N(\\mu, \\sigma^{2})\\) 的两个相互独立的简单随机样本,\n\\(\\overline{X} = \\frac{1}{n}\\sum_{i = 1}^{n}X_{i},\\overline{Y} = \\frac{1}{n}\\sum_{i = 1}^{n}Y_{i}\\) 且满足 \\(P\\left\\{\\left|\\overline{X} -\\overline{Y}\\right| > \\sigma \\right\\} \\leqslant 0.05,\\Phi (1.96) = 0.975\\) ，则样本容量 \\(n\\) 的最小值为",
+      "options": {
+        "A": "7.",
+        "B": "8.",
+        "C": "9.",
+        "D": "10."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "\\(\\overline{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right), \\overline{Y} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\\), 且 \\(\\overline{X}\\) 与 \\(\\overline{Y}\\) 相互独立, 故\n\\[\n\\overline {{{X}}} - \\overline {{{Y}}} \\sim N \\left(0, \\frac {2 \\sigma^ {2}}{n}\\right), \\frac {\\sqrt {n} (\\overline {{{X}}} - \\overline {{{Y}}})}{\\sqrt {2} \\sigma} \\sim N (0, 1).\n\\]\n由题设，\n\\[\n\\begin{array}{l} P \\left\\{\\left| \\overline {{{X}}} - \\overline {{{Y}}} \\right| > \\sigma \\right\\} = P \\left\\{\\frac {\\sqrt {n} (\\overline {{{X}}} - \\overline {{{Y}}})}{\\sqrt {2} \\sigma} > \\frac {\\sqrt {n} \\sigma}{\\sqrt {2} \\sigma} \\right\\} + P \\left\\{\\frac {\\sqrt {n} (\\overline {{{X}}} - \\overline {{{Y}}})}{\\sqrt {2} \\sigma} <   - \\frac {\\sqrt {n} \\sigma}{\\sqrt {2} \\sigma} \\right\\} \\\\ = P \\left\\{\\frac {\\sqrt {n} (\\overline {{{X}}} - \\overline {{{Y}}})}{\\sqrt {2} \\sigma} > \\sqrt {\\frac {n}{2}} \\right\\} + P \\left\\{\\frac {\\sqrt {n} (\\overline {{{X}}} - \\overline {{{Y}}})}{\\sqrt {2} \\sigma} <   - \\sqrt {\\frac {n}{2}} \\right\\} \\\\ = 2 P \\left\\{\\sqrt {n} \\frac {(\\overline {{{X}}} - \\overline {{{Y}}})}{\\sqrt {2} \\sigma} > \\sqrt {\\frac {n}{2}} \\right\\} \\leqslant 0. 0 5, \\\\ \\end{array}\n\\]\n即 \\(P\\left\\{\\sqrt{n}\\frac{(\\overline{X} - \\overline{Y})}{\\sqrt{2}\\sigma} >\\sqrt{\\frac{n}{2}}\\right\\} \\leqslant 0.025,1 - \\Phi \\left(\\sqrt{\\frac{n}{2}}\\right)\\leqslant 0.025,\\Phi \\left(\\sqrt{\\frac{n}{2}}\\right)\\geqslant 0.975 = \\Phi (1.96),n\\geqslant\\)\n\\( 2 \\times 1.96^{2} \\approx 7.68 \\) ，选B.\n二、填空题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052011,
+      "paperId": 52,
+      "seq": 11,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(x \\to 0\\) 时, \\(\\ln \\frac{2 + x}{2 + \\sin x}\\) 与 \\(x^n\\) 为同阶无穷小, 则 \\(n =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "3",
+        "analysis_md": "当 \\(x \\to 0\\) 时，\n\\[\n\\ln \\frac {2 + x}{2 + \\sin x} = \\ln \\frac {2 + \\sin x - \\sin x + x}{2 + \\sin x} \\sim \\frac {- \\sin x + x}{2 + \\sin x} \\sim \\frac {1}{2} \\left(\\frac {1}{6} x ^ {3}\\right) = \\frac {1}{1 2} x ^ {3}.\n\\]\n故与 \\( x^{3} \\) 同阶，n=3。",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052012,
+      "paperId": 52,
+      "seq": 12,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\( y \\geqslant -2 \\)，则微分方程 \\( x' - \\sqrt{x + y^2} = -2y \\) 满足 \\( x(0) = 1 \\) 的特解为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\( x=-\\frac{3}{4}y^{2}+y+1(y\\geqslant-2) \\)",
+        "analysis_md": "由题意知 \\(x' + 2y = \\sqrt{x + y^2}\\)，令 \\(x + y^2 = u\\)，则 \\(\\frac{\\mathrm{d}u}{\\mathrm{d}y} = \\sqrt{u}\\)，即 \\(\\int \\frac{1}{\\sqrt{u}} \\mathrm{d}u = \\int \\mathrm{d}y\\)，有 \\(2\\sqrt{u} = y + C\\)，即 \\(2\\sqrt{x + y^2} = y + C\\)，又 \\(x(0) = 1\\)，于是 \\(C = 2\\)，得 \\(\\sqrt{x + y^2} = \\frac{y}{2} + 1\\)，整理得 \\(x = -\\frac{3}{4} y^2 + y + 1 (y \\geqslant -2)\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052013,
+      "paperId": 52,
+      "seq": 13,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "方程 \\(2y_{t+1} - y_t = 3\\left(\\frac{1}{2}\\right)^t\\) 的通解为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\( y_{t}=A\\left(\\frac{1}{2}\\right)^{t}+3t\\left(\\frac{1}{2}\\right)^{t} \\)  (A为任意常数)",
+        "analysis_md": "原方程可化简为\n参考答案与分析 卷(六)\n\\[\ny _ {t + 1} - \\frac {1}{2} y _ {t} = \\frac {3}{2} \\left(\\frac {1}{2}\\right) ^ {t},\n\\]\n即 \\(a = -\\frac{1}{2}, f(t) = \\frac{3}{2}\\left(\\frac{1}{2}\\right)^t\\)，则对应的齐次方程的通解为\n\\[\ny _ {A} (t) = A \\left(\\frac {1}{2}\\right) ^ {t}.\n\\]\n因为 \\(a + d = \\left(-\\frac{1}{2}\\right) + \\left(\\frac{1}{2}\\right) = 0\\) ，非齐次方程的特解应具有形式\n\\[\ny _ {t} ^ {*} = B t \\left(\\frac {1}{2}\\right) ^ {t},\n\\]\n代入原方程后可求得 \\(B = 3\\)。于是，原方程的通解为\n\\[\ny _ {t} = A \\left(\\frac {1}{2}\\right) ^ {t} + 3 t \\left(\\frac {1}{2}\\right) ^ {t} (A \\text {为任意常数}).\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052014,
+      "paperId": 52,
+      "seq": 14,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(z = f(u)\\) 可导, \\(u = u(x, y)\\) 由方程 \\(u = \\varphi(u) + \\int_{y}^{x} P(t) dt\\) 所确定, 其中函数 \\(P\\) 连续, \\(\\varphi\\) 有连续导数,且 \\(\\varphi'(u) \\neq 1\\), 则 \\(P(x) \\frac{\\partial z}{\\partial y} + P(y) \\frac{\\partial z}{\\partial x} =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "0",
+        "analysis_md": "由题设得， \\( \\frac{\\partial u}{\\partial x}=\\varphi'(u)\\frac{\\partial u}{\\partial x}+P(x) \\) ， \\( \\frac{\\partial u}{\\partial y}=\\varphi'(u)\\frac{\\partial u}{\\partial y}-P(y) \\) ，所以\n\\[\n\\frac {\\partial u}{\\partial x} = \\frac {P (x)}{1 - \\varphi^ {\\prime} (u)}, \\frac {\\partial u}{\\partial y} = - \\frac {P (y)}{1 - \\varphi^ {\\prime} (u)}.\n\\]\n因此\n\\[\n\\begin{array}{l} P (x) \\frac {\\partial z}{\\partial y} + P (y) \\frac {\\partial z}{\\partial x} = P (x) f ^ {\\prime} (u) \\frac {\\partial u}{\\partial y} + P (y) f ^ {\\prime} (u) \\frac {\\partial u}{\\partial x} \\\\ = - \\frac {P (x) P (y) f ^ {\\prime} (u)}{1 - \\varphi^ {\\prime} (u)} + \\frac {P (x) P (y) f ^ {\\prime} (u)}{1 - \\varphi^ {\\prime} (u)} = 0. \\\\ \\end{array}\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052015,
+      "paperId": 52,
+      "seq": 15,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(A\\) 是 4 阶矩阵, \\(A\\) 的伴随矩阵 \\(A^{*} = \\begin{pmatrix} 1 & 0 & 1 & 0 \\\\ 0 & 2 & 0 & 2 \\\\ 0 & 0 & 1 & 1 \\\\ 0 & 0 & 0 & 4 \\end{pmatrix}, b = (1, 1, 1, 1)^{T}\\), 则方程组 \\(Ax = b\\) 的解为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\((1,2,1,2)^{\\mathrm{T}}\\)",
+        "analysis_md": "\\( \\left|A^{*}\\right|=\\left|A\\right|^{3}=\\left|\\begin{matrix}1&0&1&0\\\\ 0&2&0&2\\\\ 0&0&1&1\\\\ 0&0&0&4\\end{matrix}\\right|=8, \\)\n可得 \\( |A|=2\\neq0 \\) ，则A可逆，故\n\\[\n\\boldsymbol {x} = \\boldsymbol {A} ^ {- 1} \\boldsymbol {b} = \\frac {\\boldsymbol {A} ^ {*}}{| \\boldsymbol {A} |} \\boldsymbol {b} = \\frac {1}{2} \\left( \\begin{array}{c c c c} 1 & 0 & 1 & 0 \\\\ 0 & 2 & 0 & 2 \\\\ 0 & 0 & 1 & 1 \\\\ 0 & 0 & 0 & 4 \\end{array} \\right) \\left( \\begin{array}{l} 1 \\\\ 1 \\\\ 1 \\\\ 1 \\end{array} \\right) = \\left( \\begin{array}{l} 1 \\\\ 2 \\\\ 1 \\\\ 2 \\end{array} \\right).\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052016,
+      "paperId": 52,
+      "seq": 16,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设总体 \\(X\\) 的概率密度为 \\(f(x) = \\begin{cases} \\frac{\\beta x}{a^2}, & 0 \\leqslant x \\leqslant a, \\\\ 0, & \\text{其他}, \\end{cases}\\) 其中 \\(\\alpha (\\alpha > 1)\\) 是未知参数, \\(X_1, X_2, \\cdots, X_n\\) 是来自总体 \\(X\\) 的简单随机样本, 记 \\(p = P\\{0 < X < \\sqrt{\\alpha}\\}, X_{(1)} = \\min \\{X_1, X_2, \\cdots, X_n\\}, X_{(n)} = \\max \\{X_1, X_2, \\cdots, X_n\\}\\), 则 \\(p\\) 的最大似然估计量 \\(\\hat{p}\\) 为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{1}{X_{(n)}}\\)",
+        "analysis_md": "由归一性, 得  \\( \\int_{-\\infty}^{+\\infty} f(x) \\, dx = \\int_{0}^{a} \\frac{\\beta x}{a^{2}} \\, dx = \\frac{\\beta}{2}, 1, \\beta = 2 \\) .\n\\[\np = P \\left\\{0 <   X <   \\sqrt {\\alpha} \\right\\} = \\int_ {0} ^ {\\sqrt {\\alpha}} f (x) \\mathrm{d} x = \\frac {1}{\\alpha}.\n\\]\n设  \\( x_{1}, x_{2}, \\cdots, x_{n} \\)  为来自  \\( X_{1}, X_{2}, \\cdots, X_{n} \\)  的一组观测值，当  \\( 0 \\leqslant x_{1} \\leqslant \\alpha, 0 \\leqslant x_{2} \\leqslant \\alpha, \\cdots, 0 \\leqslant x_{n} \\leqslant \\alpha \\)  时，似然函数为\n\\[\nL (\\alpha) = f (x _ {1}) f (x _ {2}) \\dots f (x _ {n}) = \\frac {2 ^ {n}}{\\alpha^ {2 n}} x _ {1} x _ {2} \\dots x _ {n}.\n\\]\n显然  \\( L(\\alpha) \\)  关于  \\( \\alpha \\)  单调减少，且  \\( \\alpha \\geqslant \\max\\left\\{x_{1}, x_{2}, \\cdots, x_{n}\\right\\} \\) ，则  \\( \\alpha \\)  的最大似然估计量为\n\\[\n\\hat {\\alpha} = \\max \\left\\{X _ {1}, X _ {2}, \\dots , X _ {n} \\right\\}.\n\\]\n又知 \\(p = \\frac{1}{\\alpha}\\) 是关于 \\(\\alpha\\) 的单调函数, 根据最大似然估计量的不变性, 可知 \\(p\\) 的最大似然估计量为\n\\[\n\\hat {p} = \\frac {1}{\\hat {\\alpha}} = \\frac {1}{\\max \\left\\{X _ {1} , X _ {2} , \\cdots , X _ {n} \\right\\}} = \\frac {1}{X _ {(n)}}.\n\\]\n三、解答题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052017,
+      "paperId": 52,
+      "seq": 17,
+      "type": "解答题",
+      "points": 10,
+      "difficulty": 3,
+      "stem": "某公司投资2000万元建成一条生产线, 投产后, 在时间 \\(t\\) (单位: 年) 的边际成本和边际收益分别为 \\(G(t) = 5 + 2t^{3}\\) (百万元/年), \\(\\Phi(t) = 17 - t^{\\frac{2}{3}}\\) (百万元/年), 试确定该生产线在何时停产可获得最大利润? 最大利润是多少?",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "\\( G(t) \\) 是增函数 \\( \\left(G'(t)=\\frac{4}{3}t^{-\\frac{1}{3}}>0\\right) \\) ， \\( \\Phi(t) \\) 是减函数 \\( \\left(\\Phi'(t)=-\\frac{2}{3}t^{-\\frac{1}{3}}<0\\right) \\) 。这意味着生产费用在逐年增加，而所得收益在逐年减小，发展下去必有某一时刻，费用与收益持平，过了这一时刻，费用大于收益，再生产就亏本了，故应停产。我们的任务就是确定最佳停产时间，并求出所能获得的最大利润。\n这里,极值存在的必要条件是\n\\[\n\\Phi (t) = G (t), \\text {即} 1 7 - t ^ {\\frac {2}{3}} = 5 + 2 t ^ {\\frac {2}{3}},\n\\]\n解得 \\(t = 8\\) ，显然\n\\[\n\\Phi^ {\\prime} (8) = - \\frac {2}{3} \\cdot 8 ^ {- \\frac {1}{3}} <   0, G ^ {\\prime} (8) = \\frac {4}{3} \\cdot 8 ^ {- \\frac {1}{3}} > 0,\n\\]\n所以  \\( \\Phi'(8)-G'(8)=\\left[\\Phi(t)-G(t)\\right]' \\bigg|_{t=8}=-1<0 \\)  ，故生产线在投产第8年时停产可获得最大利润，其值为\n参考答案与分析 卷(六)\n\\[\n\\begin{array}{l} L _ {\\text {浮}} = \\int_ {0} ^ {8} [ \\Phi (t) - G (t) ] \\mathrm{d} t - 2 0 = \\int_ {0} ^ {8} \\left(1 2 - 3 t ^ {\\frac {2}{3}}\\right) \\mathrm{d} t - 2 0 \\\\ = \\left(1 2 t - \\frac {9}{5} t ^ {\\frac {5}{3}}\\right) \\Bigg | _ {0} ^ {8} - 2 0 = 1 8. 4 (\\text { 百   万   元 }), \\\\ \\end{array}\n\\]\n即最大利润是1840万元.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052018,
+      "paperId": 52,
+      "seq": 18,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设 \\( y = y(x) \\) 满足微分方程 \\( (xy' - 2)\\ln x + y = 0, y(e) = 2 \\).\n(1) 求  \\( y = y(x) \\)  的表达式及其定义域;\n(2) 求函数  \\( y = y(x) \\)  的极值.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1)由 \\( (xy'-2)\\ln x+y=0 \\) 整理得 \\( y'+\\frac{1}{x\\ln x}y=\\frac{2}{x} \\) ，该方程为一阶线性微分方程，根据一阶线性微分方程的通解公式，其通解为\n\\[\ny = \\mathrm{e} ^ {- \\int \\frac {1}{x \\ln x} \\mathrm{d} x} \\left(\\int \\frac {2}{x} \\mathrm{e} ^ {\\int \\frac {1}{x \\ln x} \\mathrm{d} x} \\mathrm{d} x + C\\right) = \\frac {1}{\\ln x} (\\ln^ {2} x + C).\n\\]\n由 \\( y(\\mathrm{e})=2 \\) ，得C=1。故\n\\[\ny (x) = \\ln x + \\frac {1}{\\ln x}, x \\in (0, 1) \\cup (1, + \\infty).\n\\]\n(2) \\( y'(x)=\\frac{1}{x}\\left(1-\\frac{1}{\\ln^{2}x}\\right),y''(x)=\\frac{1}{x^{2}}\\left(\\frac{1}{\\ln^{2}x}+\\frac{2}{\\ln^{3}x}-1\\right). \\)\n令  \\( y'(x)=0 \\)  ，得 x=e 或  \\( x=\\frac{1}{e} \\) .\n\\( y''(e)=\\frac{2}{e^{2}}>0 \\) ，则 x=e 为极小值点，极小值为  \\( y(e)=2 \\) 。\n\\( y''\\left(\\frac{1}{e}\\right)=-2e^{2}<0 \\) ，则 \\( x=\\frac{1}{e} \\) 为极大值点，极大值为 \\( y\\left(\\frac{1}{e}\\right)=-2 \\) 。",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052019,
+      "paperId": 52,
+      "seq": 19,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x) \\) 在 \\( (a,b) \\) 上二次可微,证明:对任意 \\( x\\in(a,b) \\) 及适当小的正数h(使 \\( x+h,x-h\\in(a,b) \\) ),不等式 \\( f(x)\\leqslant\\frac{1}{2}\\left[f(x+h)+f(x-h)\\right] \\) 成立的充要条件是 \\( f''(x)\\geqslant0,x\\in(a,b) \\) .",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "必要性.若对任意 \\(x \\in (a, b)\\) 及适当小的 \\(h > 0\\), 有\n\\[\nf (x) \\leqslant \\frac {1}{2} [ f (x + h) + f (x - h) ],\n\\]\n则对上述 \\(x\\) 及 \\(h\\) 有\n\\[\n\\frac {f (x + h) + f (x - h) - 2 f (x)}{h ^ {2}} \\geqslant 0.\n\\]\n两边取极限, 由于 \\(f(x)\\) 二次可微, 左端极限为\n\\[\n\\begin{array}{l} \\lim _ {h \\rightarrow 0} \\frac {f (x + h) + f (x - h) - 2 f (x)}{h ^ {2}} = \\lim _ {h \\rightarrow 0} \\frac {f ^ {\\prime} (x + h) - f ^ {\\prime} (x - h)}{2 h} \\\\ = \\lim _ {h \\rightarrow 0} \\frac {1}{2} \\left[ \\frac {f ^ {\\prime} (x + h) - f ^ {\\prime} (x)}{h} + \\frac {f ^ {\\prime} (x - h) - f ^ {\\prime} (x)}{- h} \\right] = f ^ {\\prime \\prime} (x). \\\\ \\end{array}\n\\]\n因此得 \\( f''(x)\\geqslant0,x\\in(a,b) \\) .\n充分性. 若 \\( f''(x) \\geqslant 0, x \\in (a, b) \\)，则 \\( f'(x) \\) 单调不减，于是对任意的 \\( x \\in (a, b) \\) 及适当小的 \\( h > 0 \\)，有\n\\[\n\\begin{array}{l} f (x + h) + f (x - h) - 2 f (x) \\\\ = \\int_ {x} ^ {x + h} [ f ^ {\\prime} (t) - f ^ {\\prime} (t - h) ] \\mathrm{d} t \\geqslant 0, \\\\ \\end{array}\n\\]\n即 \\( f(x)\\leqslant\\frac{1}{2}[f(x+h)+f(x-h)] \\) .",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052020,
+      "paperId": 52,
+      "seq": 20,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "计算 \\(\\iint_{D} \\ln(xy) \\, \\mathrm{d}x \\, \\mathrm{d}y\\)，其中 \\(D = \\{(x, y) \\mid 1 \\leqslant xy \\leqslant 2, x \\leqslant y \\leqslant 4x, x > 0\\}\\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "法一 常规做法.\n积分区域如图所示， \\(xy = 1\\) 与 \\(y = x\\) 及 \\(y = 4x\\) 的交点\n坐标分别为 \\((1,1)\\) ， \\(\\left(\\frac{1}{2},2\\right)\\) ； \\(xy = 2\\) 与 \\(y = x\\) 及 \\(y = 4x\\) 的\n交点坐标分别为 \\((\\sqrt{2},\\sqrt{2})\\) ， \\(\\left(\\frac{\\sqrt{2}}{2},2\\sqrt{2}\\right)\\)\n![](/uploads/books/16dcd3cb2ba2950035d2a1115c80511a35dc2d677905a0de3710bf71368f24a9.jpg)\n故 \\(\\iint_{D} \\ln(xy) \\, \\mathrm{d}x \\, \\mathrm{d}y = \\int_{\\frac{1}{2}}^{\\frac{\\sqrt{2}}{2}} \\mathrm{d}x \\int_{\\frac{1}{x}}^{4x} \\ln(xy) \\, \\mathrm{d}y + \\int_{\\frac{2}{2}}^{1} \\frac{\\mathrm{d}x}{2} \\mathrm{d}x \\int_{\\frac{1}{x}}^{\\frac{2}{x}} \\ln(xy) \\, \\mathrm{d}y + \\int_{1}^{1} \\mathrm{d}x \\int_{x}^{\\frac{2}{x}} \\ln(xy) \\, \\mathrm{d}y = I_1 + I_2 + I_3,\\)\n其中 \\(\\int \\ln (xy)\\mathrm{d}y = y\\ln (xy) - y + C\\) ，则\n\\[\n\\int_ {\\frac {1}{x}} ^ {4 x} \\ln (x y) \\mathrm{d} y = 4 (2 \\ln 2 - 1) x + 8 x \\ln x + \\frac {1}{x},\n\\]\n\\[\n\\int_ {\\frac {1}{x}} ^ {\\frac {2}{x}} \\ln (x y) \\mathrm{d} y = \\frac {2 \\ln 2 - 1}{x},\n\\]\n\\[\n\\int_ {x} ^ {\\frac {2}{x}} \\ln (x y) \\mathrm{d} y = \\frac {2 \\ln 2 - 2}{x} - 2 x \\ln x + x,\n\\]\n故 \\(I_{1} = \\int_{\\frac{1}{2}}^{\\frac{\\sqrt{2}}{2}}\\left[4(2\\ln 2 - 1)x + 8x\\ln x + \\frac{1}{x}\\right]\\mathrm{d}x\\)\n\\[\n= \\left[ 2 (2 \\ln 2 - 1) x ^ {2} + 4 x ^ {2} \\ln x - 2 x ^ {2} + \\ln x \\right] \\Bigg | _ {\\frac {1}{2}} ^ {\\frac {\\sqrt {2}}{2}}\n\\]\n\\[\n= \\frac {3}{2} \\ln 2 - 1,\n\\]\n\\[\nI _ {2} = \\int_ {\\frac {\\sqrt {2}}{2}} ^ {1} \\frac {2 \\ln 2 - 1}{x} d x = (2 \\ln 2 - 1) \\ln x \\Bigg | _ {\\frac {\\sqrt {2}}{2}} ^ {1} = \\ln^ {2} 2 - \\frac {1}{2} \\ln 2,\n\\]\n参考答案与分析 卷(六)\n[NO TEXT]\n\\[\n\\begin{array}{l} I _ {3} = \\int_ {1} ^ {\\sqrt {2}} \\left(\\frac {2 \\ln 2 - 2}{x} - 2 x \\ln x + x\\right) d x \\\\ = \\left[ (2 \\ln 2 - 2) \\ln x - x ^ {2} \\ln x + x ^ {2} \\right] \\Bigg | _ {1} ^ {\\sqrt {2}} \\\\ = \\ln^ {2} 2 - 2 \\ln 2 + 1, \\\\ \\end{array}\n\\]\n可得 \\(\\iint_{D} \\ln(xy) \\, \\mathrm{d}x \\, \\mathrm{d}y = \\ln 2(2 \\ln 2 - 1)\\).\n法二 \\(D = \\left\\{(x,y)\\mid 1\\leqslant xy\\leqslant 2,1\\leqslant \\frac{y}{x}\\leqslant 4,x > 0\\right\\}\\) ，令 \\(xy = u\\) ， \\(\\frac{y}{x} = v\\) ，则 \\(x = \\sqrt{\\frac{u}{v}}\\) ， \\(y = \\sqrt{uv}\\) \\((u > 0,v > 0)\\)\n\\[\nJ = \\left| \\begin{array}{c c} \\frac {1}{2 \\sqrt {u v}} & - \\frac {1}{2} \\sqrt {\\frac {u}{v ^ {3}}} \\\\ \\frac {1}{2} \\sqrt {\\frac {v}{u}} & \\frac {1}{2} \\sqrt {\\frac {u}{v}} \\end{array} \\right| = \\frac {1}{2 v},\n\\]\n\\[\nD ^ {\\prime} = \\left\\{(u, v) \\mid 1 \\leqslant u \\leqslant 2, 1 \\leqslant v \\leqslant 4 \\right\\},\n\\]\n所以\n\\[\n\\iint_ {D} \\ln (x y) \\mathrm{d} x \\mathrm{d} y = \\iint_ {D ^ {\\prime}} \\ln u \\cdot \\frac {1}{2 v} \\mathrm{d} u \\mathrm{d} v = \\int_ {1} ^ {2} \\ln u \\mathrm{d} u \\int_ {1} ^ {4} \\frac {\\mathrm{d} v}{2 v} = \\ln 2 (2 \\ln 2 - 1).\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052021,
+      "paperId": 52,
+      "seq": 21,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "已知实矩阵 \\(A = \\begin{pmatrix} 1 & 1 \\\\ 1 & a \\end{pmatrix}, B = \\begin{pmatrix} 4 & b \\\\ 3 & 1 \\end{pmatrix}\\), 其中 \\(a\\) 为非负整数, 且 \\(A\\) 与 \\(B\\) 合同.\n(1) 求 a, b 的值;\n(2) 求可逆矩阵 D, 使得  \\( A = D^{T} BD \\) .",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1)由于A与B合同,故存在可逆矩阵D,使得 \\( A=D^{T}BD \\) .因 \\( A^{T}=A \\) ,故 \\( A^{T}=(D^{T}BD)^{T}=D^{T}B^{T}D=D^{T}BD \\) ,又D可逆,故 \\( B=B^{T} \\) ,b=3.\n对于 \\(f(x_{1},x_{2}) = (x_{1},x_{2})\\left( \\begin{array}{cc}1 & 1\\\\ 1 & a \\end{array} \\right)\\left( \\begin{array}{c}x_{1}\\\\ x_{2} \\end{array} \\right) = x_{1}^{2} + ax_{2}^{2} + 2x_{1}x_{2} = (x_{1} + x_{2})^{2} + (a - 1)x_{2}^{2};\\)\n\\[\ng (y _ {1}, y _ {2}) = (y _ {1}, y _ {2}) \\left( \\begin{array}{l l} 4 & 3 \\\\ 3 & 1 \\end{array} \\right) \\binom {y _ {1}} {y _ {2}} = 4 y _ {1} ^ {2} + y _ {2} ^ {2} + 6 y _ {1} y _ {2} = 4 \\binom {y _ {1} + \\frac {3}{4} y _ {2}} {-} ^ {2} - \\frac {5}{4} y _ {2} ^ {2}.\n\\]\n由于A与B合同,记 \\( p_{A},q_{A} \\) 分别为二次型f的正、负惯性指数, \\( p_{B},q_{B} \\) 分别为二次型g的正、负惯性指数,故 \\( p_{A}=p_{B},q_{A}=q_{B} \\) ,于是a-1<0,即a<1.又a为非负整数,故a=0.\n综上所述， \\(a = 0\\) ， \\(b = 3\\) ：\n(2)由(1)得 \\( f(x_{1},x_{2})=(x_{1}+x_{2})^{2}-x_{2}^{2} \\) ，令 \\( \\left\\{\\begin{aligned}z_{1}&=x_{1}+x_{2},\\\\ z_{2}&=x_{2},\\end{aligned}\\right. \\) 即\n\\[\n\\binom {z _ {1}} {z _ {2}} = \\left( \\begin{array}{c c} 1 & 1 \\\\ 0 & 1 \\end{array} \\right) \\binom {x _ {1}} {x _ {2}} = D _ {1} \\binom {x _ {1}} {x _ {2}},\n\\]\n则 \\( f(x_{1},x_{2})=z_{1}^{2}-z_{2}^{2} \\) .\n对于 \\(g(y_{1},y_{2}) = 4\\left(y_{1} + \\frac{3}{4} y_{2}\\right)^{2} - \\frac{5}{4} y_{2}^{2}\\) ，令 \\(\\left\\{ \\begin{array}{l}z_{1} = 2y_{1} + \\frac{3}{2} y_{2},\\\\ z_{2} = \\frac{\\sqrt{5}}{2} y_{2}, \\end{array} \\right.\\) 即\n\\[\n\\binom {z _ {1}} {z _ {2}} = \\left( \\begin{array}{c c} 2 & \\frac {3}{2} \\\\ 0 & \\frac {\\sqrt {5}}{2} \\end{array} \\right) \\binom {y _ {1}} {y _ {2}} = D _ {2} \\binom {y _ {1}} {y _ {2}},\n\\]\n则 \\(g(y_{1},y_{2}) = z_{1}^{2} - z_{2}^{2}\\) ，于是有 \\(\\pmb{D}_1\\binom{x_1}{x_2} = \\pmb{D}_2\\binom{y_1}{y_2}\\) 故 \\(\\binom{y_1}{y_2} = \\pmb{D}_2^{-1}\\pmb{D}_1\\binom{x_1}{x_2} = \\pmb{D}\\binom{x_1}{x_2}\\) 即\n\\[\n\\boldsymbol {D} = \\left( \\begin{array}{c c} 2 & \\frac {3}{2} \\\\ 0 & \\frac {\\sqrt {5}}{2} \\end{array} \\right) ^ {- 1} \\left( \\begin{array}{c c} 1 & 1 \\\\ 0 & 1 \\end{array} \\right) = \\left( \\begin{array}{c c} \\frac {1}{2} & \\frac {3 \\sqrt {5}}{1 0} \\\\ 0 & \\frac {2 \\sqrt {5}}{5} \\end{array} \\right) \\left( \\begin{array}{c c} 1 & 1 \\\\ 0 & 1 \\end{array} \\right) = \\left( \\begin{array}{c c} \\frac {1}{2} & \\frac {1}{2} - \\frac {3 \\sqrt {5}}{1 0} \\\\ 0 & \\frac {2 \\sqrt {5}}{5} \\end{array} \\right).\n\\]\n故有可逆矩阵  \\( D=\\begin{pmatrix}\\frac{1}{2}&\\frac{1}{2}-\\frac{3\\sqrt{5}}{10}\\\\0&\\frac{2\\sqrt{5}}{5}\\end{pmatrix} \\) ，使得  \\( A=D^{T}BD \\) .",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000052022,
+      "paperId": 52,
+      "seq": 22,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设随机变量 \\(X\\) 满足 \\(|X| \\leqslant 1, P\\{X = -1\\} = \\frac{1}{4}, P\\{X = 1\\} = \\frac{1}{2}\\), 当 \\(|X| < 1\\) 时, \\(X\\) 服从 \\((-1, 1)\\) 上的均匀分布, 与 \\(X\\) 相互独立的随机变量 \\(Y\\) 服从参数为 1 的指数分布, 令 \\(Z = X + Y\\). 求\n(1) \\(X\\) 的分布函数 \\(F_{X}(x)\\);\n(2) \\(Z\\) 的分布函数 \\(F_{Z}(z)\\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "（1）当 \\(x < -1\\) 时，\\(F_{X}(x) = P\\{X \\leqslant x\\} = 0\\)；\n当 \\(x = -1\\) 时，\\(F_{X}(x) = P\\{X \\leqslant x\\} = \\frac{1}{4}\\);\n当-1<x<1时，\n\\[\nF _ {X} (x) = P \\{X \\leqslant - 1 \\} + P \\{- 1 <   X \\leqslant x \\},\n\\]\n其中 \\(P\\{-1 < X \\leqslant x\\} = P\\{-1 < X \\leqslant x, \\Omega\\}\\)\n\\[\n= P \\{- 1 <   X \\leqslant x, - 1 <   X <   1 \\} + P \\{- 1 <   X \\leqslant x, - 1 <   X <   1 \\}\n\\]\n\\[\n= P \\{- 1 <   X \\leqslant x \\mid - 1 <   X <   1 \\} P \\{- 1 <   X <   1 \\} + P \\{- 1 <   X \\leqslant x \\mid \\overline {{- 1 <   X <   1}} \\} P \\{- 1 <   X <   1 \\}\n\\]\n\\[\n= \\frac {x + 1}{1 - (- 1)} \\cdot \\frac {1}{4} + 0 = \\frac {x + 1}{8},\n\\]\n故 \\( F_{X}(x)=\\frac{1}{4}+\\frac{x+1}{8}=\\frac{3+x}{8} \\) ;\n当 \\( x\\geqslant1 \\) 时， \\( F_{X}(x)=1 \\) .\n综上， \\(X\\) 的分布函数为\n参考答案与分析 卷(六)\n[NO TEXT]\n\\[\nF _ {X} (x) = \\left\\{ \\begin{array}{l l} 0, & x <   - 1, \\\\ \\frac {3 + x}{8}, & - 1 \\leqslant x <   1, \\\\ 1, & x \\geqslant 1. \\end{array} \\right.\n\\]\n(2) 记 \\(A = \\{-1 < X < 1\\}\\), 由 (1) 知\n\\[\n\\begin{array}{l} f _ {X} (x) = f _ {X} (x \\mid A) P (A) + f _ {X} (x \\mid \\bar {A}) P (\\bar {A}) \\\\ = \\left\\{ \\begin{array}{l l} \\frac {1}{8}, & - 1 <   x <   1, \\\\ 0, & \\text {其他}. \\end{array} \\right. \\\\ \\end{array}\n\\]\n\\[\n\\begin{array}{l} F _ {Z} (z) = P \\{Z \\leqslant z \\} = P \\{X + Y \\leqslant z \\} \\\\ = P \\{X = - 1 \\} P \\{Y \\leqslant z + 1 \\} + P \\{X = 1 \\} P \\{Y \\leqslant z - 1 \\} + P \\{X + Y \\leqslant z, - 1 <   X <   1 \\}, \\\\ \\end{array}\n\\]\n其中 \\(P\\{Y \\leqslant z + 1\\} = F_{Y}(z + 1) = \\begin{cases} 1 - \\mathrm{e}^{-(z + 1)}, & z + 1 \\geqslant 0, \\\\ 0, & \\text{其他}, \\end{cases}\\)\n\\[\nP \\{Y \\leqslant z - 1 \\} = F _ {Y} (z - 1) = \\left\\{ \\begin{array}{l l} 1 - \\mathrm{e} ^ {- (z - 1)}, & z - 1 \\geqslant 0, \\\\ 0, & \\text {其他}. \\end{array} \\right.\n\\]\n①当z<-1时， \\( P\\{X+Y\\leqslant z,-1<X<1\\}=0 \\)\n②当 \\( -1 \\leqslant z < 1 \\) 时，\n\\[\n\\begin{array}{l} P \\{X + Y \\leqslant z, - 1 <   X <   1 \\} = \\int_ {- 1} ^ {z} \\mathrm{d} x \\int_ {0} ^ {z - x} \\frac {1}{8} \\mathrm{e} ^ {- y} \\mathrm{d} y = \\frac {1}{8} \\int_ {- 1} ^ {z} \\left(- \\mathrm{e} ^ {- y} \\Bigg | _ {0} ^ {z - x}\\right) \\mathrm{d} x \\\\ = \\frac {1}{8} \\int_ {- 1} ^ {z} (1 - e ^ {x - z}) d x = \\frac {1}{8} (z + 1) - \\frac {1}{8} e ^ {x - z} \\Bigg | _ {- 1} ^ {z} \\\\ = \\frac {1}{8} (z + 1) - \\frac {1}{8} (1 - e ^ {- 1 - z}) = \\frac {1}{8} (z + e ^ {- 1 - z}). \\\\ \\end{array}\n\\]\n③当 \\( z \\geqslant 1 \\) 时，\n\\[\n\\begin{array}{l} P \\{X + Y \\leqslant z, - 1 <   X <   1 \\} = \\int_ {- 1} ^ {1} \\mathrm{d} x \\int_ {0} ^ {z - x} \\frac {1}{8} \\mathrm{e} ^ {- y} \\mathrm{d} y = \\frac {1}{8} \\int_ {- 1} ^ {1} (1 - \\mathrm{e} ^ {x - z}) \\mathrm{d} x \\\\ = \\frac {1}{4} - \\frac {1}{8} \\mathrm{e} ^ {x - z} \\Bigg | _ {- 1} ^ {1} = \\frac {1}{4} - \\frac {1}{8} (\\mathrm{e} ^ {1 - z} - \\mathrm{e} ^ {- 1 - z}). \\\\ \\end{array}\n\\]\n综上，\n\\[\nF _ {z} (z) = \\left\\{ \\begin{array}{l l} 0, & z <   - 1, \\\\ \\frac {1}{4} [ 1 - \\mathrm{e} ^ {- (z + 1)} ] + \\frac {1}{8} [ z + \\mathrm{e} ^ {- (z + 1)} ], & - 1 \\leqslant z <   1, \\\\ \\frac {1}{4} [ 1 - \\mathrm{e} ^ {- (z + 1)} ] + \\frac {1}{2} [ 1 - \\mathrm{e} ^ {- (z - 1)} ] + \\frac {1}{4} - \\frac {1}{8} (\\mathrm{e} ^ {1 - z} - \\mathrm{e} ^ {- 1 - z}), & z \\geqslant 1 \\end{array} \\right.\n\\]\n\\[\n= \\left\\{ \\begin{array}{l l} 0, & z <   - 1, \\\\ \\frac {2 + z - \\mathrm{e} ^ {- (z + 1)}}{8}, & - 1 \\leqslant z <   1, \\\\ 1 - \\frac {\\mathrm{e} ^ {- z - 1} + 5 \\mathrm{e} ^ {1 - z}}{8}, & z \\geqslant 1. \\end{array} \\right.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "paper": {
+    "id": 57,
+    "subject": "数学三",
+    "examYear": 2026,
+    "seqNo": 17,
+    "title": "26模拟卷 · 数学三 · 第17套",
+    "intro": null,
+    "fullScore": 150,
+    "minutes": 180,
+    "questionCount": 22,
+    "doneCount": 0
+  },
+  "questions": [
+    {
+      "id": 2000057001,
+      "paperId": 57,
+      "seq": 1,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(f(x)\\) 和 \\(g(x)\\) 具有连续的导数, 当 \\(x \\to 0\\) 时, \\(f(x)\\) 和 \\(f'(x)\\) 以及 \\(g(x)\\) 和 \\(g'(x)\\) 均为无穷小量且有 \\(f(x) = o(g(x))\\), 则下列说法中正确的有 ( ) 个\n①当 \\(x \\to 0\\) 时, \\(f'(x) = o(g'(x))\\);\n②当 \\(x \\to 0\\) 时, \\(\\int_{0}^{x} f(t) dt = o\\left(\\int_{0}^{x} g(t) dt\\right)\\);\n③当 \\(x \\to 0\\) 时, \\(x^{2}f'(x) = o(g(x))\\);\n④当 \\(x \\to 0\\) 时, \\(x^{2}f(x) = o\\left(\\int_{0}^{x} g(t)dt\\right)\\).",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(A)",
+        "analysis_md": "由题意可知 \\(\\lim_{x\\to 0}\\frac{f(x)}{g(x)} = 0\\) ，则由洛必达法则可知 \\(\\lim_{x\\to 0}\\frac{\\int_0^x f(t)dt}{\\int_0^x g(t)dt} = \\lim_{x\\to 0}\\frac{f(x)}{g(x)} = 0.\\) 可知命题②是正确的.\n但洛必达法则不能反推，即 \\(\\lim_{x\\to 0}\\frac{f(x)}{g(x)} = 0\\) 得不到 \\(\\lim_{x\\to 0}\\frac{f'(x)}{g'(x)} = 0\\)\n例如，令 \\(f(x) = \\begin{cases} x^3\\sin \\frac{1}{x}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}\\)，\\(g(x) = x^2\\)。\n不难验证 \\( f'(x) = \\begin{cases} 3x^2\\sin \\frac{1}{x} - x\\cos \\frac{1}{x}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases} \\) 及 \\( \\lim_{x \\to 0} f'(x) = 0 = f'(0) \\)，可知 \\( f(x) \\) 具有连续的导数，且当 \\( x \\to 0 \\) 时 \\( f(x) \\) 和 \\( f'(x) \\) 均为无穷小量；同时 \\( g(x) \\) 也具有连续的导数，且 \\( g(x) \\) 和 \\( g'(x) \\) 也均为 \\( x \\to 0 \\) 时的无穷小量。同时，不难验证 \\( \\lim_{x \\to 0} \\frac{f(x)}{g(x)} = \\lim_{x \\to 0} x \\sin \\frac{1}{x} = 0 \\)，但此时，\\( \\lim_{x \\to 0} \\frac{f'(x)}{g'(x)} = \\lim_{x \\to 0} \\left( \\frac{3}{2} x \\sin \\frac{1}{x} - \\frac{1}{2} \\cos \\frac{1}{x} \\right) \\) 不存在，可知 \\( f'(x) = o(g'(x)) \\) 不一定成立，命题①错误.\n命题③讨论的是 \\(f(x)\\) 和 \\(f'(x)\\) 的阶数的关系: 由于 \\(\\lim_{x \\to 0} \\frac{f(x)}{g(x)} = 0\\)，如果 \\(x^2 f'(x)\\) 与 \\(f(x)\\) 同阶或比 \\(f(x)\\) 高阶，也即 \\(\\lim_{x \\to 0} \\frac{x^2 f'(x)}{f(x)}\\) 存在，则有 \\(\\lim_{x \\to 0} \\frac{x^2 f'(x)}{g(x)} = 0\\)，命题③就是正确的；反之如果 \\(x^2 f'(x)\\) 有可能比 \\(f(x)\\) 低阶，也即 \\(\\lim_{x \\to 0} \\frac{x^2 f'(x)}{f(x)}\\) 有可能为无穷，那么 \\(\\lim_{x \\to 0} \\frac{x^2 f'(x)}{g(x)}\\) 就不一定为 0，命题③也就不正确.\n令 \\(f(x) = \\begin{cases} e^{-\\frac{1}{x^2}}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}\\)，不难验证 \\(f'(x) = \\begin{cases} \\frac{2}{x^3} e^{-\\frac{1}{x^2}}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}\\) 及 \\(\\lim_{x \\to 0} f'(x) = 0 = f'(0)\\)，可知 \\(f(x)\\) 具有连续的导数，且当\n\\(x \\to 0\\) 时 \\(f(x)\\) 和 \\(f'(x)\\) 均为无穷小量.在这个例子中 \\(x^{2}f'(x) = \\begin{cases} \\frac{2}{x} e^{-\\frac{1}{x^{2}}}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}\\), \\(\\lim_{x \\to 0} \\frac{x^{2}f'(x)}{f(x)} = \\lim_{x \\to 0} \\frac{2}{x} = \\infty\\), 可知 \\(x^{2}f'(x)\\)\n是有可能比 \\(f(x)\\) 低阶的.我们只需要令 \\(g(x) = x^{2}f'(x) = \\begin{cases} \\frac{2}{x} e^{-\\frac{1}{x^{2}}}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}\\) （同学们可以自行验证 \\(g(x)\\) 有连续的导数且当\n\\(x \\to 0\\) 时，\\(g(x)\\) 和 \\(g'(x)\\) 均为无穷小量），就满足了已知条件 \\(f(x) = o(g(x))\\)，但此时 \\(x^2 f'(x) \\sim o(g(x))\\)，可知命题③不正确.\n命题④讨论的问题和命题③是类似的，为了便于计算，我们令 \\( g(x) = \\begin{cases} \\frac{2}{x^3} e^{-\\frac{1}{x^2}}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases} \\) （选取这个函数作为反例的原因）\n是这个函数的原函数是已知的，积分比较容易计算）， \\( f(x)=\\left\\{\\begin{aligned}&\\frac{1}{x^{2}}e^{-\\frac{1}{x^{2}}},&x\\neq0\\\\&0,&x=0\\end{aligned}\\right. \\) ，不难验证 \\( f(x) \\) 和 \\( g(x) \\) 具有连续的导数，当 \\( x\\to0 \\) 时， \\( f(x) \\) 和 \\( f'(x) \\) 以及 \\( g(x) \\) 和 \\( g'(x) \\) 均为无穷小量且有 \\( f(x)=o(g(x)) \\) .\n此时， \\(x^{2}f(x) = \\int_{0}^{x}g(t)dt = \\left\\{ \\begin{array}{ll}e^{-\\frac{1}{x^{2}}}, & x\\neq 0,\\\\ 0,x = 0 \\end{array} \\right.\\) ， \\(x^{2}f(x) - \\int_{0}^{x}g(t)dt\\) ，可知命题④不正确.\n综上所述，正确的命题只有命题②，故选（A）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057002,
+      "paperId": 57,
+      "seq": 2,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x, y) \\) 具有连续的偏导数, 且满足 \\( f(x, \\ln(1 + x)) = \\frac{xe^x}{1 + x} \\) 及 \\( f(2x, x) = e^{2x} - e^x \\), 则\n\\( \\lim_{x \\to 0} \\frac{\\int_0^x f(\\ln \\cos t, t^2) dt}{x - \\sin x} = (\\quad) \\)",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "-1",
+        "D": "1"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(B)",
+        "analysis_md": "在等式 \\(f(x, \\ln (1 + x)) = \\frac{xe^x}{1 + x}\\) 及 \\(f(2x, x) = e^{2x} - e^x\\) 两边各求一次导数可得\n\\[\nf _ {1} ^ {\\prime} (x, \\ln (1 + x)) + \\frac {1}{1 + x} f _ {2} ^ {\\prime} (x, \\ln (1 + x)) = \\frac {(x + 1) ^ {2} e ^ {x} - x e ^ {x}}{(1 + x) ^ {2}}\n\\]\n\\[\n2 f _ {1} ^ {\\prime} (2 x, x) + f _ {2} ^ {\\prime} (2 x, x) = 2 e ^ {2 x} - e ^ {x}\n\\]\n再将 \\(x\\) 代成0可得 \\(\\left\\{ \\begin{array}{l}f_1^{\\prime}(0,0) + f_2^{\\prime}(0,0) = 1\\\\ 2f_1^{\\prime}(0,0) + f_2^{\\prime}(0,0) = 1 \\end{array} \\right.\\) ，解得 \\(\\left\\{ \\begin{array}{l}f_1^{\\prime}(0,0) = 0\\\\ f_2^{\\prime}(0,0) = 1 \\end{array} \\right.\\) 则\n\\[\n\\begin{array}{l} \\lim _ {x \\rightarrow 0} \\frac {\\int_ {0} ^ {x} f (\\ln \\cos t , t ^ {2}) d t}{x - \\sin x} = \\lim _ {x \\rightarrow 0} \\frac {\\int_ {0} ^ {x} f (\\ln \\cos t , t ^ {2}) d t}{\\frac {1}{6} x ^ {3}} = \\lim _ {x \\rightarrow 0} \\frac {f (\\ln \\cos x , x ^ {2})}{\\frac {1}{2} x ^ {2}} \\\\ = \\lim _ {x \\rightarrow 0} \\frac {- f _ {1} ^ {\\prime} (\\ln \\cos x , x ^ {2}) \\tan x + f _ {2} ^ {\\prime} (\\ln \\cos x , x ^ {2}) 2 x}{x} \\\\ = - \\lim _ {x \\rightarrow 0} f _ {1} ^ {\\prime} (\\ln \\cos x, x ^ {2}) \\frac {\\tan x}{x} + 2 f _ {2} ^ {\\prime} (\\ln \\cos x, x ^ {2}) = - f _ {1} ^ {\\prime} (0, 0) + 2 f _ {2} ^ {\\prime} (0, 0) = 2. \\\\ \\end{array}\n\\]\n故选（B）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057003,
+      "paperId": 57,
+      "seq": 3,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "若反常积分 \\(\\int_{0}^{\\pi} \\frac{\\cos \\frac{x}{2}}{\\sin^{1 - \\alpha} x (1 + \\cos x)^{\\alpha}} \\mathrm{d}x\\) 收敛, 则 \\(\\alpha\\) 的取值范围是 ( )",
+      "options": {
+        "A": "\\(0 < \\alpha < \\frac{1}{2}\\)",
+        "B": "\\(-\\frac{1}{2} < \\alpha < \\frac{1}{2}\\)",
+        "C": "\\(0 < \\alpha < 1\\)",
+        "D": "\\(-1 < \\alpha < 1\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(C)",
+        "analysis_md": "0 和  \\( \\pi \\)  为瑕点，所以先拆分区间：\n\\[\n\\int_ {0} ^ {\\pi} \\frac {\\cos \\frac {x}{2}}{\\sin^ {1 - \\alpha} x (1 + \\cos x) ^ {\\alpha}} d x = \\int_ {0} ^ {\\frac {\\pi}{2}} \\frac {\\cos \\frac {x}{2}}{\\sin^ {1 - \\alpha} x (1 + \\cos x) ^ {\\alpha}} d x + \\int_ {\\frac {\\pi}{2}} ^ {\\pi} \\frac {\\cos \\frac {x}{2}}{\\sin^ {1 - \\alpha} x (1 + \\cos x) ^ {\\alpha}} d x.\n\\]\n当 \\(x \\to 0^{+}\\) 时，\\(\\frac{\\cos \\frac{x}{2}}{\\sin^{1 - \\alpha} x (1 + \\cos x)^{\\alpha}} \\sim \\frac{1}{2^{\\alpha} \\sin^{1 - \\alpha} x} \\sim \\frac{1}{2^{\\alpha} x^{1 - \\alpha}}\\)，\\(\\int_{0}^{\\frac{\\pi}{2}} \\frac{1}{x^{1 - \\alpha}} dx\\) 收敛当且仅当 \\(\\alpha > 0\\)，可知 \\(\\int_{0}^{\\frac{\\pi}{2}} \\frac{\\cos \\frac{x}{2}}{\\sin^{1 - \\alpha} x (1 + \\cos x)^{\\alpha}} dx\\)\n收敛当且仅当 \\(\\alpha > 0\\).\n当 \\(x \\to \\pi^{-}\\) 时，\\(\\sin x = \\sin (\\pi - x) \\sim \\pi - x\\)，\\(1 + \\cos x = 1 - \\cos (x - \\pi) \\sim \\frac{1}{2} (\\pi - x)^2\\)，\\(\\cos \\frac{x}{2} = \\sin \\frac{\\pi - x}{2} \\sim \\frac{\\pi - x}{2}\\)。则 \\(\\frac{\\cos \\frac{x}{2}}{\\sin^{1 - \\alpha} x (1 + \\cos x)^{\\alpha}} \\frac{\\frac{\\pi - x}{2}}{(\\pi - x)^{1 - \\alpha} \\left[ \\frac{1}{2} (\\pi - x)^2 \\right]^{\\alpha}} = 2^{\\alpha - 1} \\frac{1}{(\\pi - x)^{\\alpha}}\\)。\n\\(\\int_{\\frac{\\pi}{2}}^{\\pi}\\frac{1}{(\\pi - x)^{\\alpha}} dx\\) 收敛当且仅当 \\(\\alpha < 1\\) ，可知， \\(\\int_{\\frac{\\pi}{2}}^{\\pi}\\frac{\\cos\\frac{x}{2}}{\\sin^{1 - \\alpha}x(1 + \\cos x)^{\\alpha}} dx\\) 收敛当且仅当 \\(\\alpha < 1\\)\n综上所述， \\(\\int_0^\\pi \\frac{\\cos\\frac{x}{2}}{\\sin^{1 - \\alpha}x(1 + \\cos x)^{\\alpha}} dx\\) 收敛当且仅当 \\(0 <   \\alpha <  1\\) .故选（C）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057004,
+      "paperId": 57,
+      "seq": 4,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "对任意数列 \\(\\{x_{n}\\}\\), 极限 \\(\\lim_{n\\to \\infty}x_n\\) 存在当且仅当 \\(\\lim_{n\\to \\infty}\\int_0^{x_n}f(x)\\mathrm{d}x\\) 存在, 则 \\(f(x)\\) 可以是下列选项中的 ( )",
+      "options": {
+        "A": "\\(\\frac{1}{1 + x^4}\\)",
+        "B": "\\(x^{4} \\mathrm{e}^{x^{2}}\\)",
+        "C": "\\(\\frac{x^4 - 1}{1 + x^4}\\)",
+        "D": "\\(x^{4} \\mathrm{e}^{x^{3}}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(B)",
+        "analysis_md": "令 \\( F(x) = \\int_{0}^{x} f(t) dt \\)，对于四个选项中的 \\( f(x) \\)，\\( F(x) \\) 都是连续的，若 \\( \\lim_{n \\to \\infty} x_n = a \\)，则有 \\( \\lim_{n \\to \\infty} \\int_{0}^{x_n} f(x) dx = \\lim_{n \\to \\infty} F(x_n) = F(a) \\). 也即由极限 \\( \\lim_{n \\to \\infty} x_n \\) 存在都可以推出 \\( \\lim_{n \\to \\infty} \\int_{0}^{x_n} f(x) dx \\) 存在.\n下面我们来讨论要确保由 \\(\\lim_{n\\to \\infty}F(x_n) = \\lim_{n\\to \\infty}\\int_0^{x_n}f(x)dx\\) 可以推出 \\(\\lim_{n\\to \\infty}x_n\\) 存在，\\(f(x)\\) 需要满足的条件.\n首先，如果 \\(\\lim_{x\\to +\\infty}F(x)\\) 或 \\(\\lim_{x\\to -\\infty}f(x)\\) 存在，也即 \\(\\int_0^{+\\infty}f(x)dx\\) 或 \\(\\int_0^{-\\infty}f(x)dx\\) 收敛时，由 \\(\\lim_{n\\to \\infty}F(x_n)\\) 存在得不到 \\(\\lim_{n\\to \\infty}x_n\\) 存在.例如，如果 \\(\\int_0^{+\\infty}f(x)dx\\) 收敛，令 \\(x_{n} = n\\) ，就有 \\(\\lim_{n\\to \\infty}F(x_n)\\) 存在，但 \\(\\lim_{n\\to \\infty}x_n\\) 不存在.\n容易检验 \\(\\int_0^{+\\infty}\\frac{1}{1 + x^4} dx\\) 收敛， \\(\\int_0^{-\\infty}x^4 e^{x^3}dx = -\\int_{-\\infty}^0 x^4 e^{x^3}dx\\) 收敛，可知，选项（A）和选项（D）是错误的.\n其次，如果 \\(F(x)\\) 不单调，也即 \\(f(x)\\) 的取值既可以为正也可以为负，则由 \\(\\lim_{n\\to \\infty}F(x_n)\\) 存在得不到 \\(\\lim_{n\\to \\infty}x_n\\) 存在。因为，此时一定可以找到不同的两点 \\(a,b\\) ，使得 \\(F(a) = F(b)\\) ，这样，我们如果让 \\(\\{x_{n}\\}\\) 的奇数项全为 \\(a\\) ，偶数项全为 \\(b\\) ，就有 \\(\\lim_{n\\to \\infty}F(x_n)\\) 存在，但 \\(\\lim_{n\\to \\infty}x_n\\) 不存在。\n对于（C）选项中的 \\(f(x)\\)，由于当 \\(-1 < x < 1\\) 时，\\(f(x) < 0\\)；当 \\(x < -1\\) 或 \\(x > 1\\) 时，\\(f(x) > 0\\)。可知（C）选项是错误的。不难验证，对于（B）选项中的 \\(f(x)\\)，\\(\\int_{0}^{+\\infty} f(x) dx\\) 与 \\(\\int_{0}^{-\\infty} f(x) dx\\) 均发散，且 \\(f(x)\\) 的取值是非负的，则由 \\(\\lim_{n \\to \\infty} F(x_n) = \\lim_{n \\to \\infty} \\int_{0}^{x_n} f(x) dx\\) 存在可以推出 \\(\\lim_{n \\to \\infty} x_n\\) 存在。\n综上所述，应选（B）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057005,
+      "paperId": 57,
+      "seq": 5,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设有向量组 \\((I)\\alpha_{1} = (a,2, - a)^{T},\\alpha_{2} = (a + 1,2a - 1,3)^{T},\\alpha_{3} = (1, - 1,4)^{T}\\) 和 \\((II)\\beta_{1} = (a,5, - 6)^{T},\\)\n\\(\\beta_{2} = (1, - 4,9)^{T},\\beta_{3} = (2, - 3a - 2,5a + 8)^{T}\\) ，已知向量组 \\((I)\\) 和向量组 \\((II)\\) 等价，则 \\(a\\) 的取值范围是（）",
+      "options": {
+        "A": "\\(\\left\\{a\\in R\\mid a\\neq 2,a\\neq 1,a\\neq -\\frac{2}{11}\\right\\}\\)",
+        "B": "\\(\\left\\{a\\in R\\mid a\\neq 2,a\\neq -\\frac{2}{11}\\right\\}\\)",
+        "C": "{1}",
+        "D": "\\(\\left\\{1,2, - \\frac{2}{11}\\right\\}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(B)",
+        "analysis_md": "向量组（I）和（II）等价的充分必要条件是\n\\[\nr \\left(\\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3}\\right) = r \\left(\\alpha_ {1}, \\alpha_ {2}, \\alpha_ {3}, \\beta_ {1}, \\beta_ {2}, \\beta_ {3}\\right) = r \\left(\\beta_ {1}, \\beta_ {2}, \\beta_ {3}\\right).\n\\]\n先求行列式： \\(\\left|(\\alpha_1,\\alpha_2,\\alpha_3)\\right| = \\left| \\begin{array}{ccc}a & a + 1 & 1\\\\ 2 & 2a - 1 & -1\\\\ -a & 3 & 4 \\end{array} \\right| = 11a^2 -9a - 2 = (11a + 2)(a - 1)\\)\n\\[\n\\left| (\\boldsymbol {\\beta} _ {1}, \\boldsymbol {\\beta} _ {2}, \\boldsymbol {\\beta} _ {3}) \\right| = \\left| \\begin{array}{c c c} a & 1 & 2 \\\\ 5 & - 4 & - 3 a - 2 \\\\ - 6 & 9 & 5 a + 8 \\end{array} \\right| = 7 (a - 1) (a - 2).\n\\]\n则当 \\(a \\neq 1, a \\neq 2, a \\neq -\\frac{2}{11}\\) 时，\\(\\left| (\\alpha_1, \\alpha_2, \\alpha_3) \\right|\\) 和 \\(\\left| (\\beta_1, \\beta_2, \\beta_3) \\right|\\) 均不为0，此时有 \\(r(\\alpha_1, \\alpha_2, \\alpha_3) = r(\\alpha_1, \\alpha_2, \\alpha_3, \\beta_1, \\beta_2, \\beta_3) = r(\\beta_1, \\beta_2, \\beta_3) = 3\\)，可知向量组（I）和向量组（II）等价.\n当 \\(a = 2\\) 时， \\(\\left|(\\alpha_1,\\alpha_2,\\alpha_3)\\right|\\neq 0\\) ， \\(\\left|(\\beta_1,\\beta_2,\\beta_3)\\right| = 0\\) ；当 \\(a = -\\frac{2}{11}\\) 时， \\(\\left|(\\alpha_1,\\alpha_2,\\alpha_3)\\right| = 0\\) ， \\(\\left|(\\beta_1,\\beta_2,\\beta_3)\\right|\\neq 0.\\) 这两种情况下，都有\\(r(\\alpha_{1},\\alpha_{2},\\alpha_{3})\\neq r(\\beta_{1},\\beta_{2},\\beta_{3})\\) ，则向量组（I）和向量组（II）不等价.\n当 \\(a = 1\\) 时，将 \\(a\\) 的值代入，再对矩阵 \\((\\alpha_{1},\\alpha_{2},\\alpha_{3},\\beta_{1},\\beta_{2},\\beta_{3})\\) 做初等行变换化为阶梯形矩阵可得：\n\\[\n\\left( \\begin{array}{c c c c c} 1 & 2. & 1 & 1 & 1 & 2 \\\\ 2 & 1 & - 1 & 5 & - 4 & - 5 \\\\ - 1 & 3 & 4 & - 6 & 9 & 1 3 \\end{array} \\right) \\rightarrow \\left( \\begin{array}{c c c c c c} 1 & 2 & 1 & 1 & 1 & 2 \\\\ 0 & - 3 & - 3 & 3 & - 6 & - 9 \\\\ 0 & 5 & 5 & - 5 & 1 0 & 1 5 \\end{array} \\right)\n\\]\n\\[\n\\rightarrow \\left(\\begin{array}{c c c c c c}1&2&1&1&1&2\\\\0&1&1&- 1&2&3\\\\0&0&0&0&0&0\\end{array}\\right)\n\\]\n可知 \\(r(\\alpha_{1},\\alpha_{2},\\alpha_{3}) = r(\\alpha_{1},\\alpha_{2},\\alpha_{3},\\beta_{1},\\beta_{2},\\beta_{3}) = r(\\beta_{1},\\beta_{2},\\beta_{3}) = 2\\) .向量组（I）和向量组（II）等价.\n综上所述，要使得向量组（I）和向量组（II）等价， \\(a\\) 的取值范围为 \\(\\left\\{a\\in R\\mid a\\neq 2,a\\neq -\\frac{2}{11}\\right\\}\\) ，故选（B）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057006,
+      "paperId": 57,
+      "seq": 6,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 3 维列向量组 \\(\\alpha, \\beta, \\gamma\\) 为一个正交单位向量组, \\(A = \\alpha \\beta^{T} + \\beta \\alpha^{T}, A^{*}\\) 表示 \\(A\\) 的伴随矩阵, 则 ( )",
+      "options": {
+        "A": "非齐次线性方程组 \\(Ax = \\gamma\\) 与 \\(A^{*}x = \\gamma\\) 均有解",
+        "B": "非齐次线性方程组 \\(Ax = \\gamma\\) 与 \\(A^{*}x = \\gamma\\) 均无解",
+        "C": "非齐次线性方程组 \\(Ax = \\gamma\\) 有解, 但非齐次线性方程组 \\(A^{*}x = \\gamma\\) 无解",
+        "D": "非齐次线性方程组 \\(Ax = \\gamma\\) 无解, 但非齐次线性方程组 \\(A^{*}x = \\gamma\\) 有解"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(D)",
+        "analysis_md": "由题意可知，向量组 \\(\\alpha, \\beta, \\gamma\\) 线性无关，可知向量 \\(\\gamma\\) 不能由向量组 \\(\\alpha, \\beta\\) 线性表出。令 \\(\\alpha = (a_1, a_2, a_3)^T, \\beta = (b_1, b_2, b_3)^T\\)，则 \\(A = (b_1 \\alpha + a_1 \\beta, b_2 \\alpha + a_2 \\beta, b_3 \\alpha + a_3 \\beta)\\)，可知 \\(A\\) 的三个列向量都是由 \\(\\alpha, \\beta\\) 线性表出的，如果 \\(\\gamma\\) 能由 \\(A\\) 的列向量组线性表出，那么 \\(\\gamma\\) 也就能由 \\(\\alpha, \\beta\\) 线性表出，与已知条件矛盾，可知，\\(\\gamma\\) 不能由 \\(A\\) 的列向量组线性表出，也即非齐次线性方程组 \\(Ax = \\gamma\\) 无解。\n由于 \\(\\alpha, \\beta, \\gamma\\) 为正交单位向量组，可知 \\(A\\alpha = \\alpha \\beta^T \\alpha + \\beta \\alpha^T \\alpha = \\beta\\)，\\(A\\beta = \\alpha \\beta^T \\beta + \\beta \\alpha^T \\beta = \\alpha\\)，\\(A\\gamma = \\alpha \\beta^T \\gamma + \\beta \\alpha^T \\gamma = 0\\)。\n则 \\(A(\\alpha, \\beta, \\gamma) = (A\\alpha, A\\beta, A\\gamma) = (\\beta, \\alpha, 0) = (\\alpha, \\beta, \\gamma)\\begin{pmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\). 由于 \\((\\alpha, \\beta, \\gamma)\\) 可逆，可知 \\(r(A) = r\\begin{pmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix} = 2\\)，则\n\\(Ax = 0\\) 的基础解系只含一个向量.又由于 \\(AA^{*} = |A|E = 0\\) ，可知 \\(A^{*}\\) 的列向量均为 \\(Ax = 0\\) 的解.而 \\(r(A^{*}) = 1\\) ，可知 \\(A^{*}\\) 的任何一个非零列向量均为 \\(Ax = 0\\) 的基础解系.又由于 \\(Ay = 0\\) ，可知 \\(\\gamma\\) 是 \\(Ax = 0\\) 的一个解，则 \\(\\gamma\\) 能由 \\(A^{*}\\) 的列向量线性表出，从而非齐次线性方程组 \\(A^{*}x = \\gamma\\) 有解.\n综上所述，应选（D）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057007,
+      "paperId": 57,
+      "seq": 7,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "3 阶矩阵 A 有一个二重特征值和一个单特征值,3 阶矩阵 B 与 A 可交换,则下列说法正确的是()",
+      "options": {
+        "A": "若 \\(A\\) 可相似对角化, 则 \\(B\\) 也可相似对角化",
+        "B": "若 \\(A\\) 可相似对角化, 则 \\(B\\) 的特征向量一定是 \\(A\\) 的特征向量",
+        "C": "若 \\(A\\) 不可相似对角化, 则 \\(B\\) 也不可相似对角化",
+        "D": "若 \\(A\\) 不可相似对角化, 则 \\(A\\) 的特征向量一定是 \\(B\\) 的特征向量"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(D)",
+        "analysis_md": "由于单位矩阵和任何同阶的方阵可交换，无论 \\(A\\) 是否可相似对角化，都可以将题目中的 \\(\\pmb{B}\\) 取成3阶的单位\n矩阵.此时，任意的三维非零列向量都是 \\(B\\) 的特征向量，且 \\(B\\) 可相似对角化，可知，选项（B）和（C）都是错误的.\n设 \\(A = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 2 \\end{pmatrix}\\), \\(B = \\begin{pmatrix} 1 & 1 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 2 \\end{pmatrix}\\), 不难验证 \\(B\\) 与 \\(A\\) 可交换, 且 \\(A\\) 可相似对角化. 但 \\(B\\) 的二重特征值 \\(1\\) 只有一个线\n性无关的特征向量. 可知, 当 \\(A\\) 可相似对角化时, \\(B\\) 不一定可相似对角化, (A) 错误.\n由于 \\(A\\) 有一个二重特征值和一个单特征值, 则当 \\(A\\) 不可相似对角化时, \\(A\\) 的二重特征值只有一个线性无关的特征向量, 从而 \\(A\\) 的两个特征值都只有一个线性无关的特征向量. 下面证明矩阵 \\(A\\) 的特征向量一定是矩阵 \\(B\\) 的特征向量: 设 \\(\\alpha\\) 为矩阵 \\(A\\) 属于特征值 \\(\\lambda_{i}\\) 的特征向量, 则 \\(A\\alpha = \\lambda_{i}\\alpha\\). 则 \\(BA\\alpha = \\lambda_{i}B\\alpha\\), 由于 \\(AB = BA\\), 可知 \\(AB\\alpha = \\lambda_{i}B\\alpha\\). 如果 \\(B\\alpha = 0\\), 则 \\(\\alpha\\) 是矩阵 \\(B\\) 属于特征值 0 的特征向量; 如果 \\(B\\alpha \\neq 0\\), 则 \\(B\\alpha\\) 是 \\(A\\) 属于特征值 \\(\\lambda_{i}\\) 的特征向量, \\(A\\) 的每个特征值都只有一个线性无关的特征向量, 可知 \\(B\\alpha\\) 一定可以由 \\(\\alpha\\) 线性表出, 从而存在常数 \\(k\\), 使得 \\(B\\alpha = k\\alpha\\), 则 \\(\\alpha\\) 也为矩阵 \\(B\\) 的特征向量.\n综上所述，矩阵 \\(A\\) 的特征向量一定是矩阵 \\(\\pmb{B}\\) 的特征向量.\n故选（D）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057008,
+      "paperId": 57,
+      "seq": 8,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设随机变量 \\(X\\) 服从泊松分布 \\(P(1)\\), 则 \\(D(|X - E(X)|) = (\\quad)\\)",
+      "options": {
+        "A": "\\(\\frac{2}{\\mathrm{e}^2}\\)",
+        "B": "\\(\\frac{4}{\\mathrm{e}^2}\\)",
+        "C": "\\(1 - \\frac{2}{\\mathrm{e}^2}\\)",
+        "D": "\\(1 - \\frac{4}{\\mathrm{e}^2}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(D)",
+        "analysis_md": "由于随机变量 \\(X\\) 服从泊松分布 \\(P(1)\\)，可知 \\(E(X) = 1\\)，\\(P\\{X = k\\} = \\frac{e^{-1}}{k!}, k = 0,1,2,\\ldots\\)\n则由离散型随机变量数学期望的定义可知\n\\[\n\\begin{array}{l} E \\left(\\left| X - E (X) \\right|\\right) = \\sum_ {k = 0} ^ {\\infty} | k - 1 | P \\left\\{X = k \\right\\} = P \\left\\{X = 0 \\right\\} + \\sum_ {k = 1} ^ {\\infty} (k - 1) P \\left\\{X = k \\right\\} \\\\ = 2 P \\left\\{X = 0 \\right\\} + \\sum_ {k = 0} ^ {\\infty} (k - 1) P \\left\\{X = k \\right\\} = 2 e ^ {- 1} + E (X - 1) = 2 e ^ {- 1} + E (X) - 1 = 2 e ^ {- 1}. \\\\ \\end{array}\n\\]\n\\[\nE \\left(\\left| X - E (X) \\right| ^ {2}\\right) = E \\left[ (X - 1) ^ {2} \\right] = D (X - 1) + \\left[ E (X - 1) \\right] ^ {2} = D (X) = 1.\n\\]\n可知 \\(D\\left(|X - E(X)|\\right) = E\\left(|X - E(X)|^2\\right) - \\left[E\\left(|X - E(X)|\\right)\\right]^2 = 1 - \\frac{4}{e^2}\\).\n故选（D）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057009,
+      "paperId": 57,
+      "seq": 9,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设随机变量序列 \\((X_{1}, Y_{1}), (X_{2}, Y_{2}), \\cdots, (X_{n}, Y_{n}), \\cdots\\) 相互独立, \\((X_{n}, Y_{n})\\) 服从二维正态分布 \\(N(n, n; 1, 4; \\frac{1}{2})\\), 则 \\(\\frac{1}{n} \\sum_{k=1}^{n} (X_{k} - Y_{k})^{2}\\) 依概率收敛于（）",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "3",
+        "D": "1"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(C)",
+        "analysis_md": "由题意可知 \\(E(X_{k}) = E(Y_{k}) = k, D(X_{k}) = 1, D(Y_{k}) = 4, \\rho_{X_{k}Y_{k}} = \\frac{1}{2}\\).\n可知 \\(E(X_{k} - Y_{k}) = E(X_{k}) - E(Y_{k}) = 0\\)\n\\[\nD \\left(X _ {k} - Y _ {k}\\right) = D \\left(X _ {k}\\right) + D \\left(Y _ {k}\\right) - 2 \\operatorname{cov} \\left(X _ {k}, Y _ {k}\\right) = 1 + 4 - 2 \\rho_ {X _ {k} X _ {k}} \\sqrt {D \\left(X _ {k}\\right) D \\left(Y _ {k}\\right)} = 3.\n\\]\n则由二维正态分布的性质可知 \\(X_{k} - Y_{k}\\) 服从正态分布 \\(N(0,3)\\).\n则随机变量序列 \\(\\left(X_{1} - Y_{1}\\right)^{2},\\left(X_{2} - Y_{2}\\right)^{2},\\dots,\\left(X_{n} - Y_{n}\\right)^{2},\\dots\\) 独立同分布，且 \\(E\\left[\\left(X_n - Y_n\\right)^2\\right] = \\left[E\\left(X_n - Y_n\\right)\\right]^2 +D\\left(X_n - Y_n\\right) = 3\\)\n故由辛钦大数定律可知， \\(\\frac{1}{n}\\sum_{k = 1}^{n}\\left(X_k - Y_k\\right)^2\\) 依概率收敛于3.故选（C）.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057010,
+      "paperId": 57,
+      "seq": 10,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设随机变量 \\(X, Y\\) 相互独立, 且均服从均匀分布 \\(U(0,1)\\), 令 \\(U = \\max \\{X, Y\\}\\), \\(V = \\min \\{X, Y\\}\\), 则 \\(U\\) 和 \\(V\\) 的相关系数为 ( )",
+      "options": {
+        "A": "\\(\\frac{1}{2}\\)",
+        "B": "\\(-\\frac{1}{2}\\)",
+        "C": "\\(\\frac{1}{3}\\)",
+        "D": "\\(-\\frac{1}{3}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(A)",
+        "analysis_md": "由题意可知， \\((X,Y)\\) 的概率密度 \\(f(x,y) = \\left\\{ \\begin{array}{ll}1,0 <   x <   1,0 <   y <   1\\\\ 0,\\text{其他} \\end{array} \\right.\\)\n则由随机变量数字特征的定义可知，\n\\( E(U)=\\iint_{R^{2}}\\max\\{x,y\\}f(x,y)dxdy=\\iint_{\\substack{0<x<1\\\\ 0<y<1}}\\max\\{x,y\\}dxdy \\) ，令 \\( D_{1} \\) 表示区域 \\( D=\\left\\{(x,y)\\mid0<x<1,0<y<1\\right\\} \\) 在直线y=x下方的部分.\n则由轮换对称性可知\n\\[\nE (U) = \\iint_ {\\substack {0 <   x <   1 \\\\ 0 <   y <   1}} \\max \\{x, y \\} d x d y = 2 \\iint_ {D _ {1}} \\max \\{x, y \\} d x d y = 2 \\iint_ {D _ {1}} x d x d y = \\int_ {0} ^ {1} 2 x d x \\int_ {0} ^ {x} d y\n\\]\n\\[\n= \\int_ {0} ^ {1} 2 x ^ {2} d x = \\frac {2}{3}.\n\\]\n\\[\nE \\left(U ^ {2}\\right) = \\iint_ {R ^ {2}} \\left[ \\max \\{x, y \\} \\right] ^ {2} f (x, y) d x d y = \\iint_ {\\substack {0 <   x <   1 \\\\ 0 <   y <   1}} \\left[ \\max \\{x, y \\} \\right] ^ {2} d x d y\n\\]\n\\[\n= 2 \\iint_ {D _ {1}} \\left[ \\max \\{x, y \\} \\right] ^ {2} d x d y = 2 \\iint_ {D _ {1}} x ^ {2} d x d y = \\int_ {0} ^ {1} 2 x ^ {2} d x \\int_ {0} ^ {x} d y = \\int_ {0} ^ {1} 2 x ^ {3} d x = \\frac {1}{2}.\n\\]\n则 \\(D(U) = E\\left(U^2\\right) - \\left[E(U)\\right]^2 = \\frac{1}{18}\\)\n类似地\n\\[\n\\begin{array}{l} E (V) = \\iint_ {R ^ {2}} \\min \\{x, y \\} f (x, y) d x d y = \\iint_ {\\substack {0 <   x <   1 \\\\ 0 <   y <   1}} \\min \\{x, y \\} d x d y = 2 \\iint_ {D _ {1}} \\min \\{x, y \\} d x d y \\\\ = 2 \\iint_ {D _ {1}} y d x d y = \\int_ {0} ^ {1} d x \\int_ {0} ^ {x} 2 y d y = \\int_ {0} ^ {1} x ^ {2} d x = \\frac {1}{3}. \\\\ \\end{array}\n\\]\n\\[\n\\begin{array}{l} E \\left(V ^ {2}\\right) = \\iint_ {R ^ {2}} \\left[ \\min \\{x, y \\} \\right] ^ {2} f (x, y) d x d y = \\iint_ {\\substack {0 <   x <   1 \\\\ 0 <   y <   1}} \\left[ \\min \\{x, y \\} \\right] ^ {2} d x d y \\\\ = 2 \\iint_ {D _ {1}} \\left[ \\min \\{x, y \\} \\right] ^ {2} d x d y = 2 \\iint_ {D _ {1}} y ^ {2} d x d y = \\int_ {0} ^ {1} d x \\int_ {0} ^ {x} 2 y ^ {2} d y = \\frac {2}{3} \\int_ {0} ^ {1} x ^ {3} d x = \\frac {1}{6}. \\\\ \\end{array}\n\\]\n则 \\(D(V) = E\\left(V^2\\right) - \\left[EV(V)\\right]^2 = \\frac{1}{18}\\).\n最后， \\(E(UV) = E(XY) = E(X)E(Y) = \\frac{1}{4}\\) ，则\n\\(\\operatorname{cov}(U,V) = E(UV) - E(U)E(V) = \\frac{1}{36}\\)，则 \\(U\\) 和 \\(V\\) 的相关系数 \\(\\rho_{UV} = \\frac{\\operatorname{cov}(U,V)}{\\sqrt{D(U)D(V)}} = \\frac{1}{2}\\).\n故选（A）.\n二、填空题：11～16 小题，每小题 5 分，共 30 分，请将答案写在答题纸指定位置上.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057011,
+      "paperId": 57,
+      "seq": 11,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设某产品的边际成本 \\(MC = 4Q + \\frac{18}{(Q + 1)^2}\\), 固定成本为 0, 则该产品的平均成本 \\(\\overline{C}\\) 的最小值为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "10",
+        "analysis_md": "由题意可知，总成本 \\(C = \\int \\left[4Q + \\frac{18}{(Q + 1)^2}\\right]dQ = 2Q^2 -\\frac{18}{Q + 1} +C_1\\) ，其中 \\(C_1\\) 为常数.\n由于固定成本为 0，可知  \\( C|_{Q=0}=0 \\) ，则  \\( C_{1}=18 \\) 。从而  \\( C=2Q^{2}-\\frac{18}{Q+1}+18=2Q^{2}+\\frac{18Q}{Q+1} \\) 。\n则平均成本 \\(\\overline{C} = \\frac{C}{Q} = 2Q + \\frac{18}{Q + 1}\\)，\\(\\frac{d\\overline{C}}{dQ} = 2 - \\frac{18}{(Q + 1)^2}\\)，令 \\(\\frac{d\\overline{C}}{dQ} = 0\\) 得 \\(Q = 2\\)。不难检验，当 \\(0 < Q < 2\\) 时，\\(\\frac{d\\overline{C}}{dQ} < 0\\)，当 \\(Q > 2\\) 时，\\(\\frac{d\\overline{C}}{dQ} > 0\\)。可知 \\(\\overline{C}\\) 在 \\(Q = 2\\) 时取得最小值 10。",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057012,
+      "paperId": 57,
+      "seq": 12,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\( y = f(x) \\) 由方程 \\( \\mathrm{e}^{y} + y^{3} + 2y = \\sin^{3}x + 1 \\) 确定, 则 \\( f'''(2\\pi) = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "2",
+        "analysis_md": "令  \\( g(y)=e^{y}+y^{3}+2y-1 \\) ，则  \\( y=f(x) \\)  由方程  \\( g(y)=\\sin^{3}x \\)  确定，又令  \\( y=h(t) \\)  是  \\( t=g(y)=e^{y}+y^{3}+2y-1 \\)  的反函数，则  \\( y=f(x)=h(\\sin^{3}x) \\) .\n由于 \\(\\sin^3 x\\) 以 \\(2\\pi\\) 为周期，可知 \\(f(x) = h(\\sin^3 x)\\) 也以 \\(2\\pi\\) 为周期，进而可得 \\(f''(x)\\) 也以 \\(2\\pi\\) 为周期，故 \\(f''(2\\pi) = f''(0)\\)。由于 \\(g(0) = 0\\) 且 \\(g'(0) = (e^y + 3y^2 + 2)|_{y=0} = 3\\)，由反函数求导法则可知 \\(h'(0) = \\frac{1}{g'(0)} = \\frac{1}{3}\\)。\n则 \\(\\lim_{x\\to 0}\\frac{f(x)}{x^3} = \\lim_{x\\to 0}\\frac{h(\\sin^3x)}{x^3} = \\lim_{x\\to 0}\\frac{h(\\sin^3x) - h(0)}{\\sin^3x}\\frac{\\sin^3x}{x^3} = h'(0) = \\frac{1}{3}\\)，可知，当 \\(x\\to 0\\) 时，\\(f(x) = \\frac{1}{3} x^3 +o(x^3)\\)\n对比麦克劳林公式 \\( f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\frac{f'''(0)}{3!}x^3 + o(x^3) \\) 可知 \\( f'''(0) = 2 \\)，即 \\( f'''(2\\pi) = 2 \\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057013,
+      "paperId": 57,
+      "seq": 13,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "\\(\\int_0^1\\arccos \\sqrt{x(2 - x)}\\mathrm{d}x =\\)",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{\\pi}{2} - 1\\)",
+        "analysis_md": "\\(\\int_0^1\\arccos \\sqrt{x(2 - x)} dx = \\int_0^1\\arccos \\sqrt{1 - (1 - x)^2} dx\\)\n令 \\(1 - x = \\sin t\\) 得\n原式 \\(= \\int_{\\frac{\\pi}{2}}^{0}\\arccos \\sqrt{1 - \\sin^2t} (-\\cos t)dt = \\int_0^{\\frac{\\pi}{2}}t\\cos tdt\\)\n\\[\n= \\int_ {0} ^ {\\frac {\\pi}{2}} t d (\\sin t) = t \\sin t \\Big | _ {0} ^ {\\frac {\\pi}{2}} - \\int_ {0} ^ {\\frac {\\pi}{2}} \\sin t d t = \\frac {\\pi}{2} + \\cos t \\Big | _ {0} ^ {\\frac {\\pi}{2}} = \\frac {\\pi}{2} - 1.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057014,
+      "paperId": 57,
+      "seq": 14,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "\\(\\int_0^1 dr\\int_0^{\\frac{\\pi}{4}}\\frac{r}{(1 + r\\cos\\theta + r\\sin\\theta)^2} d\\theta +\\int_1^{\\sqrt{2}}dr\\int_{\\arccos \\frac{1}{r}}^{\\frac{\\pi}{4}}\\frac{r}{(1 + r\\cos\\theta + r\\sin\\theta)^2} d\\theta =\\)",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\ln 2 - \\frac{1}{2}\\ln 3\\)",
+        "analysis_md": "先还原积分区域：累次积分 \\(\\int_0^1 d\\theta \\int_0^{\\frac{\\pi}{4}}\\frac{r}{(1 + r\\cos\\theta + r\\sin\\theta)^2} d\\theta\\) 对应的积分区域 \\(D_{1} = \\left\\{(r,\\theta)\\mid 0\\leq r\\leq 1,0\\leq \\theta \\leq \\frac{\\pi}{4}\\right\\}\\)\n化为直角坐标为 \\(D_{1} = \\left\\{(x,y)\\mid x^{2} + y^{2}\\leq 1,0\\leq y\\leq x\\right\\}\\) ，如图\n![](/uploads/books/aba3243ae3e9e497a1d016de32c9c2a9da770b23b4b544aa695590d4a059a96b.jpg)\n累次积分 \\(\\int_{1}^{\\sqrt{2}}dr\\int_{\\arccos \\frac{1}{r}}^{r}\\frac{r}{\\left(1 + r\\cos \\theta + r\\sin \\theta\\right)^2} d\\theta\\) 对应的积分区域 \\(D_{2} = \\left\\{(r,\\theta)\\mid 1\\leq r\\leq \\sqrt{2},\\arccos \\frac{1}{r}\\leq \\theta \\leq \\frac{\\pi}{4}\\right\\}\\) ，其中\n\\(\\arccos \\frac{1}{r} = \\theta\\) 等价于 \\(r = \\sec \\theta\\) ，也即 \\(x = 1\\) ，化为直角坐标为 \\(D_{2} = \\left\\{(x,y)\\mid x^{2} + y^{2}\\geq 1,0\\leq y\\leq x\\leq 1\\right\\}\\) ，如图\n![](/uploads/books/ff0d4218d8dd4bcd19f7bb0ac4cb91fc19a374dc64533419e0255ebec04f68f9.jpg)\n则积分区域 \\(D = D_{1}\\cup D_{2}\\) ，如图\n![](/uploads/books/d742b107b419437437c9fd20f6f471b3037006bf4df047fc065243980a1186c0.jpg)\n再还原被积函数，将 \\(r\\cos \\theta\\) 代成 \\(x\\) 、 \\(r\\sin \\theta\\) 代成 \\(y\\) 、 \\(rdrd\\theta\\) 代成 \\(dxdy\\) 可得，\n原式 \\(= \\iint_{D}\\frac{1}{(1 + x + y)^{2}} dxdy.\\)\n运用直角坐标计算二重积分，先对 \\(y\\) 积分可得：\n原式 \\(= \\int_0^1 dx\\int_0^x\\frac{1}{(1 + x + y)^2} dy = \\int_0^1\\left(-\\frac{1}{1 + x + y}\\right)\\bigg|_0^x dx = \\int_0^1\\left(\\frac{1}{1 + x} -\\frac{1}{1 + 2x}\\right)dx\\)\n\\[\n= \\ln 2 - \\frac {1}{2} \\ln 3.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057015,
+      "paperId": 57,
+      "seq": 15,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设矩阵 \\(A = \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix}\\), 矩阵 \\(B\\) 满足 \\(AB = BA\\), 则 \\(B =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\left( \\begin{array}{ll}k_{1} & k_{2}\\\\ k_{2} & k_{1} \\end{array} \\right)\\) ，其中 \\(k_{1},k_{2}\\) 为任意常数",
+        "analysis_md": "设 \\(B = \\begin{pmatrix} x_1 & x_2 \\\\ x_3 & x_4 \\end{pmatrix}\\)，则 \\(AB = \\begin{pmatrix} 2 & 1 \\\\ 1 & 2 \\end{pmatrix} \\begin{pmatrix} x_1 & x_2 \\\\ x_3 & x_4 \\end{pmatrix} = \\begin{pmatrix} 2x_1 + x_3 & 2x_2 + x_4 \\\\ x_1 + 2x_3 & x_2 + 2x_4 \\end{pmatrix}\\)\n\\[\n\\boldsymbol {B} \\boldsymbol {A} = \\left( \\begin{array}{c c} x _ {1} & x _ {2} \\\\ x _ {3} & x _ {4} \\end{array} \\right) \\left( \\begin{array}{c c} 2 & 1 \\\\ 1 & 2 \\end{array} \\right) = \\left( \\begin{array}{c c} 2 x _ {1} + x _ {2} & x _ {1} + 2 x _ {2} \\\\ 2 x _ {3} + x _ {4} & x _ {3} + 2 x _ {4} \\end{array} \\right).\n\\]\n则由 \\(AB = BA\\) 可得 \\(\\left( \\begin{array}{lll}2x_{1} + x_{2} & 2x_{2} + x_{4}\\\\ x_{1} + 2x_{3} & x_{2} + 2x_{4} \\end{array} \\right) = \\left( \\begin{array}{lll}2x_{1} + x_{2} & x_{1} + 2x_{2}\\\\ 2x_{3} + x_{4} & x_{3} + 2x_{4} \\end{array} \\right)\\) ，即 \\(\\left\\{ \\begin{array}{ll}x_2 = x_3\\\\ x_1 = x_4 \\end{array} \\right.\\)\n可知  \\( B=\\begin{pmatrix}k_{1}&k_{2}\\\\k_{2}&k_{1}\\end{pmatrix} \\) ，其中  \\( k_{1},k_{2} \\)  为任意常数.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057016,
+      "paperId": 57,
+      "seq": 16,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设甲乙丙三名射手独立地向目标各射击一次, 三人各自命中目标的概率分别为 \\(p, 2p, 3p\\), 已知在 3 人中至少有一人命中目标的条件下, 乙和丙恰有一人命中目标的概率为 \\(\\frac{16}{29}\\), 则 \\(p =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{1}{4}\\)",
+        "analysis_md": "设甲乙丙三人各自命中目标分别为 A, B, C，则  \\( P(A) = p, P(B) = 2p, P(C) = 3p \\) ，且 A, B, C 相互独立.\n在 3 人中至少有一人命中目标的条件下，乙和丙恰有一人命中目标的概率可以表示为\n\\(P\\left(B\\overline{C} \\cup \\overline{B} C \\mid A \\cup B \\cup C\\right) = \\frac{P\\left(B\\overline{C} \\cup \\overline{B} C\\right)}{P(A \\cup B \\cup C)}\\) （注意 \\(B\\overline{C} \\cup \\overline{B} C \\subset A \\cup B \\cup C\\)）.\n其中\n\\[\nP (A \\cup B \\cup C) = P (A) + P (B) + P (C) - P (A B) - P (A C) - P (B C) + P (A B C)\n\\]\n\\[\n\\begin{array}{l} = P (A) + P (B) + P (C) - P (A) P (B) - P (A) P (C) - P (B) P (C) + P (A) P (B) P (C) \\\\ = p + 2 p + 3 p - p \\cdot 2 p - p \\cdot 3 p - 2 p \\cdot 3 p + p \\cdot 2 p \\cdot 3 p = 6 p - 1 1 p ^ {2} + 6 p ^ {3}. \\\\ \\end{array}\n\\]\n\\[\nP \\left(B \\overline {{{C}}} \\cup \\overline {{{B}}} C\\right) = P (B \\overline {{{C}}}) + P (\\overline {{{B}}} C) = P (B) P (\\overline {{{C}}}) + P (\\overline {{{B}}}) P (C)\n\\]\n\\[\n= 2 p (1 - 3 p) + (1 - 2 p) 3 p = 5 p - 1 2 p ^ {2}.\n\\]\n代入可知， \\(P\\left(B\\overline{C}\\cup \\overline{BC}\\right|A\\cup B\\cup C) = \\frac{5p - 12p^2}{6p - 11p^2 + 6p^3} = \\frac{5 - 12p}{6 - 11p + 6p^2} = \\frac{16}{29}.\\)\n整理得 \\(96p^{2} + 172p - 49 = 0\\) ，解得 \\(p = \\frac{1}{4}\\) 或 \\(p = -\\frac{49}{24}\\) （舍去）.则 \\(p = \\frac{1}{4}\\)\n三、解答题：17～22 小题，共 70 分，请将解答写在答题纸指定位置上，解答应写出文字说明、证明过程或演算步骤.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057017,
+      "paperId": 57,
+      "seq": 17,
+      "type": "解答题",
+      "points": 10,
+      "difficulty": 3,
+      "stem": "设 \\(D = \\{(x,y)\\mid 0\\leqslant x\\leqslant 1,0\\leqslant y\\leqslant 1\\}\\) ，求二重积分 \\(\\iint_{D}\\frac{[1 + x^2 + y^2]}{(2 + x^2 + y^2)^2}\\mathrm{d}x\\mathrm{d}y,\\) 其中 \\([x]\\) 表示 \\(x\\) 的整数部分，即不超过 \\(x\\) 的最大整数.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\left(\\frac{\\sqrt{3}}{18} -\\frac{1}{24}\\right)\\pi .\\)",
+        "analysis_md": "函数 \\( f(x,y) = \\frac{\\left[1 + x^2 + y^2\\right]}{\\left(2 + x^2 + y^2\\right)^2} \\) 满足 \\( f(x,y) = f(y,x) \\)，且区域 \\( D \\) 关于直线 \\( y = x \\) 对称，则由轮换对称性可知：\n\\(\\iint_{D} \\frac{\\left[1 + x^2 + y^2\\right]}{\\left(2 + x^2 + y^2\\right)^2} dx dy = 2 \\iint_{D_1} \\frac{\\left[1 + x^2 + y^2\\right]}{\\left(2 + x^2 + y^2\\right)^2} dx dy\\)，其中 \\(D_1\\) 为 \\(D\\) 在直线 \\(y = x\\) 下方的部分.\n由取整函数的定义可知 \\(\\left[1 + x^2 + y^2\\right] = \\begin{cases} 1, & x^2 + y^2 < 1 \\\\ 2, & 1 \\leq x^2 + y^2 < 2 \\end{cases}\\).\n令 \\(D_{2}\\) 和 \\(D_{3}\\) 分别表示区域 \\(D_{1}\\) 在圆 \\(x^{2} + y^{2} = 1\\) 内部和外部的两部分，如图\n![](/uploads/books/24f1ed4b74b1f510ab46f12b1fba2df1c0a204500ff08ee34f7cf98eb4cd97e7.jpg)\n则\n原式 \\(= 2\\iint_{D_2}\\frac{1}{\\left(2 + x^2 + y^2\\right)^2} dx dy + 4\\iint_{D_3}\\frac{1}{\\left(2 + x^2 + y^2\\right)^2} dx dy.\\)\n\\(D_{2}\\) 和 \\(D_{3}\\) 分别可以用极坐标表示为\n\\(D_{2} = \\left\\{(r,\\theta)\\Big|r\\leq 1,0\\leq \\theta \\leq \\frac{\\pi}{4}\\right\\} ,D_{3} = \\left\\{(r,\\theta)\\Big|1 <   r\\leq \\sec \\theta ,0\\leq \\theta \\leq \\frac{\\pi}{4}\\right\\} ,\\) 用极坐标计算二重积分可得\n原式 \\(= 2\\iint_{D_2}\\frac{r}{\\left(2 + r^2\\right)^2} drd\\theta +4\\iint_{D_3}\\frac{r}{\\left(2 + r^2\\right)^2} drd\\theta .\\)\n\\[\n= 2 \\int_ {0} ^ {\\frac {\\pi}{4}} d \\theta \\int_ {0} ^ {1} \\frac {r}{\\left(2 + r ^ {2}\\right) ^ {2}} d r + 4 \\int_ {0} ^ {\\frac {\\pi}{4}} d \\theta \\int_ {1} ^ {\\sec \\theta} \\frac {r}{\\left(2 + r ^ {2}\\right) ^ {2}} d r\n\\]\n\\[\n= \\int_ {0} ^ {\\frac {\\pi}{4}} \\frac {1}{6} d \\theta + \\int_ {0} ^ {\\frac {\\pi}{4}} \\left(\\frac {2}{3} - \\frac {2}{2 + \\sec^ {2} \\theta}\\right) d \\theta = \\frac {5}{2 4} \\pi - \\int_ {0} ^ {\\frac {\\pi}{4}} \\frac {2}{3 + \\tan^ {2} \\theta} d \\theta\n\\]\n\\[\n= \\frac {t = \\tan \\theta}{2 4} \\pi - \\int_ {0} ^ {1} \\frac {2}{\\left(t ^ {2} + 3\\right) \\left(t ^ {2} + 1\\right)} d \\theta = \\frac {5}{2 4} \\pi - \\int_ {0} ^ {1} \\left(\\frac {1}{t ^ {2} + 1} - \\frac {1}{t ^ {2} + 3}\\right) d \\theta\n\\]\n\\[\n= \\frac {5}{2 4} \\pi - \\left(\\arctan t - \\frac {1}{\\sqrt {3}} \\arctan \\frac {t}{\\sqrt {3}}\\right) \\Bigg | _ {0} ^ {1} = \\left(\\frac {\\sqrt {3}}{1 8} - \\frac {1}{2 4}\\right) \\pi .\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057018,
+      "paperId": 57,
+      "seq": 18,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "可导函数 \\( y = f(x) \\) 满足微分方程 \\( y' - y = \\max \\{x, \\sin x\\} e^x \\)，且有 \\( \\int_{-\\infty}^{0} f(x) dx = \\frac{1}{2} \\)，则\n(I) 求 \\( f(x) \\);\n(II) 求 \\( y = \\mathrm{e}^{-(|x| + x)}f(x) \\) 和 \\( x \\) 轴之间的无界区域绕 \\( x \\) 轴旋转一周所得的旋转体体积.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(I) \\(f(x) = \\begin{cases} \\frac{1}{2} e^{x} x^{2}, & x \\geq 0 \\\\ e^{x} (1 - \\cos x), & x < 0 \\end{cases}\\); (II) \\(\\frac{21}{80}\\pi\\)",
+        "analysis_md": "（I）微分方程可化为 \\(e^{-x}y' - e^{-x}y = \\max \\{x,\\sin x\\}\\) ，即 \\(\\left(e^{-x}y\\right)' = \\max \\{x,\\sin x\\}\\).\n其中 \\(\\max \\{x, \\sin x\\} = \\begin{cases} x, & x \\geq 0 \\\\ \\sin x, & x < 0 \\end{cases}\\)，可知 \\(\\left(e^{-x}y\\right)' = \\begin{cases} x, & x \\geq 0 \\\\ \\sin x, & x < 0 \\end{cases}\\)，积分可得 \\(e^{-x}y = \\begin{cases} \\frac{1}{2}x^2 + C_1, & x \\geq 0 \\\\ -\\cos x + C_2, & x < 0 \\end{cases}\\)，则 \\(f(x) = \\begin{cases} \\frac{1}{2}e^{x}x^2 + C_1e^{x}, & x \\geq 0 \\\\ e^x(C_2 - \\cos x), & x < 0. \\end{cases}\\)\n由于 \\(\\int_{-\\infty}^{0} f(x) dx = \\int_{-\\infty}^{0} e^{x} (C_2 - \\cos x) dx = C_2 - \\frac{1}{2} e^{x} (\\sin x + \\cos x)|_{-\\infty}^{0} = C_2 - \\frac{1}{2}\\). 代入 \\(\\int_{-\\infty}^{0} f(x) dx = \\frac{1}{2}\\) 可以解得 \\(C_2 = 1\\).\n则当 \\(x < 0\\) 时，\\(f(x) = e^{x}(1 - \\cos x)\\).\n又由于 \\(f(x)\\) 在 \\(x = 0\\) 处连续，可知 \\(\\lim_{x\\to 0^{+}}f(x) = \\lim_{x\\to 0^{+}}f(x)\\)，其中 \\(\\lim_{x\\to 0^{+}}f(x) = \\lim_{x\\to 0^{+}}e^{x}(1 - \\cos x) = 0\\)\n\\(\\lim_{x\\to 0^{+}}f(x) = \\lim_{x\\to 0^{+}}\\left(\\frac{1}{2} e^{x}x^{2} + C_{1}e^{x}\\right) = C_{1}\\) ，可知 \\(C_1 = 0\\)\n从而， \\(f(x) = \\left\\{ \\begin{array}{ll}\\frac{1}{2} e^{x}x^{2}, & x\\geq 0\\\\ e^{x}\\left(1 - \\cos x\\right), & x <   0. \\end{array} \\right.\\)\n（II）令 \\(g(x) = e^{-(|x| + x)}f(x)\\) ，则 \\(g(x) = \\left\\{ \\begin{array}{ll}\\frac{1}{2} e^{-x}x^2,x\\geq 0\\\\ e^x(1 - \\cos x),x <   0 \\end{array} \\right.\\)\n由于 \\(g(x)\\) 的取值是非负的，则由旋转体的体积公式可知，求 \\(y = g(x)\\) 和 \\(x\\) 轴之间的无界区域绕 \\(x\\) 轴旋转一周所得的旋转体体积为\n\\[\nV = \\pi \\int_ {- \\infty} ^ {+ \\infty} g ^ {2} (x) d x = \\pi \\int_ {- \\infty} ^ {0} \\left[ e ^ {x} (1 - \\cos x) \\right] ^ {2} d x + \\pi \\int_ {0} ^ {+ \\infty} \\left(\\frac {1}{2} e ^ {- x} x ^ {2}\\right) ^ {2} d x.\n\\]\n其中 \\(\\int_0^{+\\infty}\\left(\\frac{1}{2} e^{-x}x^2\\right)^2 dx = \\frac{1}{4}\\int_0^{+\\infty}e^{-2x}x^4 dx\\frac{t = 2x}{128}\\frac{1}{J_0}\\int_0^{+\\infty}e^{-t}t^4 dt = \\frac{4!}{128} = \\frac{3}{16}.\\)\n\\[\n\\int_ {- \\infty} ^ {0} \\left[ e ^ {x} (1 - \\cos x) \\right] ^ {2} d x = \\int_ {- \\infty} ^ {0} e ^ {2 x} (1 - 2 \\cos x + \\cos^ {2} x) d x\n\\]\n\\[\n= \\frac {1}{2} \\int_ {- \\infty} ^ {0} e ^ {2 x} (3 - 4 \\cos x + \\cos 2 x) d x = \\left[ \\frac {3}{4} e ^ {2 x} - \\frac {2}{5} e ^ {2 x} (2 \\cos x + \\sin x) + \\frac {1}{8} e ^ {2 x} (\\cos 2 x + \\sin 2 x) \\right] _ {- \\infty} ^ {0} = \\frac {3}{4} - \\frac {4}{5} + \\frac {1}{8} = \\frac {3}{4 0}.\n\\]\n代入可知 \\(V = \\pi \\int_{-\\infty}^{0}\\left[e^{x}(1 - \\cos x)\\right]^2 dx + \\pi \\int_0^{+\\infty}\\left(\\frac{1}{2} e^{-x} x^2\\right)^2 dx = \\frac{21}{80}\\pi .\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057019,
+      "paperId": 57,
+      "seq": 19,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "求幂级数 \\(\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} n^{2}}{2n+1} x^{2n}\\) 的收敛域与和函数.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\sum_{n=0}^{\\infty} \\frac{(-1)^n n^2}{2n+1} x^{2n} = \\begin{cases} \\frac{\\arctan x}{4x} - \\frac{1+3x^2}{4(1+x^2)^2}, & x \\in (-1,0) \\cup (0,1) \\\\ 0, & x = 0. \\end{cases}\\)",
+        "analysis_md": "不难求得 \\(\\sum_{n=0}^{\\infty} \\frac{(-1)^n n^2}{2n+1} x^{2n}\\) 的收敛半径为 1，收敛区间为 \\((-1, 1)\\). 当 \\(x = \\pm 1\\) 时，\\(\\sum_{n=0}^{\\infty} \\frac{(-1)^n n^2}{2n+1} x^{2n}\\) 都是发散的，可知 \\(\\sum_{n=0}^{\\infty} \\frac{(-1)^n n^2}{2n+1} x^{2n}\\) 的收敛域为 \\((-1, 1)\\).\n为了求幂级数的和函数，首先需要对幂级数进行拆分：\n\\[\n\\begin{array}{l} \\sum_ {n = 0} ^ {\\infty} \\frac {(- 1) ^ {n} n ^ {2}}{2 n + 1} x ^ {2 n} = \\frac {1}{4} \\sum_ {n = 0} ^ {\\infty} \\frac {(- 1) ^ {n} 4 n ^ {2}}{2 n + 1} x ^ {2 n} = \\frac {1}{4} \\sum_ {n = 0} ^ {\\infty} \\frac {(- 1) ^ {n} (4 n ^ {2} - 1 + 1)}{2 n + 1} x ^ {2 n} \\\\ = \\frac {1}{4} \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\left(2 n - 1 + \\frac {1}{2 n + 1}\\right) x ^ {2 n} = \\frac {1}{4} \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} (2 n - 1) x ^ {2 n} + \\frac {1}{4} \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\frac {x ^ {2 n}}{2 n + 1}. \\\\ \\end{array}\n\\]\n令 \\(f_{1}(x) = \\sum_{n = 0}^{\\infty}(-1)^{n}(2n - 1)x^{2n},\\quad f_{2}(x) = \\sum_{n = 0}^{\\infty}\\frac{(-1)^{n}x^{2n}}{2n + 1}.\\)\n先求 \\(f_{1}(x)\\) ：由逐项积分定理可得\n\\[\nf _ {1} (x) = \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} (2 n + 1) x ^ {2 n} - 2 \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} x ^ {2 n} = \\left(\\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} x ^ {2 n + 1}\\right) ^ {\\prime} - \\frac {2}{1 + x ^ {2}}\n\\]\n\\[\n= \\left(\\frac {x}{1 + x ^ {2}}\\right) ^ {\\prime} - \\frac {2}{1 + x ^ {2}} = \\frac {1 - x ^ {2}}{\\left(1 + x ^ {2}\\right) ^ {2}} - \\frac {2}{1 + x ^ {2}} = - \\frac {1 + 3 x ^ {2}}{\\left(1 + x ^ {2}\\right) ^ {2}}.\n\\]\n再求 \\(f_{2}(x): xf_{2}(x) = \\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{2n+1}}{2n+1}\\)，由逐项求导定理可得\n\\[\n\\left[ x f _ {2} (x) \\right] ^ {\\prime} = \\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} x ^ {2 n} = \\frac {1}{1 + x ^ {2}}.\n\\]\n再积分可得 \\( xf_{2}(x) = \\arctan x + C \\)，令 \\( x = 0 \\) 可得 \\( C = 0 \\). 则 \\( xf_{2}(x) = \\arctan x \\)，故当 \\( x \\neq 0 \\) 时，有 \\( f_{2}(x) = \\frac{\\arctan x}{x} \\). 不难验证\n\\[\nf _ {2} (0) = 1, \\text {   可知   } f _ {2} (x) = \\left\\{ \\begin{array}{l l} \\frac {\\arctan x}{x}, & x \\in (- 1, 0) \\cup (0, 1) \\\\ 1, & x = 0. \\end{array} \\right.\n\\]\n代入可知，\n\\[\n\\sum_ {n = 0} ^ {\\infty} \\frac {(- 1) ^ {n} n ^ {2}}{2 n + 1} x ^ {2 n} = \\frac {1}{4} f _ {1} (x) + \\frac {1}{4} f _ {2} (x) = \\left\\{ \\begin{array}{l l} \\frac {\\arctan x}{4 x} - \\frac {1 + 3 x ^ {2}}{4 (1 + x ^ {2}) ^ {2}}, x \\in (- 1, 0) \\cup (0, 1) \\\\ 0, x = 0. \\end{array} \\right.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057020,
+      "paperId": 57,
+      "seq": 20,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设数列 \\(\\{x_{n}\\}\\) 满足 \\(x_{n + 1} = x_n - \\frac{x_n\\ln x_n}{\\ln x_n + 1}, n = 1,2,3,\\dots ,x_1 > \\mathrm{e}^{-1}\\) 且 \\(x_{1}\\neq 1\\) ，则\n(I) 证明 \\(\\lim_{n\\to \\infty}x_n\\) 存在并求 \\(\\lim_{n\\to \\infty}x_n;\\)\n(II) 求  \\( \\lim_{n\\to\\infty}(x_{n+1})^{\\frac{1}{\\ln^{2}x_{n}}} \\) .",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(I) \\(\\lim_{n\\to \\infty}x_n = 1\\)；(II) \\(\\frac{1}{e^2}\\)",
+        "analysis_md": "(I)令 \\( f(x) = x - \\frac{x\\ln x}{\\ln x + 1} = \\frac{x(\\ln x + 1) - x\\ln x}{\\ln x + 1} = \\frac{x}{\\ln x + 1} \\)，则 \\( f'(x) = \\frac{\\ln x}{(\\ln x + 1)^2} \\)，可知，当 \\( e^{-1} < x < 1 \\) 时，\\( f'(x) < 0 \\)；当 \\( x > 1 \\) 时，\\( f'(x) > 0 \\).\n①如果 \\(x_{1} > 1\\) ，则可以用数学归纳法证明 \\(x_{n} > 1, n = 1,2,3,\\ldots\\)\n首先，我们有 \\(x_{1} > 1\\)\n其次，设 \\(x_{k} > 1\\) ，由于 \\(f(x)\\) 在 \\([1, +\\infty)\\) 上单调递增，可知，此时 \\(x_{k + 1} = f(x_k) > f(1) = 1\\)\n则由数学归纳法可知， \\(x_{n} > 1, n = 1,2,3,\\ldots\\)\n②如果 \\(e^{-1} < x_1 < 1\\)，由于 \\(f(x)\\) 在 \\((e^{-1}, 1]\\) 上单调递减，则 \\(x_2 = f(x_1) > f(1) = 1\\)。通过和①类似的过程可以证明 \\(x_n > 1, n = 2, 3, \\ldots\\)。\n综上所述，数列 \\(\\{x_{n}\\}\\) 一定满足 \\(x_{n} > 1, n = 2,3,4,\\ldots\\)\n又由于， \\(x_{n + 1} = f(x_n) = \\frac{x_n}{\\ln x_n + 1}\\) ，可知 \\(\\frac{x_{n + 1}}{x_n} = \\frac{1}{\\ln x_n + 1} < 1, n = 2,3,4,\\dots\\) ，则数列 \\(\\{x_{n}\\}\\) 从至少从第二项起是单调递减的.\n综上所述，数列 \\(\\{x_{n}\\}\\) 单调且有界，则由单调有界收敛准则可知， \\(\\lim_{n\\to \\infty}x_n\\) 存在.\n令 \\(\\lim_{n\\to \\infty}x_n = a\\) ，在等式 \\(x_{n + 1} = \\frac{x_n}{\\ln x_n + 1}\\) 两边同时令 \\(n\\to \\infty\\) 可得 \\(a = \\frac{a}{\\ln a + 1}\\) ，解得 \\(a = 1\\) ，可知 \\(\\lim_{n\\to \\infty}x_n = 1\\)\n（II）由于 \\(\\lim_{n\\to \\infty}x_n = 1\\) ，可知，极限式 \\(\\lim_{n\\to \\infty}(x_{n + 1})^{\\frac{1}{\\ln^2 x_n}}\\) 为 \\(1^{\\infty}\\) 型的未定式，由计算公式可得\n\\[\n\\lim _ {n \\rightarrow \\infty} \\left(x _ {n + 1}\\right) ^ {\\frac {1}{\\ln^ {2} x _ {n}}} = e ^ {\\lim _ {n \\rightarrow \\infty} \\frac {x _ {n + 1} - 1}{\\ln^ {2} x _ {n}}}.\n\\]\n其中\n\\[\n\\begin{array}{l} \\lim _ {n \\rightarrow \\infty} \\frac {x _ {n + 1} - 1}{\\ln^ {2} x _ {n}} = \\lim _ {n \\rightarrow \\infty} \\frac {\\frac {x _ {n}}{\\ln x _ {n} + 1} - 1}{\\ln^ {2} x _ {n}} = \\lim _ {n \\rightarrow \\infty} \\frac {x _ {n} - \\ln x _ {n} - 1}{\\left(\\ln x _ {n} + 1\\right) \\ln^ {2} x _ {n}} = \\lim _ {n \\rightarrow \\infty} \\frac {x _ {n} - \\ln x _ {n} - 1}{\\ln^ {2} x _ {n}} \\\\ = \\lim _ {n \\rightarrow \\infty} \\frac {x _ {n} - 1 - \\ln (1 + x _ {n} - 1)}{\\ln^ {2} (1 + x _ {n} - 1)}. \\\\ \\end{array}\n\\]\n由于 \\(\\lim_{n\\to \\infty}(x_n - 1) = 0\\) ，可知当 \\(n\\to \\infty\\) 时， \\(\\ln (1 + x_n - 1)\\sim x_n - 1\\) ， \\(x_{n} - 1 - \\ln (1 + x_{n} - 1)\\sim \\frac{1}{2} (x_n - 1)^2.\\)\n则 \\(\\lim_{n\\to \\infty}\\frac{x_n - 1 - \\ln(1 + x_n - 1)}{\\ln^2(1 + x_n - 1)} = \\lim_{n\\to \\infty}\\frac{\\frac{1}{2}(x_n - 1)^2}{(x_n - 1)^2} = \\frac{1}{2}\\)，代入可知， \\(\\lim_{n\\to \\infty}(x_{n + 1})\\frac{1}{\\ln^2x_n} = e^{\\frac{1}{2}}.\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057021,
+      "paperId": 57,
+      "seq": 21,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设有二次型 \\( f(x_{1},x_{2},x_{3})=ax_{1}^{2}+ax_{2}^{2}+ax_{3}^{2}-2x_{1}x_{2}+2x_{1}x_{3}-2x_{2}x_{3},g(y_{1},y_{2},y_{3})=by_{1}^{2}+by_{2}^{2}-3y_{3}^{2}+2by_{1}y_{2} \\) ，若 \\( f(x_{1},x_{2},x_{3}) \\) 经过正交变换x=Qy可化为 \\( g(y_{1},y_{2},y_{3}) \\) .则\n(I) 求 a, b;\n(II) 求正交矩阵 Q.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(I) \\(a = -2, b = -\\frac{3}{2}\\); (II) \\(\\left\\{ \\begin{array}{l} \\frac{1}{2} + \\frac{1}{\\sqrt{6}} \\quad \\frac{1}{2} - \\frac{1}{\\sqrt{6}} \\quad \\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{2} - \\frac{1}{\\sqrt{6}} \\quad \\frac{1}{2} + \\frac{1}{\\sqrt{6}} \\quad -\\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{6}} \\quad -\\frac{1}{\\sqrt{6}} \\quad \\frac{-2}{\\sqrt{6}} \\end{array} \\right\\}\\)",
+        "analysis_md": "（Ⅰ）二次型  \\( f(x_{1},x_{2},x_{3}) \\)  的矩阵为， \\( A=\\begin{pmatrix}a&-1&1\\\\-1&a&-1\\\\1&-1&a\\end{pmatrix}=\\begin{pmatrix}1&-1&1\\\\-1&1&-1\\\\1&-1&1\\end{pmatrix}+(a-1)E \\) ，其中  \\( \\begin{pmatrix}1&-1&1\\\\-1&1&-1\\\\1&-1&1\\end{pmatrix} \\)  的特征值为 0,0,3，则 A 的特征值为 a-1,a-1,a+2.\n二次型 \\(g(y_{1},y_{2},y_{3}) = by_{1}^{2} + by_{2}^{2} - 3y_{3}^{2} + 2by_{1}y_{2}\\) 的矩阵为 \\(B = \\begin{pmatrix} b & b & 0 \\\\ b & b & 0 \\\\ 0 & 0 & -3 \\end{pmatrix}\\)\n\\(\\left|\\lambda E - B\\right| = \\left|\\begin{array}{ccc}\\lambda -b & -b & 0\\\\ -b & \\lambda -b & 0\\\\ 0 & 0 & \\lambda +3 \\end{array}\\right| = (\\lambda +3)(\\lambda -2b)\\lambda\\) ，则 \\(\\pmb{B}\\) 的特征值为-3,2b,0.\n由于 \\(f(x_{1},x_{2},x_{3})\\) 经过正交变换可化为 \\(g(y_{1},y_{2},y_{3})\\) ，则它们的矩阵 \\(\\mathbf{A}\\) 与 \\(\\mathbf{B}\\) 的特征值相同.由于 \\(\\pmb{B}\\) 的特征值中有0和-3，可知 \\(\\mathbf{A}\\) 的特征值中也有0和-3，可知 \\(a = -2\\) ，进而可得 \\(b = -\\frac{3}{2}\\)\n（Ⅱ）先分别通过正交变换把二次型 \\(f(x_{1},x_{2},x_{3})\\) 和 \\(g(y_{1},y_{2},y_{3})\\) 化为标准形：\n求解齐次线性方程组 \\((A + 3E)x = 0\\) 可以得到 \\(A\\) 的属于-3的两个相互正交的特征向量：\n\\(\\left( \\begin{array}{l}1\\\\ 1\\\\ 0 \\end{array} \\right),\\left( \\begin{array}{l}1\\\\ -1\\\\ -2 \\end{array} \\right)\\) ，单位化得 \\(\\alpha_{1} = \\frac{1}{\\sqrt{2}}\\left( \\begin{array}{l}1\\\\ 1\\\\ 0 \\end{array} \\right),\\alpha_{2} = \\frac{1}{\\sqrt{6}}\\left( \\begin{array}{l}1\\\\ -1\\\\ -2 \\end{array} \\right).\\)\n求解齐次线性方程组 Ax=0 可以得到 A 的属于 0 的一个特征向量:  \\( \\begin{pmatrix}1\\\\-1\\\\1\\end{pmatrix} \\) ，单位化得  \\( \\alpha_{3}=\\frac{1}{\\sqrt{3}}\\begin{pmatrix}1\\\\-1\\\\1\\end{pmatrix} \\) .\n令 \\(Q_{1} = (\\alpha_{1},\\alpha_{2},\\alpha_{3}) = \\left( \\begin{array}{ccc}\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{3}}\\\\ \\frac{1}{\\sqrt{2}} & \\frac{-1}{\\sqrt{6}} & \\frac{-1}{\\sqrt{3}}\\\\ 0 & \\frac{-2}{\\sqrt{6}} & \\frac{1}{\\sqrt{3}} \\end{array} \\right)\\) ，则正交变换 \\(x = Q_{1}z\\) 可以把二次型 \\(f(x_{1},x_{2},x_{3})\\) 化为标准形 \\(-3z_{1}^{2} - 3z_{2}^{2}\\)\n求解齐次线性方程组 \\((B + 3E)x = 0\\) 可以得到 \\(B\\) 的属于-3的两个相互正交的特征向量：\n\\(\\left( \\begin{array}{l}1\\\\ 1\\\\ 0 \\end{array} \\right),\\left( \\begin{array}{l}0\\\\ 0\\\\ 1 \\end{array} \\right)\\) ，单位化得 \\(\\beta_{1} = \\frac{1}{\\sqrt{2}}\\left( \\begin{array}{l}1\\\\ 1\\\\ 0 \\end{array} \\right),\\beta_{2} = \\left( \\begin{array}{l}0\\\\ 0\\\\ 1 \\end{array} \\right).\\)\n求解齐次线性方程组 \\(Bx = 0\\) 可以得到 \\(B\\) 的属于0的一个的特征向量： \\(\\left( \\begin{array}{l}1\\\\ -1\\\\ 0 \\end{array} \\right)\\) ，单位化得 \\(\\beta_{3} = \\frac{1}{\\sqrt{2}}\\left( \\begin{array}{l}1\\\\ -1\\\\ 0 \\end{array} \\right)\\)\n令 \\(Q_{2} = (\\beta_{1},\\beta_{2},\\beta_{3}) = \\left( \\begin{array}{ccc}\\frac{1}{\\sqrt{2}} & 0 & \\frac{1}{\\sqrt{2}}\\\\ \\frac{1}{\\sqrt{2}} & 0 & \\frac{-1}{\\sqrt{2}}\\\\ 0 & 1 & 0 \\end{array} \\right)\\) ，则正交变换 \\(\\pmb {y} = Q_{2}\\pmb{z}\\) 可以把二次型 \\(g(y_{1},y_{2},y_{3})\\) 化为标准形 \\(-3z_1^2 -3z_2^2\\)\n因此我们有 \\(f(x_{1},x_{2},x_{3}) = -3z_{1}^{2} - 3z_{2}^{2} = g(y_{1},y_{2},y_{3})\\) ，由 \\(\\pmb {y} = \\pmb{Q}_2\\pmb {z}\\) ，可以解得 \\(z = Q_2^T\\pmb {y}\\) ，可知如果令 \\(Q = Q_1Q_2^T\\) ，则正交变换 \\(\\pmb {x} = \\pmb{Q}\\pmb{y}\\) 可以将二次型 \\(f(x_{1},x_{2},x_{3})\\) 化为 \\(g(y_{1},y_{2},y_{3})\\)\n其中  \\( Q = Q_{1}Q_{2}^{T} = \\begin{pmatrix} \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{3}} \\\\ \\frac{1}{\\sqrt{2}} & \\frac{-1}{\\sqrt{6}} & \\frac{-1}{\\sqrt{3}} \\\\ 0 & \\frac{-2}{\\sqrt{6}} & \\frac{1}{\\sqrt{3}} \\end{pmatrix} \\begin{pmatrix} \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{2}} & 0 \\\\ 0 & 0 & 1 \\\\ \\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} & 0 \\end{pmatrix} = \\begin{pmatrix} \\frac{1}{2} + \\frac{1}{\\sqrt{6}} & \\frac{1}{2} - \\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{2} + \\frac{1}{\\sqrt{6}} & \\frac{1}{2} + \\frac{1}{\\sqrt{6}} & -\\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{6}} & -\\frac{1}{\\sqrt{6}} & \\frac{-2}{\\sqrt{6}} \\end{pmatrix}. \\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000057022,
+      "paperId": 57,
+      "seq": 22,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设总体X的概率密度为 \\( f(x)=\\left\\{\\begin{aligned}&\\frac{|x|}{\\theta^{2}},&-\\theta<x<\\theta\\\\ &0,& 其他 \\end{aligned}\\right. \\) ，其中 \\( \\theta>0 \\) 为未知参数. \\( X_{1} \\) ， \\( X_{2},\\cdots,X_{n} \\) 是来自总体X的简单随机样本\n(I) 求 \\(\\theta^2\\) 矩估计量 \\(\\hat{\\theta}_1^2\\) 与最大似然估计量 \\(\\hat{\\theta}_2^2\\);\n(II) 求  \\( E\\left(\\hat{\\theta}_{1}^{2}\\right) \\)  与  \\( E\\left(\\hat{\\theta}_{2}^{2}\\right) \\) .",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(I) \\(\\hat{\\theta}_1^2 = \\frac{2}{n}\\sum_{i=1}^{n} X_i^2\\)，\\(\\hat{\\theta}_2^2 = \\max\\left\\{X_1^2, X_2^2, ..., X_n^2\\right\\}\\)；(II) \\(E\\left(\\hat{\\theta}_1^2\\right) = \\theta^2\\)，\\(E\\left(\\hat{\\theta}_2^2\\right) = \\frac{n}{n+1}\\theta^2\\)",
+        "analysis_md": "(I) \\( E\\left(X^{2}\\right)=\\int_{-\\infty}^{+\\infty}x^{2}f(x)dx=\\int_{-\\theta^{\\prime}}^{\\theta}x^{2}\\frac{|x|}{\\theta^{\\prime2}}dx=\\frac{2}{\\theta^{\\prime2}}\\int_{0}^{\\theta}x^{3}dx=\\frac{\\theta^{2}}{2} \\) ，解得 \\( \\theta^{2}=2E\\left(X^{2}\\right) \\) ，则 \\( \\alpha \\) 的矩估计量 \\( \\hat{\\theta}_{1}^{2}=\\frac{2}{n}\\sum_{i=1}^{n}X_{i}^{2} \\) 设 \\( x_{1},x_{2},\\ldots,x_{n} \\) 为 \\( X_{1},X_{2},\\ldots,X_{n} \\) 的观测值，易知 \\( -\\theta\\leq x_{i}\\leq\\theta,i=1,2,\\ldots,n \\) ，则似然函数：\n\\[\nL = \\prod_ {i = 1} ^ {n} f (x _ {i}) = \\prod_ {i = 1} ^ {n} \\frac {| x _ {i} |}{\\theta^ {2}} = \\frac {1}{(\\theta^ {2}) ^ {n}} \\prod_ {i = 1} ^ {n} | x _ {i} |.\n\\]\n不难看出 \\(L\\) 关于 \\(\\theta^2\\) 是单调递减的，则要使得 \\(L\\) 最大，\\(\\theta^2\\) 应取其可能的最小值.\n由于 \\(-\\theta \\leq x_{i} \\leq \\theta, i = 1,2,\\dots,n\\)，可知 \\(|x_{i}| \\leq \\theta, i = 1,2,\\dots,n\\)，也即 \\(x_{i}^{2} \\leq \\theta^{2}, i = 1,2,\\dots,n\\)。可知 \\(\\theta^{2}\\) 可能的最小值为 \\(\\max \\left\\{x_{1}^{2}, x_{2}^{2}, \\dots, x_{n}^{2}\\right\\}\\)，这就是 \\(\\theta^{2}\\) 的最大似然估计值，进而可得 \\(\\theta^{2}\\) 的最大似然估计量 \\(\\hat{\\theta}_{2}^{2} = \\max \\left\\{X_{1}^{2}, X_{2}^{2}, \\dots, X_{n}^{2}\\right\\}\\)。\n（II） \\(E\\left(\\hat{\\theta}_1^2\\right) = E\\left(\\frac{2}{n}\\sum_{i = 1}^{n}X_i^2\\right) = \\frac{2}{n} E\\left(\\sum_{i = 1}^{n}X_i^2\\right) = \\frac{2}{n}\\sum_{i = 1}^{n}E\\left(X_i^2\\right) = 2E\\left(X^2\\right)\\) ，由（I）中计算过程可知， \\(E\\left(X^{2}\\right) = \\frac{\\theta^{2}}{2}\\) ，则\\(E\\left(\\hat{\\theta}_1^2\\right) = \\theta^2\\)\n设 \\(F_{\\theta^2}(x)\\) 和 \\(f_{\\theta^2}(x)\\) 分别为 \\(\\hat{\\theta}_2^2\\) 的分布函数和概率密度，由于 \\(X_{i}\\in [-\\theta ,\\theta ]\\) ，可知 \\(\\hat{\\theta}_2^2 = \\max \\left\\{X_1^2,X_2^2,\\dots,X_n^2\\right\\} \\in [0,\\theta^2]\\) ，则当 \\(x\\leq 0\\) 或 \\(x\\geq \\theta^2\\) 时， \\(f_{\\theta^2}(x) = 0\\)\n当 \\(0 < x < \\theta^2\\) 时，由分布函数的定义可知\n\\[\n\\begin{array}{l} F _ {\\theta^ {2}} (x) = P \\left\\{\\hat {\\theta} _ {2} ^ {2} \\leq x \\right\\} = P \\left\\{\\max \\left\\{X _ {1} ^ {2}, X _ {2} ^ {2}, \\dots , X _ {n} ^ {2} \\right\\} \\leq x \\right\\} \\\\ = P \\left\\{X _ {1} ^ {2} \\leq x, X _ {2} ^ {2} \\leq x, \\dots , X _ {n} ^ {2} \\leq x \\right\\} = \\prod_ {i = 1} ^ {n} P \\left\\{X _ {i} ^ {2} \\leq x \\right\\} = \\left(P \\left\\{X ^ {2} \\leq x \\right\\}\\right) ^ {n} \\\\ = \\left(P \\left\\{- \\sqrt {x} \\leq X \\leq \\sqrt {x} \\right\\}\\right) ^ {n} = \\left(\\int_ {- \\sqrt {x}} ^ {\\sqrt {x}} \\frac {| t |}{\\theta^ {2}} d t\\right) ^ {n} = \\left(\\frac {x}{\\theta^ {2}}\\right) ^ {n} = \\frac {x ^ {n}}{\\theta^ {2 n}}. \\\\ \\end{array}\n\\]\n求导可得，当 \\(0 < x < \\theta^2\\) 时，\\(f_{\\theta^2}(x) = \\frac{nx^{n-1}}{\\theta^{2n}}\\)。\n从而， \\(f_{\\theta^2}(x) = \\left\\{ \\begin{array}{ll}\\frac{nx^{n - 1}}{\\theta^{2n}}, & 0 <   x <   \\theta^2,\\\\ 0,\\text{其他}. \\end{array} \\right.\\) 进而有 \\(E\\left(\\hat{\\theta}_2^2\\right) = \\int_{-\\infty}^{+\\infty}xf_{\\theta^2}(x)dx = \\int_0^{\\theta^2}\\frac{nx^n}{\\theta^{2n}} dx = \\frac{n}{n + 1}\\theta^2.\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    }
+  ]
+}

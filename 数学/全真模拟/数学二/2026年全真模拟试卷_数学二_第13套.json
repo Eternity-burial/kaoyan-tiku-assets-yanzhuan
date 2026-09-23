@@ -1,0 +1,528 @@
+{
+  "paper": {
+    "id": 33,
+    "subject": "数学二",
+    "examYear": 2026,
+    "seqNo": 13,
+    "title": "26模拟卷 · 数学二 · 第13套",
+    "intro": null,
+    "fullScore": 150,
+    "minutes": 180,
+    "questionCount": 22,
+    "doneCount": 0
+  },
+  "questions": [
+    {
+      "id": 2000033001,
+      "paperId": 33,
+      "seq": 1,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(\\alpha(x) = x^{x} - x^{\\mathrm{e}}, \\beta(x) = \\mathrm{e}^{x} - \\mathrm{e}^{\\mathrm{e}}\\), 则当 \\(x \\to \\mathrm{e}\\) 时, 有 ( )",
+      "options": {
+        "A": "\\(\\alpha(x)\\) 是 \\(\\beta(x)\\) 的高阶无穷小.",
+        "B": "\\(\\beta (x)\\) 是 \\(\\alpha (x)\\) 的高阶无穷小.",
+        "C": "\\(\\alpha(x)\\) 与 \\(\\beta(x)\\) 是等价无穷小.",
+        "D": "\\(\\alpha(x)\\) 是 \\(\\beta(x)\\) 的同阶但非等价无穷小."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "当 \\(x \\to \\mathrm{e}\\) 时，\n\\[\n\\alpha (x) = x ^ {x} - x ^ {\\mathrm{e}} = \\mathrm{e} ^ {x \\ln x} - \\mathrm{e} ^ {\\mathrm{e} \\ln x} = \\mathrm{e} ^ {\\mathrm{e} \\ln x} \\left(\\mathrm{e} ^ {x \\ln x - \\mathrm{e} \\ln x} - 1\\right) \\sim \\mathrm{e} ^ {\\mathrm{e}} \\left(x \\ln x - \\mathrm{e} \\ln x\\right) \\sim \\mathrm{e} ^ {\\mathrm{e}} (x - \\mathrm{e}),\n\\]\n\\[\n\\beta (x) = \\mathrm{e} ^ {x} - \\mathrm{e} ^ {\\mathrm{e}} = \\mathrm{e} ^ {\\mathrm{e}} \\left(\\mathrm{e} ^ {x - \\mathrm{e}} - 1\\right) \\sim \\mathrm{e} ^ {\\mathrm{e}} (x - \\mathrm{e}).\n\\]\n故 \\(\\alpha(x)\\) 与 \\(\\beta(x)\\) 是等价无穷小, 应选 C 选项.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033002,
+      "paperId": 33,
+      "seq": 2,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x) = \\begin{cases} \\sin x, & 0 \\leqslant x \\leqslant \\frac{\\pi}{2}, \\\\ 0, & x > \\frac{\\pi}{2}, \\end{cases} F(x) = \\int_{0}^{x} (x - t)f(t)dt \\)，则（）",
+      "options": {
+        "A": "\\(x = \\frac{\\pi}{2}\\) 是函数 \\(F(x)\\) 的跳跃间断点.",
+        "B": "\\(x = \\frac{\\pi}{2}\\) 是函数 \\(F(x)\\) 的可去间断点.",
+        "C": "\\(F(x)\\) 在 \\(x = \\frac{\\pi}{2}\\) 处连续但不可导.",
+        "D": "\\(F(x)\\) 在 \\(x = \\frac{\\pi}{2}\\) 处可导."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "当 \\(0 \\leqslant x \\leqslant \\frac{\\pi}{2}\\) 时，\n\\[\n\\begin{array}{l} F (x) = \\int_ {0} ^ {x} (x - t) \\sin t \\mathrm{d} t = x \\int_ {0} ^ {x} \\sin t \\mathrm{d} t - \\int_ {0} ^ {x} t \\sin t \\mathrm{d} t \\\\ = x (- \\cos t) \\Big | _ {0} ^ {x} + \\int_ {0} ^ {x} t \\mathrm{d} (\\cos t) \\\\ = x - x \\cos x + t \\cos t \\Big | _ {0} ^ {x} - \\int_ {0} ^ {x} \\cos t d t \\\\ = x - \\sin x. \\\\ \\end{array}\n\\]\n当 \\(x > \\frac{\\pi}{2}\\) 时，\n\\[\nF (x) = \\int_ {0} ^ {\\frac {\\pi}{2}} (x - t) \\sin t \\mathrm{d} t + \\int_ {0} ^ {x} (x - t) \\cdot 0 \\mathrm{d} t = x - 1.\n\\]\n故 \\(F(x) = \\left\\{ \\begin{array}{ll}x - \\sin x, & 0\\leqslant x\\leqslant \\frac{\\pi}{2},\\\\ x - 1, & x > \\frac{\\pi}{2}. \\end{array} \\right.\\)\n因为\n\\[\n\\lim _ {x \\rightarrow \\frac {\\pi}{2} ^ {-}} F (x) = \\frac {\\pi}{2} - \\sin \\frac {\\pi}{2} = \\frac {\\pi}{2} - 1, \\lim _ {x \\rightarrow \\frac {\\pi}{2} ^ {+}} F (x) = \\frac {\\pi}{2} - 1.\n\\]\n且 \\(F\\left(\\frac{\\pi}{2}\\right) = \\frac{\\pi}{2} - 1\\)，所以 \\(F(x)\\) 在 \\(x = \\frac{\\pi}{2}\\) 处连续.\n而\n\\[\nF _ {-} ^ {\\prime} \\left(\\frac {\\pi}{2}\\right) = \\lim _ {x \\rightarrow \\frac {\\pi}{2} ^ {-}} \\frac {F (x) - F \\left(\\frac {\\pi}{2}\\right)}{x - \\frac {\\pi}{2}} = \\lim _ {x \\rightarrow \\frac {\\pi}{2} ^ {-}} \\frac {x - \\sin x - \\frac {\\pi}{2} + 1}{x - \\frac {\\pi}{2} ^ {-}} \\stackrel {\\text {洛}} {=} \\lim _ {x \\rightarrow \\frac {\\pi}{2} ^ {-}} \\frac {1 - \\cos x}{1} = 1,\n\\]\n\\[\nF _ {+} ^ {\\prime} \\left(\\frac {\\pi}{2}\\right) = \\lim _ {x \\rightarrow \\frac {\\pi}{2} ^ {+}} \\frac {F (x) - F \\left(\\frac {\\pi}{2}\\right)}{x - \\frac {\\pi}{2}} = \\lim _ {x \\rightarrow \\frac {\\pi}{2} ^ {+}} \\frac {x - 1 - \\frac {\\pi}{2} + 1}{x - \\frac {\\pi}{2}} = 1,\n\\]\n所以 \\(F^{\\prime}\\left(\\frac{\\pi}{2}\\right), F_{+}^{\\prime}\\left(\\frac{\\pi}{2}\\right)\\) 存在且相等，从而 \\(F^{\\prime}(0)\\) 存在且 \\(F^{\\prime}(0) = 1\\).\n综上所述,本题选D.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033003,
+      "paperId": 33,
+      "seq": 3,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "若方程 \\(ae^x = 1 + x + \\frac{x^2}{2}\\) 恰有一个实根, 则 \\(a\\) 的取值范围是 ( )",
+      "options": {
+        "A": "\\(a \\leqslant 1\\).",
+        "B": "\\(a = 1\\).",
+        "C": "\\(0 < a < 1\\).",
+        "D": "\\(a > 0\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "问题等价于 \\(a = \\mathrm{e}^{-x}\\left(1 + x + \\frac{x^2}{2}\\right)\\) 恰有一个实根. 令 \\(f(x) = \\mathrm{e}^{-x}\\left(1 + x + \\frac{x^2}{2}\\right)\\), 则\n\\[\nf ^ {\\prime} (x) = - \\frac {x ^ {2}}{2} \\mathrm{e} ^ {- x} \\leqslant 0,\n\\]\n即 \\(f(x)\\) 在 \\((- \\infty, + \\infty)\\) 上单调递减.又因为\n\\[\n\\lim _ {x \\rightarrow - \\infty} f (x) = + \\infty , \\lim _ {x \\rightarrow + \\infty} f (x) = 0,\n\\]\n故 \\(a > 0\\) 时，直线 \\(y = a\\) 与曲线 \\(y = f(x)\\) 恰有一个交点，即方程 \\(ae^{x} = 1 + x + \\frac{x^{2}}{2}\\) 恰有一个实根，故选D.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033004,
+      "paperId": 33,
+      "seq": 4,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x, y) \\) 连续, 记累次积分 \\( \\int_{1}^{2} dx \\int_{\\sqrt{x}}^{x} f(x, y) \\, \\mathrm{d}y + \\int_{2}^{4} dx \\int_{\\sqrt{x}}^{2} f(x, y) \\, \\mathrm{d}y \\) 对应的二重积分的积分区域为 \\( D \\), 则区域 \\( D \\) 绕 \\( y \\) 轴旋转一周所得的旋转体体积为 ( )",
+      "options": {
+        "A": "\\(\\frac{58}{15}\\pi.\\)",
+        "B": "\\(\\frac{31}{30}\\pi.\\)",
+        "C": "\\(\\frac{5}{6}\\pi\\).",
+        "D": "\\(\\frac{17}{6}\\pi.\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "由题知,区域D可以描述为 \\( D=\\{(x,y)\\mid1\\leqslant y\\leqslant2,y\\leqslant x\\leqslant y^{2}\\} \\) ，如下图所示：\n![](/uploads/books/5b6cf5d16a41e269de0940e15f874fbdddc214b8cfe2f99b1d6aa81e92d20e62.jpg)\n故所求旋转体体积为\n\\[\nV = \\pi \\int_ {1} ^ {2} [ (y ^ {2}) ^ {2} - y ^ {2} ] \\mathrm{d} y = \\pi \\int_ {1} ^ {2} (y ^ {4} - y ^ {2}) \\mathrm{d} y = \\pi \\left(\\frac {y ^ {5}}{5} - \\frac {y ^ {3}}{3}\\right) \\Big | _ {1} ^ {2} = \\frac {5 8}{1 5} \\pi ,\n\\]\n所以应选 A 选项.\n-16",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033005,
+      "paperId": 33,
+      "seq": 5,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x, y) \\) 在 \\((0, 0)\\) 处连续，且 \\(\\lim_{(x, y) \\to (0, 0)} \\frac{f(x, y) - xy}{x^2 + y^2} = 1\\)，则 \\( f(x, y) \\) ( )",
+      "options": {
+        "A": "在点 \\((0,0)\\) 处可微，且 \\((0,0)\\) 为极大值点.",
+        "B": "在点 \\((0,0)\\) 处可微，且 \\((0,0)\\) 为极小值点.",
+        "C": "在点 \\((0,0)\\) 处不可微，且 \\((0,0)\\) 不是极值点.",
+        "D": "在点 \\((0,0)\\) 处不可微，但 \\((0,0)\\) 是极值点."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "由  \\( \\lim_{(x,y)\\to(0,0)}\\frac{f(x,y)-xy}{x^{2}+y^{2}}=1 \\)  , 得\n\\[\nf (x, y) = x y + x ^ {2} + y ^ {2} + \\alpha \\cdot (x ^ {2} + y ^ {2}),\n\\]\n其中  \\( \\lim_{(x,y)\\to(0,0)}\\alpha=0. \\)\n因为 \\(f(x,y)\\) 在 \\((0,0)\\) 处连续，故 \\(f(0,0) = \\lim_{(x,y)\\to (0,0)}f(x,y) = 0.\\)\n从而\n\\[\nf _ {x} ^ {\\prime} (0, 0) = \\lim _ {x \\rightarrow 0} \\frac {f (x , 0) - f (0 , 0)}{x - 0} = \\lim _ {x \\rightarrow 0} \\frac {x ^ {2} + o (x ^ {2})}{x} = 0,\n\\]\n同理可得 \\(f_{y}^{\\prime}(0,0) = 0.\\)\n故\n\\[\n\\begin{array}{l} \\lim _ {(x, y) \\rightarrow (0, 0)} \\frac {f (x , y) - f (0 , 0) - f _ {x} ^ {\\prime} (0 , 0) x - f _ {y} ^ {\\prime} (0 , 0) y}{\\sqrt {x ^ {2} + y ^ {2}}} \\\\ = \\lim _ {(x, y) \\rightarrow (0, 0)} \\frac {x y + x ^ {2} + y ^ {2} + \\alpha \\cdot (x ^ {2} + y ^ {2})}{\\sqrt {x ^ {2} + y ^ {2}}} \\\\ = \\lim _ {(x, y) \\rightarrow (0, 0)} \\frac {x y}{\\sqrt {x ^ {2} + y ^ {2}}}, \\\\ \\end{array}\n\\]\n由于 \\(0 \\leqslant \\frac{|xy|}{\\sqrt{x^2 + y^2}} \\leqslant \\frac{\\sqrt{x^2 + y^2}}{2}\\), 故由夹逼准则知 \\(\\lim_{(x,y) \\to (0,0)} \\frac{xy}{\\sqrt{x^2 + y^2}} = 0\\), 所以 \\(f(x,y)\\) 在 \\((0,0)\\) 处可微.\n又\n\\[\nf (x, y) = x y + x ^ {2} + y ^ {2} + \\alpha (x ^ {2} + y ^ {2}) = \\frac {(x + y) ^ {2}}{2} + (\\frac {1}{2} + \\alpha) (x ^ {2} + y ^ {2}),\n\\]\n由于 \\(\\lim_{(x,y)\\to (0,0)}\\alpha = 0\\) ，所以存在点 \\((0,0)\\) 的去心邻域 \\(U_{\\delta}(0)\\) ，当 \\((x,y)\\in U_{\\delta}(0)\\) 时， \\(\\left|\\alpha \\right| < \\frac{1}{2}\\) ，故在 \\(U_{\\delta}(0)\\) 内， \\(f(x,y) > 0 = f(0,0)\\) .所以 \\((0,0)\\) 为 \\(f(x,y)\\) 的极小值点.综上所述，应选B.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033006,
+      "paperId": 33,
+      "seq": 6,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "下列反常积分收敛的是",
+      "options": {
+        "A": "\\(\\int_{-1}^{1}\\frac{\\mathrm{d}x}{\\arcsin x}\\).",
+        "B": "\\(\\int_{-1}^{1}\\frac{\\mathrm{d}x}{\\arccos x}\\).",
+        "C": "\\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{\\ln\\sin x}\\).",
+        "D": "\\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{\\ln\\cos x}.\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "对于 A 选项, x=0 是瑕点, 将反常积分拆为两部分\n\\[\n\\int_ {- 1} ^ {1} \\frac {\\mathrm{d} x}{\\arcsin x} = \\int_ {- 1} ^ {0} \\frac {\\mathrm{d} x}{\\arcsin x} + \\int_ {0} ^ {1} \\frac {\\mathrm{d} x}{\\arcsin x} \\xlongequal {\\text {记作}} I _ {1} + I _ {2}.\n\\]\n当 \\(x \\to 0^{+}\\) 时 \\(\\arcsin x \\sim x\\)，所以 \\(I_{1}\\) 与 \\(\\int_{-1}^{0} \\frac{\\mathrm{d}x}{x}\\) 同敛散，于是 \\(I_{1}\\) 发散，同理 \\(I_{2}\\) 也发散，故 \\(\\int_{-1}^{1} \\frac{\\mathrm{d}x}{\\arcsin x}\\) 发散.\n对于 B 选项, 令 x = cost, 则\n\\[\n\\int_ {- 1} ^ {1} \\frac {\\mathrm{d} x}{\\arccos x} = \\int_ {\\pi} ^ {0} \\frac {\\mathrm{d} (\\cos t)}{t} = \\int_ {0} ^ {\\pi} \\frac {\\sin t \\mathrm{d} t}{t},\n\\]\n由于 \\(\\lim_{t\\to 0}\\frac{\\sin t}{t} = 1\\) ，故 \\(t = 0\\) 不是 \\(\\int_0^\\pi \\frac{\\sin t\\mathrm{d}t}{t}\\) 的瑕点，这是一个定积分，即 \\(\\int_{-1}^{1}\\frac{\\mathrm{d}x}{\\arccos x}\\) 收敛.\n对于 C 选项, \\(x = \\frac{\\pi}{2}\\) 是瑕点, 当 \\(x \\to \\frac{\\pi}{2}^{-}\\) 时, \\(\\ln \\sin x \\sim \\sin x - 1 \\sim x - \\frac{\\pi}{2}\\), 所以\n\\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{\\ln\\sin x}\\) 与 \\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{x - \\frac{\\pi}{2}}\\) 同敛散，故 \\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{\\ln\\sin x}\\) 发散.\n对于D选项， \\(x = 0\\) 是瑕点，当 \\(x\\to 0^{+}\\) 时， \\(\\ln \\cos x\\sim \\cos x - 1\\sim -\\frac{x^2}{2}\\) 所以 \\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{\\ln\\cos x}\\) 与 \\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{x^2}\\) 同敛散，故 \\(\\int_0^{\\frac{\\pi}{2}}\\frac{\\mathrm{d}x}{\\ln\\cos x}\\) 发散.\n综上所述,本题选 B.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033007,
+      "paperId": 33,
+      "seq": 7,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "下列说法正确的个数是 ( )\n①若 \\(\\lim_{x\\to 0}f(x) = 0\\) ，则 \\(\\lim_{x\\to 0}f(x)\\sin \\frac{1}{x} = 0;\\)\n②若 \\(\\lim_{x\\to 0}f(x)\\sin \\frac{1}{x} = 0\\) ，则 \\(\\lim_{x\\to 0}f(x) = 0;\\)\n③若 \\(f(x)\\) 在 \\(x = 0\\) 的去心邻域内无界, 则 \\(f(x)\\sin \\frac{1}{x}\\) 在 \\(x = 0\\) 的去心邻域内无界;\n④若 \\(f(x)\\sin \\frac{1}{x}\\) 在 \\(x = 0\\) 的去心邻域内无界, 则 \\(f(x)\\) 在 \\(x = 0\\) 的去心邻域内无界.",
+      "options": {
+        "A": "1.",
+        "B": "2.",
+        "C": "3.",
+        "D": "4."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "由 \\(\\lim_{x\\to 0}f(x) = 0\\) 知 \\(f(x)\\) 是 \\(x\\to 0\\) 时的无穷小量，又 \\(\\left|\\sin \\frac{1}{x}\\right|\\leqslant 1\\) ，从而\n\\[\n\\lim _ {x \\to 0} f (x) \\sin \\frac {1}{x} = 0,\n\\]\n故①是真命题.\n对于命题②,取 \\( f(x)=\\left\\{\\begin{aligned}k,&\\quad x=\\frac{1}{k\\pi},\\\\ 0,&\\quad \\text{其他},\\end{aligned}\\right. \\) 其中k是非零整数,则\n(1) 当 \\(x = \\frac{1}{k\\pi}\\) 时, \\(f(x)\\sin \\frac{1}{x} = k\\sin (k\\pi) = 0\\);\n(2) 当 \\(x \\neq \\frac{1}{k\\pi}\\) 时, \\(f(x)\\sin \\frac{1}{x} = 0 \\cdot \\sin \\frac{1}{x} = 0\\).\n因此这个例子满足 \\(\\lim_{x\\to 0}f(x)\\sin \\frac{1}{x} = 0\\) ，但当 \\(x\\to 0\\) 时， \\(f(x)\\) 的值在0和 \\(k\\) 之间无限次跳跃，所以 \\(\\lim_{x\\to 0}f(x)\\) 不存在，故②是假命题.\n对于命题③,仍取 \\( f(x)=\\left\\{\\begin{aligned}&k,&x=\\frac{1}{k\\pi},\\\\ &0,& 其他,\\end{aligned}\\right. \\) 则 \\( f\\left(\\frac{1}{k\\pi}\\right)=k \\) ,当 \\( k\\to\\infty \\) 时, \\( f\\left(\\frac{1}{k\\pi}\\right)\\to\\infty \\) ,因此 \\( f(x) \\) 在x=0的去心邻域内无界,但 \\( f(x)\\sin\\frac{1}{x}\\equiv0 \\) ,故在x=0的去心邻域内 \\( f(x)\\sin\\frac{1}{x} \\) 是有界函数,③是假命题.\n对于命题④, 假设 \\(f(x)\\) 在 \\(x = 0\\) 的去心邻域内有界, 即存在 \\(M > 0\\), 使得 \\(\\left|f(x)\\right| \\leqslant M\\), 则\n\\[\n\\left| f (x) \\sin \\frac {1}{x} \\right| \\leqslant \\left| f (x) \\right| \\leqslant M,\n\\]\n即 \\(f(x)\\sin \\frac{1}{x}\\) 在 \\(x = 0\\) 的去心邻域内有界, 这与条件矛盾, 故假设不成立, 因此 \\(f(x)\\) 在 \\(x = 0\\) 的去心邻域内无界, ④是真命题.\n综上,所有真命题的序号是①④,应选B.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033008,
+      "paperId": 33,
+      "seq": 8,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(A, B, C\\) 为 \\(n\\) 阶方阵, 则下列说法错误的是 ( )",
+      "options": {
+        "A": "若 \\(ABx = 0\\) 的解都是 \\(Bx = 0\\) 的解, 则 \\(r(AB) = r(B)\\).",
+        "B": "若 \\(r(AB) = r(B)\\), 则 \\(ABx = 0\\) 的解都是 \\(Bx = 0\\) 的解.",
+        "C": "若 \\(r(AB) = r(B)\\), 则 \\(r(ABC) = r(BC)\\).",
+        "D": "若 \\(r(ABC) = r(BC)\\), 则 \\(r(AB) = r(B)\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "分析选项 A: 一方面, \\(ABx = 0\\) 的解都是 \\(Bx = 0\\) 的解; 另一方面, \\(Bx = 0\\) 的解也都是 \\(ABx = 0\\) 的解, 从而 \\(ABx = 0\\) 与 \\(Bx = 0\\) 同解, 所以 \\(r(AB) = r(B)\\), A 正确.\n分析选项 B: 因为  \\( r\\left(\\begin{array}{c}AB \\\\ B\\end{array}\\right)=r\\left(\\begin{array}{c}O \\\\ B\\end{array}\\right)=r(B) \\) ，又  \\( r(AB)=r(B) \\) ，故  \\( r(AB)=r(B)=r\\left(\\begin{array}{c}AB \\\\ B\\end{array}\\right) \\) ，从而 ABx=0 与 Bx=0 同解，故 ABx=0 的解都是 Bx=0 的解，B 正确.\n分析选项 C: 由选项 B 知, 若 \\(r(AB) = r(B)\\), 则 \\(ABx = 0\\) 与 \\(Bx = 0\\) 同解.\n对于齐次方程组 \\(ABCx = 0\\) 与 \\(BCx = 0\\), 设 \\(\\alpha\\) 是 \\(ABCx = 0\\) 的解, 即 \\(AB(C\\alpha) = 0\\), 则由 B 选项有 \\(B(C\\alpha) = 0\\), 故 \\(ABCx = 0\\) 的解都是 \\(BCx = 0\\) 的解; 而 \\(BCx = 0\\) 的解又都是 \\(ABCx = 0\\) 的解. 故 \\(ABCx = 0\\) 与 \\(BCx = 0\\) 同解, 从而 \\(r(ABC) = r(BC)\\), C 正确.\n分析选项 D: 取 A = C = O, B = E, 则  \\( r(ABC) = r(BC) = 0 \\) , 但  \\( r(AB) = 0 \\neq r(B) = n \\) , 故 D 错误.\n综上所述,本题选D.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033009,
+      "paperId": 33,
+      "seq": 9,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(A = (\\alpha_{1}, \\alpha_{2}, \\alpha_{3})\\) 是 3 阶实对称矩阵, \\(\\alpha_{11}\\) 的代数余子式 \\(A_{11} = 1, A^{*}\\) 为 \\(A\\) 的伴随矩阵. 若 \\(\\beta = (1, 0, 1)^{T}\\) 是 \\(Ax = 0\\) 的一个基础解系, 则 \\(A^{*}x = \\beta\\) 的通解为 ( )",
+      "options": {
+        "A": "\\(x = k_{1}\\alpha_{1} + k_{2}\\alpha_{3} + (1,0,1)^{T}\\), 其中 \\(k_{1}, k_{2}\\) 为任意常数.",
+        "B": "\\(x = k_{1}\\alpha_{2} + k_{2}\\alpha_{3} + (1,0,1)^{T}\\), 其中 \\(k_{1}, k_{2}\\) 为任意常数.",
+        "C": "\\(x = k_{1}\\alpha_{2} + k_{2}\\alpha_{3} + (1,0,0)^{T}\\), 其中 \\(k_{1}, k_{2}\\) 为任意常数.",
+        "D": "\\(x = k_{1}\\alpha_{1} + k_{2}\\alpha_{3} + (1,0,0)^{T}\\), 其中 \\(k_{1}, k_{2}\\) 为任意常数."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "由  \\( \\boldsymbol{\\beta}=(1,0,1)^{\\mathrm{T}} \\)  是 Ax=0 的一个基础解系知  \\( r(A)=2 \\) ，从而  \\( \\left|A\\right|=0, r(A^{*})=1 \\) 。又因  \\( A^{*}A=\\left|A\\right|E=O \\) ，故 A 的列向量  \\( \\alpha_{1},\\alpha_{2},\\alpha_{3} \\)  均是方程组  \\( A^{*}x=0 \\)  的解。由  \\( r(A)=2 \\)  知向量组  \\( \\alpha_{1},\\alpha_{2},\\alpha_{3} \\)  的秩也为 2，则其中 2 个线性无关的向量即为  \\( A^{*}x=0 \\)  的一个基础解系。\n而 \\(\\beta = (1,0,1)^{\\mathrm{T}}\\) 是 \\(Ax = 0\\) 的解，故 \\(A\\beta = \\alpha_{1} + \\alpha_{3} = 0\\) ，即 \\(\\alpha_{1},\\alpha_{3}\\) 线性相关，那么 \\(\\alpha_{2},\\alpha_{3}\\) 线性无关，从而 \\(\\alpha_{2},\\alpha_{3}\\) 是 \\(A^{*}x = 0\\) 的一个基础解系.\n另一方面,也有  \\( AA^{*}=\\left|A\\right|E=O \\) , 因此  \\( A^{*} \\)  的列向量也都是 Ax=0 的解. 又  \\( \\beta \\)  是 Ax=0 的一个基础解系, 从而  \\( A^{*} \\)  的列向量均可由  \\( \\beta \\)  线性表示, 即\n\\[\n\\boldsymbol {A} ^ {*} = \\left(l _ {1} \\boldsymbol {\\beta}, l _ {2} \\boldsymbol {\\beta}, l _ {3} \\boldsymbol {\\beta}\\right) = \\left( \\begin{array}{c c c} l _ {1} & l _ {2} & l _ {3} \\\\ 0 & 0 & 0 \\\\ l _ {1} & l _ {2} & l _ {3} \\end{array} \\right).\n\\]\n又 \\(\\left(A^{*}\\right)^{\\mathrm{T}} = \\left(A^{\\mathrm{T}}\\right)^{*} = A^{*}\\), 即 \\(A^{*}\\) 是对称矩阵, 因此 \\(A^{*} = \\begin{pmatrix} l_{1} & 0 & l_{1} \\\\ 0 & 0 & 0 \\\\ l_{1} & 0 & l_{1} \\end{pmatrix}\\), 结合 \\(A_{11} = l_{1} = 1\\) 得 \\(A^{*}\\)\n的表达式为 \\(A^{*} = \\begin{pmatrix} 1 & 0 & 1 \\\\ 0 & 0 & 0 \\\\ 1 & 0 & 1 \\end{pmatrix}\\), 从而易得 \\(A^{*}x = \\beta\\) 的一个特解为 \\((1,0,0)^{\\mathrm{T}}\\).\n综上所述, \\(A^{*}x = \\beta\\) 的通解为 \\(x = k_{1}\\alpha_{2} + k_{2}\\alpha_{3} + (1,0,0)^{\\mathrm{T}}\\), 其中 \\(k_{1}, k_{2}\\) 为任意常数, 选 C.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033010,
+      "paperId": 33,
+      "seq": 10,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设二次型 \\( f(x_{1}, x_{2}, x_{3}) \\) 在正交变换 \\( x = Qy \\) 下的标准形为 \\( 2y_{1}^{2} + y_{2}^{2} - y_{3}^{2} \\)，其中 \\( Q = (e_{1}, e_{2}, e_{3}) \\)，若 \\( P = (e_{1}, -2e_{3}, e_{2}) \\)，则 \\( f(x_{1}, x_{2}, x_{3}) \\) 在变换 \\( x = Py \\) 下的标准形为（）",
+      "options": {
+        "A": "\\(2y_{1}^{2} - 4y_{2}^{2} + y_{3}^{2}\\).",
+        "B": "\\(2y_{1}^{2} + 4y_{2}^{2} + y_{3}^{2}\\).",
+        "C": "\\(2y_{1}^{2} - y_{2}^{2} + y_{3}^{2}\\).",
+        "D": "\\(2y_{1}^{2} + y_{2}^{2} + y_{3}^{2}\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "设二次型 \\( f(x_{1},x_{2},x_{3}) \\) 对应的二次型矩阵为A,则由题知\n\\[\nQ ^ {\\mathrm{T}} A Q = \\left( \\begin{array}{c c c} 2 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & - 1 \\end{array} \\right).\n\\]\n又因为\n\\[\nP = \\left(e _ {1}, - 2 e _ {3}, e _ {2}\\right) = \\left(e _ {1}, e _ {2}, e _ {3}\\right) \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & - 2 & 0 \\end{array} \\right) = Q \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & - 2 & 0 \\end{array} \\right) \\xlongequal {\\text {记作}} Q C,\n\\]\n所以\n\\[\nP ^ {T} A P = C ^ {T} Q ^ {T} A Q C = \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 0 & - 2 \\\\ 0 & 1 & 0 \\end{array} \\right) \\left( \\begin{array}{c c c} 2 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & - 1 \\end{array} \\right) \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & - 2 & 0 \\end{array} \\right) = \\left( \\begin{array}{c c c} 2 & 0 & 0 \\\\ 0 & - 4 & 0 \\\\ 0 & 0 & 1 \\end{array} \\right).\n\\]\n即 \\(f(x_{1},x_{2},x_{3})\\) 在变换 \\(\\pmb {x} = \\pmb {Py}\\) 下的标准形为 \\(2y_{1}^{2} - 4y_{2}^{2} + y_{3}^{2}\\) ，故选A.\n二、填空题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033011,
+      "paperId": 33,
+      "seq": 11,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "若 \\(\\lim_{x \\to +\\infty} \\left[ (ax + b) \\cos \\frac{1}{\\sqrt{x}} - x \\right] = 2\\)，则 \\(a + b = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{7}{2}\\)",
+        "analysis_md": "由于 \\(\\lim_{x\\to +\\infty}b\\cos \\frac{1}{\\sqrt{x}} = b\\) ，因此\n\\[\n\\lim _ {x \\rightarrow + \\infty} \\left[ (a x + b) \\cos \\frac {1}{\\sqrt {x}} - x \\right] = \\lim _ {x \\rightarrow + \\infty} x \\left(a \\cos \\frac {1}{\\sqrt {x}} - 1\\right) + \\lim _ {x \\rightarrow + \\infty} b \\cos \\frac {1}{\\sqrt {x}} = 2,\n\\]\n即\n\\[\n\\lim _ {x \\rightarrow + \\infty} x \\left(a \\cos \\frac {1}{\\sqrt {x}} - 1\\right) = 2 - b,\n\\]\n所以 \\(\\lim_{x\\to +\\infty}\\left(a\\cos \\frac{1}{\\sqrt{x}} -1\\right) = a - 1 = 0\\) ，即 \\(a = 1.\\) 故\n\\[\n\\lim _ {x \\rightarrow + \\infty} x \\left(a \\cos \\frac {1}{\\sqrt {x}} - 1\\right) = \\lim _ {x \\rightarrow + \\infty} x \\left(\\cos \\frac {1}{\\sqrt {x}} - 1\\right) = \\lim _ {x \\rightarrow + \\infty} x \\cdot \\left(- \\frac {1}{2} \\frac {1}{x}\\right) = - \\frac {1}{2},\n\\]\n从而 \\(b = 2 - \\left(-\\frac{1}{2}\\right) = \\frac{5}{2}\\).\n故 \\(a + b = 1 + \\frac{5}{2} = \\frac{7}{2}\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033012,
+      "paperId": 33,
+      "seq": 12,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "\\( f(x)=\\frac{\\ln(1+x)}{1+x^{2026}} \\) ，则 \\( f^{(2026)}(0)= \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "-2025!",
+        "analysis_md": "由题意可知 \\(\\left(1 + x^{2026}\\right)f(x) = \\ln (1 + x)\\), 则由莱布尼茨公式和 \\(\\ln (1 + x)\\) 的高阶导公式可得\n\\[\n\\left(1 + x ^ {2 0 2 6}\\right) f ^ {(2 0 2 6)} (x) + C _ {2 0 2 6} ^ {1} \\left(2 0 2 6 x ^ {2 0 2 5}\\right) f ^ {(2 0 2 5)} (x) + \\dots + 2 0 2 6! f (x) = \\frac {(- 1) ^ {2 0 2 5} 2 0 2 5 !}{(1 + x) ^ {2 0 2 6}},\n\\]\n将 \\(x = 0\\) 代入上式, 得\n\\[\nf ^ {(2 0 2 6)} (0) + 2 0 2 6! f (0) = - 2 0 2 5!,\n\\]\n又 \\( f(0)=0 \\) ，故 \\( f^{(2026)}(0)=-2025! \\) .\n所以答案应填 -2025!.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033013,
+      "paperId": 33,
+      "seq": 13,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "曲线  \\( \\left\\{\\begin{aligned} x &= \\ln(1+t), \\\\ y - te^{y} &= 1 \\end{aligned}\\right. \\)  上对应于 t = 0 的点处的曲率为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{2\\mathrm{e}^2 + \\mathrm{e}}{(1 + \\mathrm{e}^2)^{\\frac{3}{2}}}\\)",
+        "analysis_md": "对应于 t=0 的点为  \\( (0,1) \\) .\n对 \\(y - t\\mathrm{e}^{y} = 1\\) 两边关于 \\(t\\) 求导得\n\\[\n\\frac {\\mathrm{d} y}{\\mathrm{d} t} - \\mathrm{e} ^ {y} - t \\mathrm{e} ^ {y} \\frac {\\mathrm{d} y}{\\mathrm{d} t} = 0,\n\\]\n解得即 \\(\\frac{\\mathrm{dy}}{\\mathrm{dt}} = \\frac{\\mathrm{e}^y}{1 - t\\mathrm{e}^y}\\). 故由参数方程求导法则可得\n\\[\n\\frac {\\mathrm{d} y}{\\mathrm{d} x} = \\frac {\\frac {\\mathrm{d} y}{\\mathrm{d} t}}{\\frac {\\mathrm{d} x}{\\mathrm{d} t}} = \\frac {\\frac {\\mathrm{e} ^ {y}}{1 - t \\mathrm{e} ^ {y}}}{\\frac {1}{1 + t}} = \\frac {\\mathrm{e} ^ {y} (1 + t)}{1 - t \\mathrm{e} ^ {y}},\n\\]\n所以 \\(\\frac{\\mathrm{dy}}{\\mathrm{dx}}\\bigg|_{t = 0} = \\mathrm{e}.\\) 而\n\\[\n\\begin{array}{l} \\frac {\\mathrm{d} ^ {2} y}{\\mathrm{d} x ^ {2}} = \\frac {\\mathrm{d}}{\\mathrm{d} x} \\left(\\frac {\\mathrm{d} y}{\\mathrm{d} x}\\right) = \\frac {\\mathrm{d}}{\\mathrm{d} t} \\left(\\frac {\\mathrm{d} y}{\\mathrm{d} x}\\right) \\cdot \\frac {1}{\\frac {\\mathrm{d} x}{\\mathrm{d} t}} \\\\ = \\frac {\\left[ \\mathrm{e} ^ {y} \\frac {\\mathrm{d} y}{\\mathrm{d} t} (1 + t) + \\mathrm{e} ^ {y} \\right] (1 - t \\mathrm{e} ^ {y}) - \\mathrm{e} ^ {y} (1 + t) (- \\mathrm{e} ^ {y} - t \\mathrm{e} ^ {y} \\frac {\\mathrm{d} y}{\\mathrm{d} t})}{(1 - t \\mathrm{e} ^ {y}) ^ {2}} \\\\ \\end{array}\n\\]\n所以 \\(\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\bigg|_{t = 0} = 2\\mathrm{e}^2 +\\mathrm{e}.\\)\n故曲率\n\\[\nK = \\frac {\\left| y ^ {\\prime \\prime} \\right|}{\\left[ 1 + (y ^ {\\prime}) ^ {2} \\right] ^ {\\frac {3}{2}}} \\Bigg | _ {t = 0} = \\frac {2 \\mathrm{e} ^ {2} + \\mathrm{e}}{\\left(1 + \\mathrm{e} ^ {2}\\right) ^ {\\frac {3}{2}}}.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033014,
+      "paperId": 33,
+      "seq": 14,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设连续函数 \\( f(x) \\) 满足 \\( x = f(x) + \\int_{0}^{\\pi - x} f(t) dt \\)，则 \\( f(x) = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\((\\pi + 1)(\\sin x - \\cos x) - 1\\)",
+        "analysis_md": "方程 \\(x = f(x) + \\int_{0}^{\\pi - x} f(t) \\mathrm{d}t\\) 两边同时对 \\(x\\) 求导得\n\\[\n1 = f ^ {\\prime} (x) - f (\\pi - x),\n\\]\n再次求导得\n\\[\n0 = f ^ {\\prime \\prime} (x) + f ^ {\\prime} (\\pi - x).\n\\]\n又由 \\(1 = f'(x) - f(\\pi - x)\\) 知 \\(f'(\\pi - x) = f(x) + 1\\). 从而\n\\[\nf ^ {\\prime \\prime} (x) + f (x) = - 1.\n\\]\n此二阶常系数非齐次微分方程对应的齐次方程的特征方程为 \\(\\lambda^2 + 1 = 0\\)，解得 \\(\\lambda = \\pm i\\)，故齐次方程的通解为\n\\[\nf _ {1} (x) = C _ {1} \\cos x + C _ {2} \\sin x,\n\\]\n其中 \\(C_1, C_2\\) 为任意常数.\n又易知 \\( f''(x) + f(x) = -1 \\) 的一个特解为 \\( f_{2}(x) = -1 \\)，故此非齐次微分方程通解为\n\\[\nf (x) = C _ {1} \\cos x + C _ {2} \\sin x - 1.\n\\]\n将 \\(x = \\pi\\) 代入题设方程得 \\(f(\\pi) = \\pi\\) ，故\n\\[\nf (\\pi) = - C _ {1} + 0 C _ {2} - 1 = - C _ {1} - 1 = \\pi ,\n\\]\n解得 \\(C_1 = -\\pi - 1\\).\n在 \\(1 = f^{\\prime}(x) - f(\\pi - x)\\) 中令 \\(x = 0\\) 得 \\(1 = f^{\\prime}(0) - f(\\pi) = f^{\\prime}(0) - \\pi\\), 故 \\(f^{\\prime}(0) = \\pi + 1\\). 又\n\\[\nf ^ {\\prime} (x) = - C _ {1} \\sin x + C _ {2} \\cos x,\n\\]\n所以 \\( f'(0) = C_2 = \\pi + 1 \\).\n将 \\(C_1, C_2\\) 代入通解整理得\n\\[\nf (x) = (\\pi + 1) (\\sin x - \\cos x) - 1.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033015,
+      "paperId": 33,
+      "seq": 15,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设连续函数 \\( f(x) \\) 满足 \\( f(2x) = 2f(x) \\)，且 \\( \\int_{0}^{1} xf(x) \\, \\mathrm{d}x = a \\)，则 \\( \\int_{1}^{2} xf(x) \\, \\mathrm{d}x = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "7a",
+        "analysis_md": "由 \\(f(2x) = 2f(x)\\) 及 \\(\\int_0^1 xf(x)\\mathrm{d}x = a\\) 知\n\\[\n2 a = 2 \\int_ {0} ^ {1} x f (x) \\mathrm{d} x = \\int_ {0} ^ {1} x f (2 x) \\mathrm{d} x \\stackrel {t = 2 x} {=} \\frac {1}{4} \\int_ {0} ^ {2} t f (t) \\mathrm{d} t,\n\\]\n即 \\(\\int_0^2 tf(t)\\mathrm{d}t = 8a.\\) 故\n\\[\n\\int_ {1} ^ {2} x f (x) \\mathrm{d} x = \\int_ {1} ^ {0} x f (x) \\mathrm{d} x + \\int_ {0} ^ {2} x f (x) \\mathrm{d} x = - a + 8 a = 7 a.\n\\]\n-23",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033016,
+      "paperId": 33,
+      "seq": 16,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "已知 \\(\\alpha_{1} = \\begin{pmatrix} a \\\\ 1 \\\\ 1 \\end{pmatrix}, \\alpha_{2} = \\begin{pmatrix} 1 \\\\ a \\\\ -1 \\end{pmatrix}, \\alpha_{3} = \\begin{pmatrix} 1 \\\\ -1 \\\\ a \\end{pmatrix}, \\alpha_{4} = \\begin{pmatrix} 1 \\\\ 1 \\\\ a \\end{pmatrix}\\), 若 \\(\\alpha_{1}, \\alpha_{2}, \\alpha_{3}\\) 线性相关, 而 \\(\\alpha_{2}, \\alpha_{3}, \\alpha_{4}\\) 线性无关, 则 \\(a = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "2",
+        "analysis_md": "因为  \\( \\alpha_{1}, \\alpha_{2}, \\alpha_{3} \\)  线性相关, 故\n\\[\n\\begin{array}{l} \\left| \\boldsymbol {\\alpha} _ {1}, \\boldsymbol {\\alpha} _ {2}, \\boldsymbol {\\alpha} _ {3} \\right| = \\left| \\begin{array}{c c c} a & 1 & 1 \\\\ 1 & a & - 1 \\\\ 1 & - 1 & a \\end{array} \\right| \\xlongequal {r _ {3} - r _ {2}} \\left| \\begin{array}{c c c} 0 & 1 - a ^ {2} & 1 + a \\\\ 1 & a & - 1 \\\\ 0 & - 1 - a & a + 1 \\end{array} \\right| \\\\ = - \\left| \\begin{array}{c c} 1 - a ^ {2} & 1 + a \\\\ - 1 - a & a + 1 \\end{array} \\right| = (a + 1) ^ {2} (a - 2) = 0, \\\\ \\end{array}\n\\]\n所以 a = -1 或 a = 2.\n又\n\\[\n\\left(\\boldsymbol {\\alpha} _ {2}, \\boldsymbol {\\alpha} _ {3}, \\boldsymbol {\\alpha} _ {4}\\right) = \\left( \\begin{array}{c c c} 1 & 1 & 1 \\\\ a & - 1 & 1 \\\\ - 1 & a & a \\end{array} \\right) \\xrightarrow [ r _ {2} - a r _ {1} ]{r _ {3} + r _ {1}} \\left( \\begin{array}{c c c} 1 & 1 & 1 \\\\ 0 & - 1 - a & 1 - a \\\\ 0 & a + 1 & a + 1 \\end{array} \\right)\n\\]\n\\[\n\\xrightarrow [ r _ {2} - r _ {2} ]{r _ {2} \\times (- 1)} \\left( \\begin{array}{c c c} 1 & 1 & 1 \\\\ 0 & 1 + a & a - 1 \\\\ 0 & 0 & 2 \\end{array} \\right),\n\\]\n则\n①当 \\(a = -1\\) 时，\\(r(\\alpha_2, \\alpha_3, \\alpha_4) = r\\begin{pmatrix} 1 & 1 & 1 \\\\ 0 & 0 & -2 \\\\ 0 & 0 & 2 \\end{pmatrix} = r\\begin{pmatrix} 1 & 1 & 1 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix} = 2\\)，此时 \\(\\alpha_2, \\alpha_3, \\alpha_4\\) 线性相关，不符合题意，故 \\(a \\neq -1\\)\n②当 \\(a = 2\\) 时，\\(r\\left(\\alpha_{2}, \\alpha_{3}, \\alpha_{4}\\right) = r\\left( \\begin{array}{ccc}1 & 1 & 1\\\\ 0 & 3 & 1\\\\ 0 & 0 & 2 \\end{array} \\right) = 3\\) ，符合题意.\n所以 \\(a = 2\\)\n三、解答题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033017,
+      "paperId": 33,
+      "seq": 17,
+      "type": "解答题",
+      "points": 10,
+      "difficulty": 3,
+      "stem": "设 \\(xOy\\) 坐标平面上, 连续曲线 \\(L\\) 过点 \\(A(1,0)\\), 其上任意点 \\(P(x,y)(x \\neq 0)\\) 处切线斜率与直线 \\(OP\\) 的斜率之差等于 \\(2x\\).\n(I) 求 \\(L\\) 的方程;\n(II) 当直线 \\( y = a\\left(x - \\frac{1}{2}\\right) \\) 所围成的平面图形的面积最小时, 求 \\( a \\) 的值.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(1) \\( y = 2x^{2} - 2x \\); (2) \\( a = 0 \\)",
+        "analysis_md": "(1)由题意, \\(L\\) 在 \\(P(x,y)\\) 处的切线斜率为 \\(y'\\), \\(OP\\) 的斜率为 \\(k = \\frac{y}{x}\\), 所以\n\\[\ny ^ {\\prime} - \\frac {y}{x} = 2 x,\n\\]\n根据一阶线性微分方程通解公式有\n\\[\ny = \\mathrm{e} ^ {- \\int \\frac {1}{x} \\mathrm{d} x} \\left[ \\int \\mathrm{e} ^ {\\int \\frac {1}{x} \\mathrm{d} x} 2 x \\mathrm{d} x + C \\right] = x (2 x + C),\n\\]\n代入 \\((1,0)\\), 解得 \\(C = -2\\), 故 \\(L\\) 的方程为\n\\[\ny = 2 x ^ {2} - 2 x.\n\\]\n(2)设直线与 \\(L\\) 的交点依次为 \\(P_{1}(x_{1},y_{1}), P_{2}(x_{2},y_{2})\\), 其位置关系如图所示:\n![](/uploads/books/1bcc75d8a35b0acde4259aa11dd659c66225b6b44c84fcd693cce363d0e1bb66.jpg)\n联立 \\(\\left\\{ \\begin{array}{l} y = a(x - \\frac{1}{2}) \\\\ y = 2x^2 - 2x \\end{array} \\right.\\) 有 \\(2x^{2} - 2x = a\\left(x - \\frac{1}{2}\\right)\\)，整理得\n\\[\n4 x ^ {2} - 2 (a + 2) x + a = 0,\n\\]\n由韦达定理得 \\(x_{1}, x_{2}\\) 的关系为 \\(\\left\\{ \\begin{array}{l} x_{1} + x_{2} = \\frac{a + 2}{2}, \\\\ x_{1}x_{2} = \\frac{a}{4}, \\end{array} \\right.\\) 从而\n\\[\nx _ {2} - x _ {1} = \\sqrt {\\left(x _ {1} + x _ {2}\\right) ^ {2} - 4 x _ {1} x _ {2}} = \\frac {\\sqrt {a ^ {2} + 4}}{2}.\n\\]\n则 \\(L\\) 与直线所围成图形的面积为\n\\[\n\\begin{array}{l} S (a) = \\int_ {x _ {1}} ^ {x _ {2}} \\left[ a \\left(x - \\frac {1}{2}\\right) - (2 x ^ {2} - 2 x) \\right] \\mathrm{d} x = \\left(- \\frac {2}{3} x ^ {3} + \\frac {a + 2}{2} x ^ {2} - \\frac {a}{2} x\\right) \\Bigg | _ {x _ {1}} ^ {x _ {2}} \\\\ = - \\frac {2}{3} \\left(x _ {2} ^ {3} - x _ {1} ^ {3}\\right) + \\frac {a + 2}{2} \\left(x _ {2} ^ {2} - x _ {1} ^ {2}\\right) - \\frac {a}{2} \\left(x _ {2} - x _ {1}\\right) \\\\ = \\left(x _ {2} - x _ {1}\\right) \\left[ - \\frac {2}{3} \\left(x _ {2} ^ {2} + x _ {1} x _ {2} + x _ {1} ^ {2}\\right) + \\frac {a + 2}{2} \\left(x _ {2} + x _ {1}\\right) - \\frac {a}{2} \\right] \\\\ = \\frac {\\sqrt {a ^ {2} + 4}}{2} \\left[ - \\frac {2}{3} \\cdot \\frac {(a + 2) ^ {2} - a}{4} + \\frac {a + 2}{2} \\cdot \\frac {a + 2}{2} - \\frac {a}{2} \\right] \\\\ = \\frac {\\left(a ^ {2} + 4\\right) ^ {\\frac {3}{2}}}{2 4}. \\\\ \\end{array}\n\\]\n由于 \\(\\left(a^{2} + 4\\right)^{\\frac{3}{2}}\\) 是关于 \\(a^2\\) 的增函数, 所以 \\(a^2\\) 取最小值时 \\(S(a)\\) 最小, 故 \\(a = 0\\) 即为所求.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033018,
+      "paperId": 33,
+      "seq": 18,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设定义在右半平面 \\( (x>0) \\) 的正值函数 \\( z(x,y) \\) 具有二阶连续偏导数,并且满足\n\\[\nz \\cdot \\frac {\\partial^ {2} z}{\\partial x \\partial y} = \\frac {\\partial z}{\\partial x} \\cdot \\frac {\\partial z}{\\partial y}, z (x, 0) = x e ^ {- \\frac {x ^ {2}}{2}}, z (1, y) = e ^ {- \\frac {1 + y ^ {2}}{2}}.\n\\]\n(I) 求  \\( z(x,y) \\)  的表达式;\n(II) 求  \\( z(x,y) \\)  的极值.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(1) \\(z(x,y) = x\\mathrm{e}^{-\\frac{x^2 + y^2}{2}}(x > 0)\\); (2) \\(z(x,y)\\) 有极大值 \\(z(1,0) = \\mathrm{e}^{-\\frac{1}{2}}\\), 无极小值",
+        "analysis_md": "(1)由于 \\(z > 0\\) ，因此由 \\(z\\cdot \\frac{\\partial^2z}{\\partial x\\partial y} = \\frac{\\partial z}{\\partial x}\\cdot \\frac{\\partial z}{\\partial y}\\) 得\n\\[\n\\frac {z \\cdot \\frac {\\partial^ {2} z}{\\partial x \\partial y} - \\frac {\\partial z}{\\partial x} \\cdot \\frac {\\partial z}{\\partial y}}{z ^ {2}} = 0,\n\\]\n即 \\(\\frac{\\partial}{\\partial y}\\left(\\frac{\\frac{\\partial z}{\\partial x}}{z}\\right) = 0\\) ，此方程两边关于 \\(y\\) 积分得\n\\[\n\\frac {\\frac {\\partial z}{\\partial x}}{z} = \\varphi (x),\n\\]\n即 \\(\\frac{\\partial(\\ln z)}{\\partial x} = \\varphi (x)\\) ，方程两边关于 \\(x\\) 积分得\n\\[\n\\ln z = \\int \\varphi (x) \\mathrm{d} x + g (y) \\stackrel {\\text {记作}} {=} f (x) + g (y),\n\\]\n因此\n\\[\nz (x, y) = \\mathrm{e} ^ {f (x) + g (y)} = \\mathrm{e} ^ {f (x)} \\cdot \\mathrm{e} ^ {g (y)} \\xlongequal {\\text {记作}} F (x) G (y).\n\\]\n由题意得\n\\[\nz (x, 0) = F (x) \\cdot G (0) = x \\mathrm{e} ^ {- \\frac {x ^ {2}}{2}}, z (1, y) = F (1) \\cdot G (y) = \\mathrm{e} ^ {- \\frac {1 + y ^ {2}}{2}},\n\\]\n所以\n\\[\nz (x, y) = F (x) G (y) = x \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2} - \\frac {1}{2}} \\cdot \\frac {1}{F (1) G (0)} \\stackrel {\\text {记作}} {=} C x \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2}},\n\\]\n再代入 \\(z(1,y) = \\mathrm{e}^{-\\frac{1 + y^2}{2}}\\) 解得 \\(C = 1\\) ，所以 \\(z(x,y)\\) 的表达式为\n\\[\nz (x, y) = x \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2}} (x > 0).\n\\]\n(2) 令\n\\[\n\\left\\{ \\begin{array}{l} \\frac {\\partial z}{\\partial x} = (1 - x ^ {2}) \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2}} = 0, \\\\ \\frac {\\partial z}{\\partial y} = - x y \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2}} = 0, \\end{array} \\right.\n\\]\n从第一个方程得 \\(x = \\pm 1\\) ，又 \\(x > 0\\) ，所以 \\(x = 1\\) ，代入第二个方程得 \\(y = 1\\) ，所以唯一可疑极值点为(1,0).\n又\n\\[\n\\frac {\\partial^ {2} z}{\\partial x ^ {2}} = x \\left(x ^ {2} - 3\\right) \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2}}, \\frac {\\partial^ {2} z}{\\partial x \\partial y} = - y \\left(1 - x ^ {2}\\right) \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2}}, \\frac {\\partial^ {2} z}{\\partial y ^ {2}} = x \\left(y ^ {2} - 1\\right) \\mathrm{e} ^ {- \\frac {x ^ {2} + y ^ {2}}{2}},\n\\]\n所以\n\\[\nA = \\left. \\frac {\\partial^ {2} z}{\\partial x ^ {2}} \\right| _ {(1, 0)} = - 2 \\mathrm{e} ^ {- \\frac {1}{2}}, B = \\left. \\frac {\\partial^ {2} z}{\\partial x \\partial y} \\right| _ {(1, 0)} = 0, C = \\left. \\frac {\\partial^ {2} z}{\\partial y ^ {2}} \\right| _ {(1, 0)} = - \\mathrm{e} ^ {- \\frac {1}{2}},\n\\]\n因为 \\(AC - B^{2} = 2\\mathrm{e}^{-1} > 0\\) 且 \\(A < 0\\), 所以 \\((1,0)\\) 是极大值点, 极大值为 \\(z(1,0) = \\mathrm{e}^{-\\frac{1}{2}}\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033019,
+      "paperId": 33,
+      "seq": 19,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设心形线 \\(r = 1 + \\cos \\theta\\) 与圆 \\(r = 2\\cos \\theta\\) 在 \\(\\theta \\in \\left[0, \\frac{\\pi}{2}\\right]\\) 范围内的部分与直线 \\(\\theta = \\frac{\\pi}{2}\\) 所围平面区域为 \\(D\\).\n(I) 求 D 的面积;\n(II) 求 D 绕 x 轴旋转一周所得旋转体的表面积.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(1) \\( 1-\\frac{\\pi}{8} \\) ;(2) \\( \\frac{57-4\\sqrt{2}}{5}\\pi. \\)",
+        "analysis_md": "(1)区域D如图所示:\n![](/uploads/books/dc4ea026a85ae28690079ecc60b6e05661ad0f0652f98b7e6aa27869827b7134.jpg)\n区域 \\(D\\) 的面积为\n\\[\n\\begin{array}{l} S _ {D} = \\frac {1}{2} \\int_ {0} ^ {\\frac {\\pi}{2}} \\left(1 + \\cos \\theta\\right) ^ {2} \\mathrm{d} \\theta - \\frac {1}{2} \\pi \\cdot 1 ^ {2} \\\\ = \\frac {1}{2} \\int_ {0} ^ {\\frac {\\pi}{2}} \\mathrm{d} \\theta + \\int_ {0} ^ {\\frac {\\pi}{2}} \\cos \\theta \\mathrm{d} \\theta + \\frac {1}{2} \\int_ {0} ^ {\\frac {\\pi}{2}} \\cos^ {2} \\theta \\mathrm{d} \\theta - \\frac {\\pi}{2} \\\\ = \\frac {1}{2} \\cdot \\frac {\\pi}{2} + 1 + \\frac {1}{2} \\cdot \\frac {1}{2} \\cdot \\frac {\\pi}{2} - \\frac {\\pi}{2} \\\\ = 1 - \\frac {\\pi}{8}. \\\\ \\end{array}\n\\]\n(2)该旋转体表面积由心形线、圆旋转而成的侧面积和底面积三部分组成,分别记作 \\( S_{1},S_{2},S_{3} \\) ,则\n\\[\n\\begin{array}{l} S _ {1} = \\int_ {0} ^ {\\frac {\\pi}{2}} 2 \\pi r \\sin \\theta \\sqrt {r _ {1} ^ {2} (\\theta) + r _ {1} ^ {\\prime 2} (\\theta)} \\mathrm{d} \\theta \\\\ = 2 \\pi \\int_ {0} ^ {\\frac {\\pi}{2}} (1 + \\cos \\theta) \\sin \\theta \\sqrt {(1 + \\cos \\theta) ^ {2} + (- \\sin \\theta) ^ {2}} d \\theta \\\\ = 2 \\pi \\int_ {0} ^ {\\frac {\\pi}{2}} (1 + \\cos \\theta) \\sin \\theta \\sqrt {2 + 2 \\cos \\theta} d \\theta \\\\ \\xlongequal {u = \\cos \\theta} 2 \\sqrt {2} \\pi \\int_ {0} ^ {1} (1 + u) ^ {\\frac {3}{2}} \\mathrm{d} u \\\\ = 2 \\sqrt {2} \\pi \\cdot \\frac {2}{5} (1 + u) ^ {\\frac {5}{2}} \\Bigg | _ {0} ^ {1} \\\\ = \\frac {4 (8 - \\sqrt {2}) \\pi}{5}, \\\\ \\end{array}\n\\]\n同时 \\(S_{2} = 4\\pi \\cdot 1^{2} = 4\\pi, S_{3} = \\pi \\cdot 1^{2} = \\pi\\)，所以旋转体的表面积为\n\\[\nS = S _ {1} + S _ {2} + S _ {3} = \\frac {4 (8 - \\sqrt {2}) \\pi}{5} + 4 \\pi + \\pi = \\frac {5 7 - 4 \\sqrt {2}}{5} \\pi .\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033020,
+      "paperId": 33,
+      "seq": 20,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设区域 \\(D = \\{(x,y)\\mid 0\\leqslant x\\leqslant 2,0\\leqslant y\\leqslant 1\\}\\) ，其中 \\(\\left[(x - 1)^2 +y^2\\right]\\) 表示不超过 \\((x - 1)^2 +y^2\\) 的最大整数，求\\(\\iint_{D}(x + y)^{2}\\left[(x - 1)^{2} + y^{2}\\right]\\mathrm{d}x\\mathrm{d}y.\\)",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\( 4-\\frac{3}{4}\\pi. \\)",
+        "analysis_md": "当 \\(0 \\leqslant (x - 1)^2 + y^2 < 1\\) 时，\\(\\left[(x - 1)^2 + y^2\\right] = 0\\)；当 \\(1 \\leqslant (x - 1)^2 + y^2 < 2\\) 时，\n\\(\\left[(x - 1)^2 + y^2\\right] = 1\\)；当 \\(\\left(x - 1\\right)^2 + y^2 \\geqslant 2\\) 时，\\(\\left[(x - 1)^2 + y^2\\right] = 1 = 2\\)，但值2仅在两个角点取得，对积分无贡献，可忽略。如图所示：\n![](/uploads/books/0446f6b890abc04037a612696d3d4e9e47c4f80a47c22584011264d2e4020f73.jpg)\n设 \\(D_{1} = \\left\\{(x,y)\\mid 0\\leqslant x\\leqslant 2,0\\leqslant y\\leqslant 1,1\\leqslant (x - 1)^{2} + y^{2} <   2\\right\\}\\) ，则\n\\[\n\\iint_ {D} (x + y) ^ {2} [ (x - 1) ^ {2} + y ^ {2} ] \\mathrm{d} x \\mathrm{d} y = \\iint_ {D _ {1}} (x + y) ^ {2} \\mathrm{d} x \\mathrm{d} y = \\iint_ {D} (x + y) ^ {2} \\mathrm{d} x \\mathrm{d} y - \\iint_ {D - D _ {1}} (x + y) ^ {2} \\mathrm{d} x \\mathrm{d} y.\n\\]\n而\n\\[\n\\iint_ {D} (x + y) ^ {2} \\mathrm{d} x \\mathrm{d} y = \\int_ {0} ^ {2} \\mathrm{d} x \\int_ {0} ^ {1} (x + y) ^ {2} \\mathrm{d} y = \\int_ {0} ^ {2} \\left[ \\frac {(x + y) ^ {3}}{3} \\right] \\Bigg | _ {0} ^ {1} \\mathrm{d} x = \\frac {1}{1 2} \\left[ (x + 1) ^ {4} - x ^ {4} \\right] \\Bigg | _ {0} ^ {2} = \\frac {1 6}{3}.\n\\]\n\\[\n\\begin{array}{l} \\iint_ {D - D _ {1}} (x + y) ^ {2} \\mathrm{d} x \\mathrm{d} y = \\frac {x = 1 + r \\cos \\theta}{y = r \\sin \\theta} \\int_ {0} ^ {\\pi} \\mathrm{d} \\theta \\int_ {0} ^ {1} \\left(1 + r \\cos \\theta + r \\sin \\theta\\right) ^ {2} r \\mathrm{d} r \\\\ = \\int_ {0} ^ {\\pi} \\left[ \\frac {3 + \\sin 2 \\theta}{4} + \\frac {2 (\\cos \\theta + \\sin \\theta)}{3} \\right] d \\theta \\\\ = \\left[ \\frac {3 \\theta}{4} - \\frac {\\cos 2 \\theta}{8} + \\frac {2 (\\sin \\theta - \\cos \\theta)}{3} \\right] \\Bigg | _ {0} ^ {\\pi} \\\\ = \\frac {3}{4} \\pi + \\frac {4}{3}. \\\\ \\end{array}\n\\]\n所以 \\(\\iint_{D} (x + y)^2 [(x - 1)^2 + y^2] \\mathrm{d}x \\mathrm{d}y = \\frac{16}{3} - \\left(\\frac{3}{4} \\pi + \\frac{4}{3}\\right) = 4 - \\frac{3}{4} \\pi.\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033021,
+      "paperId": 33,
+      "seq": 21,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x) \\) 在 \\([0, +\\infty)\\) 上二阶可导，且 \\( f(0) = 0, \\lim_{x \\to +\\infty} [f(x) + xf'(x)] = 1 \\). 证明：\n(I) 存在 \\(\\xi \\in (0, +\\infty)\\), 使得 \\(f(\\xi) - f'(\\xi) = 0\\);\n(II) 存在 \\(\\eta \\in (0, +\\infty)\\), 使得 \\(f(\\eta) - 2f'(\\eta) + f''(\\eta) = 0\\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1)因为 \\( f(x) \\) 在 \\( [0,+\\infty) \\) 上连续可导,故\n\\[\n\\lim _ {x \\rightarrow + \\infty} f (x) = \\lim _ {x \\rightarrow + \\infty} \\frac {x f (x)}{x} \\xlongequal {\\text {洛必达}} \\lim _ {x \\rightarrow + \\infty} \\frac {[ f (x) + x f ^ {\\prime} (x) ]}{1} = 1.\n\\]\n命 \\(g(x) = \\mathrm{e}^{-x}f(x)\\) ，则 \\(g(0) = 0,\\lim_{x\\to \\infty}g(x) = 0.\\)\n由于 \\(\\lim_{x\\to +\\infty}f(x) = 1\\) ，故 \\(g(x)\\) 不恒为0，不妨设存在 \\(x_0 > 0\\) ，使得 \\(f(x_0) > 0\\) ，则 \\(g(x_0) > 0.\\)\n由于 \\(\\lim_{x\\to +\\infty}g(x) = 0\\) ，故由保号性知，存在 \\(X > x_0\\) ，当 \\(x\\in (X, + \\infty)\\) 时， \\(g(x) <   g(x_0)\\) ，又\\(g(0) = 0\\) ，所以 \\(g(x)\\) 在 \\((0, + \\infty)\\) 上的最大值在 \\((0,X]\\) 上取得.假设在 \\(x = \\xi\\) 处取得，则由费马引理知 \\(g^{\\prime}(\\xi) = 0\\) ，即存在 \\(\\xi \\in (0, + \\infty)\\) ，使得\n\\[\ng ^ {\\prime} (\\xi) = \\mathrm{e} ^ {- \\xi} [ f (\\xi) - f ^ {\\prime} (\\xi) ] = 0,\n\\]\n即 \\(f(\\xi) - f'(\\xi) = 0.\\)\n(2)由(1)知， \\(\\lim_{x\\to +\\infty}f(x) = 1\\) ，从而\n\\[\n\\lim _ {x \\rightarrow + \\infty} x f ^ {\\prime} (x) = \\lim _ {x \\rightarrow + \\infty} [ f (x) + x f ^ {\\prime} (x) ] - \\lim _ {x \\rightarrow + \\infty} f (x) = 0,\n\\]\n则 \\(\\lim_{x\\to +\\infty}f'(x) = \\lim_{x\\to +\\infty}\\frac{xf'(x)}{x} = 0.\\)\n命 \\(\\varphi (x) = \\mathrm{e}^{-x}\\big[f(x) - f'(x)\\big]\\) ，则\n\\[\n\\lim _ {x \\rightarrow + \\infty} \\varphi (x) = \\lim _ {x \\rightarrow + \\infty} \\frac {f (x)}{\\mathrm{e} ^ {x}} - \\lim _ {x \\rightarrow + \\infty} \\frac {f ^ {\\prime} (x)}{\\mathrm{e} ^ {x}} = 0,\n\\]\n又由(1)知 \\(\\varphi (\\xi) = 0\\) ，所以 \\(\\varphi (\\xi) = \\lim_{x\\to +\\infty}\\varphi (x) = 0.\\)\n类似(1)的证明知 \\(\\varphi(x)\\) 的最值在 \\((\\xi, +\\infty)\\) 内取得, 故存在 \\(\\eta \\in (\\xi, +\\infty) \\subset (0, +\\infty)\\), 使得\n\\[\n\\varphi^ {\\prime} (\\eta) = \\mathrm{e} ^ {- \\eta} [ f (\\eta) - 2 f ^ {\\prime} (\\eta) + f ^ {\\prime \\prime} (\\eta) ] = 0,\n\\]\n即 \\(f(\\eta) - 2f'(\\eta) + f''(\\eta) = 0.\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000033022,
+      "paperId": 33,
+      "seq": 22,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设三阶实对称矩阵 A 的特征值为  \\( \\lambda_{1}=8,\\lambda_{2}=\\lambda_{3}=1,\\lambda_{1} \\)  的特征向量为  \\( \\xi_{1}=(1,1,1)^{T} \\) .\n(I) 求实对称矩阵 B, 使得  \\( A = B^{3} \\) ;\n(II) 求正交矩阵 Q, 使得  \\( Q^{T}AQ, Q^{T}BQ \\)  同时为对角矩阵;\n(III) 求  \\( \\max_{x\\neq0}\\frac{x^{T}Ax}{x^{T}Bx} \\) ，其中  \\( x=(x_{1},x_{2},x_{3})^{T} \\) .",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "(1) \\(B = \\begin{pmatrix} \\frac{4}{3} & \\frac{1}{3} & \\frac{1}{3} \\\\ \\frac{1}{3} & \\frac{4}{3} & \\frac{1}{3} \\\\ \\frac{1}{3} & \\frac{1}{3} & \\frac{4}{3} \\end{pmatrix}\\); (2) \\(Q = \\begin{pmatrix} \\frac{1}{\\sqrt{3}} & -\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{3}} & 0 & -\\frac{2}{\\sqrt{6}} \\end{pmatrix}\\); (3) \\(\\max_{x \\neq 0} \\frac{x^{\\mathrm{T}} A x}{x^{\\mathrm{T}} B x} = 4\\)",
+        "analysis_md": "(1)设特征值1对应的特征向量为 \\( x=(x_{1},x_{2},x_{3})^{\\mathrm{T}} \\) ，则由实对称矩阵不同特征值的特征向量相互正交知 \\( x^{T}\\xi_{1}=0 \\) ，即\n\\[\nx _ {1} + x _ {2} + x _ {3} = 0,\n\\]\n于是可取特征值1的两个线性无关的特征向量为\n\\[\n\\xi_ {2} = \\left(- 1, 1, 0\\right) ^ {\\mathrm{T}}, \\xi_ {3} = \\left(1, 1, - 2\\right) ^ {\\mathrm{T}}.\n\\]\n\\(\\xi_{1}, \\xi_{2}, \\xi_{3}\\) 已经相互正交，故令\n\\[\n\\boldsymbol {P} = \\left(\\frac {\\boldsymbol {\\xi} _ {1}}{\\left\\| \\boldsymbol {\\xi} _ {1} \\right\\|}, \\frac {\\boldsymbol {\\xi} _ {2}}{\\left\\| \\boldsymbol {\\xi} _ {2} \\right\\|}, \\frac {\\boldsymbol {\\xi} _ {3}}{\\left\\| \\boldsymbol {\\xi} _ {3} \\right\\|}\\right) = \\left( \\begin{array}{c c c} \\frac {1}{\\sqrt {3}} & - \\frac {1}{\\sqrt {2}} & \\frac {1}{\\sqrt {6}} \\\\ \\frac {1}{\\sqrt {3}} & \\frac {1}{\\sqrt {2}} & \\frac {1}{\\sqrt {6}} \\\\ \\frac {1}{\\sqrt {3}} & 0 & - \\frac {2}{\\sqrt {6}} \\end{array} \\right).\n\\]\n则 P 为正交矩阵, 且  \\( P^{T}AP=\\begin{pmatrix}8&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix} \\) , 于是\n\\[\nA = P \\left( \\begin{array}{c c c} 8 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{array} \\right) P ^ {\\mathrm{T}} = \\left[ \\begin{array}{c c c} (2 & 0 & 0) \\\\ P (0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{array} \\right] P ^ {\\mathrm{T}} \\left[ \\begin{array}{c} 3 \\\\ 1 \\\\ 1 \\end{array} \\right],\n\\]\n故可取 \\(B = P\\left( \\begin{array}{lll}2 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 1 \\end{array} \\right)P^{\\mathrm{T}} = \\left( \\begin{array}{lll}\\frac{4}{3} & \\frac{1}{3} & \\frac{1}{3}\\\\ \\frac{1}{3} & \\frac{4}{3} & \\frac{1}{3}\\\\ \\frac{1}{3} & \\frac{1}{3} & \\frac{4}{3} \\end{array} \\right).\\)\n(2)由(1)知\n\\[\nP ^ {\\mathrm{T}} A P = \\left( \\begin{array}{c c c} 8 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{array} \\right), P ^ {\\mathrm{T}} B P = \\left( \\begin{array}{c c c} 2 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{array} \\right),\n\\]\n故 \\(Q = P = \\begin{pmatrix} \\frac{1}{\\sqrt{3}} & -\\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{2}} & \\frac{1}{\\sqrt{6}} \\\\ \\frac{1}{\\sqrt{3}} & 0 & -\\frac{2}{\\sqrt{6}} \\end{pmatrix}\\) 即为所求.\n(3)由(2)知,当 \\( x\\neq0 \\) 时,\n\\[\n\\frac {x ^ {\\mathrm{T}} A x}{x ^ {\\mathrm{T}} B x} \\frac {x = Q y}{2 y _ {1} ^ {2} + y _ {2} ^ {2} + y _ {3} ^ {2}} \\leqslant \\frac {4 (2 y _ {1} ^ {2} + y _ {2} ^ {2} + y _ {3} ^ {2})}{2 y _ {1} ^ {2} + y _ {2} ^ {2} + y _ {3} ^ {2}} = 4,\n\\]\n这个最大值 4 是可以取到的.例如,当  \\( y_{1}=1, y_{2}=y_{3}=0 \\) , 即\n\\[\n\\boldsymbol {x} _ {0} = \\boldsymbol {Q} \\left( \\begin{array}{c} 1 \\\\ 0 \\\\ 0 \\end{array} \\right) = \\left( \\begin{array}{c} \\frac {1}{\\sqrt {3}} \\\\ \\frac {1}{\\sqrt {3}} \\\\ \\frac {1}{\\sqrt {3}} \\end{array} \\right)\n\\]\n时即有 \\(\\frac{x_0^{\\mathrm{T}}Ax_0}{x_0^{\\mathrm{T}}Bx_0} = 4\\) ，故 \\(\\max_{x\\neq 0}\\frac{x^{\\mathrm{T}}Ax}{x^{\\mathrm{T}}Bx} = 4.\\)\n2026年全国硕士研究生招生考试",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    }
+  ]
+}

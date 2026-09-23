@@ -1,0 +1,528 @@
+{
+  "paper": {
+    "id": 44,
+    "subject": "数学三",
+    "examYear": 2026,
+    "seqNo": 4,
+    "title": "26模拟卷 · 数学三 · 第4套",
+    "intro": null,
+    "fullScore": 150,
+    "minutes": 180,
+    "questionCount": 22,
+    "doneCount": 0
+  },
+  "questions": [
+    {
+      "id": 2000044001,
+      "paperId": 44,
+      "seq": 1,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "若函数  \\( f(x)=\\left\\{\\begin{aligned}\\frac{1-\\cos\\sqrt{x}}{a\\ln(1+x)},&x>0,\\\\ b,&x\\leqslant0\\end{aligned}\\right. \\)  在 x=0 处连续，则",
+      "options": {
+        "A": "\\(ab = \\frac{1}{2}\\).",
+        "B": "\\(ab = -\\frac{1}{2}\\).",
+        "C": "\\(ab = 0\\).",
+        "D": "\\(ab = 2\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "\\(\\lim_{x\\to 0^{+}}f(x) = \\lim_{x\\to 0^{+}}\\frac{1 - \\cos\\sqrt{x}}{a\\ln(1 + x)} = \\lim_{x\\to 0^{+}}\\frac{\\frac{1}{2}x}{ax} = \\frac{1}{2a},\\)\n\\[\n\\lim _ {x \\rightarrow 0 ^ {-}} f (x) = b = f (0),\n\\]\n由于 \\(f(x)\\) 在 \\(x = 0\\) 处连续，故 \\(\\frac{1}{2a} = b\\) ，则有 \\(ab = \\frac{1}{2}\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044002,
+      "paperId": 44,
+      "seq": 2,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\( f(x, y) = \\begin{cases} \\sin x \\cos y, & x \\neq 0, \\\\ 1 - \\cos y, & x = 0, \\end{cases} \\) 则",
+      "options": {
+        "A": "\\(f_{x}^{\\prime}(0,0) = 0.\\)",
+        "B": "\\(\\lim_{x\\to 0}\\lim_{y\\to 0}f(x,y) = 0.\\)",
+        "C": "\\(f_{yx}^{\\prime \\prime}(0,0) = 1\\).",
+        "D": "\\(f_{y}^{\\prime}(0,0) = 1\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "由于 \\(0 \\leqslant |f(x, y)| \\leqslant |\\sin x \\cos y| + 1 - \\cos y\\)，又\n\\[\n\\lim _ {y \\rightarrow 0} (| \\sin x \\cos y | + 1 - \\cos y) = | \\sin x |, \\lim _ {x \\rightarrow 0} | \\sin x | = 0,\n\\]\n故 \\(\\lim_{x\\to 0}\\lim_{y\\to 0}(|\\sin x\\cos y| + 1 - \\cos y) = 0\\)\n由夹逼准则知， \\(\\lim_{x\\to 0}\\lim_{y\\to 0}|f(x,y)| = 0\\) ，故有 \\(\\lim_{x\\to 0}\\lim_{y\\to 0}f(x,y) = 0\\) ，选项B正确.\n对于选项A，\n\\[\nf _ {x} ^ {\\prime} (0, 0) = \\lim _ {x \\rightarrow 0} \\frac {f (x , 0) - f (0 , 0)}{x} = \\lim _ {x \\rightarrow 0} \\frac {\\sin x - 0}{x} = 1,\n\\]\n故选项A错误.\n对于选项C，D，当 \\(x \\neq 0\\) 时，\n\\[\nf _ {y} ^ {\\prime} (x, 0) = \\lim _ {y \\rightarrow 0} \\frac {f (x , y) - f (x , 0)}{y} = \\lim _ {y \\rightarrow 0} \\frac {\\sin x \\cos y - \\sin x}{y} = \\lim _ {y \\rightarrow 0} \\frac {(\\cos y - 1) \\sin x}{y} = 0,\n\\]\n当 \\(x = 0\\) 时，\n\\[\nf _ {y} ^ {\\prime} (0, 0) = \\lim _ {y \\rightarrow 0} \\frac {f (0 , y) - f (0 , 0)}{y} = \\lim _ {y \\rightarrow 0} \\frac {1 - \\cos y - 0}{y} = 0,\n\\]\n则 \\(f_{yx}^{\\prime \\prime}(0,0) = \\lim_{x\\to 0}\\frac{f_y'(x,0) - f_y'(0,0)}{x} = 0\\) ，故选项C，D错误.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044003,
+      "paperId": 44,
+      "seq": 3,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "已知 \\( y_{1} = x \\mathrm{e}^{x} + \\mathrm{e}^{2x} \\) 和 \\( y_{2} = x \\mathrm{e}^{x} + \\mathrm{e}^{-x} \\) 是二阶常系数非齐次线性微分方程的两个解, 则此方程为",
+      "options": {
+        "A": "\\(y'' - y' + 2y = \\mathrm{e}^x + 2x\\mathrm{e}^x.\\)",
+        "B": "\\(y'' - y' - 2y = \\mathrm{e}^x - 2x\\mathrm{e}^x.\\)",
+        "C": "\\(y'' - y' + 2y = \\mathrm{e}^{2x} - \\mathrm{e}^{-x}\\).",
+        "D": "\\(y'' - y' - 2y = x\\mathrm{e}^x +\\mathrm{e}^{2x}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B.\n数学（三）预测卷（四）试题答案及评分参考 第38页（共47页）",
+        "analysis_md": "根据解的结构可知， \\( y_{1}-y_{2}=e^{2x}-e^{-x} \\)  为对应的齐次线性微分方程的一个解，则其特征方程的根为2，-1，特征方程为 \\( (r-2)(r+1)=r^{2}-r-2=0 \\) ，故对应的齐次线性微分方程为 \\( y''-y'-2y=0 \\) 。排除选项A，C。\n又 \\(y_{1} = x\\mathrm{e}^{x} + \\mathrm{e}^{2x},y_{1}^{\\prime} = x\\mathrm{e}^{x} + \\mathrm{e}^{x} + 2\\mathrm{e}^{2x},y_{1}^{\\prime \\prime} = x\\mathrm{e}^{x} + 2\\mathrm{e}^{x} + 4\\mathrm{e}^{2x}\\) ，则\n\\[\n\\begin{array}{l} y _ {1} ^ {\\prime \\prime} - y _ {1} ^ {\\prime} - 2 y _ {1} = x \\mathrm{e} ^ {x} + 2 \\mathrm{e} ^ {x} + 4 \\mathrm{e} ^ {2 x} - x \\mathrm{e} ^ {x} - \\mathrm{e} ^ {x} - 2 \\mathrm{e} ^ {2 x} - 2 x \\mathrm{e} ^ {x} - 2 \\mathrm{e} ^ {2 x} \\\\ = \\mathrm{e} ^ {x} - 2 x \\mathrm{e} ^ {x}, \\\\ \\end{array}\n\\]\n故所对应的非齐次线性微分方程为\n\\[\ny ^ {\\prime \\prime} - y ^ {\\prime} - 2 y = \\mathrm{e} ^ {x} - 2 x \\mathrm{e} ^ {x}.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044004,
+      "paperId": 44,
+      "seq": 4,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(R\\) 为幂级数 \\(\\sum_{n=1}^{\\infty} a_n x^n\\) 的收敛半径, \\(r\\) 是实数, 则",
+      "options": {
+        "A": "当 \\(\\sum_{n=1}^{\\infty} a_{2n+1} r^{2n+1}\\) 发散时, \\(|r| \\geqslant R\\).",
+        "B": "当 \\(\\sum_{n=1}^{\\infty} a_{2n} r^{2n}\\) 收敛时, \\(|r| \\leqslant R\\).",
+        "C": "当 \\(|r| \\geqslant R\\) 时, \\(\\sum_{n=1}^{\\infty} a_{2n+1} r^{2n+1}\\) 发散.",
+        "D": "当 \\(|r| \\leqslant R\\) 时, \\(\\sum_{n=1}^{\\infty} a_{2n} r^{2n}\\) 收敛."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "当 \\(|r| < R\\) 时, 根据阿贝尔定理, 此时级数 \\(\\sum_{n=1}^{\\infty} a_n r^n\\) 绝对收敛, 即正项级数 \\(\\sum_{n=1}^{\\infty} \\left| a_n r^n \\right|\\) 收敛, 而正项级数 \\(\\sum_{n=1}^{\\infty} \\left| a_{2n+1} r^{2n+1} \\right|\\) 可看作是由 \\(\\sum_{n=1}^{\\infty} \\left| a_n r^n \\right|\\) 的所有奇数项构成的, 故也收敛, 从而 \\(\\sum_{n=1}^{\\infty} a_{2n+1} r^{2n+1}\\) 收敛. 于是根据逆否命题的等价性, 知当 \\(\\sum_{n=1}^{\\infty} a_{2n+1} r^{2n+1}\\) 发散时, 必有 \\(|r| \\geqslant R\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044005,
+      "paperId": 44,
+      "seq": 5,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(\\alpha, \\beta\\) 是 2 阶实矩阵 \\(A\\) 的两个实特征向量, \\(\\| \\alpha + \\beta \\| = \\| \\alpha - \\beta \\|\\), 则矩阵 \\(A\\) 必为",
+      "options": {
+        "A": "正定矩阵.",
+        "B": "单位矩阵.",
+        "C": "正交矩阵.",
+        "D": "对称矩阵."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "记 \\(\\alpha = \\begin{pmatrix} a_1 \\\\ a_2 \\end{pmatrix}\\), \\(\\beta = \\begin{pmatrix} b_1 \\\\ b_2 \\end{pmatrix}\\), 则由题意, 得\n\\[\n(a _ {1} + b _ {1}) ^ {2} + (a _ {2} + b _ {2}) ^ {2} = (a _ {1} - b _ {1}) ^ {2} + (a _ {2} - b _ {2}) ^ {2},\n\\]\n整理得\n\\[\na _ {1} b _ {1} + a _ {2} b _ {2} = 0,\n\\]\n则 \\(\\alpha\\) 与 \\(\\beta\\) 正交, 故实矩阵 \\(A\\) 为对称矩阵.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044006,
+      "paperId": 44,
+      "seq": 6,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "二次型 \\( f(x_{1},x_{2},x_{3})=x_{1}^{2}+2x_{1}x_{2}+2x_{1}x_{3} \\) 的符号差(正惯性指数-负惯性指数)为",
+      "options": {
+        "A": "2.",
+        "B": "1.",
+        "C": "0.",
+        "D": "-1."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "法一 \\(f(x_{1},x_{2},x_{3}) = x_{1}^{2} + 2x_{1}x_{2} + 2x_{1}x_{3}\\)\n\\[\n= \\left(x _ {1} + x _ {2} + x _ {3}\\right) ^ {2} - \\left(x _ {2} ^ {2} + x _ {3} ^ {2} + 2 x _ {2} x _ {3}\\right)\n\\]\n\\[\n= \\left(x _ {1} + x _ {2} + x _ {3}\\right) ^ {2} - \\left(x _ {2} + x _ {3}\\right) ^ {2},\n\\]\n则二次型 \\( f(x_{1},x_{2},x_{3}) \\) 的正、负惯性指数均为1,故符号差为0.\n法二 二次型 \\( f(x_{1},x_{2},x_{3}) \\) 的矩阵为 \\( A=\\begin{pmatrix}1&1&1\\\\1&0&0\\\\1&0&0\\end{pmatrix} \\) ，令\n\\[\n\\left| \\lambda \\boldsymbol {E} - \\boldsymbol {A} \\right| = \\left| \\begin{array}{c c c} \\lambda - 1 & - 1 & - 1 \\\\ - 1 & \\lambda & 0 \\\\ - 1 & 0 & \\lambda \\end{array} \\right| = \\lambda (\\lambda + 1) (\\lambda - 2) = 0,\n\\]\n则 A 的特征值为 0, -1, 2, 即二次型  \\( f(x_{1}, x_{2}, x_{3}) \\)  的正、负惯性指数均为 1, 故符号差为 0.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044007,
+      "paperId": 44,
+      "seq": 7,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "若矩阵 \\(A = (a_{ij})_{n \\times n}\\), 对 \\(\\mathrm{i} = 1, 2, \\cdots, n\\), 均有 \\(|a_{ii}| > \\sum_{j \\neq i} |a_{ij}|\\), 其中 \\(|a_{ij}|\\) 表示元素 \\(a_{ij}\\) 的绝对值, \\(\\beta\\) 为任一 \\(n\\) 维列向量, 则",
+      "options": {
+        "A": "\\(Ax = 0\\) 有非零解.",
+        "B": "\\(Ax = \\beta\\) 有唯一解.",
+        "C": "\\(Ax = \\beta\\) 不一定有解.",
+        "D": "\\(Ax = 0\\) 不一定有非零解."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "设 Ax = 0 有非零解, 记 x 的分量  \\( x_{i} \\neq 0 \\) , 且其绝对值最大. 考虑第 i 个方程,\n\\[\na _ {i 1} x _ {1} + \\dots + a _ {i, i - 1} x _ {i - 1} + a _ {i i} x _ {i} + a _ {i, i + 1} x _ {i + 1} + \\dots + a _ {i n} x _ {n} = 0,\n\\]\n于是 \\( \\left|a_{ii}\\right|\\left|x_i\\right|=\\left|\\sum_{j\\neq i}a_{ij}x_j\\right|\\leqslant\\sum_{j\\neq i}\\left|a_{ij}\\right|\\left|x_j\\right|\\leqslant\\sum_{j\\neq i}\\left|a_{ij}\\right|\\left|x_i\\right|<\\left|a_{ii}\\right|\\left|x_i\\right| \\) ，矛盾.\n故 \\(x\\) 的所有分量均为0, 即 \\(Ax = 0\\) 只有零解, 故 \\(A\\) 为可逆矩阵, 则 \\(Ax = \\beta\\) 有唯一解.\n【注】从选项考虑，\\(x\\) 是不是零向量是一个重要的思考方向，故可设 \\(x_{i} \\neq 0\\)，且根据题意，设其绝对值最大，再利用 \\(\\left|a_{ii}\\right| > \\sum_{j \\neq i} \\left|a_{ij}\\right|\\) 分析。此题提示考生，对于较难的选择题，题干与选项可结合起来考虑。",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044008,
+      "paperId": 44,
+      "seq": 8,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设随机变量 \\(X \\sim \\begin{pmatrix} 1 & 0 \\\\ p & 1 - p \\end{pmatrix}, Y \\sim B(2, p), 0 < p < 1, F_X(x), F_Y(y)\\) 分别为 \\(X, Y\\) 的分布函数, 则",
+      "options": {
+        "A": "\\(P\\{X \\geqslant Y\\} = 1\\).",
+        "B": "\\(P\\{X \\leqslant Y\\} = 1\\).",
+        "C": "\\(F_{X}(z)\\leqslant F_{Y}(z).\\)",
+        "D": "\\(F_{X}(z) \\geqslant F_{Y}(z)\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "令 \\(Z \\sim \\begin{pmatrix} 1 & 0 \\\\ p & 1 - p \\end{pmatrix}\\) 且与 \\(X\\) 相互独立, 则 \\(Z + X \\sim B(2, p)\\), 与 \\(Y\\) 同分布, 于是\n\\[\nF _ {Y} (z) = P \\left\\{Y \\leqslant z \\right\\} = P \\left\\{Z + X \\leqslant z \\right\\}, F _ {X} (z) = P \\left\\{X \\leqslant z \\right\\}.\n\\]\n又由于 \\(\\{Z + X\\leqslant z\\} \\subset \\{X\\leqslant z\\}\\) ，于是 \\(F_{Y}(z)\\leqslant F_{X}(z)\\)\n【注】此处的随机变量 \\(X, Y\\) 均为伯努利试验中成功的次数, 缺少 \\((X, Y)\\) 的分布律的信息, 故A与B均不正确.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044009,
+      "paperId": 44,
+      "seq": 9,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设  \\( (X,Y) \\)  的概率密度为  \\( f(x,y)=\\left\\{\\begin{aligned}&\\frac{1}{8}(y^{2}-x^{2})\\mathrm{e}^{-y},&|x|<y,\\\\ &0,& 其他,\\end{aligned}\\right. \\)  则  \\( P\\{0<X<2\\mid Y=1\\}= \\)",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\).",
+        "B": "\\(\\frac{1}{3}\\).",
+        "C": "\\(\\frac{1}{2}\\).",
+        "D": "\\(\\frac{2}{3}\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "积分区域如图所示, 则\n\\[\nf _ {Y} (y) = \\int_ {- \\infty} ^ {+ \\infty} f (x, y) \\mathrm{d} x = \\left\\{ \\begin{array}{l l} \\int_ {- y} ^ {y} \\frac {1}{8} (y ^ {2} - x ^ {2}) \\mathrm{e} ^ {- y} \\mathrm{d} x, & y > 0, \\\\ 0, & \\text {其他} \\end{array} \\right.\n\\]\n\\[\n= \\left\\{ \\begin{array}{l l} \\frac {1}{6} y ^ {3} \\mathrm{e} ^ {- y}, & y > 0, \\\\ 0, & \\text {其他}, \\end{array} \\right.\n\\]\n![](/uploads/books/128cfaf13c685d2c80ee5214868e51ea10fd20d1943c93d111b3dc7f4b146c33.jpg)\n\\[\nf _ {X \\mid Y} (x \\mid 1) = \\left\\{ \\begin{array}{l l} \\frac {f (x , 1)}{f _ {Y} (1)}, & - 1 <   x <   1, \\\\ 0, & \\text {其他} \\end{array} \\right. = \\left\\{ \\begin{array}{l l} \\frac {1}{8} \\frac {(1 - x ^ {2}) \\mathrm{e} ^ {- 1}}{\\frac {1}{6} \\mathrm{e} ^ {- 1}}, & - 1 <   x <   1, \\\\ 0, & \\text {其他} \\end{array} \\right. = \\left\\{ \\begin{array}{l l} \\frac {3}{4} (1 - x ^ {2}), & - 1 <   x <   1, \\\\ 0, & \\text {其他}. \\end{array} \\right.\n\\]\n故 \\(P\\left\\{0 < X < 2\\mid Y = 1\\right\\} = \\int_{0}^{1}\\frac{3}{4} (1 - x^2)\\mathrm{d}x = \\frac{3}{4} -\\frac{3}{4}\\times \\frac{1}{3} = \\frac{1}{2}.\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044010,
+      "paperId": 44,
+      "seq": 10,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设  \\( (X,Y) \\)  服从二维正态分布  \\( N\\left(0,0;1,4;\\frac{1}{2}\\right) \\) ，则下列随机变量中与 X 相互独立且同分布的是",
+      "options": {
+        "A": "\\(\\frac{\\sqrt{3}}{3} (X + Y)\\).",
+        "B": "\\(\\frac{\\sqrt{5}}{5} (X + Y)\\).",
+        "C": "\\(\\frac{\\sqrt{3}}{3} (X - Y)\\).",
+        "D": "\\(\\frac{\\sqrt{5}}{5} (X - Y)\\)."
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "由题设, \\(X \\sim N(0,1)\\), \\(Y \\sim N(0,4)\\), \\(\\rho_{XY} = \\frac{1}{2}\\), 故\n\\[\nE (X) = E (Y) = 0, D (X) = 1, D (Y) = 4,\n\\]\n\\[\nE (X - Y) = E (X) - E (Y) = 0,\n\\]\n\\[\nD (X - Y) = D (X) + D (Y) - 2 \\operatorname{Cov} (X, Y) = D (X) + D (Y) - 2 \\cdot \\rho_ {X Y} \\sqrt {D (X)} \\sqrt {D (Y)} = 3,\n\\]\n于是 \\(X - Y \\sim N(0,3)\\)，\\(\\frac{X - Y}{\\sqrt{3}} \\sim N(0,1)\\)。\n因 \\(\\left( \\begin{array}{cc}X & \\\\ X - Y & \\end{array} \\right) = \\left( \\begin{array}{cc}1 & 0\\\\ 1 & -1 \\end{array} \\right)\\left( \\begin{array}{c}X\\\\ Y \\end{array} \\right)\\) ，这里矩阵 \\(\\left( \\begin{array}{cc}1 & 0\\\\ 1 & -1 \\end{array} \\right)\\) 可逆，故 \\((X,X - Y)\\) 服从二维正态分布.\n又 \\(\\operatorname{Cov}(X - Y, X) = \\operatorname{Cov}(X, X) - \\operatorname{Cov}(X, Y) = D(X) - \\rho_{XY} \\sqrt{D(X)} \\sqrt{D(Y)} = 0\\)\n于是 \\(X\\) 与 \\(X - Y\\) 相互独立.\n综上， \\(\\frac{X - Y}{\\sqrt{3}}\\) 与 \\(X\\) 相互独立且同分布.\n二、填空题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044011,
+      "paperId": 44,
+      "seq": 11,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\(z = z(x, y)\\) 由 \\(\\mathrm{e}^z + yz = 2y - x\\) 确定, 则 \\(\\left.\\frac{\\partial^2 z}{\\partial y^2}\\right|_{(1,1)} =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\( -\\frac{3}{2} \\) ",
+        "analysis_md": "方程两端同时对 \\(y\\) 求偏导, 有\n\\[\n\\mathrm{e} ^ {z} \\cdot \\frac {\\partial z}{\\partial y} + z + y \\cdot \\frac {\\partial z}{\\partial y} = 2, \\tag {①}\n\\]\n①式两端再同时对 \\(y\\) 求偏导，有\n\\[\n\\mathrm{e} ^ {z} \\cdot \\left(\\frac {\\partial z}{\\partial y}\\right) ^ {2} + \\mathrm{e} ^ {z} \\cdot \\frac {\\partial^ {2} z}{\\partial y ^ {2}} + 2 \\frac {\\partial z}{\\partial y} + y \\cdot \\frac {\\partial^ {2} z}{\\partial y ^ {2}} = 0. \\tag {②}\n\\]\n将 \\(x = 1, y = 1\\) 代入原方程，得 \\(z(1,1) = 0\\)。将 \\(x = 1, y = 1, z(1,1) = 0\\) 代入①式，得 \\(\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,1)} = 1\\)。\n将 \\(x = 1, y = 1, z(1,1) = 0\\)，\\(\\left.\\frac{\\partial z}{\\partial y}\\right|_{(1,1)} = 1\\) 代入②式，得 \\(\\left.\\frac{\\partial^2 z}{\\partial y^2}\\right|_{(1,1)} = -\\frac{3}{2}\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044012,
+      "paperId": 44,
+      "seq": 12,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "曲线 \\( y = \\sqrt[3]{x^3 - 2x^2 + 1} \\) 的斜渐近线方程为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\( y = x - \\frac{2}{3} \\)",
+        "analysis_md": "\\(\\lim_{x\\to \\infty}\\frac{y}{x} = \\lim_{x\\to \\infty}\\frac{\\sqrt[3]{x^3 - 2x^2 + 1}}{x} = 1,\\)\n\\[\n\\begin{array}{l} \\lim _ {x \\rightarrow \\infty} (y - x) = \\lim _ {x \\rightarrow \\infty} \\left(\\sqrt [ 3 ]{x ^ {3} - 2 x ^ {2} + 1} - x\\right) = \\lim _ {x \\rightarrow \\infty} x \\left[\\left(1 - \\frac {2}{x} + \\frac {1}{x ^ {3}}\\right) ^ {\\frac {1}{3}} - 1 \\right] \\\\ = \\lim _ {x \\rightarrow \\infty} x \\cdot \\frac {1}{3} \\left(- \\frac {2}{x} + \\frac {1}{x ^ {3}}\\right) = - \\frac {2}{3}. \\\\ \\end{array}\n\\]\n故斜渐近线方程为 \\( y = x - \\frac{2}{3} \\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044013,
+      "paperId": 44,
+      "seq": 13,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\( f(x) = \\frac{x^2}{\\mathrm{e}^x - 1} \\) 在 \\( x = 0 \\) 处的3次泰勒多项式为 \\( ax^3 + bx^2 + cx \\)，则 \\( (a, b, c) = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\left(\\frac{1}{12}, -\\frac{1}{2}, 1\\right)\\)",
+        "analysis_md": "当 \\(x \\to 0\\) 时, \\(\\mathrm{e}^x - 1 = x + \\frac{x^2}{2} + \\frac{x^3}{6} + o(x^3) = x\\left[1 + \\frac{x}{2} + \\frac{x^2}{6} + o(x^2)\\right]\\), 故\n\\[\nf (x) = \\frac {x}{1 + \\frac {x}{2} + \\frac {x ^ {2}}{6} + o (x ^ {2})}.\n\\]\n又 \\(\\frac{1}{1 + \\frac{x}{2} + \\frac{x^2}{6} + o(x^2)} = 1 - \\left[\\frac{x}{2} +\\frac{x^2}{6} +o(x^2)\\right] + \\left[\\frac{x}{2} +\\frac{x^2}{6} +o(x^2)\\right]^2 +o(x^2) = 1 - \\frac{x}{2} +\\frac{1}{12} x^2 +o(x^2),\\)\n故 \\(f(x) = x\\left[1 - \\frac{x}{2} +\\frac{1}{12} x^2 +o(x^2)\\right] = x - \\frac{1}{2} x^2 +\\frac{1}{12} x^3 +o(x^3),\\)\n因此 \\((a,b,c) = \\left(\\frac{1}{12}, - \\frac{1}{2},1\\right)\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044014,
+      "paperId": 44,
+      "seq": 14,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(D = \\{(x, y) | |x| \\leqslant 1, 0 \\leqslant y \\leqslant 2\\}\\), 则 \\(\\iint_{D} \\sqrt{|y - x^2|} d\\sigma =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{\\pi}{2} + \\frac{5}{3}\\)",
+        "analysis_md": "积分区域如图所示,则\n\\[\n\\begin{array}{l} \\text {原式} = \\iint_ {D _ {1}} \\sqrt {y - x ^ {2}} \\mathrm{d} x \\mathrm{d} y + \\iint_ {D _ {2}} \\sqrt {x ^ {2} - y} \\mathrm{d} x \\mathrm{d} y \\\\ = \\int_ {- 1} ^ {1} \\mathrm{d} x \\int_ {x ^ {2}} ^ {2} \\sqrt {y - x ^ {2}} \\mathrm{d} y + \\int_ {- 1} ^ {1} \\mathrm{d} x \\int_ {0} ^ {x ^ {2}} \\sqrt {x ^ {2} - y} \\mathrm{d} y \\\\ \\end{array}\n\\]\n![](/uploads/books/84624a33f272d19295e6e2a5de37682a4a8538d22b427b01c3afd27df5cf4b6d.jpg)\n\\[\n\\begin{array}{l} = \\frac {2}{3} \\int_ {- 1} ^ {1} \\left[ (y - x ^ {2}) ^ {\\frac {3}{2}} \\Bigg | _ {y = x ^ {2}} ^ {y = 2} \\right] d x - \\frac {2}{3} \\int_ {- 1} ^ {1} \\left[ (x ^ {2} - y) ^ {\\frac {3}{2}} \\Bigg | _ {y = 0} ^ {y = x ^ {2}} \\right] d x \\\\ = \\frac {4}{3} \\int_ {0} ^ {1} (2 - x ^ {2}) ^ {\\frac {3}{2}} \\mathrm{d} x + \\frac {4}{3} \\int_ {0} ^ {1} x ^ {3} \\mathrm{d} x \\frac {x = \\sqrt {2} \\sin t}{3} \\frac {4}{3} \\int_ {0} ^ {\\frac {\\pi}{4}} 4 \\cos^ {4} t \\mathrm{d} t + \\frac {1}{3} = \\frac {\\pi}{2} + \\frac {5}{3}. \\\\ \\end{array}\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044015,
+      "paperId": 44,
+      "seq": 15,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设  \\( \\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4} \\)  是四元非齐次线性方程组 Ax = b 的 4 个解向量，且  \\( \\alpha_{1} + \\alpha_{2} = (2, 4, 6, 8)^{T}, \\alpha_{2} + \\alpha_{3} + \\alpha_{4} = (3, 5, 7, 9)^{T}, \\alpha_{1} + 2\\alpha_{2} - \\alpha_{3} = (2, 0, 0, 2)^{T} \\) ，若秩  \\( r(A) = 2 \\) ，则方程组 Ax = b 的通解是 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\((1,2,3,4)^{\\mathrm{T}} + k_{1}(0,2,3,3)^{\\mathrm{T}} + k_{2}(0,1,2,3)^{\\mathrm{T}}\\)，其中 \\(k_{1}, k_{2}\\) 为任意常数",
+        "analysis_md": "因为方程组 Ax=b 有解, 且秩  \\( r(A)=2 \\) , 所以其导出组基础解系中解向量的个数为  \\( n-r(A)=4-2=2 \\) , 故方程组 Ax=b 的通解形式为  \\( a+k_{1}\\eta_{1}+k_{2}\\eta_{2} \\) , 其中 a 为 Ax=b 的特解,  \\( \\eta_{1},\\eta_{2} \\)  为 Ax=0 的基础解系,  \\( k_{1},k_{2} \\)  为任意常数. 下面用解的性质分析出特解 a 及导出组的基础解系.\n由 \\(A(\\pmb{a}_1 + \\pmb{a}_2) = 2\\pmb{b}\\) ，有 \\(A\\frac{\\pmb{a}_1 + \\pmb{a}_2}{2} = \\pmb{b}\\) ，因此(1,2,3,4)是方程组 \\(\\mathbf{A}\\mathbf{x} = \\mathbf{b}\\) 的一个特解.\n又 \\((\\pmb{a}_1 + \\pmb{a}_2) - (\\pmb{a}_1 + 2\\pmb{a}_2 - \\pmb{a}_3) = \\pmb{a}_3 - \\pmb{a}_2 = (0,4,6,6)^{\\mathrm{T}}\\)\n\\[\n3 \\left(\\boldsymbol {a} _ {1} + \\boldsymbol {a} _ {2}\\right) - 2 \\left(\\boldsymbol {a} _ {2} + \\boldsymbol {a} _ {3} + \\boldsymbol {a} _ {4}\\right) = 2 \\left(\\boldsymbol {a} _ {1} - \\boldsymbol {a} _ {3}\\right) + \\left(\\boldsymbol {a} _ {1} - \\boldsymbol {a} _ {4}\\right) + \\left(\\boldsymbol {a} _ {2} - \\boldsymbol {a} _ {4}\\right) = (0, 2, 4, 6) ^ {\\mathrm{T}}\n\\]\n是导出组 \\(Ax = 0\\) 的两个线性无关的解, 故方程组 \\(Ax = b\\) 的通解为\n\\((1,2,3,4)^{\\mathrm{T}} + k_{1}(0,2,3,3)^{\\mathrm{T}} + k_{2}(0,1,2,3)^{\\mathrm{T}}\\) ，其中 \\(k_{1},k_{2}\\) 为任意常数.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044016,
+      "paperId": 44,
+      "seq": 16,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设事件 \\(A, B, C\\) 相互独立，\\(P(A) = \\frac{1}{2}, P(B) = P(C) = \\frac{3}{4}\\)，则 \\(P(A \\cup C \\mid A \\cup B) =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{25}{28}\\)",
+        "analysis_md": "\\(P(A \\cup C | A \\cup B) = \\frac{P((A \\cup C)(A \\cup B))}{P(A \\cup B)} = \\frac{P(A \\cup BC)}{P(A \\cup B)} = \\frac{P(A) + P(B)P(C) - P(A)P(B)P(C)}{P(A) + P(B) - P(A)P(B)}\\)\n\\[\n= \\frac {\\frac {1}{2} + \\frac {9}{1 6} - \\frac {1}{2} \\times \\frac {9}{1 6}}{\\frac {1}{2} + \\frac {3}{4} - \\frac {1}{2} \\times \\frac {3}{4}} = \\frac {2 5}{2 8}.\n\\]\n三、解答题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044017,
+      "paperId": 44,
+      "seq": 17,
+      "type": "解答题",
+      "points": 10,
+      "difficulty": 3,
+      "stem": "计算 \\(\\int \\frac{x^3 + 1}{x^4 + 2x^2 + 1}\\mathrm{d}x.\\)",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "设 \\(x = \\tan t\\left(-\\frac{\\pi}{2} < t < \\frac{\\pi}{2}\\right)\\), 则 \\(\\mathrm{d}x = \\sec^2 t\\mathrm{d}t\\), 于是\n原式 \\(= \\int \\frac{x^3 + 1}{(x^2 + 1)^2}\\mathrm{d}x = \\int \\frac{\\tan^3t + 1}{\\sec^2t}\\mathrm{d}t = \\int \\frac{\\cos^2t - 1}{\\cos t}\\mathrm{d}(\\cos t) + \\int \\frac{1 + \\cos 2t}{2}\\mathrm{d}t\\) ……4分\n\\[\n= \\frac {1}{2} \\cos^ {2} t - \\ln \\cos t + \\frac {t}{2} + \\frac {1}{4} \\sin 2 t + C\n\\]\n\\[\n= \\frac {1}{2} \\cos^ {2} t - \\ln \\cos t + \\frac {t}{2} + \\frac {1}{2} \\sin t \\cos t + C. \\quad \\dots \\dots 7 \\text {分}\n\\]\n按 \\(\\tan t = x\\) 作辅助三角形(见图), 可知\n\\[\n\\cos t = \\frac {1}{\\sqrt {1 + x ^ {2}}}, \\sin t = \\frac {x}{\\sqrt {1 + x ^ {2}}}. \\quad \\dots \\dots 8 \\text {分}\n\\]\n于是\n\\[\n\\text {原式} = \\frac {1 + x}{2 (1 + x ^ {2})} + \\frac {1}{2} \\ln (1 + x ^ {2}) + \\frac {1}{2} \\arctan x + C (C \\text {为任意常数}). \\quad \\dots \\dots 1 0 \\text {分}\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044018,
+      "paperId": 44,
+      "seq": 18,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "求函数 \\(z = \\mathrm{e}^{2x + 3y}(8x^{2} - 6xy + 3y^{2})\\) 的极值.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "解方程组\n\\[\n\\left\\{ \\begin{array}{l l} z _ {x} ^ {\\prime} = 2 \\mathrm{e} ^ {2 x + 3 y} (8 x ^ {2} - 6 x y + 3 y ^ {2} + 8 x - 3 y) = 0, & \\dots \\dots 2 \\text {分} \\\\ z _ {y} ^ {\\prime} = 3 \\mathrm{e} ^ {2 x + 3 y} (8 x ^ {2} - 6 x y + 3 y ^ {2} - 2 x + 2 y) = 0, & \\dots \\dots 4 \\text {分} \\end{array} \\right.\n\\]\n得驻点 \\((0,0)\\) 及 \\(\\left(-\\frac{1}{4}, - \\frac{1}{2}\\right)\\) 5分\n\\[\nz _ {x x} ^ {\\prime \\prime} = 4 \\mathrm{e} ^ {2 x + 3 y} (8 x ^ {2} - 6 x y + 3 y ^ {2} + 1 6 x - 6 y + 4),\n\\]\n\\[\nz _ {x y} ^ {\\prime \\prime} = 6 \\mathrm{e} ^ {2 x + 3 y} (8 x ^ {2} - 6 x y + 3 y ^ {2} + 6 x - y - 1),\n\\]\n\\[\nz _ {y y} ^ {\\prime \\prime} = 9 \\mathrm{e} ^ {2 x + 3 y} \\left(8 x ^ {2} - 6 x y + 3 y ^ {2} - 4 x + 4 y + \\frac {2}{3}\\right). \\quad \\dots \\dots 8 \\text {分}\n\\]\n在点 \\((0,0)\\) 处，\\(A = z_{xx}^{\\prime \\prime}(0,0) = 16\\)，\\(B = z_{xy}^{\\prime \\prime}(0,0) = -6\\)，\\(C = z_{yy}^{\\prime \\prime}(0,0) = 6\\)，可知 \\(AC - B^2 = 60 > 0\\)，且 \\(A > 0\\)，故函数 \\(z\\) 在该点取得极小值，极小值为 \\(z(0,0) = 0\\)；……10分\n在点 \\(\\left(-\\frac{1}{4}, -\\frac{1}{2}\\right)\\) 处，\\(A = z_{xx}''\\left(-\\frac{1}{4}, -\\frac{1}{2}\\right) = 14\\mathrm{e}^{-2}\\)，\\(B = z_{xy}''\\left(-\\frac{1}{4}, -\\frac{1}{2}\\right) = -9\\mathrm{e}^{-2}\\)，\\(C = z_{yy}''\\left(-\\frac{1}{4}, -\\frac{1}{2}\\right) = \\frac{3}{2}\\mathrm{e}^{-2}\\)，可知 \\(AC - B^2 = -60\\mathrm{e}^{-4} < 0\\)，故函数 \\(z\\) 在该点不取极值。\n综上, 函数 \\(z\\) 在点 \\((0,0)\\) 处取得极小值 0 , 无极大值 . …… 12 分",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044019,
+      "paperId": 44,
+      "seq": 19,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设 \\( f(x) \\) 在[0,1]上具有三阶连续导数, \\( f'(0)=f''(0)=0 \\), 证明存在 \\( \\xi,\\eta\\zeta,\\in(0,1) \\), 使得 \\( e^{\\xi}f''(\\eta)=6e^{\\zeta}f'(\\xi) \\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "欲证结论变形为 \\(\\frac{f''(\\eta)}{\\mathrm{e}^{\\zeta}} = \\frac{f'(\\xi)}{\\mathrm{e}^{\\xi}}\\). ……1分\n令 \\(g(x) = \\mathrm{e}^{x}\\) ，对 \\(f(x)\\) ， \\(g(x)\\) 在[0,1]上应用柯西中值定理，有 \\(\\frac{f(1) - f(0)}{g(1) - g(0)} = \\frac{f'(\\xi)}{g'(\\xi)}\\) ，即\n\\[\n\\frac {f (1) - f (0)}{\\mathrm{e} - 1} = \\frac {f ^ {\\prime} (\\xi)}{\\mathrm{e} ^ {\\xi}}, \\xi \\in (0, 1). \\tag {①}\n\\]\n……4分\n又 \\(f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2} x^2 +\\frac{f''(\\tau)}{6} x^3 = f(0) + \\frac{f''(\\tau)}{6} x^3\\) ，其中 \\(\\tau\\) 介于0与 \\(x\\) 之间.\n……6分\n故 \\(f(1) = f(0) + \\frac{f''(\\eta)}{6}, \\eta \\in (0,1)\\)，②\n……8分\n且 \\(\\mathrm{e} - 1 = \\mathrm{e}^{\\varepsilon}(1 - 0) = \\mathrm{e}^{\\varepsilon},\\varsigma \\in (0,1)\\) . ③\n……10分\n联立①～③式，有 \\(\\frac{\\frac{f''(\\eta)}{6}}{\\mathrm{e}^{\\varepsilon}} = \\frac{f'(\\xi)}{\\mathrm{e}^{\\xi}}\\) ，即 \\(\\mathrm{e}^{\\xi}f''(\\eta) = 6\\mathrm{e}^{\\xi}f'(\\xi)\\) ， \\(\\xi ,\\eta ,\\varsigma \\in (0,1)\\) ……12分\n【注】欲证结论中有数字“6”，这提示我们需将函数泰勒展开到二阶带拉格朗日余项的形式，此时的拉格朗日余项中有“\\(\\frac{1}{6}\\)”.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044020,
+      "paperId": 44,
+      "seq": 20,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "已知平面有界区域 \\(D = \\{(r, \\theta) \\mid r \\leqslant 4\\cos \\theta, r \\leqslant 4\\sin \\theta\\}\\), 计算 \\(\\iint_{D} r^{3} (\\sin \\theta - \\cos \\theta)^{2} dr d\\theta\\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "积分区域如图所示, 可知积分区域关于 y = x 对称, 则\n原式 \\(= \\iint_{D_1 + D_2} r^3 (\\sin \\theta - \\cos \\theta)^2 \\mathrm{d}r \\mathrm{d}\\theta = 2 \\iint_{D_1} r^3 (\\sin \\theta - \\cos \\theta)^2 \\mathrm{d}r \\mathrm{d}\\theta\\) ……2分\n\\(= 2\\int_{0}^{\\frac{\\pi}{4}}\\mathrm{d}\\theta \\int_{0}^{4\\sin \\theta}r^{3}(\\sin \\theta -\\cos \\theta)^{2}\\mathrm{d}r = 2\\int_{0}^{\\frac{\\pi}{4}}(\\sin \\theta -\\cos \\theta)^{2}\\cdot \\frac{4^{4}\\sin^{4}\\theta}{4}\\mathrm{d}\\theta\\) ……4分\n\\(= 2 \\cdot 4^{3} \\int_{0}^{\\frac{\\pi}{4}} (1 - \\sin 2\\theta) \\cdot \\left( \\frac{1 - \\cos 2\\theta}{2} \\right)^{2} \\mathrm{d}\\theta \\stackrel{2\\theta = t}{=} 16 \\int_{0}^{\\frac{\\pi}{2}} (1 - \\sin t)(1 - \\cos t)^{2} \\mathrm{d}t\\) ……6分\n\\(= 16\\left[\\int_{0}^{\\frac{\\pi}{2}}(1 - 2\\cos t + \\cos^{2}t)\\mathrm{d}t + \\int_{0}^{\\frac{\\pi}{2}}(\\cos t - 1)^{2}\\mathrm{d}(\\cos t)\\right]\\) ……8分\n\\(= 16\\left[\\frac{\\pi}{2} - 2 + \\frac{1}{2}\\bullet \\frac{\\pi}{2} +\\frac{(\\cos t - 1)^3}{3}\\Bigg|_{0}^{\\frac{\\pi}{2}}\\right]\\) ……10分\n\\(= 12\\pi - \\frac{112}{3}\\). …… 12 分\n![](/uploads/books/d3d3a5d3482efea188e4a5f05865ddf77b692cc47796e5778fda8ea293691feb.jpg)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044021,
+      "paperId": 44,
+      "seq": 21,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设 \\(A = \\left( \\begin{array}{ccc}a & 1 & -1\\\\ 1 & a & -1\\\\ -1 & -1 & a \\end{array} \\right),B^2 = \\left( \\begin{array}{ccc}3 & -1 & 1\\\\ -1 & 3 & 1\\\\ 1 & 1 & 3 \\end{array} \\right).\\)\n(1) 求正交矩阵 \\(P\\), 使 \\(P^{T} A P = \\Lambda\\), 并写出 \\(\\Lambda\\);\n(2) 若 B 为正定矩阵，求  \\( B^{3} \\) .",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "（1）因为  \\( \\left|\\lambda E - A\\right| = \\left|\\begin{matrix}\\lambda - a & -1 & 1 \\\\ -1 & \\lambda - a & 1 \\\\ 1 & 1 & \\lambda - a\\end{matrix}\\right| = (\\lambda - a + 1)^{2} (\\lambda - a - 2) \\) ，所以 A 的特征值为\n\\[\n\\lambda_ {1} = \\lambda_ {2} = a - 1, \\lambda_ {3} = a + 2.\n\\]\n……2分\n当 \\(\\lambda_1 = \\lambda_2 = a - 1\\) 时，解方程组 \\([(a - 1)E - A]x = 0\\) ，得 \\(A\\) 的线性无关的特征向量 \\(\\xi_{1} = \\left( \\begin{array}{c} - 1\\\\ 1\\\\ 0 \\end{array} \\right)\\)\n\\[\n\\boldsymbol {\\xi} _ {2} = \\binom {1} {1}, \\text {进行施密特正交单位化得} \\boldsymbol {\\eta} _ {1} = \\left( \\begin{array}{c} - \\frac {\\sqrt {2}}{2} \\\\ \\frac {\\sqrt {2}}{2} \\\\ 0 \\end{array} \\right), \\boldsymbol {\\eta} _ {2} = \\left( \\begin{array}{c} \\frac {\\sqrt {6}}{6} \\\\ \\frac {\\sqrt {6}}{6} \\\\ \\frac {\\sqrt {6}}{3} \\end{array} \\right). \\tag {4分}\n\\]\n当 \\(\\lambda_3 = a + 2\\) 时，解方程组 \\([(a + 2)\\pmb {E} - \\pmb {A}]\\pmb {x} = \\pmb {0}\\) ，得 \\(\\pmb{A}\\) 的特征向量 \\(\\xi_3 = \\left( \\begin{array}{c} - 1\\\\ -1\\\\ 1 \\end{array} \\right)\\) ，单位化得\n\\[\n\\boldsymbol {\\eta} _ {3} = \\left( \\begin{array}{c} - \\frac {\\sqrt {3}}{3} \\\\ - \\frac {\\sqrt {3}}{3} \\\\ \\frac {\\sqrt {3}}{3} \\end{array} \\right). \\tag {5分}\n\\]\n令  \\( \\boldsymbol{P}=(\\boldsymbol{\\eta}_{1},\\boldsymbol{\\eta}_{2},\\boldsymbol{\\eta}_{3})=\\left(\\begin{array}{ccc}-\\frac{\\sqrt{2}}{2}&\\frac{\\sqrt{6}}{6}&-\\frac{\\sqrt{3}}{3}\\\\\\frac{\\sqrt{2}}{2}&\\frac{\\sqrt{6}}{6}&-\\frac{\\sqrt{3}}{3}\\\\0&\\frac{\\sqrt{6}}{3}&\\frac{\\sqrt{3}}{3}\\end{array}\\right) \\) ，则\n\\[\n\\boldsymbol {P} ^ {\\mathrm{T}} \\boldsymbol {A} \\boldsymbol {P} = \\left( \\begin{array}{c c c} a - 1 & 0 & 0 \\\\ 0 & a - 1 & 0 \\\\ 0 & 0 & a + 2 \\end{array} \\right) = \\boldsymbol {\\Lambda}.\n\\]\n故 P 为所求正交矩阵, 且  \\( \\Lambda = \\begin{pmatrix} a - 1 & 0 & 0 \\\\ 0 & a - 1 & 0 \\\\ 0 & 0 & a + 2 \\end{pmatrix} \\) .\n……6 分\n(2) \\(B^{2} = (3 + a)E - A = (3 + a)E - P\\left( \\begin{array}{ccc}a - 1 & & \\\\ & a - 1 & \\\\ & & a + 2 \\end{array} \\right)P^{\\mathrm{T}} = P\\left( \\begin{array}{ccc}4 & & \\\\ & 4 & \\\\ & & 1 \\end{array} \\right)P^{\\mathrm{T}}.\\) ……9分\n又 \\(\\pmb{B}\\) 为正定矩阵，故 \\(B = P\\left( \\begin{array}{ccc}2 & & \\\\ & 2 & \\\\ & & 1 \\end{array} \\right)P^{\\mathrm{T}}\\)\n……10分\n于是  \\( B^{3}=P\\left(\\begin{array}{ccc}8&&\\\\ &8&\\\\ &&1\\end{array}\\right)P^{T}=\\left(\\begin{array}{ccc}\\frac{17}{3}&-\\frac{7}{3}&\\frac{7}{3}\\\\-\\frac{7}{3}&\\frac{17}{3}&\\frac{7}{3}\\\\ \\frac{7}{3}&\\frac{7}{3}&\\frac{17}{3}\\end{array}\\right) \\) .\n……12分\n【注】本题给出 A，只是为了给考生一个提示.事实上， \\( B^{2} \\)  可用正交相似对角化得到，已\n知  \\( B^{2}=P\\left(\\begin{array}{ccc}4&&\\\\ &4&\\\\ &&1\\end{array}\\right)P^{T} \\) ，即可知 B，进而得到  \\( B^{3} \\) .",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000044022,
+      "paperId": 44,
+      "seq": 22,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设某电池的使用寿命 X 服从参数为  \\( \\lambda \\)  的指数分布, 现有 10 件该种电池同时投入使用, 记 Y 为 10 件电池在使用了 200h 时失效的件数.\n(1) 求 Y 的分布律;\n(2) 已知使用了 200h 时, 有 2 件电池失效, 求电池平均寿命 T 的最大似然估计值.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "（1）设 X 的分布函数为  \\( F(x) \\) ，由题知， \\( F(x)=\\left\\{\\begin{aligned}&1-\\mathrm{e}^{-\\lambda x},&x\\geqslant0,\\\\ &0,&x<0.\\end{aligned}\\right. \\)  ……2分\n因此 \\(P\\{X \\leqslant 200\\} = F(200) = 1 - \\mathrm{e}^{-200\\lambda}\\)，故 \\(Y \\sim B(10, 1 - \\mathrm{e}^{-200\\lambda})\\)。……4分\n(2)似然函数 \\(L(\\lambda) = P\\{Y = 2|\\lambda\\} = C_{10}^2 (1 - \\mathrm{e}^{-200\\lambda})^2 (\\mathrm{e}^{-200\\lambda})^8,\\) ……6分\n取对数得\n\\[\n\\ln L (\\lambda) = \\ln C _ {1 0} ^ {2} + 2 \\ln (1 - e ^ {- 2 0 0 \\lambda}) - 8 \\cdot 2 0 0 \\lambda . \\quad \\dots \\dots 7 \\text {分}\n\\]\n令 \\(\\frac{\\mathrm{d}\\left[\\ln L(\\lambda)\\right]}{\\mathrm{d}\\lambda} = 2\\frac{(-\\mathrm{e}^{-200\\lambda})(-200)}{1 - \\mathrm{e}^{-200\\lambda}} -1600 = 0,\\) ……8分\n解得 \\(\\hat{\\lambda} = \\frac{1}{200}\\ln \\frac{5}{4}\\) ……10分\n由 \\(\\lambda = \\frac{1}{E(X)} = \\frac{1}{T}\\) 故 \\(\\hat{T} = \\frac{1}{\\hat{\\lambda}} = \\frac{200}{\\ln\\frac{5}{4}}\\) ……12分",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "paper": {
+    "id": 54,
+    "subject": "数学三",
+    "examYear": 2026,
+    "seqNo": 14,
+    "title": "26模拟卷 · 数学三 · 第14套",
+    "intro": null,
+    "fullScore": 150,
+    "minutes": 180,
+    "questionCount": 22,
+    "doneCount": 0
+  },
+  "questions": [
+    {
+      "id": 2000054001,
+      "paperId": 54,
+      "seq": 1,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "下列结论正确的是 ( ).",
+      "options": {
+        "A": "曲线 \\( y = x \\sin \\frac{1}{x} \\) 和 \\( y = x \\cos \\frac{1}{x} \\) 均有斜渐近线",
+        "B": "曲线 \\( y = x \\sin \\frac{1}{x} \\) 和 \\( y = x \\cos \\frac{1}{x} \\) 均没有斜渐近线",
+        "C": "曲线 \\( y = x \\sin \\frac{1}{x} \\) 有斜渐近线, \\( y = x \\cos \\frac{1}{x} \\) 没有斜渐近线",
+        "D": "曲线 \\( y = x \\sin \\frac{1}{x} \\) 没有斜渐近线, \\( y = x \\cos \\frac{1}{x} \\) 有斜渐近线"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "由于 \\(\\lim_{x\\to \\infty}x\\sin \\frac{1}{x} = 1\\) ，所以 \\(y = x\\sin \\frac{1}{x}\\) 有水平渐近线 \\(y = 1\\) ，没有斜渐近线.\n对于曲线  \\( y = x \\cos \\frac{1}{x} \\) ,\n\\[\n\\lim _ {x \\rightarrow \\infty} \\frac {y}{x} = \\lim _ {x \\rightarrow \\infty} \\cos \\frac {1}{x} = 1, \\lim _ {x \\rightarrow \\infty} (y - x) = \\lim _ {x \\rightarrow \\infty} x \\left(\\cos \\frac {1}{x} - 1\\right) = - \\lim _ {x \\rightarrow \\infty} x \\cdot \\frac {1}{2 x ^ {2}} = - \\lim _ {x \\rightarrow \\infty} \\frac {1}{2 x} = 0,\n\\]\n所以曲线  \\( y = x \\cos \\frac{1}{x} \\)  有斜渐近线 y = x.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054002,
+      "paperId": 54,
+      "seq": 2,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x) \\) 在点 \\( x = 0 \\) 的某个邻域内有连续的导数, \\( f(0) = 0 \\), 且 \\( \\lim_{x \\to 0} \\frac{f(x) - f'(x)}{\\ln(1 + x)} = -1 \\), 则 ( ).",
+      "options": {
+        "A": "\\(f(0)\\) 是 \\(f(x)\\) 的极小值",
+        "B": "\\(f(0)\\) 是 \\(f(x)\\) 的极大值",
+        "C": "\\(f(0)\\) 不是 \\(f(x)\\) 的极值",
+        "D": "不能判别 \\(f(0)\\) 是否为 \\(f(x)\\) 的极值"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "由题设有 \\(\\lim_{x\\to 0}[f(x) - f'(x)] = f(0) - f'(0) = 0,f'(0) = 0\\) ，当 \\(x\\to 0\\) 时， \\(\\ln (1+\\) \\(x)\\sim x\\) ，由此可得 \\(\\lim_{x\\to 0}\\frac{f(x) - f'(x)}{\\ln(1 + x)} = \\lim_{x\\to 0}\\left[\\frac{f(x) - f(0)}{x} -\\frac{f'(x) - f'(0)}{x}\\right] = f'(0) -\\) \\(f''(0) = -1\\Rightarrow f''(0) = 1\\) ，因此 \\(f(0)\\) 是 \\(f(x)\\) 的极小值.所以答案为A.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054003,
+      "paperId": 54,
+      "seq": 3,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设有曲线 \\( y = \\ln x \\) 与 \\( y = kx^2 \\)，当 \\( k > \\frac{1}{2\\mathrm{e}} \\) 时，两曲线（）.",
+      "options": {
+        "A": "没有交点",
+        "B": "仅有一个交点",
+        "C": "有两个交点",
+        "D": "有三个交点"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "A",
+        "analysis_md": "解法一 设 \\(f(x) = \\frac{\\ln x}{x^2}, f'(x) = \\frac{1 - 2\\ln x}{x^3}\\), 令 \\(f'(x) = 0\\) 得 \\(x = \\sqrt{\\mathrm{e}}\\).\n当 \\(0 < x < \\sqrt{\\mathrm{e}}\\) 时，\\(f'(x) > 0, f(x)\\) 单调递增，且 \\(\\lim_{x \\to 0^{+}} f(x) = -\\infty\\)；\n当 \\(x > \\sqrt{\\mathrm{e}}\\) 时，\\(f'(x) < 0, f(x)\\) 单调递减，且 \\(\\lim_{x \\to +\\infty} f(x) = 0\\)，故 \\(f(x)\\) 在 \\(x = \\sqrt{\\mathrm{e}}\\) 处取到最大值 \\(f(\\sqrt{\\mathrm{e}}) = \\frac{1}{2\\mathrm{e}}, k > \\frac{1}{2\\mathrm{e}}\\) 时，两曲线无交点.\n解法二 两曲线交点横坐标满足方程 \\(kx^{2} - \\ln x = 0\\) ，令\n\\[\nf (x) = k x ^ {2} - \\ln x, f ^ {\\prime} (x) = 2 k x - \\frac {1}{x} = 0 \\Rightarrow x = \\frac {1}{\\sqrt {2 k}}, f \\left(\\frac {1}{\\sqrt {2 k}}\\right) = \\frac {1}{2} + \\frac {1}{2} \\ln (2 k),\n\\]\n当 \\(k > \\frac{1}{2\\mathrm{e}}\\) 时有 \\(f\\left(\\frac{1}{\\sqrt{2k}}\\right) > 0, \\lim_{x\\to +\\infty}f(x) = +\\infty, \\lim_{x\\to 0^{+}}f(x) = +\\infty\\)，函数 \\(f(x)\\) 在区间\n\\(\\left(0, \\frac{1}{\\sqrt{2k}}\\right)\\) 上单调递减，在 \\(\\left(\\frac{1}{\\sqrt{2k}}, +\\infty\\right)\\) 上单调递增，因此方程 \\(kx^2 - \\ln x = 0\\) 无实根，即两个曲线没有交点.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054004,
+      "paperId": 54,
+      "seq": 4,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设区域 \\(D_{1}\\) 为 \\(x^{2} + y^{2} \\leqslant 1\\) 在第一象限的部分, \\(D_{2}\\) 为 \\(|x| + |y| \\leqslant 1\\) 在第一象限的部分,\n\\[\nI _ {1} = \\iint_ {D _ {1}} \\cos (\\pi x y) d \\sigma , I _ {2} = \\iint_ {D _ {2}} \\cos (\\pi x y) d \\sigma , I _ {3} = \\iint_ {D _ {2}} \\sin (\\pi x y) d \\sigma ,\n\\]\n则（ ）.",
+      "options": {
+        "A": "\\(I_{1} <   I_{2} <   I_{3}\\)",
+        "B": "\\(I_{3} <   I_{2} <   I_{1}\\)",
+        "C": "\\(I_{3} <   I_{1} <   I_{2}\\)",
+        "D": "\\(I_{2} <   I_{3} <   I_{1}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "B",
+        "analysis_md": "当 \\((x, y) \\in D_1\\) 时，\\(0 \\leqslant \\pi xy \\leqslant \\frac{\\pi (x^2 + y^2)}{2} \\leqslant \\frac{\\pi}{2}\\)，所以 \\(\\cos (\\pi xy) \\geqslant 0\\)。又 \\(D_2 \\subset D_1\\)，所以 \\(0 < I_2 < I_1\\)。\n当 \\((x, y) \\in D_2\\) 时，\\(0 \\leqslant \\pi xy \\leqslant \\pi x (1 - x) \\leqslant \\frac{\\pi}{4}, \\cos (\\pi xy) > \\sin (\\pi xy)\\)，所以 \\(I_3 < I_2\\). 综上，\\(0 < I_3 < I_2 < I_1\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054005,
+      "paperId": 54,
+      "seq": 5,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(A\\) 为 \\(m \\times n\\) 矩阵, \\(B\\) 为 \\(n \\times m\\) 矩阵. 若 \\(AB = C\\), 则 ( ).",
+      "options": {
+        "A": "当 \\(m < n\\) 时, \\(C\\) 的行向量组线性相关",
+        "B": "当 \\(m < n\\) 时, \\(C\\) 的行向量组线性无关",
+        "C": "当 \\(m > n\\) 时, \\(C\\) 的行向量组线性相关",
+        "D": "当 \\(m > n\\) 时, \\(C\\) 的行向量组线性无关"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "注意 \\(r(C) \\leqslant \\min \\{r(A), r(B)\\}\\). 容易看出, 当 \\(m > n\\) 时, \\(r(C) \\leqslant n < m\\), 故选 C.\n取  \\( A=\\begin{pmatrix}1&0&0\\\\0&1&0\\end{pmatrix},B=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix} \\) ，可知选项 A 不成立.\n取  \\( A=\\begin{pmatrix}1&0&0\\\\0&0&0\\end{pmatrix},B=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix} \\) ，可知选项 B 不成立.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054006,
+      "paperId": 54,
+      "seq": 6,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(\\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4}\\) 是四维非零列向量组, 矩阵 \\(A = (\\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4}), A^{*}\\) 为 \\(A\\) 的伴随矩阵, 已知方程组 \\(Ax = 0\\) 的通解为 \\(k(1, 0, -1, 0)^{T}\\), 则方程组 \\(A^{*}x = 0\\) 的基础解系为 ( ).",
+      "options": {
+        "A": "\\(\\alpha_{1},\\alpha_{2},\\alpha_{3}\\)",
+        "B": "\\(\\alpha_{1} + \\alpha_{2},\\alpha_{2} + \\alpha_{3},\\alpha_{3} + \\alpha_{1}\\)",
+        "C": "\\(\\alpha_{2},\\alpha_{3},\\alpha_{4}\\)",
+        "D": "\\(\\alpha_{1} + \\alpha_{2},\\alpha_{2} + \\alpha_{3},\\alpha_{3} + \\alpha_{4},\\alpha_{4} + \\alpha_{1}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "已知方程组 Ax=0 的通解为  \\( k(1,0,-1,0)^{\\mathrm{T}} \\) ，故  \\( r(A)=4-1=3, r(A^{*})=1 \\) ，所以方程组  \\( A^{*}x=0 \\)  的基础解系含 3 个解向量.\n又因为  \\( A^{*}A=0 \\) ，所以 A 的列向量组  \\( \\alpha_{1},\\alpha_{2},\\alpha_{3},\\alpha_{4} \\)  均为  \\( A^{*}x=0 \\)  的解向量。由于方程组 Ax=0 的解为  \\( (1,0,-1,0)^{\\mathrm{T}} \\) ，故  \\( \\alpha_{1}=\\alpha_{3} \\) ，从而  \\( \\alpha_{1},\\alpha_{2},\\alpha_{3} \\)  线性相关， \\( \\alpha_{1}+\\alpha_{2},\\alpha_{2}+\\alpha_{3},\\alpha_{3}+\\alpha_{1} \\)  线性相关，故 A,B 不正确。\n因 \\(r(\\mathbf{A}) = 3\\) ，故 \\(\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{3},\\pmb{\\alpha}_{4}\\) 存在3个线性无关的向量，由 \\(\\pmb{\\alpha}_{1} = \\pmb{\\alpha}_{3}\\) ，知 \\(\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{3}\\) 和 \\(\\pmb{\\alpha}_{1}\\) \\(\\pmb{\\alpha}_{3},\\pmb{\\alpha}_{4}\\) 均线性相关，余下的 \\(\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{3},\\pmb{\\alpha}_{4}\\) 和 \\(\\pmb{\\alpha}_{1},\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{4}\\) 是同一向量组，故 \\(\\pmb{\\alpha}_{2},\\pmb{\\alpha}_{3},\\pmb{\\alpha}_{4}\\) 必线性无关，C正确.\n因为方程组  \\( A^{*}x=0 \\)  的基础解系含 3 个解向量, 所以 D 不正确.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054007,
+      "paperId": 54,
+      "seq": 7,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(A\\) 为三阶矩阵, \\((p_{1}, p_{2}, p_{3})\\) 为三阶可逆矩阵, 满足 \\(A p_{1} = 2 p_{1}, A p_{2} = 2 p_{2}, A p_{3} = 6 p_{3}\\), 若有可逆矩阵 \\(P\\), 使得 \\(P^{-1} A P = \\begin{pmatrix} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 6 \\end{pmatrix}\\), 则 \\(P\\) 不可以取 ( ).",
+      "options": {
+        "A": "\\((p_{1}, 2p_{2}, 3p_{3})\\)",
+        "B": "\\((p_{1} - p_{2}, p_{2}, p_{3})\\)",
+        "C": "\\((p_{1} - p_{2}, p_{1} + p_{2}, p_{3})\\)",
+        "D": "\\((p_{1}, p_{2} + p_{3}, p_{3})\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "对于 A, 由于  \\( 2p_{2} \\)  为 A 的特征值 2 对应的特征向量,  \\( 3p_{3} \\)  为 A 的特征值 6 对应的特\n征向量,因此  \\( \\boldsymbol{P}=(p_{1},2p_{2},3p_{3}) \\)  可使得  \\( P^{-1}AP=\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&6\\end{pmatrix} \\) .\n对于 B, 由于  \\( p_{1}-p_{2} \\)  为 A 的特征值 2 对应的特征向量, 因此  \\( \\boldsymbol{P}=(\\boldsymbol{p}_{1}-\\boldsymbol{p}_{2},\\boldsymbol{p}_{2},\\boldsymbol{p}_{3}) \\)  可使得\n\\[\n\\boldsymbol {P} ^ {- 1} \\boldsymbol {A} \\boldsymbol {P} = \\left( \\begin{array}{c c c} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 6 \\end{array} \\right).\n\\]\n对于 C, 由于  \\( p_{1}-p_{2}, p_{1}+p_{2} \\)  为 A 的特征值 2 对应的线性无关的特征向量, 因此\n\\[\n\\boldsymbol {P} = (\\boldsymbol {p} _ {1} - \\boldsymbol {p} _ {2}, \\boldsymbol {p} _ {1} + \\boldsymbol {p} _ {2}, \\boldsymbol {p} _ {3}) \\text {可使得} \\boldsymbol {P} ^ {- 1} \\boldsymbol {A} \\boldsymbol {P} = \\left( \\begin{array}{c c c} 2 & & \\\\ & 2 & \\\\ & & 6 \\end{array} \\right).\n\\]\n对于 D, 由于  \\( p_{2} + p_{3} \\)  不是 A 的特征值 2 对应的特征向量, 因此\n\\[\n\\left(\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2} + \\boldsymbol {p} _ {3}, \\boldsymbol {p} _ {3}\\right) ^ {- 1} \\boldsymbol {A} \\left(\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2} + \\boldsymbol {p} _ {3}, \\boldsymbol {p} _ {3}\\right) \\neq \\left( \\begin{array}{c c c c} 2 & & & \\\\ & 2 & & \\\\ & & 6 \\end{array} \\right).\n\\]\n【注】事实上,如果  \\( \\boldsymbol{P}=(\\boldsymbol{p}_{1},\\boldsymbol{p}_{2}+\\boldsymbol{p}_{3},\\boldsymbol{p}_{3}) \\) ,由于\n\\[\n(\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2}, \\boldsymbol {p} _ {3}) \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 1 & 1 \\end{array} \\right) = (\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2} + \\boldsymbol {p} _ {3}, \\boldsymbol {p} _ {3}),\n\\]\n因此\n\\[\n\\begin{array}{l} \\left(\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2} + \\boldsymbol {p} _ {3}, \\boldsymbol {p} _ {3}\\right) ^ {- 1} \\boldsymbol {A} \\left(\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2} + \\boldsymbol {p} _ {3}, \\boldsymbol {p} _ {3}\\right) \\\\ = \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 1 & 1 \\end{array} \\right) ^ {- 1} \\left(\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2}, \\boldsymbol {p} _ {3}\\right) ^ {- 1} \\boldsymbol {A} \\left(\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2}, \\boldsymbol {p} _ {3}\\right) \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 1 & 1 \\end{array} \\right) \\\\ = \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & - 1 & 1 \\end{array} \\right) \\left( \\begin{array}{c c c} 2 & & \\\\ & 2 & \\\\ & & 6 \\end{array} \\right) \\left( \\begin{array}{c c c} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ & & 1 \\end{array} \\right) \\\\ = \\left( \\begin{array}{c c c} 2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 4 & 6 \\end{array} \\right). \\\\ \\end{array}\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054008,
+      "paperId": 54,
+      "seq": 8,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设随机变量 \\(X_{1}, X_{2}, X_{3}\\) 相互独立, 均服从 \\([0,1]\\) 上的均匀分布, \\(X = \\max \\left\\{\\min \\left\\{X_{1}, X_{2}\\right\\}, X_{3}\\right\\}\\), 则当 \\(0 \\leqslant x \\leqslant 1\\) 时, \\(X\\) 的概率密度函数 \\(f_{X}(x) = (\\quad)\\).",
+      "options": {
+        "A": "\\(3x^{2}\\)",
+        "B": "\\(3(1 - x)^{2}\\)",
+        "C": "\\(1 + 2x - 3x^{2}\\)",
+        "D": "\\(4x - 3x^{2}\\)"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "D",
+        "analysis_md": "由题设得当 \\(0 \\leqslant x \\leqslant 1\\) 时, \\(X_{1}, X_{2}, X_{3}\\) 的分布函数均为 \\(F(x) = x\\), 从而有 \\(\\min\\{X_{1}, X_{2}\\}\\) 的分布函数为 \\(1 - [1 - F(x)]^{2} = 1 - (1 - x)^{2}\\), 所以 \\(X = \\max\\{\\min\\{X_{1}, X_{2}\\}, X_{3}\\}\\) 的分布函数为\n\\[\nF (x) \\{1 - [ 1 - F (x) ] ^ {2} \\} = x [ 1 - (1 - x) ^ {2} ] = 2 x ^ {2} - x ^ {3},\n\\]\n所以当 \\(0 \\leqslant x \\leqslant 1\\) 时，\\(X\\) 的概率密度 \\(f_{X}(x) = (2x^{2} - x^{3})' = 4x - 3x^{2}\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054009,
+      "paperId": 54,
+      "seq": 9,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "从 \\(0, 1, \\cdots, 9\\) 这十个数字中任意选出三个不同的数字. 记随机变量\n\\(X = \\left\\{ \\begin{array}{ll}0, & \\text{三个数字中不含} 0,\\\\ 1, & \\text{三个数字中含} 0, \\end{array} \\right.\\) \\(Y = \\left\\{ \\begin{array}{ll}0, & \\text{三个数字中不含} 5,\\\\ 1, & \\text{三个数字中含} 5, \\end{array} \\right.\\)\n则 X 和 Y 的相关系数  \\( \\rho_{XY} = (\\quad) \\) .",
+      "options": {
+        "A": "0",
+        "B": "\\(\\frac{1}{9}\\)",
+        "C": "\\(-\\frac{1}{9}\\)",
+        "D": "-1"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "\\( P\\{X=0,Y=0\\}=P\\{ \\) 三个数字中不含0和5 \\( \\}=\\frac{C_{8}^{3}}{C_{10}^{3}}=\\frac{7}{15} \\)\n\\(P\\{X = 0,Y = 1\\} = P\\) {三个数字中含5但不含0} \\(= \\frac{\\mathrm{C}_8^2}{\\mathrm{C}_{10}^3} = \\frac{7}{30},\\)\n\\(P\\{X = 1,Y = 0\\} = P\\) {三个数字中含0但不含5} \\(= \\frac{\\mathrm{C}_8^2}{\\mathrm{C}_{10}^3} = \\frac{7}{30},\\)\n\\(P\\{X = 1,Y = 1\\} = P\\) {三个数字中含0和5} \\(= \\frac{\\mathrm{C}_8^1}{\\mathrm{C}_{10}^3} = \\frac{1}{15},\\)\n故 \\((X,Y)\\) 的分布律为\n<table><tr><td>X\\Y</td><td>0</td><td>1</td><td>\\( P\\{X=x_i\\} \\)</td></tr><tr><td>0</td><td>\\( \\frac{7}{15} \\)</td><td>\\( \\frac{7}{30} \\)</td><td>\\( \\frac{7}{10} \\)</td></tr><tr><td>1</td><td>\\( \\frac{7}{30} \\)</td><td>\\( \\frac{1}{15} \\)</td><td>\\( \\frac{3}{10} \\)</td></tr><tr><td>\\( P\\{Y=y_i\\} \\)</td><td>\\( \\frac{7}{10} \\)</td><td>\\( \\frac{3}{10} \\)</td><td>1</td></tr></table>\n所以 \\(\\rho_{XY} = \\frac{\\mathrm{Cov}(X,Y)}{\\sqrt{DX}\\sqrt{DY}} = \\frac{E(XY) - EXEY}{\\sqrt{DX}\\sqrt{DY}} = \\frac{\\frac{1}{15} - \\frac{3}{10} \\times \\frac{3}{10}}{\\sqrt{\\frac{3}{10} \\times \\frac{7}{10}}\\sqrt{\\frac{3}{10} \\times \\frac{7}{10}}} = -\\frac{1}{9}.\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054010,
+      "paperId": 54,
+      "seq": 10,
+      "type": "选择题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(X_{1}, X_{2}, X_{3}, X_{4}\\) 为来自总体 \\(X \\sim N(0,1)\\) 的一个简单随机样本, 以下四个命题:\n① \\(X_{1} + 2X_{2}\\) 与 \\(2X_{3} - X_{4}\\) 同分布；\n② \\(X_{1}^{2}\\) 与 \\(\\frac{(X_2 - X_3 + X_4)^2}{3}\\) 同分布；\n③ \\(\\frac{X_1 - X_2}{|X_3 + X_4|}\\) 与 \\(\\frac{X_1 - X_2}{|X_1 + X_2|}\\) 同分布；\n④ \\(\\frac{X_1^2 + X_2^2}{X_3^2 + X_4^2}\\) 与 \\(\\frac{(X_1 + X_2)^2}{X_3^2 + X_4^2}\\) 同分布.\n其中正确的个数为( ).",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "C",
+        "analysis_md": "由于  \\( X_{1}+2X_{2}\\sim N(0,5) \\) ， \\( 2X_{3}-X_{4}\\sim N(0,5) \\) ，故①正确.\n由于 \\(X_{1}^{2}\\sim \\chi^{2}(1)\\) ，因为 \\(X_{2} - X_{3} + X_{4}\\sim N(0,3)\\) ，所以 \\(\\frac{(X_2 - X_3 + X_4)^2}{3}\\sim \\chi^2 (1)\\) ，故②正确.\n由于 \\(\\frac{X_1 - X_2}{\\sqrt{2}}\\sim N(0,1)\\) ，因为 \\(\\frac{X_3 + X_4}{\\sqrt{2}}\\sim N(0,1)\\) ，所以 \\(\\frac{(X_3 + X_4)^2}{2}\\sim \\chi^2 (1)\\) ，又\n\\(\\frac{X_1 - X_2}{\\sqrt{2}}\\) 与 \\(\\frac{(X_3 + X_4)^2}{2}\\) 相互独立，故 \\(\\frac{\\frac{X_1 - X_2}{\\sqrt{2}}}{\\sqrt{\\frac{(X_3 + X_4)^2}{2}} / 1} = \\frac{X_1 - X_2}{|X_3 + X_4|} \\sim t(1)\\).\n由于 \\(\\frac{X_1 - X_2}{\\sqrt{2}} \\sim N(0,1)\\), 因为 \\(\\frac{X_1 + X_2}{\\sqrt{2}} \\sim N(0,1)\\), 所以 \\(\\frac{(X_1 + X_2)^2}{2} \\sim \\chi^2(1)\\). 又由题意知 \\((X_1 - X_2, X_1 + X_2)\\) 服从二维正态分布, 且 \\(\\operatorname{Cov}(X_1 - X_2, X_1 + X_2) = DX_1 - DX_2 = 1 - 1 = 0\\), 所以 \\(X_1 - X_2\\) 与 \\(X_1 + X_2\\) 不相关, 从而有 \\(X_1 - X_2\\) 与 \\(X_1 + X_2\\) 相互独立, 所\n以 \\(\\frac{X_1 - X_2}{\\sqrt{2}}\\) 与 \\(\\frac{(X_1 + X_2)^2}{2}\\) 相互独立，因此 \\(\\frac{\\frac{X_1 - X_2}{\\sqrt{2}}}{\\sqrt{\\frac{(X_1 + X_2)^2}{2} / 1}} = \\frac{X_1 - X_2}{|X_1 + X_2|} \\sim t(1)\\). 故③\n正确.\n由于 \\(\\frac{X_1^2 + X_2^2}{X_3^2 + X_4^2} = \\frac{\\frac{X_1^2 + X_2^2}{2}}{\\frac{X_3^2 + X_4^2}{2}} \\sim F(2,2), \\frac{(X_1 + X_2)^2}{X_3^2 + X_4^2} = \\frac{\\left(\\frac{X_1 + X_2}{\\sqrt{2}}\\right)^2}{\\frac{X_3^2 + X_4^2}{2}} \\sim F(1,2)\\), 故 ④ 不正确.\n二、填空题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054011,
+      "paperId": 54,
+      "seq": 11,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设函数 \\( y = y(x) \\) 由 \\( y^3 + xy + x^2 - 2x + 1 = 0 \\) 确定，则 \\( \\lim_{x \\to 1} \\frac{\\int_1^x y(t) dt}{(x - 1)^3} = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(-\\frac{1}{3}\\)",
+        "analysis_md": "方程两边对 x 求导得  \\( 3y^{2}y' + y + xy' + 2x - 2 = 0 \\) ，由  \\( y(1) = 0 \\)  知  \\( y'(1) = 0 \\) 。上式两边再对 x 求导得  \\( 6y(y')^{2} + 3y^{2}y'' + 2y' + xy'' + 2 = 0 \\) ，由  \\( y(1) = 0, y'(1) = 0 \\)  知  \\( y''(1) = -2 \\) 。\n故原极限 \\(= \\lim_{x\\to 1}\\frac{y(x)}{3(x - 1)^2} = \\lim_{x\\to 1}\\frac{y'(x)}{6(x - 1)} = \\lim_{x\\to 1}\\frac{y''(x)}{6} = -\\frac{1}{3}.\\)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054012,
+      "paperId": 54,
+      "seq": 12,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\( f(x) = \\frac{1 + x}{1 - x + x^2} \\)，则 \\( f'''(0) = \\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "-6",
+        "analysis_md": "先求  \\( f(x) \\)  在点 x=0 附近的 3 阶泰勒公式.\n解法一 \\(f(x) = \\frac{1 + x}{1 - (x - x^2)} = (1 + x)[1 + (x - x^2) + (x - x^2)^2 +\\)\n\\[\n\\begin{array}{l} (x - x ^ {2}) ^ {3} + o (x ^ {3}) ] \\\\ = (1 + x) [ 1 + x - x ^ {3} + o (x ^ {3}) ] = 1 + 2 x + x ^ {2} - x ^ {3} + o (x ^ {3}). \\\\ \\end{array}\n\\]\n解法二 \\(f(x) = \\frac{1 + x}{1 - x + x^2} = \\frac{(1 + x)(1 + x)}{(1 - x + x^2)(1 + x)} = \\frac{1 + 2x + x^2}{1 + x^3}\\)\n\\[\n= (1 + 2 x + x ^ {2}) [ 1 - x ^ {3} + o (x ^ {6}) ] = 1 + 2 x + x ^ {2} - x ^ {3} + o (x ^ {3}).\n\\]\n故 \\( \\frac{f''(0)}{3!}=-1 \\) ，则 \\( f'''(0)=-6 \\) .",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054013,
+      "paperId": 54,
+      "seq": 13,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设某种商品每天生产 \\(x\\) 单位时固定成本为 20 元, 边际成本函数为 \\(0.4x + 2\\) (元/单位). 如果这种商品规定的销售单价为 18 元, 且商品可以全部售出, 则每天的最大总利润为 ____ 元.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "300",
+        "analysis_md": "每天生产 x 单位时的总成本函数为\n\\[\nC (x) = \\int_ {0} ^ {x} (0. 4 t + 2) \\mathrm{d} t + C (0) = 0. 2 x ^ {2} + 2 x + 2 0,\n\\]\n设销售 x 单位商品得到的总收益为  \\( R(x) \\) ，则  \\( R(x)=18x \\) .\n利润函数 \\(L(x) = R(x) - C(x) = 18x - (0.2x^2 + 2x + 20) = -0.2x^2 + 16x - 20.\\)\n由  \\( L'(x) = -0.4x + 16 = 0 \\) ，得 x = 40，而  \\( L''(40) < 0 \\) ，所以每天生产 40 单位商品时才能获得最大利润，最大利润为\n\\[\nL (4 0) = (- 0. 2 x ^ {2} + 1 6 x - 2 0) \\mid_ {x = 4 0} = 3 0 0 (\\text {元}).\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054014,
+      "paperId": 54,
+      "seq": 14,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设 \\(u = ze^{x^2 + y^2}\\sin \\frac{x}{y}\\), 其中 \\(z = z(x, y)\\) 是由方程 \\(x^2 + 2y^2 - z^2 = 2\\) 确定的隐函数, 且 \\(z(1, 1) = 1\\), 则 \\(\\left.\\frac{\\partial u}{\\partial x}\\right|_{(1, 1)} =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\( e^{2}(3\\sin1+\\cos1) \\)",
+        "analysis_md": "根据 u 的表达式求偏导可得\n\\[\n\\frac {\\partial u}{\\partial x} = z _ {x} ^ {\\prime} \\mathrm{e} ^ {x ^ {2} + y ^ {2}} \\sin \\frac {x}{y} + 2 x z \\mathrm{e} ^ {x ^ {2} + y ^ {2}} \\sin \\frac {x}{y} + \\frac {z}{y} \\mathrm{e} ^ {x ^ {2} + y ^ {2}} \\cos \\frac {x}{y}.\n\\]\n在方程 \\(x^{2} + 2y^{2} - z^{2} = 2\\) 两边对 \\(x\\) 求偏导，可得 \\(2x - 2z \\cdot z_{x}^{\\prime} = 0\\) ，将 \\(x = 1, y = 1, z = 1\\) 代入可得 \\(z_{x}^{\\prime} = 1.\\) 再将 \\(x = 1, y = 1, z = 1, z_{x}^{\\prime} = 1\\) 代入，可得 \\(\\frac{\\partial u}{\\partial x}\\bigg|_{(1,1)} = \\mathrm{e}^{2}(3\\sin 1 + \\cos 1)\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054015,
+      "paperId": 54,
+      "seq": 15,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设三阶矩阵 \\(A, B\\) 相似, \\(B\\) 的各列元素之和均为 6 , 且 \\(|\\sqrt{3} E + B| = |\\sqrt{3} E - B| = 0\\), 则行列式 \\(\\left|\\frac{1}{3} A - \\frac{1}{3} AB\\right| =\\) ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(-\\frac{20}{3}\\)",
+        "analysis_md": "由于矩阵 A, B 相似, 因此 A, B 有相同的特征值, 因为 B 的各列元素之和均为 6, 所以 B 有特征值 6, 又  \\( \\left|\\sqrt{3}E + B\\right| = \\left|\\sqrt{3}E - B\\right| = 0 \\) , 所以  \\( \\sqrt{3}, -\\sqrt{3} \\)  是 B 的特征值, 因此 A 的特征值为  \\( 6, \\sqrt{3}, -\\sqrt{3} \\) . E - B 的特征值为  \\( -5, 1 - \\sqrt{3}, 1 + \\sqrt{3} \\) , 从而有  \\( |A| = 6 \\times \\sqrt{3} \\times (-\\sqrt{3}) = -18, |E - B| = -5 \\times (1 - \\sqrt{3})(1 + \\sqrt{3}) = 10 \\) , 所以\n\\[\n\\left| \\frac {1}{3} \\boldsymbol {A} - \\frac {1}{3} \\boldsymbol {A B} \\right| = \\frac {1}{3 ^ {3}} | \\boldsymbol {A} - \\boldsymbol {A B} | = \\frac {1}{3 ^ {3}} | \\boldsymbol {A} | | \\boldsymbol {E} - \\boldsymbol {B} | = \\frac {1}{3 ^ {3}} \\times (- 1 8) \\times 1 0 = - \\frac {2 0}{3}.\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054016,
+      "paperId": 54,
+      "seq": 16,
+      "type": "填空题",
+      "points": 5,
+      "difficulty": 3,
+      "stem": "设随机事件 \\(A, B, C\\) 相互独立, \\(P(A) = 0.5\\), \\(P(BC) = 0.4\\), \\(P(AB - C) = 0.2\\), 则在已知 \\(B\\) 发生, 而 \\(AC\\) 不发生的条件下, \\(A\\) 和 \\(C\\) 至少发生一个的概率为 ____.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "\\(\\frac{2}{3}\\)",
+        "analysis_md": "由于 A, B, C 相互独立, 故\n\\[\nP (A B - C) = P (A B \\overline {{{C}}}) = P (A) P (B \\overline {{{C}}}) = 0. 5 P (B \\overline {{{C}}}) = 0. 2, P (B \\overline {{{C}}}) = 0. 4,\n\\]\n所以\n\\[\nP (B) = P (B C) + P (B \\overline {{{C}}}) = 0. 4 + 0. 4 = 0. 8,\n\\]\n再由 \\(P(BC) = P(B)P(C) = 0.8P(C) = 0.4\\) ，得 \\(P(C) = 0.5.\\) 故所求条件概率为\n\\[\n\\begin{array}{l} P (A \\cup C | B - A C) = \\frac {P ((A \\cup C) (B - A C))}{P (B - A C)} = \\frac {P (A B \\overline {{{C}}}) + P (\\overline {{{A}}} B C)}{P (B) - P (A B C)} \\\\ = \\frac {0 . 2 + 0 . 5 \\times 0 . 8 \\times 0 . 5}{0 . 8 - 0 . 5 \\times 0 . 8 \\times 0 . 5} = \\frac {2}{3}. \\\\ \\end{array}\n\\]\n三、解答题",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054017,
+      "paperId": 54,
+      "seq": 17,
+      "type": "解答题",
+      "points": 10,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x) = \\begin{cases} x + 2x^2\\sin \\frac{1}{x}, & x \\neq 0, \\\\ 0, & x = 0. \\end{cases} \\)\n(1) 求  \\( f'(x) \\) ，并讨论  \\( f'(x) \\)  的连续性；\n(2) 求  \\( f'\\left(\\frac{1}{2k\\pi}\\right), k=\\pm1, \\pm2, \\cdots \\) ，并由此判断是否存在  \\( \\delta > 0 \\) ，使得  \\( f(x) \\)  在  \\( (- \\delta, \\delta) \\)  内单调？",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1) \\(f^{\\prime}(0) = \\lim_{x\\to 0}\\frac{f(x) - f(0)}{x - 0} = \\lim_{x\\to 0}\\frac{x + 2x^2\\sin\\frac{1}{x}}{x}\\) \\(= \\lim_{x\\to 0}\\left(1 + 2x\\sin \\frac{1}{x}\\right) = 1 + 0 = 1.\\)\n当 \\(x \\neq 0\\) 时，\\(f'(x) = 1 + 4x\\sin \\frac{1}{x} - 2\\cos \\frac{1}{x}\\)，故\n\\[\nf ^ {\\prime} (x) = \\left\\{ \\begin{array}{l l} 1 + 4 x \\sin \\frac {1}{x} - 2 \\cos \\frac {1}{x}, & x \\neq 0, \\\\ 1, & x = 0. \\end{array} \\right.\n\\]\n当 \\(x \\neq 0\\) 时，\\(f'(x)\\) 连续.\n因为 \\(\\lim_{x\\to 0}f'(x) = \\lim_{x\\to 0}\\left(1 + 4x\\sin \\frac{1}{x} -2\\cos \\frac{1}{x}\\right)\\) 不存在，所以 \\(\\lim_{x\\to 0}f'(x)\\neq f'(0),f'(x)\\) 在点 \\(x = 0\\) 处不连续.\n(2) \\( f'\\left(\\frac{1}{2k\\pi}\\right)=1+\\frac{2}{k\\pi}\\sin 2k\\pi-2\\cos 2k\\pi=-1,k=\\pm1,\\pm2,\\cdots. \\)\n由于  \\( f'(0)=1>0 \\) ，所以对任意的  \\( \\delta>0 \\) ， \\( f(x) \\)  不是  \\( (- \\delta, \\delta) \\)  内的单调减函数.\n由于 \\(\\lim_{k\\to \\infty}\\frac{1}{2k\\pi} = 0\\) ，所以对任意的 \\(\\delta >0\\) ，总存在非零整数 \\(k\\) ，有 \\(\\frac{1}{2k\\pi}\\in (-\\delta ,\\delta)\\) .又\\(f^{\\prime}\\left(\\frac{1}{2k\\pi}\\right) = -1 <   0\\) ，可知 \\(f(x)\\) 不是 \\((- \\delta ,\\delta)\\) 内的单调增函数.\n综上,对任意的  \\( \\delta > 0, f(x) \\)  不是  \\( (- \\delta, \\delta) \\)  内的单调函数, 故不存在  \\( \\delta > 0 \\) , 使得  \\( f(x) \\)  在  \\( (- \\delta, \\delta) \\)  内单调.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054018,
+      "paperId": 54,
+      "seq": 18,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x) \\) 在 \\( (-∞,+∞) \\) 内连续,且满足 \\( f(x)=\\sin x+\\int_{0}^{x}tf(x-t)dt. \\)\n(1) 求  \\( f(x) \\) ;\n(2) 讨论  \\( \\sum_{n=1}^{\\infty}(-1)^{n}f\\left(\\frac{1}{n}\\right) \\)  的敛散性，若收敛，需指明是绝对收敛，还是条件收敛.",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1) 由 \\( f(x) = \\sin x + \\int_{0}^{x} t \\cdot f(x - t) \\, \\mathrm{d}t \\)，令 \\( u = x - t \\)，得\n\\[\nf (x) = \\sin x + x \\int_ {0} ^ {x} f (u) \\mathrm{d} u - \\int_ {0} ^ {x} u f (u) \\mathrm{d} u, f ^ {\\prime} (x) = \\cos x + \\int_ {0} ^ {x} f (u) \\mathrm{d} u,\n\\]\n\\[\nf ^ {\\prime \\prime} (x) - f (x) = - \\sin x,\n\\]\n且  \\( f(0)=0, f'(0)=1. \\)\n解微分方程得 \\(f(x) = \\frac{1}{4} (\\mathrm{e}^x -\\mathrm{e}^{-x}) + \\frac{1}{2}\\sin x.\\)\n(2) 级数  \\( \\sum_{n=1}^{\\infty}(-1)^{n}f\\left(\\frac{1}{n}\\right)=\\sum_{n=1}^{\\infty}(-1)^{n}\\left[\\frac{1}{4}\\left(\\mathrm{e}^{\\frac{1}{n}}-\\mathrm{e}^{-\\frac{1}{n}}\\right)+\\frac{1}{2}\\sin\\frac{1}{n}\\right] \\) .\n由于 \\(\\frac{1}{4} (\\mathrm{e}^{\\frac{1}{n}} - \\mathrm{e}^{-\\frac{1}{n}}) > 0, \\frac{1}{2}\\sin \\frac{1}{n} > 0\\)，故该级数是交错级数.\n又 \\(\\lim_{n\\to \\infty}\\frac{\\frac{1}{4} (\\mathrm{e}^{\\frac{1}{n}} - \\mathrm{e}^{-\\frac{1}{n}}) + \\frac{1}{2}\\sin\\frac{1}{n}}{\\frac{1}{n}} = \\frac{1}{4}\\lim_{n\\to \\infty}\\mathrm{e}^{-\\frac{1}{n}} (\\mathrm{e}^{\\frac{2}{n}} - 1)n + \\frac{1}{2} = \\frac{1}{2} +\\frac{1}{2} = 1\\) ，因此该级数不是绝对收敛.\n又因为 \\(\\mathrm{e}^{\\frac{1}{n}} - \\mathrm{e}^{-\\frac{1}{n}} - (\\mathrm{e}^{\\frac{1}{n + 1}} - \\mathrm{e}^{-\\frac{1}{n + 1}}) = (\\mathrm{e}^{\\frac{1}{n}} - \\mathrm{e}^{\\frac{1}{n + 1}}) + (\\mathrm{e}^{-\\frac{1}{n + 1}} - \\mathrm{e}^{-\\frac{1}{n}}) > 0, \\sin \\frac{1}{n} > \\sin \\frac{1}{n + 1}\\), 所以数列 \\(\\frac{1}{4} (\\mathrm{e}^{\\frac{1}{n}} - \\mathrm{e}^{-\\frac{1}{n}}) + \\frac{1}{2}\\sin \\frac{1}{n}\\) 单调递减，且 \\(\\lim_{n\\to \\infty}(\\mathrm{e}^{\\frac{1}{n}} - \\mathrm{e}^{-\\frac{1}{n}}) = 0, \\lim_{n\\to \\infty}\\sin \\frac{1}{n} = 0\\) ，由莱布尼茨判别法知 \\(\\sum_{n=1}^{\\infty}(-1)^{n}(\\mathrm{e}^{\\frac{1}{n}} - \\mathrm{e}^{-\\frac{1}{n}})\\) 与 \\(\\sum_{n=1}^{\\infty}(-1)^{n}\\sin \\frac{1}{n}\\) 都是收敛的，所以该级数条件收敛.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054019,
+      "paperId": 54,
+      "seq": 19,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设区域 \\(D = \\{(x,y)\\mid 0\\leqslant x\\leqslant 1,0\\leqslant y\\leqslant 2\\}\\), \\([x]\\) 表示不超过 \\(x\\) 的最大整数, 计算 \\(\\iint_{D}[x^2 + y]\\mathrm{d}x\\mathrm{d}y\\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "如图所示, \\( D=D_{1}\\cup D_{2}\\cup D_{3} \\) ，其中 \\( D_{1} \\) 由x轴，y轴和抛物线 \\( x^{2}+y=1(x>0) \\) 围成； \\( D_{2} \\) 由x=0,x=1和抛物线 \\( x^{2}+y=1,x^{2}+y=2 \\) 围成； \\( D_{3} \\) 由y=2,x=1和抛物线 \\( x^{2}+y=2 \\) 围成.于是\n\\[\n\\begin{array}{l} \\iint_ {D} \\left[ x ^ {2} + y \\right] \\mathrm{d} x \\mathrm{d} y = \\iint_ {D _ {1}} 0 \\mathrm{d} x \\mathrm{d} y + \\iint_ {D _ {2}} 1 \\mathrm{d} x \\mathrm{d} y + \\iint_ {D _ {3}} 2 \\mathrm{d} x \\mathrm{d} y \\\\ = \\int_ {0} ^ {1} \\mathrm{d} x \\int_ {1 - x ^ {2}} ^ {2 - x ^ {2}} \\mathrm{d} y + 2 \\int_ {0} ^ {1} \\mathrm{d} x \\int_ {2 - x ^ {2}} ^ {2} \\mathrm{d} y \\\\ = \\int_ {0} ^ {1} \\mathrm{d} x + 2 \\int_ {0} ^ {1} x ^ {2} \\mathrm{d} x \\\\ = 1 + \\frac {2}{3} \\\\ = \\frac {5}{3}. \\\\ \\end{array}\n\\]\n![](/uploads/books/7e1943d048bdaef53cdae7a950bff5b8e5b3fa54029c7eae8dd8b27738395865.jpg)",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054020,
+      "paperId": 54,
+      "seq": 20,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设函数 \\( f(x) \\) 可导, \\( F(x,y)=\\frac{1}{2y}\\int_{-y}^{y}f(x+t)dt,-\\infty<x<+\\infty,y>0. \\)\n(1) 求  \\( \\lim_{y\\to0^{+}}F(x,y) \\) ; (2) 求  \\( \\lim_{y\\to0^{+}}\\frac{\\partial F}{\\partial x} \\) ; (3) 如果  \\( f'(x) \\)  单调递增，问  \\( F(x,y) \\)  关于 y 是否单调递增?",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1) 由于 \\(f(x)\\) 可导, 故 \\(f(x)\\) 连续.\n解法一 \\(\\lim_{y\\to 0^{+}}F(x,y) = \\lim_{y\\to 0^{+}}\\frac{\\int_{-y}^{y}f(x + t)\\mathrm{d}t}{2y} = \\lim_{y\\to 0^{+}}\\frac{f(x + y) + f(x - y)}{2} = f(x).\\)\n解法二 \\(\\lim_{y\\to 0^{+}}F(x,y) = \\lim_{y\\to 0^{+}}\\frac{1}{2y}\\cdot f(x + \\xi)\\cdot 2y = \\lim_{y\\to 0^{+}}f(x + \\xi) = f(x)(-y <   \\xi <  y).\\)\n(2) 先求出  \\( \\frac{\\partial F}{\\partial x} \\) ，可用以下两种方法.\n解法一 \\(F(x,y)\\xlongequal {u = x + t}\\frac{1}{2y}\\int_{x - y}^{x + y}f(u)\\mathrm{d}u\\) ，所以 \\(\\frac{\\partial F}{\\partial x} = \\frac{1}{2y}[f(x + y) - f(x - y)].\\)\n解法二 \\(\\frac{\\partial F}{\\partial x} = \\lim_{\\Delta x\\to 0}\\frac{F(x + \\Delta x,y) - F(x,y)}{\\Delta x}\\)\n\\[\n\\begin{array}{l} = \\lim _ {\\Delta x \\rightarrow 0} \\frac {\\frac {1}{2 y} \\int_ {- y} ^ {y} f (x + \\Delta x + t) \\mathrm{d} t - \\frac {1}{2 y} \\int_ {- y} ^ {y} f (x + t) \\mathrm{d} t}{\\Delta x} \\\\ = \\frac {1}{2 y} \\lim _ {\\Delta x \\rightarrow 0} \\frac {\\int_ {\\Delta x - y} ^ {\\Delta x + y} f (x + u) \\mathrm{d} u - \\int_ {- y} ^ {y} f (x + t) \\mathrm{d} t}{\\Delta x} \\\\ = \\frac {1}{2 y} \\lim _ {\\Delta x \\rightarrow 0} [ f (x + \\Delta x + y) - f (x + \\Delta x - y) ]. \\\\ \\end{array}\n\\]\n由于 \\(f(x)\\) 连续，故有 \\(\\frac{\\partial F}{\\partial x} = \\frac{1}{2y}[f(x + y) - f(x - y)]\\)\n再计算 \\(\\lim_{y\\to 0^{+}}\\frac{\\partial F}{\\partial x}\\)\n\\[\n\\begin{array}{l} \\lim _ {y \\rightarrow 0 ^ {+}} \\frac {\\partial F}{\\partial x} = \\lim _ {y \\rightarrow 0 ^ {+}} \\frac {1}{2 y} [ f (x + y) - f (x - y) ] \\\\ = \\frac {1}{2} \\lim _ {y \\rightarrow 0 ^ {+}} \\left[ \\frac {f (x + y) - f (x)}{y} + \\frac {f (x - y) - f (x)}{- y} \\right] \\\\ = \\frac {1}{2} [ f ^ {\\prime} (x) + f ^ {\\prime} (x) ] = f ^ {\\prime} (x). \\\\ \\end{array}\n\\]\n(3) \\(\\frac{\\partial F}{\\partial y} = \\frac{y[f(x + y) + f(x - y)] - \\int_{-y}^{y}f(x + t)\\mathrm{d}t}{2y^2}.\\)\n记 \\(G(x,y) = y[f(x + y) + f(x - y)] - \\int_{-y}^{y}f(x + t)\\mathrm{d}t, - \\infty <  x <   + \\infty ,y\\geqslant 0.\\)\n\\[\n\\begin{array}{l} \\frac {\\partial G}{\\partial y} = [ f (x + y) + f (x - y) ] + y [ f ^ {\\prime} (x + y) - f ^ {\\prime} (x - y) ] - [ f (x + y) + f (x - y) ] \\\\ = y \\left[ f ^ {\\prime} (x + y) - f ^ {\\prime} (x - y) \\right]. \\\\ \\end{array}\n\\]\n当 \\(y > 0\\) 时，考虑到 \\(f'(x)\\) 单调递增，所以 \\(f'(x + y) > f'(x - y), \\frac{\\partial G}{\\partial y} > 0\\) ，因此 \\(G(x, y)\\) 关于 \\(y\\) 单调递增，进而 \\(G(x, y) > G(x, 0) = 0\\) ，得 \\(\\frac{\\partial F}{\\partial y} = \\frac{G(x, y)}{2y^2} > 0\\) ，故 \\(F(x, y)\\) 关于 \\(y\\) 单调递增.",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054021,
+      "paperId": 54,
+      "seq": 21,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "已知 \\(a = (1, - 2,2)^T\\) 是二次型\n\\[\nf \\left(x _ {1}, x _ {2}, x _ {3}\\right) = x ^ {T} A x = a x _ {1} ^ {2} + 4 x _ {2} ^ {2} + b x _ {3} ^ {2} - 4 x _ {1} x _ {2} + 4 x _ {1} x _ {3} - 8 x _ {2} x _ {3}\n\\]\n对应矩阵 A 的属于特征值  \\( \\lambda \\)  的特征向量.\n(1) 求 \\(a, b, \\lambda\\) 的值;\n(2) 利用正交变换 \\(x = Qy\\) 将二次型化为标准形, 并写出所用的正交变换和对应的正交矩阵;\n(3) 求在条件 \\(x_{1}^{2} + x_{2}^{2} + x_{3}^{2} = 4\\) 下的 \\(f(x)\\) 的最大值, 并求此时满足 \\(x_{1}^{2} + x_{2}^{2} + x_{3}^{2} = 4\\) 的所有的向量 \\(x\\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1) 二次型矩阵为  \\( A=\\begin{pmatrix}a&-2&2\\\\-2&4&-4\\\\2&-4&b\\end{pmatrix} \\) . 由题意知，\n\\[\n\\left( \\begin{array}{c c c} a & - 2 & 2 \\\\ - 2 & 4 & - 4 \\\\ 2 & - 4 & b \\end{array} \\right) \\left( \\begin{array}{c} 1 \\\\ - 2 \\\\ 2 \\end{array} \\right) = \\lambda \\left( \\begin{array}{c} 1 \\\\ - 2 \\\\ 2 \\end{array} \\right),\n\\]\n于是 \\( \\left\\{\\begin{aligned}a+4+4&=\\lambda,\\\\ -2-8-8&=-2\\lambda,\\\\ 2+8+2b&=2\\lambda,\\end{aligned}\\right. \\) 解得 \\( \\left\\{\\begin{aligned}a&=1,\\\\ b&=4,\\\\ \\lambda&=9.\\end{aligned}\\right. \\)\n(2) 由(1)知, \\( A=\\begin{pmatrix}1&-2&2\\\\-2&4&-4\\\\2&-4&4\\end{pmatrix} \\) . 又由特征多项式\n\\[\n| \\lambda \\boldsymbol {E} - \\boldsymbol {A} | = \\left| \\begin{array}{c c c} \\lambda - 1 & 2 & - 2 \\\\ 2 & \\lambda - 4 & 4 \\\\ - 2 & 4 & \\lambda - 4 \\end{array} \\right| = \\lambda^ {2} (\\lambda - 9),\n\\]\n可知 A 的特征值为  \\( \\lambda_{1} = \\lambda_{2} = 0, \\lambda_{3} = 9. \\)\n当 \\(\\lambda_{1} = \\lambda_{2} = 0\\) 时，解 \\((0E - A)x = 0\\) 得正交的基础解系为\n\\[\n\\boldsymbol {\\xi} _ {1} = (2, 1, 0) ^ {\\mathrm{T}}, \\boldsymbol {\\xi} _ {2} = (- 2, 4, 5) ^ {\\mathrm{T}}.\n\\]\n当 \\(\\lambda_{3} = 9\\) 时，解 \\((9E - A)x = 0\\) 得基础解系 \\(\\pmb{\\xi}_3 = (1, - 2,2)^{\\mathrm{T}}\\)\n将 \\(\\pmb{\\xi}_1, \\pmb{\\xi}_2, \\pmb{\\xi}_3\\) 单位化，得 \\(p_1 = \\frac{1}{\\sqrt{5}} (2, 1, 0)^{\\mathrm{T}}, p_2 = \\frac{1}{3\\sqrt{5}} (-2, 4, 5)^{\\mathrm{T}}, p_3 = \\frac{1}{3} (1, -2, 2)^{\\mathrm{T}}\\).\n令 \\(Q = \\begin{bmatrix} \\frac{2}{\\sqrt{5}} & -\\frac{2}{3\\sqrt{5}} & \\frac{1}{3}\\\\ \\frac{1}{\\sqrt{5}} & \\frac{4}{3\\sqrt{5}} & -\\frac{2}{3}\\\\ 0 & \\frac{5}{3\\sqrt{5}} & \\frac{2}{3} \\end{bmatrix}\\) ，则有正交变换 \\(x = Qy\\) ，使得二次型化为标准形 \\(f = x^{\\mathrm{T}}Ax =\\)\n\\[\n\\mathbf {y} ^ {\\mathrm{T}} \\boldsymbol {Q} ^ {\\mathrm{T}} \\boldsymbol {A} \\boldsymbol {Q} \\mathbf {y} = 9 y _ {3} ^ {2}.\n\\]\n(3) 由 \\(x_{1}^{2} + x_{2}^{2} + x_{3}^{2} = 4\\)，得 \\(\\| x \\| = 2\\)，由于 \\(Q\\) 是正交变换，因此 \\(\\| y \\| = 2\\)，所以有\n\\[\nf (x _ {1}, x _ {2}, x _ {3}) = 9 y _ {3} ^ {2} \\leqslant 9 (y _ {1} ^ {2} + y _ {2} ^ {2} + y _ {3} ^ {2}) = 3 6,\n\\]\n又因为当  \\( \\mathbf{y}=(0,0,\\pm2)^{\\mathrm{T}} \\)  时， \\( f(x_{1},x_{2},x_{3})=36 \\) ，所以  \\( \\max_{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}=4}\\{f(x_{1},x_{2},x_{3})\\}=36 \\) ，此时\n\\[\n\\boldsymbol {x} = \\binom {x _ {1}} {x _ {2}} = \\boldsymbol {Q} \\boldsymbol {y} = (\\boldsymbol {p} _ {1}, \\boldsymbol {p} _ {2}, \\boldsymbol {p} _ {3}) \\left( \\begin{array}{c} 0 \\\\ 0 \\\\ \\pm 2 \\end{array} \\right) = \\pm 2 \\boldsymbol {p} _ {3} = \\pm \\frac {2}{3} \\left( \\begin{array}{c} 1 \\\\ - 2 \\\\ 2 \\end{array} \\right).\n\\]",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    },
+    {
+      "id": 2000054022,
+      "paperId": 54,
+      "seq": 22,
+      "type": "解答题",
+      "points": 12,
+      "difficulty": 3,
+      "stem": "设某批电子元件的寿命 X(单位: 小时) 服从参数为  \\( \\lambda(\\lambda>0) \\)  的指数分布,  \\( X_{1}, X_{2}, \\cdots, X_{48} \\)  为来自总体 X 的简单随机样本. 记  \\( N_{1} \\)  表示样本中满足  \\( X_{i} \\leqslant 100 \\)  的  \\( X_{i} \\)  的个数,  \\( N_{2} \\)  表示样本中满足  \\( 100 < X_{i} < 200 \\)  的  \\( X_{i} \\)  的个数,  \\( N_{3} \\)  表示样本中满足  \\( X_{i} \\geqslant 200 \\)  的  \\( X_{i} \\)  的个数.\n(1) 若已知 \\(\\lambda = \\frac{\\ln 2}{100}\\), 求 \\(N_{1}, N_{2}, N_{3}\\) 两两之间的协方差 \\(Cov(N_{1}, N_{2}), Cov(N_{1}, N_{3}), Cov(N_{2}, N_{3})\\);\n(2) 当 \\(\\lambda\\) 未知时, 由于疏忽, 将样本值数据丢失, 只记得 \\(N_{1} = 12\\). 在此情况下, 求 \\(\\lambda\\) 的矩估计值 \\(\\hat{\\lambda}\\).",
+      "options": null,
+      "tags": null,
+      "kps": null,
+      "extras": null,
+      "solution": {
+        "final_answer": "",
+        "analysis_md": "(1) 由题设可知, X 的分布函数为  \\( F(x)=\\left\\{\\begin{aligned}&1-\\mathrm{e}^{-\\frac{\\ln2}{100}x},&x\\geqslant0,\\\\ &0,&x<0,\\end{aligned}\\right. \\)  故\n\\[\nP \\{X \\leqslant 1 0 0 \\} = \\frac {1}{2}, P \\{1 0 0 <   X <   2 0 0 \\} = \\frac {1}{4}, P \\{X \\geqslant 2 0 0 \\} = \\frac {1}{4},\n\\]\n所以由题意得， \\(N_{1}\\sim B\\left(48,\\frac{1}{2}\\right),N_{2}\\sim B\\left(48,\\frac{1}{4}\\right),N_{3}\\sim B\\left(48,\\frac{1}{4}\\right)\\) ，从而有\n\\[\nD N _ {1} = 1 2, D N _ {2} = 9, D N _ {3} = 9.\n\\]\n由于  \\( N_{1} + N_{2} + N_{3} = 48 \\) ，因此  \\( \\mathrm{Cov}(N_{1} + N_{2} + N_{3}, N_{i}) = \\mathrm{Cov}(48, N_{i}) = 0, i = 1, 2, 3 \\) ，所以有\n\\[\n1 2 + \\operatorname{Cov} (N _ {1}, N _ {2}) + \\operatorname{Cov} (N _ {1}, N _ {3}) = 0,\n\\]\n\\[\n\\operatorname{Cov} (N _ {1}, N _ {2}) + 9 + \\operatorname{Cov} (N _ {2}, N _ {3}) = 0,\n\\]\n\\[\n\\operatorname{Cov} (N _ {1}, N _ {3}) + \\operatorname{Cov} (N _ {2}, N _ {3}) + 9 = 0,\n\\]\n从而有 \\(\\operatorname{Cov}(N_1, N_2) + \\operatorname{Cov}(N_1, N_3) + \\operatorname{Cov}(N_2, N_3) = -15\\)，所以\n\\[\n\\operatorname{Cov} (N _ {1}, N _ {2}) = - 6, \\operatorname{Cov} (N _ {1}, N _ {3}) = - 6, \\operatorname{Cov} (N _ {2}, N _ {3}) = - 3.\n\\]\n(2) 由于只记得 \\(N_{1} = 12\\), 即样本中满足 \\(X_{i} \\leqslant 100\\) 的 \\(X_{i}\\) 的个数为 12, 故表明样本中满足 \\(X_{i} > 100\\) 的 \\(X_{i}\\) 的个数为 \\(N_{2} + N_{3} = 36\\).\n构造新总体 \\(Y = \\begin{cases} 0, & X \\leqslant 100, \\\\ 1, & X > 100, \\end{cases}\\) 则 \\(Y \\sim \\begin{pmatrix} 0 & 1 \\\\ 1 - \\mathrm{e}^{-100\\lambda} & \\mathrm{e}^{-100\\lambda} \\end{pmatrix}\\), 因此有 \\(EY = \\mathrm{e}^{-100\\lambda}\\). 又对应总体 \\(Y\\) 的样本值为 12 个, 0 36 个 1, 所以其样本均值为 \\(\\overline{y} = \\frac{0 \\times 12 + 1 \\times 36}{48} = \\frac{3}{4}\\), 由 \\(EY = \\overline{y}\\), 即 \\(\\mathrm{e}^{-100\\lambda} = \\frac{3}{4}\\), 解得 \\(\\lambda = \\frac{1}{100} \\ln \\frac{4}{3}\\), 所以 \\(\\lambda\\) 的矩估计值 \\(\\hat{\\lambda} = \\frac{1}{100} \\ln \\frac{4}{3}\\).",
+        "wrong_options": {},
+        "pitfalls": [],
+        "key_point": "",
+        "figures": []
+      }
+    }
+  ]
+}
