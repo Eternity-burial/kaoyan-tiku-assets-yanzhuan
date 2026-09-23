@@ -1,0 +1,939 @@
+[
+  {
+    "id": 1645,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 1,
+    "indexByPaper": {
+      "数学二": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow 0} \\frac{\\arctan x-x}{\\ln \\left(1+2 x^3\\right)}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1646,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设函数 $y=y(x)$ 由方程 $2^{x y}=x+y$ 所确定, 则 $\\left.\\mathrm{d} y\\right|_{x=0}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1647,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 3,
+    "indexByPaper": {
+      "数学二": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\int_2^{+\\infty} \\frac{\\mathrm{d} x}{(x+7) \\sqrt{x-2}}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1547,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 4,
+    "indexByPaper": {
+      "数学二": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $y=(2 x-1) \\mathrm{e}^{\\frac{1}{x}}$ 的斜渐近线方程为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1548,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 5,
+    "indexByPaper": {
+      "数学二": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}=\\left(\\begin{array}{cccc}1 & 0 & 0 & 0 \\\\ -2 & 3 & 0 & 0 \\\\ 0 & -4 & 5 & 0 \\\\ 0 & 0 & -6 & 7\\end{array}\\right), \\boldsymbol{E}$ 为 4 阶单位矩阵, 且 $\\boldsymbol{B}=(\\boldsymbol{E}+\\boldsymbol{A})^{-1}(\\boldsymbol{E}-\\boldsymbol{A})$, 则 $(\\boldsymbol{E}+\\boldsymbol{B})^{-1}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的线性运算",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 996,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学二": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x), g(x)$ 是恒大于零的可导函数, 且 $f^{\\prime}(x) g(x)-f(x) g^{\\prime}(x)<0$, 则当 $a<x<b$ 时, 有 $(\\quad)$",
+    "options": {
+      "A": "$f(x) g(b)>f(b) g(x)$",
+      "B": "$f(x) g(a)>f(a) g(x)$",
+      "C": "$f(x) g(x)>f(b) g(b)$",
+      "D": "$f(x) g(x)>f(a) g(a)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的四则运算",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1549,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 6,
+    "indexByPaper": {
+      "数学二": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $\\displaystyle f(x)=\\frac{x}{a+\\mathrm{e}^{b x}}$ 在 $(-\\infty,+\\infty)$ 内连续, 且 $\\displaystyle \\lim _{x \\rightarrow-\\infty} f(x)=0$, 则常数 $a, b$ 满足 $(\\quad)$",
+    "options": {
+      "A": "$a<0, b<0$",
+      "B": "$a>0, b>0$",
+      "C": "$a \\leqslant 0, b>0$",
+      "D": "$a \\geqslant 0, b<0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数连续的概念",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量和无穷大量的概念及其关系",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1550,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 7,
+    "indexByPaper": {
+      "数学二": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 满足关系式 $f^{\\prime \\prime}(x)+\\left[f^{\\prime}(x)\\right]^2=x$, 且 $f^{\\prime}(0)=0$, 则 $(\\quad)$",
+    "options": {
+      "A": "$f(0)$ 是 $f(x)$ 的极大值",
+      "B": "$f(0)$ 是 $f(x)$ 的极小值",
+      "C": "点 $(0, f(0))$ 是曲线 $y=f(x)$ 的拐点",
+      "D": "$f(0)$ 不是 $f(x)$ 的极值, 点 $(0, f(0))$ 不是曲线 $y=f(x)$ 的拐点"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1551,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 9,
+    "indexByPaper": {
+      "数学二": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若 $\\displaystyle \\lim _{x \\rightarrow 0} \\frac{\\sin 6 x+x f(x)}{x^3}=0$, 则 $\\displaystyle \\lim _{x \\rightarrow 0} \\frac{6+f(x)}{x^2}$ 为( )",
+    "options": {
+      "A": "$0$",
+      "B": "$6$",
+      "C": "$36$",
+      "D": "$\\infty$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1552,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 10,
+    "indexByPaper": {
+      "数学二": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "具有特解 $y_1=\\mathrm{e}^{-x}, y_2=2 x \\mathrm{e}^{-x}, y_3=3 \\mathrm{e}^x$ 的三阶常系数齐次线性微分方程是 $(\\quad)$",
+    "options": {
+      "A": "$y^{\\prime \\prime \\prime}-y^{\\prime \\prime}-y^{\\prime}+y=0$",
+      "B": "$y^{\\prime \\prime \\prime}+y^{\\prime \\prime}-y^{\\prime}-y=0$",
+      "C": "$y^{\\prime \\prime \\prime}-6 y^{\\prime \\prime}+11 y^{\\prime}-6 y=0$",
+      "D": "$y^{\\prime \\prime \\prime}-2 y^{\\prime \\prime}-y^{\\prime}+2 y=0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "高于二阶的某些常系数齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1553,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 11,
+    "indexByPaper": {
+      "数学二": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle f(\\ln x)=\\frac{\\ln (1+x)}{x}$, 求 $\\displaystyle \\int f(x) \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "复合函数、反函数、分段函数和隐函数",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1554,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 12,
+    "indexByPaper": {
+      "数学二": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $x O y$ 平面上有正方形 $D=\\{(x, y) \\mid 0 \\leqslant x \\leqslant 1,0 \\leqslant y \\leqslant 1\\}$ 及直线 $l: x+y=t(t \\geqslant 0)$. 若 $S(t)$ 表示正方形 $D$ 位于直线 $l$ 左下方部分的面积, 求 $\\displaystyle \\int_0^x S(t) \\mathrm{d} t(x \\geqslant 0)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "复合函数、反函数、分段函数和隐函数",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1555,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 13,
+    "indexByPaper": {
+      "数学二": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求函数 $f(x)=x^2 \\ln (1+x)$ 在 $x=0$ 处的 $n$ 阶导数 $f^{(n)}(0)(n \\geqslant 3)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "高阶导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "次",
+        "depth": [
+          "了解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1556,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 14,
+    "indexByPaper": {
+      "数学二": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设函数 $\\displaystyle S(x)=\\int_0^x|\\cos t| \\mathrm{d} t$\r\n\r\n(1) 当 $n$ 为正整数, 且 $n \\pi \\leqslant x<(n+1) \\pi$ 时, 证明: $2 n \\leqslant S(x)<2(n+1)$;\r\n\r\n(2) 求 $\\displaystyle \\lim _{x \\rightarrow+\\infty} \\frac{S(x)}{x}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限存在的两个准则：单调有界准则和夹逼准则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1557,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 15,
+    "indexByPaper": {
+      "数学二": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "某湖泊的水量为 $V$, 每年排入湖泊内含污染物 $A$ 的污水量为 $V/6$, 流入湖泊内不含 $A$ 的水量为 $V/6$, 流出湖泊的水量为 $V/3$. 已知 1999 年底湖中 $A$ 的含量为 $5 m_0$, 超过国家规定的指标. 为了治理污染, 从2000年初起, 限定排入湖泊中含 $A$ 污水的浓度不超过 $m_0/V$. 问至多需经过多少年, 湖泊中污染物 $A$ 的含量降至 $m_0$ 以内? (注: 设湖水中 $A$ 的浓度是均匀的)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "微分方程的简单应用",
+        "rel": "次",
+        "depth": [
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1007,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17,
+      "数学二": 16,
+      "数学三": 16
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 在 $[0, \\pi]$ 上连续, 且 $\\displaystyle \\int_{0}^{\\pi} f(x) \\mathrm{d} x=0,\\\\ \\int_{0}^{\\pi} f(x) \\cos x \\mathrm{d} x=0$. 试证: 在 $(0, \\pi)$ 内至少存在两个不同的点 $\\xi_{1}, \\xi_{2}$, 使 $f\\left(\\xi_{1}\\right)=f\\left(\\xi_{2}\\right)=0$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1558,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 17,
+    "indexByPaper": {
+      "数学二": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $f(x)$ 是周期为 5 的连续函数, 它在 $x=0$ 的某邻域内满足关系式\r\n\r\n$f(1+\\sin x)-3 f(1-\\sin x)=8 x+\\alpha(x)$\r\n\r\n其中 $\\alpha(x)$ 是当 $x \\rightarrow 0$ 时比 $x$ 高阶的无穷小, 且 $f(x)$ 在 $x=1$ 处可导, 求曲线 $y=f(x)$ 在点 $(6, f(6))$ 处的切线方程",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的有界性、单调性、周期性和奇偶性",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1559,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 18,
+    "indexByPaper": {
+      "数学二": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设曲线 $y=a x^2(a>0, x \\geqslant 0)$ 与 $y=1-x^2$ 交于点 $A$, 过 坐标原点 $O$ 和点 $A$ 的直线与曲线 $y=a x^2$ 围成一平面图形. 问 $a$ 为何值时, 该图形绕 $x$ 轴旋转一周所得的旋转体的体积最大? 最大体积是多少?",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1560,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 19,
+    "indexByPaper": {
+      "数学二": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "函数 $f(x)$ 在 $[0,+\\infty)$ 上可导, $f(0)=1$, 且满足等式 $\\displaystyle f^{\\prime}(x)+f(x)-\\frac{1}{x+1} \\int_0^x f(t) \\mathrm{d} t=0$\r\n\r\n(1) 求导数 $f^{\\prime}(x)$;\r\n\r\n(2) 证明: 当 $x \\geqslant 0$ 时, 有 $\\mathrm{e}^{-x} \\leqslant f(x) \\leqslant 1$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "可降阶的高阶微分方程",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1561,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 20,
+    "indexByPaper": {
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{\\alpha}=\\left(\\begin{array}{l}1 \\\\ 2 \\\\ 1\\end{array}\\right), \\boldsymbol{\\beta}=\\left(\\begin{array}{l}1 \\\\ \\frac{1}{2} \\\\ 0\\end{array}\\right), \\boldsymbol{\\gamma}=\\left(\\begin{array}{l}0 \\\\ 0 \\\\ 8\\end{array}\\right), \\\\\\boldsymbol{A}=\\boldsymbol{\\alpha} \\boldsymbol{\\beta}^{\\mathrm{T}}, \\boldsymbol{B}=\\boldsymbol{\\beta}^{\\mathrm{T}} \\boldsymbol{\\alpha}$, 其中 $\\boldsymbol{\\beta}^{\\mathrm{T}}$ 是 $\\boldsymbol{\\beta}$ 的转置, 求解方程\r\n$2 \\boldsymbol{B}^2 \\boldsymbol{A}^2 \\boldsymbol{x}=\\boldsymbol{A}^4 \\boldsymbol{x}+\\boldsymbol{B}^4 \\boldsymbol{x}+\\boldsymbol{\\gamma}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的乘法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵的幂",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1562,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2000,
+    "index": 21,
+    "indexByPaper": {
+      "数学二": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知向量组 \r\n\r\n$\\boldsymbol{\\beta}_1=\\left(\\begin{array}{c}0 \\\\ 1 \\\\ -1\\end{array}\\right), \\boldsymbol{\\beta}_2=\\left(\\begin{array}{l}a \\\\ 2 \\\\ 1\\end{array}\\right), \\boldsymbol{\\beta}_3=\\left(\\begin{array}{l}b \\\\ 1 \\\\ 0\\end{array}\\right)$, \r\n\r\n与向量组 \r\n\r\n$\\boldsymbol{\\alpha}_1=\\left(\\begin{array}{c}1 \\\\ 2 \\\\ -3\\end{array}\\right), \\boldsymbol{\\alpha}_2=\\left(\\begin{array}{l}3 \\\\ 0 \\\\ 1\\end{array}\\right)$,\r\n$\\boldsymbol{\\alpha}_3=\\left(\\begin{array}{c}9 \\\\ 6 \\\\ -7\\end{array}\\right)$ \r\n\r\n具有相同的秩, 且 $\\boldsymbol{\\beta}_3$ 可由 $\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\boldsymbol{\\alpha}_3$ 线性表示, 求 $a, b$ 的值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的秩",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量的线性组合和线性表示",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

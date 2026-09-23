@@ -1,0 +1,821 @@
+[
+  {
+    "id": 1717,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 1,
+    "indexByPaper": {
+      "数学三": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{n \\rightarrow \\infty}(\\sqrt{n+3 \\sqrt{n}}-\\sqrt{n-\\sqrt{n}})=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限的四则运算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1718,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 2,
+    "indexByPaper": {
+      "数学三": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 有连续的导函数, $f(0)=0, f^{\\prime}(0)=b$, 若函数\r\n$F(x)=\\left\\{\\begin{array}{l}\r\n\\dfrac{f(x)+a \\sin x}{x},&  x \\neq 0 \\\\\r\nA,&  x=0\r\n\\end{array}\\right.$\r\n在 $x=0$ 处连续, 则 $A=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数连续的概念",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1719,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 3,
+    "indexByPaper": {
+      "数学三": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $y=x^2$ 与直线 $y=x+2$ 所围成的平面图形的面积为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1720,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 4,
+    "indexByPaper": {
+      "数学三": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "若线性方程组 $\\left\\{\\begin{array}{l}\r\nx_1+x_2=-a_1 \\\\\r\nx_2+x_3=a_2 \\\\\r\nx_3+x_4=-a_3 \\\\\r\nx_4+x_1=a_4\r\n\\end{array}\\right.$\r\n\r\n有解, 则常数 $a_1, a_2, a_3, a_4$ 应满足的条件为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1721,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 5,
+    "indexByPaper": {
+      "数学三": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "一射手对同一目标独立地进行四次射击, 若至少命中一次的概率为 $\\displaystyle \\frac{80}{81}$, 则该射手的命中率为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "独立重复试验",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1722,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 6,
+    "indexByPaper": {
+      "数学三": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)=x \\tan x \\cdot \\mathrm{e}^{\\sin x}$, 则 $f(x)$ 是 $(\\quad)$",
+    "options": {
+      "A": "偶函数",
+      "B": "无界函数",
+      "C": "周期函数",
+      "D": "单调函数"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的有界性、单调性、周期性和奇偶性",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1723,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 7,
+    "indexByPaper": {
+      "数学三": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 对任意的 $x$ 均满足等式 $f(1+x)=a f(x)$, 且有 $f^{\\prime}(0)=b$, 其中 $a, b$ 为非零常数, 则 $(\\quad)$",
+    "options": {
+      "A": "$f(x)$ 在 $x=1$ 处不可导",
+      "B": "$f(x)$ 在 $x=1$ 处可导, 且 $f^{\\prime}(1)=a$",
+      "C": "$f(x)$ 在 $x=1$ 处可导, 且 $f^{\\prime}(1)=b$",
+      "D": "$f(x)$ 在 $x=1$ 处可导, 且 $f^{\\prime}(1)=a b$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1724,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 8,
+    "indexByPaper": {
+      "数学三": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "向量组 $\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\cdots, \\boldsymbol{\\alpha}_s$ 线性无关的充分条件是 $(\\quad)$",
+    "options": {
+      "A": "$\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\cdots, \\boldsymbol{\\alpha}$, 均不为零向量",
+      "B": "$\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\cdots, \\boldsymbol{\\alpha}_s$ 中任意两个向量的分量不成比例",
+      "C": "$\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\cdots, \\boldsymbol{\\alpha}$, 中任意一个向量均不能由其余 $s-1$ 个向量线性表示",
+      "D": "$\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\cdots, \\boldsymbol{\\alpha}_s$ 中有一部分向量线性无关"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1725,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 9,
+    "indexByPaper": {
+      "数学三": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $A, B$ 为两个随机事件, 且 $B \\subset A$, 则下列式子正确的是 $(\\quad)$",
+    "options": {
+      "A": "$P(A+B)=P(A)$",
+      "B": "$P(A B)=P(A)$",
+      "C": "$P(B \\mid A)=P(B)$",
+      "D": "$P(B-A)=P(B)-P(A)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "概率的基本性质",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1726,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 10,
+    "indexByPaper": {
+      "数学三": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 和 $Y$ 相互独立, 其概率分布为\r\n\r\n$$\r\nX \\sim\\left(\\begin{array}{cc}\r\n-1 & 1 \\\\\r\n\\dfrac{1}{2} & \\dfrac{1}{2}\r\n\\end{array}\\right), \\quad Y \\sim\\left(\\begin{array}{cc}\r\n-1 & 1 \\\\\r\n\\dfrac{1}{2} & \\dfrac{1}{2}\r\n\\end{array}\\right),\r\n$$\r\n\r\n则下列结论正确的是 $(\\quad)$",
+    "options": {
+      "A": "$X=Y$",
+      "B": "$P\\{X=Y\\}=0$",
+      "C": "$P\\{X=Y\\}=\\dfrac{1}{2}$",
+      "D": "$P\\{X=Y\\}=1$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量的分布",
+        "kp": "二维离散型随机变量的概率分布、边缘分布和条件分布",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的独立性",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1727,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 11,
+    "indexByPaper": {
+      "数学三": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求函数 $\\displaystyle I(x)=\\int_{\\mathrm{e}}^x \\frac{\\ln t}{t^2-2 t+1} \\mathrm{d} t$ 在 $\\left[\\mathrm{e}, \\mathrm{e}^2\\right]$ 上的最大值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1728,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 12,
+    "indexByPaper": {
+      "数学三": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "计算二重积分 $\\displaystyle \\iint\\limits _D x \\mathrm{e}^{-y^2} \\mathrm{d} x \\mathrm{d} y$, 其中 $D$ 是由曲线 $y=4 x^2$ 与 $y=9 x^2$ 在第一象限所围成的区域",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "二重积分的概念、基本性质和计算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "无界区域上简单的反常二重积分",
+        "rel": "次",
+        "depth": [
+          "了解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1729,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 13,
+    "indexByPaper": {
+      "数学三": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求级数 $\\displaystyle \\sum_{n=1}^{\\infty} \\frac{(x-3)^n}{n^2}$ 的收敛域",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "幂级数及其收敛半径、收敛区间（指开区间）和收敛域",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1730,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 14,
+    "indexByPaper": {
+      "数学三": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求微分方程 $y^{\\prime}+y \\cos x=(\\ln x) \\mathrm{e}^{-\\sin x}$ 的通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、常微分方程与差分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1731,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 15,
+    "indexByPaper": {
+      "数学三": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "某公司可通过电台及报纸两种方式做销售某种商品的广告, 根据统计资料, 销售收入 $R($ 万 元）与电台广告费用 $x_1$ (万元) 及报纸广告费用 $x_2$ (万元) 之间的关系有如下经验公式:\r\n\r\n$R=15+14 x_1+32 x_2-8 x_1 x_2-2 x_1^2-10 x_2^2$\r\n\r\n(1) 在广告费用不限的情况下, 求最优广告策略;\r\n\r\n(2) 若提供的广告费用为 $1.5$ 万元, 求相应的最优广告策略",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元函数的极值和条件极值、最大值和最小值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数的几何意义和经济意义",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1732,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 16,
+    "indexByPaper": {
+      "数学三": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 在闭区间 $[0, c]$ 上连续, 其导数 $f^{\\prime}(x)$ 在开区间 $(0, c)$ 内存在且单调减少, $f(0)=0$, 试用拉格朗日中值定理证明不等式:\r\n\r\n$f(a+b) \\leqslant f(a)+f(b)$\r\n\r\n其中常数 $a, b$ 满足 $0 \\leqslant a \\leqslant b \\leqslant a+b \\leqslant c$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1733,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 17,
+    "indexByPaper": {
+      "数学三": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知线性方程组\r\n\r\n$\\left\\{\\begin{array}{l}\r\nx_1+x_2+x_3+x_4+x_5=a \\\\\r\n3 x_1+2 x_2+x_3+x_4-3 x_5=0 \\\\\r\nx_2+2 x_3+2 x_4+6 x_5=b \\\\\r\n5 x_1+4 x_2+3 x_3+3 x_4-x_5=2\r\n\\end{array}\\right.$\r\n\r\n(1) $a, b$ 为何值时方程组有解?\r\n\r\n(2) 方程组有解时, 求出方程组的导出组的一个基础解系;\r\n\r\n(3) 方程组有解时, 求出方程组的全部解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "齐次线性方程组的基础解系和通解",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1734,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 18,
+    "indexByPaper": {
+      "数学三": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知对于 $n$ 阶方阵 $\\boldsymbol{A}$, 存在自然数 $k$, 使得 $\\boldsymbol{A}^k=\\boldsymbol{O}$, 试证明矩阵 $\\boldsymbol{E}-\\boldsymbol{A}$ 可逆, 并写出其逆矩阵的表达式 ( $\\boldsymbol{E}$ 为 $n$ 阶单位矩阵)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵的幂",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1735,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 19,
+    "indexByPaper": {
+      "数学三": 19
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "$\\boldsymbol{A}$ 为 $n$ 阶矩阵, $\\lambda_1$ 和 $\\lambda_2$ 是 $\\boldsymbol{A}$ 的两个不同的特征值, $\\boldsymbol{x}_1, \\boldsymbol{x}_2$ 是分别属于 $\\lambda_1$ 和 $\\lambda_2$ 的特征向量, 试证明 $\\boldsymbol{x}_1+\\boldsymbol{x}_2$ 不是矩阵 $\\boldsymbol{A}$ 的特征向量",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1736,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 20,
+    "indexByPaper": {
+      "数学三": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "从 $0,1,2, \\cdots, 9$ 十个数字中任意选出三个不同的数字, 试求下列事件的概率:\r\n\r\n$A_1=\\{$三个数字中不含 $0$ 和 $5\\}$,\r\n\r\n$A_2=\\{$三个数字中不含 $0$ 或 $5\\}$,\r\n\r\n$A_3=\\{$三个数字中含 $0$ 但不含 $5\\}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "古典型概率",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1737,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 21,
+    "indexByPaper": {
+      "数学三": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "某一电子仪器由两个部件构成, 以 $X$ 和 $Y$ 分别表示两个部件的寿命 (单位: 千小时), 已知 $X$ 和 $Y$ 的联合分布函数为\r\n\r\n$F(x, y)= \\begin{cases}1-\\mathrm{e}^{-0.5 x}-\\mathrm{e}^{-0.5 y}+\\mathrm{e}^{-0.5(x+y)}, & x \\geqslant 0, y \\geqslant 0 \\\\ 0, & \\text { 其他}\\end{cases}$\r\n\r\n(1) 问 $X$ 和 $Y$ 是否独立?\r\n\r\n(2) 求两个部件的寿命都超过 $100$ 小时的概率 $\\alpha$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量的分布",
+        "kp": "多维随机变量及其分布函数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量的分布",
+        "kp": "随机变量的独立性和不相关性",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1738,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1990,
+    "index": 22,
+    "indexByPaper": {
+      "数学三": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "某地抽样调查结果表明, 考生外语成绩(百分制) 近似服从正态分布, 平均成绩为 $72$ 分, $96$ 分以上的占考生总数的 $2.3 \\%$, 试求考生的外语成绩在 $60$ 分与 $84$ 分之间的概率\r\n附表[表中 $\\Phi(x)$ 是标准正态分布函数]\r\n\r\n$$\r\n\\begin{array}{c|c} \r\n\\hline x & \\Phi(x)\\\\\r\n0 & 0.500\\\\\r\n0.5 & 0.692\\\\\r\n1.0 & 0.841\\\\\r\n1.5 & 0.933\\\\\r\n2.0 & 0.977 \\\\\r\n2.5 & 0.994 \\\\\r\n3.0& 0.999 \\\\\r\n\\hline\\end{array}\r\n$$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0A9A6E" />
+    <!-- PWA「添加到桌面」：manifest 解锁安卓/桌面 Chrome 的一键安装；apple-* 让 iOS 全屏无地址栏 -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="数砖" />
+    <title>研砖 · 考研备考</title>
+    <!-- 阅读设置（反馈 #563 暗色 / #585 #624 字号）：**必须在渲染前同步跑**。
+         放进 React 里的话，页面会先按亮色画一屏、再切成暗色，晚上开灯一样闪一下白。
+         整段包在 try 里：隐私模式下 localStorage 会直接抛，抛了就退回默认外观，
+         绝不能因为读不到一个偏好把整个页面卡在这儿。 -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('mb_theme');          // 'dark' | 'light' | null(跟随系统)
+          var dark = t === 'dark' || (t !== 'light' && window.matchMedia
+            && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+          var f = parseFloat(localStorage.getItem('mb_fontscale') || '1');
+          if (f >= 0.9 && f <= 1.6 && f !== 1) document.documentElement.style.setProperty('--fs', String(f));
+          // 正文字体（反馈 #1092 宋体）。同样要**渲染前**打上，否则整页会先用无衬线画一遍
+          // 再整体换成宋体——一次全页重排，比闪一下白更晃眼。
+          if (localStorage.getItem('mb_font') === 'serif') document.documentElement.setAttribute('data-font', 'serif');
+        } catch (e) { /* 读不到偏好就用默认外观 */ }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-3D0MV395.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-C1PfG1cZ.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DzFdi2LH.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

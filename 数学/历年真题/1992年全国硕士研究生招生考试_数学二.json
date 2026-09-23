@@ -1,0 +1,781 @@
+[
+  {
+    "id": 1400,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 1,
+    "indexByPaper": {
+      "数学二": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\left\\{\\begin{array}{l}x=f(t)-\\pi \\\\ y=f\\left(\\mathrm{e}^{3 t}-1\\right)\\end{array}\\right.$, 其中 $f$ 可导, 且 $f^{\\prime}(0) \\neq 0$, 则 $\\left.\\dfrac{\\mathrm{d} y}{\\mathrm{d} x}\\right|_{t=0}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1401,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "函数 $y=x+2 \\cos x$ 在区间 $\\left[0, \\dfrac{\\pi}{2}\\right]$ 上的最大值为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1402,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 3,
+    "indexByPaper": {
+      "数学二": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow 0} \\frac{1-\\sqrt{1-x^2}}{\\mathrm{e}^x-\\cos x}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限的四则运算",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1403,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 4,
+    "indexByPaper": {
+      "数学二": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\int_1^{+\\infty} \\frac{\\mathrm{d} x}{x\\left(x^2+1\\right)}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1404,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 5,
+    "indexByPaper": {
+      "数学二": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "由曲线 $y=x \\mathrm{e}^x$ 与直线 $y=\\mathrm{e} x$ 所围成图形的面积 $S=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1173,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学二": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "当 $x \\rightarrow 1$ 时, 函数 $\\displaystyle \\frac{x^{2}-1}{x-1} \\mathrm{e}^{\\frac{1}{x-1}}$ 的极限 $(\\quad)$",
+    "options": {
+      "A": "等于 $2$",
+      "B": "等于 $0$",
+      "C": "为 $\\infty$",
+      "D": "不存在但不是 $\\infty$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的左极限和右极限无穷小量和无穷大量的概念及其关系",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限的四则运算",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1405,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 6,
+    "indexByPaper": {
+      "数学二": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "当 $x \\rightarrow 0$ 时, $x-\\sin x$ 是 $x^2$ 的 $(\\quad)$",
+    "options": {
+      "A": "低阶无穷小",
+      "B": "高阶无穷小",
+      "C": "等价无穷小",
+      "D": "同阶但非等价的无穷小"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1406,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 7,
+    "indexByPaper": {
+      "数学二": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x)=\\left\\{\\begin{array}{ll}x^2, & x \\leqslant 0 \\\\ x^2+x, & x>0\\end{array}\\right.$, 则 $(\\quad)$",
+    "options": {
+      "A": "$f(-x)= \\begin{cases}-x^2, & x \\leqslant 0 \\\\ -\\left(x^2+x\\right), & x>0\\end{cases}$",
+      "B": "$f(-x)= \\begin{cases}-\\left(x^2+x\\right), & x<0 \\\\ -x^2, & x \\geqslant 0\\end{cases}$",
+      "C": "$f(-x)= \\begin{cases}x^2, & x \\leqslant 0 \\\\ x^2-x, & x>0\\end{cases}$",
+      "D": "$f(-x)= \\begin{cases}x^2-x, & x<0 \\\\ x^2, & x \\geqslant 0\\end{cases}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "复合函数、反函数、分段函数和隐函数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1407,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 9,
+    "indexByPaper": {
+      "数学二": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 连续, $\\displaystyle F(x)=\\int_0^{x^2} f\\left(t^2\\right) \\mathrm{d} t$, 则 $F^{\\prime}(x)$ 等于$(\\quad)$",
+    "options": {
+      "A": "$f\\left(x^4\\right)$",
+      "B": "$x^2 f\\left(x^4\\right)$",
+      "C": "$2 x f\\left(x^4\\right)$",
+      "D": "$2 x f\\left(x^2\\right)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1408,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 10,
+    "indexByPaper": {
+      "数学二": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若 $f(x)$ 的导函数是 $\\sin x$, 则 $f(x)$ 有一个原函数为 $(\\quad)$",
+    "options": {
+      "A": "$1+\\sin x$",
+      "B": "$1-\\sin x$",
+      "C": "$1+\\cos x$",
+      "D": "$1-\\cos x$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "原函数和不定积分的概念",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1409,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 11,
+    "indexByPaper": {
+      "数学二": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\lim _{x \\rightarrow \\infty}\\left(\\frac{3+x}{6+x}\\right)^{\\frac{x-1}{2}}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1410,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 12,
+    "indexByPaper": {
+      "数学二": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设函数 $y=y(x)$ 由方程 $y-x \\mathrm{e}^y=1$ 确定, 求 $\\left.\\dfrac{\\mathrm{d}^2 y}{\\mathrm{d} x^2}\\right|_{x=0}$ 的值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "高阶导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1180,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 13,
+    "indexByPaper": {
+      "数学一": 13,
+      "数学二": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $f(x)=\\left\\{\\begin{array}{ll}1+x^{2}, & x \\leqslant 0 \\\\ \\mathrm{e}^{-x}, & x>0\\end{array}\\right.$ 求 $\\displaystyle \\int_{1}^{3} f(x-2) \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1411,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 13,
+    "indexByPaper": {
+      "数学二": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\int \\frac{x^3}{\\sqrt{1+x^2}} \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1412,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 14,
+    "indexByPaper": {
+      "数学二": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\int_0^\\pi \\sqrt{1-\\sin x} \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1413,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 15,
+    "indexByPaper": {
+      "数学二": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求微分方程 $\\left(y-x^3\\right) \\mathrm{d} x-2 x \\mathrm{d} y=0$ 的通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1183,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16,
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $f^{\\prime \\prime}(x)<0, f(0)=0$, 证明: 对任意的 $x_{1}>0, x_{2}>0$, 有 $f\\left(x_{1}+x_{2}\\right)<f\\left(x_{1}\\right)+f\\left(x_{2}\\right)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1414,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 17,
+    "indexByPaper": {
+      "数学二": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "微分方程 $y^{\\prime \\prime}-3 y^{\\prime}+2 y=x \\mathrm{e}^x$ 的通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1415,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 18,
+    "indexByPaper": {
+      "数学二": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "计算曲线 $y=\\ln \\left(1-x^2\\right)$ 上相应于 $0 \\leqslant x \\leqslant \\dfrac{1}{2}$ 的一段弧的长度",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1416,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1992,
+    "index": 19,
+    "indexByPaper": {
+      "数学二": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求曲线 $y=\\sqrt{x}$ 的一条切线 $l$, 使该曲线与切线 $l$ 及直线 $x=0, x=2$ 所围成图形的面积最小",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

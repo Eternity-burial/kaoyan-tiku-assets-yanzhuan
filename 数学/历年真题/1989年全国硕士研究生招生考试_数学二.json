@@ -1,0 +1,965 @@
+[
+  {
+    "id": 1339,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 1,
+    "indexByPaper": {
+      "数学二": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow 0} x \\cot 2 x=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1236,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学二": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 是连续函数, 且 $\\displaystyle f(x)=x+2 \\int_{0}^{1} f(t) \\mathrm{d} t$, 则 $f(x)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1340,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\int_0^\\pi t \\sin t \\mathrm{d} t=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "基本积分公式",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1341,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 3,
+    "indexByPaper": {
+      "数学二": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $\\displaystyle y=\\int_0^x(t-1)(t-2) \\mathrm{d} t$ 在点 $(0,0)$ 处的切线方程为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1342,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 4,
+    "indexByPaper": {
+      "数学二": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $f(x)=x(x+1)(x+2) \\cdots(x+n)$, 则 $f^{\\prime}(0)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的四则运算",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1240,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学二": 13
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "当 $x>0$ 时,曲线 $y=x \\sin \\dfrac{1}{x}(\\quad)$",
+    "options": {
+      "A": "有且仅有水平渐近线",
+      "B": "有且仅有铅直渐近线",
+      "C": "既有水平渐近线,也有铅直渐近线",
+      "D": "既无水平渐近线,也无铅直渐近线"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1344,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 6,
+    "indexByPaper": {
+      "数学二": 6
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $f(x)=\\left\\{\\begin{array}{ll}a+b x^2, & x \\leqslant 0, \\\\ \\dfrac{\\sin b x}{x}, & x>0\\end{array}\\right.$ 在 $x=0$ 处连续, 则常数 $a$ 与 $b$ 应满足的关系是 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数连续的概念",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1345,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 7,
+    "indexByPaper": {
+      "数学二": 7
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\tan y=x+y$, 则 $\\mathrm{d} y=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1352,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 8,
+    "indexByPaper": {
+      "数学二": 8
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $y=\\arcsin \\mathrm{e}^{-\\sqrt{x}}$, 求 $y^{\\prime}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "基本初等函数的导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1353,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 9,
+    "indexByPaper": {
+      "数学二": 9
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\int \\frac{\\mathrm{d} x}{x \\ln ^2 x}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "基本积分公式",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1354,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 10,
+    "indexByPaper": {
+      "数学二": 10
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\lim _{x \\rightarrow 0}(2 \\sin x+\\cos x)^{\\frac{1}{x}}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1355,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 11,
+    "indexByPaper": {
+      "数学二": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $\\left\\{\\begin{array}{l}x=\\ln \\left(1+t^2\\right), \\\\ y=\\arctan t,\\end{array}\\right.$ 求 $\\dfrac{\\mathrm{d} y}{\\mathrm{d} x}, \\dfrac{\\mathrm{d}^2 y}{\\mathrm{d} x^2}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "高阶导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1361,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 12,
+    "indexByPaper": {
+      "数学二": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $f(2)=\\dfrac{1}{2}, f^{\\prime}(2)=0$ 及 $\\displaystyle \\int_0^2 f(x) \\mathrm{d} x=1$, 求 $\\int_0^1 x^2 f^{\\prime \\prime}(2 x) \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1347,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 14,
+    "indexByPaper": {
+      "数学二": 14
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若 $3 a^2-5 b<0$, 则方程 $x^5+2 a x^3+3 b x+4 c=0(\\quad)$",
+    "options": {
+      "A": "无实根",
+      "B": "有唯一实根",
+      "C": "有三个不同实根",
+      "D": "有五个不同实根"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1249,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 15,
+    "indexByPaper": {
+      "数学一": 15,
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle f(x)=\\sin x-\\int_{0}^{x}(x-t) f(t) \\mathrm{d} t$, 其中 $f(x)$ 为连续函数, 求 $f(x)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1348,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 15,
+    "indexByPaper": {
+      "数学二": 15
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "曲线 $y=\\cos x\\left(-\\dfrac{\\pi}{2} \\leqslant x \\leqslant \\dfrac{\\pi}{2}\\right)$ 与 $x$ 轴所围成的图形绕 $x$ 轴旋转一周所成旋转体的体积为 $(\\quad)$",
+    "options": {
+      "A": "$\\dfrac{\\pi}{2}$",
+      "B": "$\\pi$",
+      "C": "$\\dfrac{\\pi^2}{2}$",
+      "D": "$\\pi^2$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1250,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16,
+      "数学二": 21
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "证明: 方程 $\\displaystyle \\ln x=\\frac{x}{\\mathrm{e}}-\\int_{0}^{\\pi} \\sqrt{1-\\cos 2 x} \\mathrm{d} x$ 在区间 $(0,+\\infty)$ 内有且仅有两个不同的实根",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1349,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 16,
+    "indexByPaper": {
+      "数学二": 16
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设两函数 $f(x)$ 和 $g(x)$ 都在 $x=a$ 处取极大值, 则函数 $F(x)=f(x) g(x)$ 在 $x=a$ 处 $(\\quad)$",
+    "options": {
+      "A": "必取极大值",
+      "B": "必取极小值",
+      "C": "不可能取极值",
+      "D": "是否取极值不能确定"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1350,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 17,
+    "indexByPaper": {
+      "数学二": 17
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "微分方程 $y^{\\prime \\prime}-y=\\mathrm{e}^x+1$ 的一个特解应具有形式 (式中 $a, b$ 为常数) $(\\quad)$",
+    "options": {
+      "A": "$a \\mathrm{e}^x+b$",
+      "B": "$a x \\mathrm{e}^x+b$",
+      "C": "$a \\mathrm{e}^x+b x$",
+      "D": "$a x \\mathrm{e}^x+b x$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "线性微分方程解的性质及解的结构定理",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1351,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 18,
+    "indexByPaper": {
+      "数学二": 18
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 在点 $x=a$ 的某个邻域内有定义, 则 $f(x)$ 在 $x=a$ 处可导的一个充分条件是 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\lim _{h \\rightarrow+\\infty} h\\left[f\\left(a+\\frac{1}{h}\\right)-f(a)\\right]$ 存在",
+      "B": "$\\displaystyle \\lim _{h \\rightarrow 0} \\frac{f(a+2 h)-f(a+h)}{h}$ 存在",
+      "C": "$\\displaystyle \\lim _{h \\rightarrow 0} \\frac{f(a+h)-f(a-h)}{2 h}$ 存在",
+      "D": "$\\displaystyle \\lim _{h \\rightarrow 0} \\frac{f(a)-f(a-h)}{h}$ 存在"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的可导性与连续性之间的关系",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1356,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 19,
+    "indexByPaper": {
+      "数学二": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求微分方程 $x y^{\\prime}+(1-x) y=\\mathrm{e}^{2 x}(0<x<+\\infty)$ 满足 $y(1)=0$ 的解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "基本积分公式",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1359,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 22,
+    "indexByPaper": {
+      "数学二": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "对函数 $y=\\dfrac{x+1}{x^2}$ 填写下表:\r\n\r\n$$\r\n\\begin{array}{|c|l|}\r\n\\hline 单调减区间 & \\\\\r\n\\hline 单调增区间 & \\\\\r\n\\hline 极值点 & \\\\\r\n\\hline 极值 & \\\\\r\n\\hline 凹区间 & \\\\\r\n\\hline 凸区间 & \\\\\r\n\\hline 拐点 & \\\\\r\n\\hline 渐近线 & \\\\\r\n\\hline\r\n\\end{array}\r\n$$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的描绘",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1360,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 23,
+    "indexByPaper": {
+      "数学二": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设抛物线 $y=a x^2+b x+c$ 过原点, 当 $0 \\leqslant x \\leqslant 1$ 时 $y \\geqslant 0$, 又已知该抛物线与 $x$ 轴及直线 $x=1$ 所围图形的面积为 $\\dfrac{1}{3}$, 试确定 $a, b, c$ 的值, 使此图形绕 $x$ 轴旋转一周而成的旋转体的体积 $V$ 最小",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

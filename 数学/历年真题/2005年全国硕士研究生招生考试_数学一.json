@@ -1,0 +1,993 @@
+[
+  {
+    "id": 880,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 1,
+    "indexByPaper": {
+      "数学一": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $y=\\dfrac{x^{2}}{2 x+1}$ 的斜渐近线方程为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 881,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学二": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "微分方程 $x y^{\\prime}+2 y=x \\ln x$ 满足 $y(1)=-\\dfrac{1}{9}$ 的解为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 882,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 3,
+    "indexByPaper": {
+      "数学一": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设函数 $\\displaystyle u(x, y, z)=1+\\frac{x^{2}}{6}+\\frac{y^{2}}{12}+\\frac{z^{2}}{18}$, 单位向量 $\\displaystyle \\boldsymbol{n}=\\frac{1}{\\sqrt{3}}(1,1,1)$, 则 $\\displaystyle \\left.\\frac{\\partial u}{\\partial \\boldsymbol{n}}\\right|_{(1,2,3)}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "方向导数和梯度",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的偏导数和全微分",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 883,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 4,
+    "indexByPaper": {
+      "数学一": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\Omega$ 是由锥面 $z=\\sqrt{x^{2}+y^{2}}$ 与半球面 $z=\\sqrt{R^{2}-x^{2}-y^{2}}$ 围成的空间区域, $\\Sigma$ 是 $\\Omega$ 的整个边界的外侧, 则 $\\displaystyle \\iint\\limits_{\\Sigma} x \\mathrm{d} y \\mathrm{d} z+y \\mathrm{d} z \\mathrm{d} x+z \\mathrm{d} x \\mathrm{d} y=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "高斯（Gauss）公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 884,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 5,
+    "indexByPaper": {
+      "数学一": 5,
+      "数学二": 6
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}$ 均为 3 维列向量, 记矩阵\r\n\r\n$\\boldsymbol{A}=\\left(\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}\\right),\\\\\r\n\\boldsymbol{B}=(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}+\\boldsymbol{\\alpha}_{3}, \\\\\r\n\\boldsymbol{\\alpha}_{1}+2 \\boldsymbol{\\alpha}_{2}+4 \\boldsymbol{\\alpha}_{3},\\\\\r\n\\boldsymbol{\\alpha}_{1}+3 \\boldsymbol{\\alpha}_{2}+9 \\boldsymbol{\\alpha}_{3})$\r\n\r\n如果 $|\\boldsymbol{A}|=1$, 那么 $|\\boldsymbol{B}|=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵乘积的行列式",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 885,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2005,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学三": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "从数 $1,2,3,4$ 中任取一个数, 记为 $X$, 再从 $1, \\cdots, X$ 中任取一个数, 记为 $Y$, 则 $P\\{Y=2\\}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "概率的基本公式",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 886,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7,
+      "数学二": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $\\displaystyle f(x)=\\lim _{n \\rightarrow \\infty} \\sqrt[n]{1+|x|^{3 n}}$, 则 $f(x)$ 在 $(-\\infty,+\\infty)$ 内 $(\\quad)$",
+    "options": {
+      "A": "处处可导",
+      "B": "恰有一个不可导点",
+      "C": "恰有两个不可导点",
+      "D": "至少有三个不可导点"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的可导性与连续性之间的关系",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限存在的两个准则：单调有界准则和夹逼准则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 887,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8,
+      "数学二": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $F(x)$ 是连续函数 $f(x)$ 的一个原函数, \" $M \\Leftrightarrow N$ \" 表示 \" $M$ 的充分必要条件是 $N$ \", 则必有 $(\\quad)$",
+    "options": {
+      "A": "$F(x)$ 是偶函数 $\\Leftrightarrow f(x)$ 是奇函数",
+      "B": "$F(x)$ 是奇函数 $\\Leftrightarrow f(x)$ 是偶函数",
+      "C": "$F(x)$ 是周期函数 $\\Leftrightarrow f(x)$ 是周期函数",
+      "D": "$F(x)$ 是单调函数 $\\Leftrightarrow f(x)$ 是单调函数"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的有界性、单调性、周期性和奇偶性",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 888,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 9,
+    "indexByPaper": {
+      "数学一": 9,
+      "数学二": 11
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $\\displaystyle u(x, y)=\\varphi(x+y)+\\varphi(x-y)+\\int_{x-y}^{x+y} \\psi(t) \\mathrm{d} t$, 其中函数 $\\varphi$ 具有二阶导数, $\\psi$ 具有一阶导数, 则必有 $(\\quad)$",
+    "options": {
+      "A": "$\\dfrac{\\partial^{2} u}{\\partial x^{2}}=-\\dfrac{\\partial^{2} u}{\\partial y^{2}}$",
+      "B": "$\\dfrac{\\partial^{2} u}{\\partial x^{2}}=\\dfrac{\\partial^{2} u}{\\partial y^{2}}$",
+      "C": "$\\dfrac{\\partial^{2} u}{\\partial x \\partial y}=\\dfrac{\\partial^{2} u}{\\partial y^{2}}$",
+      "D": "$\\dfrac{\\partial^{2} u}{\\partial x \\partial y}=\\dfrac{\\partial^{2} u}{\\partial x^{2}}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "二阶偏导数",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 889,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 10,
+    "indexByPaper": {
+      "数学一": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设有三元方程 $x y-z \\ln y+\\mathrm{e}^{x z}=1$, 根据隐函数存在定理,存在点 $(0,1,1)$ 的一个邻域, 在此邻域内该方程 $(\\quad)$",
+    "options": {
+      "A": "只能确定一个具有连续偏导数的隐函数 $z=z(x, y)$",
+      "B": "可确定两个具有连续偏导数的隐函数 $y=y(x, z)$ 和 $z=z(x, y)$",
+      "C": "可确定两个具有连续偏导数的隐函数 $x=x(y, z)$ 和 $z=z(x, y)$",
+      "D": "可确定两个具有连续偏导数的隐函数 $x=x(y, z)$ 和 $y=y(x, z)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的偏导数和全微分",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 890,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 11,
+    "indexByPaper": {
+      "数学一": 11,
+      "数学二": 13,
+      "数学三": 13
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\lambda_{1}, \\lambda_{2}$ 是矩阵 $\\boldsymbol{A}$ 的两个不同的特征值, 对应的特征向量分别为 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}$, 则 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{A}\\left(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}\\right)$ 线性无关的充分必要条件是 $(\\quad)$",
+    "options": {
+      "A": "$\\lambda_{1} \\neq 0$",
+      "B": "$\\lambda_{2} \\neq 0$",
+      "C": "$\\lambda_{1}=0$",
+      "D": "$\\lambda_{2}=0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 891,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 12,
+    "indexByPaper": {
+      "数学一": 12,
+      "数学二": 14
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 为 $n(n \\geqslant 2)$ 阶可逆矩阵, 交换 $\\boldsymbol{A}$ 的第 1 行与第 2 行得矩阵 $\\boldsymbol{B}, \\boldsymbol{A}^{*}, \\boldsymbol{B}{ }^{*}$ 分别为 $\\boldsymbol{A}, \\boldsymbol{B}$ 的伴随矩阵, 则 $(\\quad)$",
+    "options": {
+      "A": "交换 $\\boldsymbol{A}^{*}$ 的第 $1$ 列与第 $2$ 列得 $\\boldsymbol{B}{ }^{*}$",
+      "B": "交换 $\\boldsymbol{A}^{*}$ 的第 $1$ 行与第 $2$ 行得 $\\boldsymbol{B}^{*}$",
+      "C": "交换 $\\boldsymbol{A}^{*}$ 的第 $1$ 列与第 $2$ 列得 $-\\boldsymbol{B}^{*}$",
+      "D": "交换 $\\boldsymbol{A}^{*}$ 的第 $1$ 行与第 $2$ 行得 $-\\boldsymbol{B}^{*}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "伴随矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "初等矩阵",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 892,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 13,
+    "indexByPaper": {
+      "数学一": 13
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设二维随机变量 $(X, Y)$ 的概率分布为\r\n\r\n$$\r\n\\begin{array}{c|cc}\r\n\\hline X \\diagdown Y & 0 & 1 \\\\\r\n\\hline 0 & 0.4 & a \\\\\r\n\\hline 1 & b & 0.1 \\\\\r\n\\hline\r\n\\end{array}\r\n$$\r\n\r\n已知随机事件 $\\{X=0\\}$ 与 $\\{X+Y=1\\}$ 相互独立, 则 $(\\quad)$",
+    "options": {
+      "A": "$a=0.2, b=0.3$",
+      "B": "$a=0.4, b=0.1$",
+      "C": "$a=0.3, b=0.2$",
+      "D": "$a=0.1, b=0.4$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的独立性",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "二维离散型随机变量的概率分布、边缘分布和条件分布",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 893,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 14,
+    "indexByPaper": {
+      "数学一": 14
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $X_{1}, X_{2}, \\cdots, X_{n}(n \\geqslant 2)$ 为来自总体 $N(0,1)$ 的简单随机样本, $\\bar{X}$ 为样本均值, $S^{2}$ 为样本方差, 则 $(\\quad)$",
+    "options": {
+      "A": "$n \\bar{X} \\sim N(0,1)$",
+      "B": "$n S^{2} \\sim \\chi^{2}(n)$",
+      "C": "$\\displaystyle \\frac{(n-1) \\bar{X}}{S} \\sim t(n-1)$",
+      "D": "$\\dfrac{(n-1) X_{1}^{2}}{\\displaystyle \\sum_{i=2}^{n} X_{i}^{2}} \\sim F(1, n-1)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "六、数理统计的基本概念",
+        "kp": "正态总体的常用抽样分布",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 894,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 15,
+    "indexByPaper": {
+      "数学一": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $D=\\left\\{(x, y) \\mid x^{2}+y^{2} \\leqslant \\sqrt{2}, x \\geqslant 0, y \\geqslant 0\\right\\},\\\\\r\n\\left[1+x^{2}+y^{2}\\right]$ 表示不超过 $1+x^{2}+y^{2}$ 的最大整数, 计算二重积分 $\\displaystyle \\iint\\limits_{D} x y\\left[1+x^{2}+y^{2}\\right] \\mathrm{d} x \\mathrm{d} y$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 895,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求幂级数 $\\displaystyle \\sum_{n=1}^{\\infty}(-1)^{n-1}\\left[1+\\frac{1}{n(2 n-1)}\\right] x^{2 n}$ 的收敛区间与和函数 $f(x)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "幂级数的和函数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "幂级数及其收敛半径、收敛区间（指开区间）和收敛域",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 896,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17,
+      "数学二": 17
+    },
+    "type": "解答题",
+    "has_figure": true,
+    "stem": "如图所示, 曲线 $C$ 的方程为 $y=f(x)$, 点 $(3,2)$ 是它的一个拐点, 直线 $l_{1}$ 与 $l_{2}$ 分别是曲线 $C$ 在点 $(0,0)$ 与 $(3,2)$ 处的切线, 其交点为 $(2,4)$. 设函数 $f(x)$ 具有三阶连续导数, 计算定积分 $\\displaystyle \\int_{0}^{3}\\left(x^{2}+x\\right) f^{\\prime \\prime \\prime}(x) \\mathrm{d} x$\n\n![曲线 C 与两条切线 l1、l2](/uploads/books/ef6946383f64e55c6821e7d95d0a743aa20df0441881b8cb378cee621f66cbad.jpg)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数的几何意义和物理意义",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 897,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 18,
+    "indexByPaper": {
+      "数学一": 18,
+      "数学二": 19
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "已知函数 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 内可导, 且 $f(0)=0, f(1)=1$. 证明 :\r\n\r\n(1) 存在 $\\xi \\in(0,1)$, 使得 $f(\\xi)=1-\\xi$;\r\n\r\n(2) 存在两个不同的点 $\\eta, \\zeta \\in(0,1)$, 使得 $f^{\\prime}(\\eta) f^{\\prime}(\\zeta)=1$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 898,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 19,
+    "indexByPaper": {
+      "数学一": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设函数 $\\varphi(y)$ 具有连续导数, 在围绕原点的任意分段光滑简单闭曲线 $L$ 上, 曲线积分 $\\displaystyle \\oint_{L} \\frac{\\varphi(y) \\mathrm{d} x+2 x y \\mathrm{d} y}{2 x^{2}+y^{4}}$ 的值恒为同一常数\r\n\r\n(1) 证明: 对右半平面 $x>0$ 内的任意分段光滑简单闭曲线 $C$, 有 $\\displaystyle \\oint_{C} \\frac{\\varphi(y) \\mathrm{d} x+2 x y \\mathrm{d} y}{2 x^{2}+y^{4}}=0$;\r\n\r\n(2) 求函数 $\\varphi(y)$ 的表达式",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "平面曲线积分与路径无关的条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "格林（Green）公式",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 899,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知二次型 $f\\left(x_{1}, x_{2}, x_{3}\\right)=(1-a) x_{1}^{2}+(1-a) x_{2}^{2}+2 x_{3}^{2}+2(1+a) x_{1} x_{2}$ 的秩为 $2$\r\n\r\n(1) 求 $a$ 的值;\r\n\r\n(2) 求正交变换 $\\boldsymbol{x}=\\boldsymbol{Qy}$,把 $f\\left(x_{1}, x_{2}, x_{3}\\right)$ 化成标准形;\r\n\r\n(3) 求方程 $f\\left(x_{1}, x_{2}, x_{3}\\right)=0$ 的解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "用正交变换和配方法化二次型为标准形",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "二次型的秩",
+        "rel": "次",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "实对称矩阵的特征值、特征向量及其相似对角矩阵",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 900,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2005,
+    "index": 21,
+    "indexByPaper": {
+      "数学一": 21,
+      "数学二": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $3$ 阶矩阵 $\\boldsymbol{A}$ 的第一行是 $(a, b, c), a, b, c$ 不全为零, 矩阵 $\\boldsymbol{B}=\\left(\\begin{array}{lll}1 & 2 & 3 \\\\ 2 & 4 & 6 \\\\ 3 & 6 & k\\end{array}\\right)$ ( $k$ 为常数), 且 $\\boldsymbol{A B}=\\boldsymbol O$, 求线性方程组 $\\boldsymbol{A x}=\\mathbf{0}$ 的通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "齐次线性方程组的基础解系和通解",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 901,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2005,
+    "index": 22,
+    "indexByPaper": {
+      "数学一": 22,
+      "数学三": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设二维随机变量 $(X, Y)$ 的概率密度为\r\n\r\n$f(x, y)= \\begin{cases}1, & 0<x<1,0<y<2 x \\\\ 0, & \\text { 其他 }\\end{cases}$\r\n\r\n求: (1) $(X, Y)$ 的边缘概率密度 $f_{X}(x), f_{Y}(y)$;\r\n\r\n(2) $Z=2 X-Y$ 的概率密度 $f_{Z}(z)$\r\n\r\n(3) (数三) $\\displaystyle P\\left\\{Y \\leqslant \\frac{1}{2} \\mid X \\leqslant \\frac{1}{2}\\right\\}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "二维连续型随机变量的概率密度、边缘概率密度和条件密度",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "两个及两个以上随机变量简单函数的分布",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 902,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2005,
+    "index": 23,
+    "indexByPaper": {
+      "数学一": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $X_{1}, X_{2}, \\cdots, X_{n}(n>2)$ 为来自总体 $N(0,1)$ 的简单随机样本, $\\bar{X}$ 为样本均值, 记 $Y_{i}=X_{i}-\\bar{X}, i=1,2, \\cdots, n$.\r\n\r\n求: (1) $Y_{i}$ 的方差 $D\\left(Y_{i}\\right), i=1,2, \\cdots, n$;\r\n\r\n(2) $Y_{1}$ 与 $Y_{n}$ 的协方差 $\\operatorname{Cov}\\left(Y_{1}, Y_{n}\\right)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量的数学期望（均值）、方差、标准差及其性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "矩、协方差、相关系数及其性质",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

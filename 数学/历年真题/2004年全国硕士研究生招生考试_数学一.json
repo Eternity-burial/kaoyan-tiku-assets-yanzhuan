@@ -1,0 +1,1070 @@
+[
+  {
+    "id": 903,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 1,
+    "indexByPaper": {
+      "数学一": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $y=\\ln x$ 上与直线 $x+y=1$ 垂直的切线方程为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数的几何意义和物理意义",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 904,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知 $f^{\\prime}\\left(\\mathrm{e}^{x}\\right)=x \\mathrm{e}^{-x}$, 且 $f(1)=0$, 则 $f(x)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "原函数和不定积分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 905,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 3,
+    "indexByPaper": {
+      "数学一": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $L$ 为正向圆周 $x^{2}+y^{2}=2$ 在第一象限中的部分, 则曲线积分 $\\displaystyle \\int_{L} x \\mathrm{d} y-2 y \\mathrm{d} x$ 的值为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "格林（Green）公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲线积分的概念、性质及计算",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 908,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 4,
+    "indexByPaper": {
+      "数学一": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "欧拉方程 $\\displaystyle x^{2} \\frac{\\mathrm{d}^{2} y}{\\mathrm{d} x^{2}}+4 x \\frac{\\mathrm{d} y}{\\mathrm{d} x}+2 y=0(x>0)$ 的通解为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "欧拉（Euler）方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 909,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 5,
+    "indexByPaper": {
+      "数学一": 5,
+      "数学二": 6
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{lll}2 & 1 & 0 \\\\ 1 & 2 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$, 矩阵 $\\boldsymbol{B}$ 满足 $\\boldsymbol{A} \\boldsymbol{B} \\boldsymbol{A}^{*}=2 \\boldsymbol{B} \\boldsymbol{A}^{*}+\\boldsymbol{E}$, 其中 $\\boldsymbol{A}^{*}$ 为 $\\boldsymbol{A}$ 的伴随矩阵, $\\boldsymbol{E}$ 是单位矩阵, 则 $|\\boldsymbol{B}|=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "伴随矩阵",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵乘积的行列式",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 910,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2004,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学三": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 服从参数为 $\\lambda$ 的指数分布, 则 $P\\{X>\\sqrt{D(X)}\\}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量的数学期望（均值）、方差、标准差及其性质",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 911,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7,
+      "数学二": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "把 $x \\rightarrow 0^{+}$时的无穷小量 $\\displaystyle \\alpha=\\int_{0}^{x} \\cos t^{2} \\mathrm{d} t, \\\\\r\n\\beta=\\int_{0}^{x^{2}} \\tan \\sqrt{t} \\mathrm{d} t, \\gamma=\\int_{0}^{\\sqrt{x}} \\sin t^{3} \\mathrm{d} t$ 排列起来, 使排在 后面的是前一个的高阶无穷小量, 则正确的排列次序是 $(\\quad)$",
+    "options": {
+      "A": "$\\alpha, \\beta, \\gamma$",
+      "B": "$\\alpha, \\gamma, \\beta$",
+      "C": "$\\beta, \\alpha, \\gamma$",
+      "D": "$\\beta, \\gamma, \\alpha$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 912,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8,
+      "数学二": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 连续, 且 $f^{\\prime}(0)>0$, 则存在 $\\delta>0$, 使得 $(\\quad)$",
+    "options": {
+      "A": "$f(x)$ 在 $(0, \\delta)$ 内单调增加",
+      "B": "$f(x)$ 在 $(-\\delta, 0)$ 内单调减少",
+      "C": "对任意的 $x \\in(0, \\delta)$ 有 $f(x)>f(0)$",
+      "D": "对任意的 $x \\in(-\\delta, 0)$ 有 $f(x)>f(0)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "数列极限与函数极限的定义及其性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 913,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 9,
+    "indexByPaper": {
+      "数学一": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle \\sum_{n=1}^{\\infty} a_{n}$ 为正项级数,下列结论中正确的是 $(\\quad)$",
+    "options": {
+      "A": "若 $\\displaystyle \\lim _{n \\rightarrow \\infty} n a_{n}=0$, 则级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_{n}$ 收敛",
+      "B": "若存在非零常数 $\\lambda$, 使得 $\\displaystyle \\lim _{n \\rightarrow \\infty} n a_{n}=\\lambda$, 则级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_{n}$ 发散",
+      "C": "若级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_{n}$ 收敛, 则 $\\displaystyle \\lim _{n \\rightarrow \\infty} n^{2} a_{n}=0$",
+      "D": "若级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_{n}$ 发散, 则存在非零常数 $\\lambda$, 使得 $\\displaystyle \\lim _{n \\rightarrow \\infty} n a_{n}=\\lambda$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "正项级数收敛性的判别法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "级数的基本性质与收敛的必要条件",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 914,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 10,
+    "indexByPaper": {
+      "数学一": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 为连续函数, $\\displaystyle F(t)=\\int_{1}^{t} \\mathrm{d} y \\int_{y}^{t} f(x) \\mathrm{d} x$, 则 $F^{\\prime}(2)$ 等于 $(\\quad)$",
+    "options": {
+      "A": "$2 f(2)$",
+      "B": "$f(2)$",
+      "C": "$-f(2)$",
+      "D": "$0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 915,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 11,
+    "indexByPaper": {
+      "数学一": 11,
+      "数学二": 13
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 是 $3$ 阶方阵, 将 $\\boldsymbol{A}$ 的第 $1$ 列与第 $2$ 列交换得 $\\boldsymbol{B}$, 再将 $\\boldsymbol{B}$ 的第 $2$ 列加到第 $3$ 列得 $\\boldsymbol{C}$, 则满足 $\\boldsymbol{A Q}=\\boldsymbol C$ 的可逆矩阵 $\\boldsymbol Q$ 为 $(\\quad)$",
+    "options": {
+      "A": "$\\left(\\begin{array}{lll}0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 1 & 0 & 1\\end{array}\\right)$",
+      "B": "$\\left(\\begin{array}{lll}0 & 1 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 0 & 1\\end{array}\\right)$",
+      "C": "$\\left(\\begin{array}{lll}0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 1 & 1\\end{array}\\right)$",
+      "D": "$\\left(\\begin{array}{lll}0 & 1 & 1 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的初等变换",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "初等矩阵",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 916,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 12,
+    "indexByPaper": {
+      "数学一": 12,
+      "数学二": 14
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}, \\boldsymbol{B}$ 为满足 $\\boldsymbol{A B}=\\boldsymbol{O}$ 的任意两个非零矩阵, 则必有 $(\\quad)$",
+    "options": {
+      "A": "$\\boldsymbol{A}$ 的列向量组线性相关, $\\boldsymbol{B}$ 的行向量组线性相关",
+      "B": "$\\boldsymbol{A}$ 的列向量组线性相关, $\\boldsymbol{B}$ 的列向量组线性相关",
+      "C": "$\\boldsymbol{A}$ 的行向量组线性相关, $\\boldsymbol{B}$ 的行向量组线性相关",
+      "D": "$\\boldsymbol{A}$ 的行向量组线性相关, $\\boldsymbol{B}$ 的列向量组线性相关"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "齐次线性方程组有非零解的充分必要条件",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 917,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2004,
+    "index": 13,
+    "indexByPaper": {
+      "数学一": 13,
+      "数学三": 14
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 服从正态分布 $N(0,1)$, 对给定的 $\\alpha(0<\\alpha<1)$, 数 $u_{\\alpha}$ 满足 $P\\left\\{X>u_{\\alpha}\\right\\}=\\alpha$. 若 $P\\{|X|<x\\}=\\alpha$, 则 $x$ 等于 $(\\quad)$",
+    "options": {
+      "A": "$u_{\\frac{a}{2}}$",
+      "B": "$u_{1-\\frac{a}{2}}$",
+      "C": "$u_{\\frac{1-\\alpha}{2}}$",
+      "D": "$u_{1-\\alpha}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "六、数理统计的基本概念",
+        "kp": "分位数",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 918,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 14,
+    "indexByPaper": {
+      "数学一": 14
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设随机变量 $X_{1}, X_{2}, \\cdots, X_{n}(n>1)$ 独立同分布, 且其方差为 $\\sigma^{2}>0$. 令 $\\displaystyle Y=\\frac{1}{n} \\sum_{i=1}^{n} X_{i}$, 则 $(\\quad)$",
+    "options": {
+      "A": "$\\operatorname{Cov}\\left(X_{1}, Y\\right)=\\dfrac{\\sigma^{2}}{n}$",
+      "B": "$\\operatorname{Cov}\\left(X_{1}, Y\\right)=\\sigma^{2}$",
+      "C": "$D\\left(X_{1}+Y\\right)=\\dfrac{n+2}{n} \\sigma^{2}$",
+      "D": "$D\\left(X_{1}-Y\\right)=\\dfrac{n+1}{n} \\sigma^{2}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "矩、协方差、相关系数及其性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量的数学期望（均值）、方差、标准差及其性质",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 919,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 15,
+    "indexByPaper": {
+      "数学一": 15,
+      "数学二": 19
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设 $\\mathrm{e}<a<b<\\mathrm{e}^{2}$, 证明 $\\displaystyle : \\ln ^{2} b-\\ln ^{2} a>\\frac{4}{\\mathrm{e}^{2}}(b-a)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 920,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16,
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "某种飞机在机场降落时, 为了减少滑行距离, 在触地的瞬间, 飞机尾部张开减速伞, 以增大阻力, 使飞机迅速减速并停下. 现有一质量为 $9000 \\mathrm{kg}$ 的飞机, 着陆时的水平速度为 $700 \\mathrm{km} / \\mathrm{h}$. 经测试, 减速伞打开后, 飞机所受的总阻力与飞机的速度成正比 (比例系数为 $k=6.0 \\times 10^{6}$ ). 问从着陆点算起, 飞机滑行的最长距离是多少? (注 $: \\mathrm{kg}$ 表示千克, $\\mathrm{km} / \\mathrm{h}$ 表示千米/小时)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "微分方程的简单应用",
+        "rel": "主",
+        "depth": [
+          "会建立"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "变量可分离的微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 921,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "计算曲面积分 $\\displaystyle I=\\iint\\limits_{\\Sigma} 2 x^{3} \\mathrm{d} y \\mathrm{d} z+2 y^{3} \\mathrm{d} z \\mathrm{d} x+3\\left(z^{2}-1\\right) \\mathrm{d} x \\mathrm{d} y$, 其中 $\\Sigma$ 是曲面 $z=1-x^{2}-y^{2}$ $(z \\geqslant 0)$ 的上侧",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "高斯（Gauss）公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲面积分的概念、性质及计算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 922,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 18,
+    "indexByPaper": {
+      "数学一": 18
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设有方程 $x^{n}+n x-1=0$, 其中 $n$ 为正整数, 证明此方程存在唯一正实根 $x_{n}$, 并证明当 $\\alpha>1$ 时, 级数 $\\displaystyle \\sum_{\\displaystyle n=1}^{\\infty} x_{n}^{\\alpha}$ 收敛",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "正项级数收敛性的判别法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 923,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 19,
+    "indexByPaper": {
+      "数学一": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $z=z(x, y)$ 是由 $x^{2}-6 x y+10 y^{2}-2 y z-z^{2}+18=0$ 确定的函数,求 $z=z(x, y)$ 的极值点和极值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的极值和条件极值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 924,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设有齐次线性方程组\r\n\r\n$\\begin{cases}(1+a) x_{1}+x_{2}+\\cdots+x_{n}=0 \\\\ 2 x_{1}+(2+a) x_{2}+\\cdots+2 x_{n}=0 \\\\ \\vdots \\\\ n x_{1}+n x_{2}+\\cdots+(n+a) x_{n}=0  \\end{cases} \\quad(n \\geqslant 2)$,\r\n\r\n试问 $a$ 取何值时, 该方程组有非零解, 并求出其通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "齐次线性方程组的基础解系和通解",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "齐次线性方程组有非零解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 925,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2004,
+    "index": 21,
+    "indexByPaper": {
+      "数学一": 21,
+      "数学二": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{ccc}1 & 2 & -3 \\\\ -1 & 4 & -3 \\\\ 1 & a & 5\\end{array}\\right)$ 的特征方程有一个二重根, 求 $a$ 的值, 并讨论 $\\boldsymbol{A}$ 是否可相似对角化",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵可相似对角化的充分必要条件及相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 926,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2004,
+    "index": 22,
+    "indexByPaper": {
+      "数学一": 22,
+      "数学三": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $A, B$ 为随机事件, 且 $\\displaystyle P(A)=\\frac{1}{4}, P(B \\mid A)=\\frac{1}{3},\\\\ P(A \\mid B)=\\frac{1}{2}$, 令\r\n\r\n$X=\\left\\{\\begin{array}{ll}\r\n1, & A \\text { 发生 } \\\\\r\n0, & A \\text { 不发生 }\r\n\\end{array} \\quad Y= \\begin{cases}1, & B \\text { 发生 } \\\\\r\n0, & B \\text { 不发生 }\\end{cases}\\right.$\r\n\r\n求: (1) 二维随机变量 $(X, Y)$ 的概率分布;\r\n\r\n(2) $X$ 与 $Y$ 的相关系数 $\\rho_{X Y}$\r\n\r\n(3) $Z=X^2+Y^2$ 的概率分布(数三)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "二维离散型随机变量的概率分布、边缘分布和条件分布",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "矩、协方差、相关系数及其性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 927,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2004,
+    "index": 23,
+    "indexByPaper": {
+      "数学一": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设总体 $X$ 的分布函数为\r\n\r\n$F(x ; \\beta)= \\begin{cases}1-\\dfrac{1}{x^{\\beta}}, & x>1 \\\\ 0, & x \\leqslant 1\\end{cases}$\r\n\r\n其中未知参数 $\\beta>1, X_{1}, X_{2}, \\cdots, X_{n}$ 为来自总体 $X$ 的简单随机样本.\r\n\r\n求:(1) $\\beta$ 的矩估计量;\r\n\r\n(2) $\\beta$ 的最大似然估计量",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "七、参数估计",
+        "kp": "矩估计法",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "七、参数估计",
+        "kp": "最大似然估计法",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "连续型随机变量的概率密度",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

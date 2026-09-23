@@ -1,0 +1,2602 @@
+{
+  "nodes": [
+    {
+      "code": "GL01-M01",
+      "domain": "GL01",
+      "domainName": "随机事件与概率",
+      "groupName": "概率的直接计算",
+      "name": "事件运算与加法、减法公式",
+      "recent10": 2,
+      "poolCount": 68
+    },
+    {
+      "code": "GL01-M02",
+      "domain": "GL01",
+      "domainName": "随机事件与概率",
+      "groupName": "概率的直接计算",
+      "name": "古典概型与几何概型",
+      "recent10": 2,
+      "poolCount": 38
+    },
+    {
+      "code": "GL01-M03",
+      "domain": "GL01",
+      "domainName": "随机事件与概率",
+      "groupName": "条件、全概率与独立",
+      "name": "条件概率与乘法公式（含由条件概率方程反求参数）",
+      "recent10": 11,
+      "poolCount": 93
+    },
+    {
+      "code": "GL01-M04",
+      "domain": "GL01",
+      "domainName": "随机事件与概率",
+      "groupName": "条件、全概率与独立",
+      "name": "全概率公式与贝叶斯公式",
+      "recent10": 4,
+      "poolCount": 37
+    },
+    {
+      "code": "GL01-M05",
+      "domain": "GL01",
+      "domainName": "随机事件与概率",
+      "groupName": "条件、全概率与独立",
+      "name": "独立性的判定与应用（与互不相容的辨析）",
+      "recent10": 7,
+      "poolCount": 73
+    },
+    {
+      "code": "GL02-M01",
+      "domain": "GL02",
+      "domainName": "一维随机变量及其分布",
+      "groupName": "分布的三种表示与定参数",
+      "name": "由归一性与分布函数的性质定参数",
+      "recent10": 2,
+      "poolCount": 25
+    },
+    {
+      "code": "GL02-M02",
+      "domain": "GL02",
+      "domainName": "一维随机变量及其分布",
+      "groupName": "分布的三种表示与定参数",
+      "name": "分布函数、密度与区间概率的互求（含混合型）",
+      "recent10": 5,
+      "poolCount": 107
+    },
+    {
+      "code": "GL02-M03",
+      "domain": "GL02",
+      "domainName": "一维随机变量及其分布",
+      "groupName": "常见分布与它们的特权",
+      "name": "常见分布的识别与直接套用",
+      "recent10": 2,
+      "poolCount": 65
+    },
+    {
+      "code": "GL02-M04",
+      "domain": "GL02",
+      "domainName": "一维随机变量及其分布",
+      "groupName": "常见分布与它们的特权",
+      "name": "正态分布的标准化、对称性与线性变换",
+      "recent10": 4,
+      "poolCount": 67
+    },
+    {
+      "code": "GL02-M05",
+      "domain": "GL02",
+      "domainName": "一维随机变量及其分布",
+      "groupName": "常见分布与它们的特权",
+      "name": "指数分布与几何分布的无记忆性",
+      "recent10": 3,
+      "poolCount": 13
+    },
+    {
+      "code": "GL02-M06",
+      "domain": "GL02",
+      "domainName": "一维随机变量及其分布",
+      "groupName": "函数的分布",
+      "name": "一维随机变量函数的分布（分布函数法与枚举合并）",
+      "recent10": 5,
+      "poolCount": 64
+    },
+    {
+      "code": "GL03-M01",
+      "domain": "GL03",
+      "domainName": "多维随机变量及其分布",
+      "groupName": "二维分布本身",
+      "name": "联合、边缘与条件分布的互求",
+      "recent10": 7,
+      "poolCount": 132
+    },
+    {
+      "code": "GL03-M02",
+      "domain": "GL03",
+      "domainName": "多维随机变量及其分布",
+      "groupName": "二维分布本身",
+      "name": "二维随机变量的独立性判定",
+      "recent10": 2,
+      "poolCount": 32
+    },
+    {
+      "code": "GL03-M03",
+      "domain": "GL03",
+      "domainName": "多维随机变量及其分布",
+      "groupName": "由二维到一维",
+      "name": "两个随机变量函数的分布：和、差、积、商与最值",
+      "recent10": 5,
+      "poolCount": 99
+    },
+    {
+      "code": "GL03-M04",
+      "domain": "GL03",
+      "domainName": "多维随机变量及其分布",
+      "groupName": "由二维到一维",
+      "name": "二维正态分布的性质与线性组合",
+      "recent10": 5,
+      "poolCount": 30
+    },
+    {
+      "code": "GL04-M01",
+      "domain": "GL04",
+      "domainName": "随机变量的数字特征",
+      "groupName": "算出来",
+      "name": "随机变量函数的期望（不求分布直接算）",
+      "recent10": 8,
+      "poolCount": 120
+    },
+    {
+      "code": "GL04-M02",
+      "domain": "GL04",
+      "domainName": "随机变量的数字特征",
+      "groupName": "算出来",
+      "name": "期望与方差的运算性质",
+      "recent10": 4,
+      "poolCount": 120
+    },
+    {
+      "code": "GL04-M03",
+      "domain": "GL04",
+      "domainName": "随机变量的数字特征",
+      "groupName": "两个变量之间",
+      "name": "方差的线性组合与协方差的双线性展开",
+      "recent10": 6,
+      "poolCount": 80
+    },
+    {
+      "code": "GL04-M04",
+      "domain": "GL04",
+      "domainName": "随机变量的数字特征",
+      "groupName": "两个变量之间",
+      "name": "协方差与相关系数的计算",
+      "recent10": 10,
+      "poolCount": 118
+    },
+    {
+      "code": "GL04-M05",
+      "domain": "GL04",
+      "domainName": "随机变量的数字特征",
+      "groupName": "两个变量之间",
+      "name": "不相关与独立的辨析",
+      "recent10": 4,
+      "poolCount": 32
+    },
+    {
+      "code": "GL04-M06",
+      "domain": "GL04",
+      "domainName": "随机变量的数字特征",
+      "groupName": "化简",
+      "name": "用对称性与奇偶性简化数字特征",
+      "recent10": 3,
+      "poolCount": 23
+    },
+    {
+      "code": "GL05-M01",
+      "domain": "GL05",
+      "domainName": "大数定律与中心极限定理",
+      "groupName": "极限定理",
+      "name": "切比雪夫不等式估计概率",
+      "recent10": 1,
+      "poolCount": 16
+    },
+    {
+      "code": "GL05-M02",
+      "domain": "GL05",
+      "domainName": "大数定律与中心极限定理",
+      "groupName": "极限定理",
+      "name": "大数定律与依概率收敛",
+      "recent10": 1,
+      "poolCount": 17
+    },
+    {
+      "code": "GL05-M03",
+      "domain": "GL05",
+      "domainName": "大数定律与中心极限定理",
+      "groupName": "极限定理",
+      "name": "中心极限定理的标准化近似",
+      "recent10": 1,
+      "poolCount": 22
+    },
+    {
+      "code": "GL06-M01",
+      "domain": "GL06",
+      "domainName": "数理统计的基本概念",
+      "groupName": "抽样分布与统计量",
+      "name": "三大抽样分布（$\\chi^2$/$t$/$F$）的构造与自由度",
+      "recent10": 3,
+      "poolCount": 66
+    },
+    {
+      "code": "GL06-M02",
+      "domain": "GL06",
+      "domainName": "数理统计的基本概念",
+      "groupName": "抽样分布与统计量",
+      "name": "正态总体下样本均值与样本方差的分布及独立性",
+      "recent10": 3,
+      "poolCount": 78
+    },
+    {
+      "code": "GL06-M03",
+      "domain": "GL06",
+      "domainName": "数理统计的基本概念",
+      "groupName": "抽样分布与统计量",
+      "name": "次序统计量与经验分布函数",
+      "recent10": 4,
+      "poolCount": 9
+    },
+    {
+      "code": "GL07-M01",
+      "domain": "GL07",
+      "domainName": "参数估计与假设检验",
+      "groupName": "点估计",
+      "name": "矩估计",
+      "recent10": 1,
+      "poolCount": 59
+    },
+    {
+      "code": "GL07-M02",
+      "domain": "GL07",
+      "domainName": "参数估计与假设检验",
+      "groupName": "点估计",
+      "name": "最大似然估计",
+      "recent10": 8,
+      "poolCount": 102
+    },
+    {
+      "code": "GL07-M03",
+      "domain": "GL07",
+      "domainName": "参数估计与假设检验",
+      "groupName": "点估计",
+      "name": "估计量的无偏性与有效性",
+      "recent10": 6,
+      "poolCount": 63
+    },
+    {
+      "code": "GL07-M04",
+      "domain": "GL07",
+      "domainName": "参数估计与假设检验",
+      "groupName": "区间估计与假设检验",
+      "name": "假设检验：拒绝域与两类错误",
+      "recent10": 3,
+      "poolCount": 31
+    },
+    {
+      "code": "GL07-M05",
+      "domain": "GL07",
+      "domainName": "参数估计与假设检验",
+      "groupName": "区间估计与假设检验",
+      "name": "区间估计（正态总体均值的置信区间）",
+      "recent10": 0,
+      "poolCount": 12
+    },
+    {
+      "code": "GS01-M01",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "函数与极限的概念、性质",
+      "name": "由极限值反推分子/分母的行为（含保号性）",
+      "recent10": 4,
+      "poolCount": 49
+    },
+    {
+      "code": "GS01-M02",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "函数与极限的概念、性质",
+      "name": "分左右极限判存在性与求值",
+      "recent10": 6,
+      "poolCount": 92
+    },
+    {
+      "code": "GS01-M03",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "未定式极限的计算",
+      "name": "等价无穷小代换",
+      "recent10": 21,
+      "poolCount": 247
+    },
+    {
+      "code": "GS01-M04",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "未定式极限的计算",
+      "name": "泰勒（麦克劳林）展开取主部",
+      "recent10": 14,
+      "poolCount": 150
+    },
+    {
+      "code": "GS01-M05",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "未定式极限的计算",
+      "name": "洛必达法则",
+      "recent10": 2,
+      "poolCount": 132
+    },
+    {
+      "code": "GS01-M06",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "未定式极限的计算",
+      "name": "幂指函数取对数（$1^\\infty$ / $0^0$ / $\\infty^0$）",
+      "recent10": 6,
+      "poolCount": 130
+    },
+    {
+      "code": "GS01-M07",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "未定式极限的计算",
+      "name": "代数变形与换元（通分 / 有理化 / 拆项 / $t=\\frac1x$）",
+      "recent10": 8,
+      "poolCount": 182
+    },
+    {
+      "code": "GS01-M08",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "数列极限",
+      "name": "单调有界准则（含递推数列 $x_{n+1}=f(x_n)$）",
+      "recent10": 3,
+      "poolCount": 53
+    },
+    {
+      "code": "GS01-M09",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "数列极限",
+      "name": "夹逼准则与放缩",
+      "recent10": 1,
+      "poolCount": 52
+    },
+    {
+      "code": "GS01-M10",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "数列极限",
+      "name": "定积分定义求 $n$ 项和极限",
+      "recent10": 2,
+      "poolCount": 15
+    },
+    {
+      "code": "GS01-M11",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "无穷小的比较与定阶",
+      "name": "比阶（求 $\\lim\\frac{\\alpha}{\\beta}$ 判同阶/等价/高阶）",
+      "recent10": 6,
+      "poolCount": 64
+    },
+    {
+      "code": "GS01-M12",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "无穷小的比较与定阶",
+      "name": "主部提取定阶（展开到首个非零项）",
+      "recent10": 8,
+      "poolCount": 45
+    },
+    {
+      "code": "GS01-M13",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "连续性与间断点",
+      "name": "间断点的判定与分类",
+      "recent10": 4,
+      "poolCount": 50
+    },
+    {
+      "code": "GS01-M14",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "已知极限反求（反向轴）",
+      "name": "分段/含参函数的连续性定参",
+      "recent10": 3,
+      "poolCount": 23
+    },
+    {
+      "code": "GS01-M15",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "连续性与间断点",
+      "name": "闭区间上连续函数性质的应用（零点/介值定理）",
+      "recent10": 2,
+      "poolCount": 20
+    },
+    {
+      "code": "GS01-M16",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "已知极限反求（反向轴）",
+      "name": "展开定阶、逐阶匹配系数",
+      "recent10": 8,
+      "poolCount": 43
+    },
+    {
+      "code": "GS01-M17",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "已知极限反求（反向轴）",
+      "name": "幂指型（$1^\\infty$ 等）定参",
+      "recent10": 3,
+      "poolCount": 10
+    },
+    {
+      "code": "GS01-M18",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "数列极限",
+      "name": "先求和再取极限（裂项 / 求和公式）",
+      "recent10": 1,
+      "poolCount": 16
+    },
+    {
+      "code": "GS01-M19",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "已知极限反求（反向轴）",
+      "name": "由一个极限推另一个极限",
+      "recent10": 5,
+      "poolCount": 51
+    },
+    {
+      "code": "GS01-M20",
+      "domain": "GS01",
+      "domainName": "函数、极限、连续",
+      "groupName": "函数与极限的概念、性质",
+      "name": "函数性质的判定与函数方程",
+      "recent10": 4,
+      "poolCount": 40
+    },
+    {
+      "code": "GS02-M01",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "导数与微分的概念",
+      "name": "用导数定义把给定极限凑成差商",
+      "recent10": 4,
+      "poolCount": 185
+    },
+    {
+      "code": "GS02-M02",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "导数与微分的概念",
+      "name": "可导性与可微性的判定（左右导数 / 绝对值 / 分段点）",
+      "recent10": 5,
+      "poolCount": 102
+    },
+    {
+      "code": "GS02-M03",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "导数与微分的概念",
+      "name": "导数概念的充分必要辨析与反例排除",
+      "recent10": 2,
+      "poolCount": 15
+    },
+    {
+      "code": "GS02-M04",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "求导与微分法则",
+      "name": "对数求导法（幂指型 $u^v$ 与多因子连乘连除）",
+      "recent10": 1,
+      "poolCount": 33
+    },
+    {
+      "code": "GS02-M05",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "求导与微分法则",
+      "name": "隐函数求导（方程两边对 $x$ 求导）",
+      "recent10": 4,
+      "poolCount": 123
+    },
+    {
+      "code": "GS02-M06",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "求导与微分法则",
+      "name": "参数方程求导（一阶与二阶）",
+      "recent10": 7,
+      "poolCount": 78
+    },
+    {
+      "code": "GS02-M07",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "求导与微分法则",
+      "name": "反函数求导",
+      "recent10": 2,
+      "poolCount": 18
+    },
+    {
+      "code": "GS02-M08",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "高阶导数的计算",
+      "name": "莱布尼茨公式",
+      "recent10": 1,
+      "poolCount": 12
+    },
+    {
+      "code": "GS02-M09",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "高阶导数的计算",
+      "name": "泰勒系数与高阶导数的互求",
+      "recent10": 3,
+      "poolCount": 46
+    },
+    {
+      "code": "GS02-M10",
+      "domain": "GS02",
+      "domainName": "一元微分·概念与计算",
+      "groupName": "高阶导数的计算",
+      "name": "逐阶求导找规律（含特殊点、奇偶周期简化）",
+      "recent10": 1,
+      "poolCount": 39
+    },
+    {
+      "code": "GS03-M01",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "单调性、极值与最值",
+      "name": "求单调区间与极值（一阶导变号 / 二阶导判别）",
+      "recent10": 4,
+      "poolCount": 180
+    },
+    {
+      "code": "GS03-M02",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "单调性、极值与最值",
+      "name": "不可导点与分段点处的极值判定",
+      "recent10": 2,
+      "poolCount": 22
+    },
+    {
+      "code": "GS03-M03",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "单调性、极值与最值",
+      "name": "单调性/极值/凹凸性的概念辨析（点处 vs 邻域、构造辅助函数）",
+      "recent10": 4,
+      "poolCount": 28
+    },
+    {
+      "code": "GS03-M04",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "单调性、极值与最值",
+      "name": "最大值与最小值（闭区间、驻点比较、恒成立求参）",
+      "recent10": 7,
+      "poolCount": 72
+    },
+    {
+      "code": "GS03-M05",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "凹凸性、拐点与渐近线",
+      "name": "拐点的求法（$f''=0$ 或不存在，且两侧变号）",
+      "recent10": 6,
+      "poolCount": 65
+    },
+    {
+      "code": "GS03-M06",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "凹凸性、拐点与渐近线",
+      "name": "凹凸性的等价刻画与积分不等式",
+      "recent10": 4,
+      "poolCount": 30
+    },
+    {
+      "code": "GS03-M07",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "凹凸性、拐点与渐近线",
+      "name": "渐近线（水平 / 铅直 / 斜，三类查全）",
+      "recent10": 8,
+      "poolCount": 75
+    },
+    {
+      "code": "GS03-M08",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "曲线的局部几何量",
+      "name": "切线与法线方程、截距",
+      "recent10": 4,
+      "poolCount": 103
+    },
+    {
+      "code": "GS03-M09",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "曲线的局部几何量",
+      "name": "曲率、曲率半径与曲率圆",
+      "recent10": 4,
+      "poolCount": 34
+    },
+    {
+      "code": "GS03-M10",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "变化率型应用",
+      "name": "经济应用（边际、弹性、平均成本、利润最大化）",
+      "recent10": 4,
+      "poolCount": 53
+    },
+    {
+      "code": "GS03-M11",
+      "domain": "GS03",
+      "domainName": "一元微分·应用",
+      "groupName": "变化率型应用",
+      "name": "相关变化率（几何/物理量对时间求导）",
+      "recent10": 2,
+      "poolCount": 19
+    },
+    {
+      "code": "GS04-M01",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "中值等式的证明",
+      "name": "罗尔定理与辅助函数的构造",
+      "recent10": 4,
+      "poolCount": 70
+    },
+    {
+      "code": "GS04-M02",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "中值等式的证明",
+      "name": "拉格朗日与柯西中值定理",
+      "recent10": 4,
+      "poolCount": 112
+    },
+    {
+      "code": "GS04-M03",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "中值等式的证明",
+      "name": "泰勒公式证含高阶导的等式与估计",
+      "recent10": 4,
+      "poolCount": 53
+    },
+    {
+      "code": "GS04-M04",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "不等式的证明（本域最大）",
+      "name": "构造辅助函数用单调性证不等式",
+      "recent10": 6,
+      "poolCount": 93
+    },
+    {
+      "code": "GS04-M05",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "不等式的证明（本域最大）",
+      "name": "用最值（极值）证不等式",
+      "recent10": 4,
+      "poolCount": 10
+    },
+    {
+      "code": "GS04-M06",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "不等式的证明（本域最大）",
+      "name": "泰勒展开证不等式（含凹凸性、积分均值）",
+      "recent10": 5,
+      "poolCount": 18
+    },
+    {
+      "code": "GS04-M07",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "不等式的证明（本域最大）",
+      "name": "定积分不等式（保号性、放缩、积分中值定理）",
+      "recent10": 5,
+      "poolCount": 81
+    },
+    {
+      "code": "GS04-M08",
+      "domain": "GS04",
+      "domainName": "中值定理与不等式证明",
+      "groupName": "方程的根",
+      "name": "零点的存在性与个数",
+      "recent10": 8,
+      "poolCount": 62
+    },
+    {
+      "code": "GS05-M01",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "基本积分法",
+      "name": "凑微分（第一类换元）",
+      "recent10": 5,
+      "poolCount": 168
+    },
+    {
+      "code": "GS05-M02",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "基本积分法",
+      "name": "第二类换元（根式代换 / 三角代换 / 倒代换）",
+      "recent10": 3,
+      "poolCount": 182
+    },
+    {
+      "code": "GS05-M03",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "基本积分法",
+      "name": "分部积分（含循环型与建立递推）",
+      "recent10": 9,
+      "poolCount": 247
+    },
+    {
+      "code": "GS05-M04",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "基本积分法",
+      "name": "有理函数积分（部分分式 + 配方）",
+      "recent10": 7,
+      "poolCount": 67
+    },
+    {
+      "code": "GS05-M05",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "利用性质化简",
+      "name": "对称性与奇偶性化简",
+      "recent10": 4,
+      "poolCount": 85
+    },
+    {
+      "code": "GS05-M06",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "利用性质化简",
+      "name": "周期性与区间可加性（含分段、绝对值）",
+      "recent10": 3,
+      "poolCount": 94
+    },
+    {
+      "code": "GS05-M07",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "利用性质化简",
+      "name": "用几何意义直接读出积分值",
+      "recent10": 1,
+      "poolCount": 21
+    },
+    {
+      "code": "GS05-M08",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "反常积分的计算",
+      "name": "反常积分化为极限计算",
+      "recent10": 7,
+      "poolCount": 107
+    },
+    {
+      "code": "GS05-M09",
+      "domain": "GS05",
+      "domainName": "一元积分·计算方法",
+      "groupName": "反常积分的计算",
+      "name": "由方程或递推间接求积分",
+      "recent10": 3,
+      "poolCount": 18
+    },
+    {
+      "code": "GS06-M01",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "概念与性质",
+      "name": "用定积分定义（黎曼和）求和式极限",
+      "recent10": 2,
+      "poolCount": 48
+    },
+    {
+      "code": "GS06-M02",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "概念与性质",
+      "name": "定积分的比较与估值",
+      "recent10": 2,
+      "poolCount": 62
+    },
+    {
+      "code": "GS06-M03",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "概念与性质",
+      "name": "原函数的存在性与分段函数求原函数",
+      "recent10": 1,
+      "poolCount": 27
+    },
+    {
+      "code": "GS06-M04",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "概念与性质",
+      "name": "反常积分收敛性的判别",
+      "recent10": 5,
+      "poolCount": 58
+    },
+    {
+      "code": "GS06-M05",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "变限积分（本域最大）",
+      "name": "变限积分求导",
+      "recent10": 9,
+      "poolCount": 221
+    },
+    {
+      "code": "GS06-M06",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "变限积分（本域最大）",
+      "name": "变限积分函数的性质判定",
+      "recent10": 3,
+      "poolCount": 32
+    },
+    {
+      "code": "GS06-M07",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "变限积分（本域最大）",
+      "name": "含变限积分的极限与定阶",
+      "recent10": 3,
+      "poolCount": 56
+    },
+    {
+      "code": "GS06-M08",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "变限积分（本域最大）",
+      "name": "含变限积分的方程",
+      "recent10": 4,
+      "poolCount": 34
+    },
+    {
+      "code": "GS06-M09",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "几何应用",
+      "name": "平面图形的面积",
+      "recent10": 4,
+      "poolCount": 101
+    },
+    {
+      "code": "GS06-M10",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "几何应用",
+      "name": "旋转体的体积（圆盘法 / 柱壳法）",
+      "recent10": 6,
+      "poolCount": 111
+    },
+    {
+      "code": "GS06-M11",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "几何应用",
+      "name": "弧长与旋转面侧面积",
+      "recent10": 3,
+      "poolCount": 63
+    },
+    {
+      "code": "GS06-M12",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "几何应用",
+      "name": "函数的平均值",
+      "recent10": 3,
+      "poolCount": 28
+    },
+    {
+      "code": "GS06-M13",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "物理与经济应用",
+      "name": "微元法解物理应用",
+      "recent10": 4,
+      "poolCount": 57
+    },
+    {
+      "code": "GS06-M14",
+      "domain": "GS06",
+      "domainName": "一元积分·概念与应用",
+      "groupName": "物理与经济应用",
+      "name": "经济应用的定积分建模",
+      "recent10": 1,
+      "poolCount": 8
+    },
+    {
+      "code": "GS07-M01",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "一阶方程的求解",
+      "name": "变量可分离",
+      "recent10": 3,
+      "poolCount": 108
+    },
+    {
+      "code": "GS07-M02",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "一阶方程的求解",
+      "name": "一阶线性方程",
+      "recent10": 11,
+      "poolCount": 150
+    },
+    {
+      "code": "GS07-M03",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "一阶方程的求解",
+      "name": "全微分（恰当）方程",
+      "recent10": 1,
+      "poolCount": 13
+    },
+    {
+      "code": "GS07-M04",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "一阶方程的求解",
+      "name": "变量代换化为可解型",
+      "recent10": 3,
+      "poolCount": 75
+    },
+    {
+      "code": "GS07-M05",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "高阶方程的求解",
+      "name": "可降阶的高阶方程",
+      "recent10": 1,
+      "poolCount": 58
+    },
+    {
+      "code": "GS07-M06",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "高阶方程的求解",
+      "name": "二阶常系数齐次线性方程",
+      "recent10": 7,
+      "poolCount": 131
+    },
+    {
+      "code": "GS07-M07",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "高阶方程的求解",
+      "name": "二阶常系数非齐次线性方程",
+      "recent10": 3,
+      "poolCount": 90
+    },
+    {
+      "code": "GS07-M08",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "高阶方程的求解",
+      "name": "欧拉方程",
+      "recent10": 2,
+      "poolCount": 9
+    },
+    {
+      "code": "GS07-M09",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "已知解反求（反向轴）",
+      "name": "由解的形式或性质反推方程与参数",
+      "recent10": 3,
+      "poolCount": 52
+    },
+    {
+      "code": "GS07-M10",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "已知解反求（反向轴）",
+      "name": "线性方程解的结构",
+      "recent10": 2,
+      "poolCount": 37
+    },
+    {
+      "code": "GS07-M11",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "应用（本域最大）",
+      "name": "由几何条件建立微分方程",
+      "recent10": 8,
+      "poolCount": 42
+    },
+    {
+      "code": "GS07-M12",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "应用（本域最大）",
+      "name": "由积分方程或变化率建立微分方程",
+      "recent10": 4,
+      "poolCount": 54
+    },
+    {
+      "code": "GS07-M13",
+      "domain": "GS07",
+      "domainName": "常微分方程",
+      "groupName": "差分方程（仅数学三）",
+      "name": "一阶常系数线性差分方程",
+      "recent10": 3,
+      "poolCount": 20
+    },
+    {
+      "code": "GS08-M01",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "概念：偏导数、全微分与可微性",
+      "name": "用定义求偏导数（分段函数、含绝对值）",
+      "recent10": 3,
+      "poolCount": 54
+    },
+    {
+      "code": "GS08-M02",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "概念：偏导数、全微分与可微性",
+      "name": "可微性的判定与「偏导存在/连续/可微/连续」四者关系",
+      "recent10": 4,
+      "poolCount": 52
+    },
+    {
+      "code": "GS08-M03",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "概念：偏导数、全微分与可微性",
+      "name": "全微分的计算与「由全微分读出偏导」",
+      "recent10": 3,
+      "poolCount": 78
+    },
+    {
+      "code": "GS08-M04",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "偏导数与全微分的计算（本域最大）",
+      "name": "多元复合函数的链式求导（一阶，含抽象函数）",
+      "recent10": 6,
+      "poolCount": 139
+    },
+    {
+      "code": "GS08-M05",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "偏导数与全微分的计算（本域最大）",
+      "name": "二阶偏导与混合偏导（对中间变量再求导）",
+      "recent10": 6,
+      "poolCount": 88
+    },
+    {
+      "code": "GS08-M06",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "偏导数与全微分的计算（本域最大）",
+      "name": "隐函数求偏导（方程两边求偏导 / 公式法）",
+      "recent10": 6,
+      "poolCount": 96
+    },
+    {
+      "code": "GS08-M07",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "偏导数与全微分的计算（本域最大）",
+      "name": "隐函数的二阶偏导与代点求值",
+      "recent10": 3,
+      "poolCount": 23
+    },
+    {
+      "code": "GS08-M08",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "已知偏导数问题（反向轴）",
+      "name": "由全微分（或已知偏导）偏积分还原原函数",
+      "recent10": 4,
+      "poolCount": 52
+    },
+    {
+      "code": "GS08-M09",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "已知偏导数问题（反向轴）",
+      "name": "变量代换化偏微分方程（消项 / 化为常微分方程）",
+      "recent10": 3,
+      "poolCount": 19
+    },
+    {
+      "code": "GS08-M10",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "已知偏导数问题（反向轴）",
+      "name": "由恒等式待定系数定抽象函数的偏导值",
+      "recent10": 2,
+      "poolCount": 12
+    },
+    {
+      "code": "GS08-M11",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "极值与最值",
+      "name": "无条件极值（驻点 + $AC-B^2$ 判别）",
+      "recent10": 11,
+      "poolCount": 99
+    },
+    {
+      "code": "GS08-M12",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "极值与最值",
+      "name": "条件极值与拉格朗日乘数法",
+      "recent10": 2,
+      "poolCount": 72
+    },
+    {
+      "code": "GS08-M13",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "极值与最值",
+      "name": "闭区域上的最大最小值与恒成立求参",
+      "recent10": 2,
+      "poolCount": 19
+    },
+    {
+      "code": "GS08-M14",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "多元微分学的几何应用（仅数学一）",
+      "name": "方向导数与梯度",
+      "recent10": 4,
+      "poolCount": 57
+    },
+    {
+      "code": "GS08-M15",
+      "domain": "GS08",
+      "domainName": "多元函数微分学",
+      "groupName": "多元微分学的几何应用（仅数学一）",
+      "name": "曲面的切平面与法线、空间曲线的切线与法平面",
+      "recent10": 3,
+      "poolCount": 64
+    },
+    {
+      "code": "GS09-M01",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "概念与性质",
+      "name": "用二重积分的定义（黎曼和）求和式极限 / 由和式识别积分",
+      "recent10": 1,
+      "poolCount": 9
+    },
+    {
+      "code": "GS09-M02",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "概念与性质",
+      "name": "不计算比较积分大小与估值",
+      "recent10": 1,
+      "poolCount": 28
+    },
+    {
+      "code": "GS09-M03",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "概念与性质",
+      "name": "对称性化简（区域对称 + 被积奇偶 / 关于 $y=x$ 轮换）",
+      "recent10": 8,
+      "poolCount": 179
+    },
+    {
+      "code": "GS09-M04",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "二重积分的计算",
+      "name": "直角坐标累次积分（定限与选序）",
+      "recent10": 4,
+      "poolCount": 129
+    },
+    {
+      "code": "GS09-M05",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "二重积分的计算",
+      "name": "交换积分次序",
+      "recent10": 8,
+      "poolCount": 100
+    },
+    {
+      "code": "GS09-M06",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "二重积分的计算",
+      "name": "极坐标换元",
+      "recent10": 11,
+      "poolCount": 212
+    },
+    {
+      "code": "GS09-M07",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "二重积分的计算",
+      "name": "一般换元与雅可比行列式",
+      "recent10": 3,
+      "poolCount": 9
+    },
+    {
+      "code": "GS09-M08",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "二重积分的计算",
+      "name": "含参数或含未知积分值的二重积分",
+      "recent10": 2,
+      "poolCount": 21
+    },
+    {
+      "code": "GS09-M09",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "三重积分与重积分的应用",
+      "name": "三重积分的柱面/球面坐标与截面法",
+      "recent10": 2,
+      "poolCount": 55
+    },
+    {
+      "code": "GS09-M10",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "三重积分与重积分的应用",
+      "name": "重积分的应用（体积、质量、形心）",
+      "recent10": 1,
+      "poolCount": 32
+    },
+    {
+      "code": "GS09-M11",
+      "domain": "GS09",
+      "domainName": "重积分",
+      "groupName": "反常",
+      "name": "无界区域上的反常二重积分",
+      "recent10": 1,
+      "poolCount": 6
+    },
+    {
+      "code": "GS10-M01",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "三大公式",
+      "name": "格林公式",
+      "recent10": 4,
+      "poolCount": 55
+    },
+    {
+      "code": "GS10-M02",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "三大公式",
+      "name": "高斯公式",
+      "recent10": 5,
+      "poolCount": 56
+    },
+    {
+      "code": "GS10-M03",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "三大公式",
+      "name": "斯托克斯公式",
+      "recent10": 2,
+      "poolCount": 19
+    },
+    {
+      "code": "GS10-M04",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "直接计算",
+      "name": "第二类曲面积分的直接计算",
+      "recent10": 2,
+      "poolCount": 23
+    },
+    {
+      "code": "GS10-M05",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "直接计算",
+      "name": "第一类曲线与曲面积分",
+      "recent10": 3,
+      "poolCount": 69
+    },
+    {
+      "code": "GS10-M06",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "场论概念",
+      "name": "路径无关与二元全微分的原函数",
+      "recent10": 3,
+      "poolCount": 50
+    },
+    {
+      "code": "GS10-M07",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "场论概念",
+      "name": "散度与旋度的计算",
+      "recent10": 2,
+      "poolCount": 28
+    },
+    {
+      "code": "GS10-M08",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "直接计算",
+      "name": "对称性化简与方程代入",
+      "recent10": 2,
+      "poolCount": 120
+    },
+    {
+      "code": "GS10-M09",
+      "domain": "GS10",
+      "domainName": "曲线曲面积分",
+      "groupName": "直接计算",
+      "name": "第二类曲线积分的直接参数化",
+      "recent10": 0,
+      "poolCount": 34
+    },
+    {
+      "code": "GS11-M01",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "常数项级数的敛散性",
+      "name": "正项级数的判别（比较 / 比值 / 根值 + 定阶）",
+      "recent10": 4,
+      "poolCount": 107
+    },
+    {
+      "code": "GS11-M02",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "常数项级数的敛散性",
+      "name": "交错级数与绝对/条件收敛",
+      "recent10": 4,
+      "poolCount": 62
+    },
+    {
+      "code": "GS11-M03",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "常数项级数的敛散性",
+      "name": "敛散性的概念辨析与反例",
+      "recent10": 3,
+      "poolCount": 51
+    },
+    {
+      "code": "GS11-M04",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "幂级数（本域最大）",
+      "name": "收敛半径与收敛域",
+      "recent10": 5,
+      "poolCount": 103
+    },
+    {
+      "code": "GS11-M05",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "幂级数（本域最大）",
+      "name": "求和函数（逐项求导 / 逐项积分）",
+      "recent10": 5,
+      "poolCount": 85
+    },
+    {
+      "code": "GS11-M06",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "幂级数（本域最大）",
+      "name": "由和函数满足的微分方程求和",
+      "recent10": 2,
+      "poolCount": 17
+    },
+    {
+      "code": "GS11-M07",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "幂级数（本域最大）",
+      "name": "函数展开成幂级数（间接展开）",
+      "recent10": 5,
+      "poolCount": 50
+    },
+    {
+      "code": "GS11-M08",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "幂级数（本域最大）",
+      "name": "数项级数求和",
+      "recent10": 2,
+      "poolCount": 68
+    },
+    {
+      "code": "GS11-M09",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "傅里叶级数（仅数学一）",
+      "name": "傅里叶系数的计算",
+      "recent10": 1,
+      "poolCount": 25
+    },
+    {
+      "code": "GS11-M10",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "傅里叶级数（仅数学一）",
+      "name": "狄利克雷收敛定理求某点的和",
+      "recent10": 2,
+      "poolCount": 21
+    },
+    {
+      "code": "GS11-M11",
+      "domain": "GS11",
+      "domainName": "无穷级数",
+      "groupName": "傅里叶级数（仅数学一）",
+      "name": "正弦/余弦级数与奇偶延拓",
+      "recent10": 1,
+      "poolCount": 17
+    },
+    {
+      "code": "XD01-M01",
+      "domain": "XD01",
+      "domainName": "行列式",
+      "groupName": "具体型行列式的计算",
+      "name": "具体行列式的化简计算",
+      "recent10": 2,
+      "poolCount": 87
+    },
+    {
+      "code": "XD01-M02",
+      "domain": "XD01",
+      "domainName": "行列式",
+      "groupName": "具体型行列式的计算",
+      "name": "代数余子式的线性组合",
+      "recent10": 3,
+      "poolCount": 21
+    },
+    {
+      "code": "XD01-M03",
+      "domain": "XD01",
+      "domainName": "行列式",
+      "groupName": "具体型行列式的计算",
+      "name": "抽象行列式的求值",
+      "recent10": 2,
+      "poolCount": 88
+    },
+    {
+      "code": "XD01-M04",
+      "domain": "XD01",
+      "domainName": "行列式",
+      "groupName": "具体型行列式的计算",
+      "name": "行列式作为参数的函数",
+      "recent10": 2,
+      "poolCount": 16
+    },
+    {
+      "code": "XD02-M01",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "秩的计算与估计",
+      "name": "秩的不等式与等式",
+      "recent10": 5,
+      "poolCount": 70
+    },
+    {
+      "code": "XD02-M02",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "秩的计算与估计",
+      "name": "用分块矩阵的初等变换比较秩",
+      "recent10": 4,
+      "poolCount": 14
+    },
+    {
+      "code": "XD02-M03",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "特殊矩阵的公式",
+      "name": "伴随矩阵的秩、行列式与基本等式",
+      "recent10": 7,
+      "poolCount": 94
+    },
+    {
+      "code": "XD02-M04",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "特殊矩阵的公式",
+      "name": "初等矩阵与初等变换",
+      "recent10": 5,
+      "poolCount": 61
+    },
+    {
+      "code": "XD02-M05",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "特殊矩阵的公式",
+      "name": "分块矩阵的乘法、求逆与伴随",
+      "recent10": 2,
+      "poolCount": 40
+    },
+    {
+      "code": "XD02-M06",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "特殊矩阵的公式",
+      "name": "秩一矩阵的识别与用法",
+      "recent10": 3,
+      "poolCount": 36
+    },
+    {
+      "code": "XD02-M07",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "矩阵方程与方阵的幂",
+      "name": "逆矩阵与矩阵方程的恒等变形",
+      "recent10": 3,
+      "poolCount": 107
+    },
+    {
+      "code": "XD02-M08",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "矩阵方程与方阵的幂",
+      "name": "矩阵方程按列化为方程组",
+      "recent10": 3,
+      "poolCount": 12
+    },
+    {
+      "code": "XD02-M09",
+      "domain": "XD02",
+      "domainName": "矩阵",
+      "groupName": "矩阵方程与方阵的幂",
+      "name": "方阵的高次幂",
+      "recent10": 4,
+      "poolCount": 42
+    },
+    {
+      "code": "XD03-M01",
+      "domain": "XD03",
+      "domainName": "向量组与秩",
+      "groupName": "相关性与线性表示",
+      "name": "线性相关性的判定与含参定参数",
+      "recent10": 3,
+      "poolCount": 135
+    },
+    {
+      "code": "XD03-M02",
+      "domain": "XD03",
+      "domainName": "向量组与秩",
+      "groupName": "相关性与线性表示",
+      "name": "线性表示与向量组等价",
+      "recent10": 5,
+      "poolCount": 92
+    },
+    {
+      "code": "XD03-M03",
+      "domain": "XD03",
+      "domainName": "向量组与秩",
+      "groupName": "秩、极大无关组与正交化",
+      "name": "求秩、极大无关组与满秩分解",
+      "recent10": 5,
+      "poolCount": 74
+    },
+    {
+      "code": "XD03-M04",
+      "domain": "XD03",
+      "domainName": "向量组与秩",
+      "groupName": "秩、极大无关组与正交化",
+      "name": "施密特正交化与内积条件",
+      "recent10": 2,
+      "poolCount": 26
+    },
+    {
+      "code": "XD03-M05",
+      "domain": "XD03",
+      "domainName": "向量组与秩",
+      "groupName": "秩、极大无关组与正交化",
+      "name": "基、坐标与过渡矩阵（仅数学一）",
+      "recent10": 1,
+      "poolCount": 23
+    },
+    {
+      "code": "XD04-M01",
+      "domain": "XD04",
+      "domainName": "线性方程组",
+      "groupName": "解的存在性与求解",
+      "name": "有解性的判别与含参讨论",
+      "recent10": 6,
+      "poolCount": 110
+    },
+    {
+      "code": "XD04-M02",
+      "domain": "XD04",
+      "domainName": "线性方程组",
+      "groupName": "解的存在性与求解",
+      "name": "求通解：特解加基础解系",
+      "recent10": 3,
+      "poolCount": 125
+    },
+    {
+      "code": "XD04-M03",
+      "domain": "XD04",
+      "domainName": "线性方程组",
+      "groupName": "解的存在性与求解",
+      "name": "由向量组的线性关系直接写出解",
+      "recent10": 2,
+      "poolCount": 47
+    },
+    {
+      "code": "XD04-M04",
+      "domain": "XD04",
+      "domainName": "线性方程组",
+      "groupName": "两个方程组之间的关系",
+      "name": "同解、公共解与解集的包含",
+      "recent10": 4,
+      "poolCount": 49
+    },
+    {
+      "code": "XD04-M05",
+      "domain": "XD04",
+      "domainName": "线性方程组",
+      "groupName": "两个方程组之间的关系",
+      "name": "方程组的几何意义（仅数学一）",
+      "recent10": 2,
+      "poolCount": 12
+    },
+    {
+      "code": "XD05-M01",
+      "domain": "XD05",
+      "domainName": "特征值与相似对角化",
+      "groupName": "特征值与特征向量的求法",
+      "name": "由定义式反求参数或向量",
+      "recent10": 4,
+      "poolCount": 114
+    },
+    {
+      "code": "XD05-M02",
+      "domain": "XD05",
+      "domainName": "特征值与相似对角化",
+      "groupName": "特征值与特征向量的求法",
+      "name": "由矩阵的关系式确定特征值",
+      "recent10": 4,
+      "poolCount": 96
+    },
+    {
+      "code": "XD05-M03",
+      "domain": "XD05",
+      "domainName": "特征值与相似对角化",
+      "groupName": "特征值与特征向量的求法",
+      "name": "由秩确定特征值的重数",
+      "recent10": 3,
+      "poolCount": 88
+    },
+    {
+      "code": "XD05-M04",
+      "domain": "XD05",
+      "domainName": "特征值与相似对角化",
+      "groupName": "相似与对角化",
+      "name": "相似的判定与相似不变量",
+      "recent10": 5,
+      "poolCount": 67
+    },
+    {
+      "code": "XD05-M05",
+      "domain": "XD05",
+      "domainName": "特征值与相似对角化",
+      "groupName": "相似与对角化",
+      "name": "可相似对角化的判定",
+      "recent10": 6,
+      "poolCount": 67
+    },
+    {
+      "code": "XD05-M06",
+      "domain": "XD05",
+      "domainName": "特征值与相似对角化",
+      "groupName": "相似与对角化",
+      "name": "求相似变换矩阵与对角阵",
+      "recent10": 5,
+      "poolCount": 107
+    },
+    {
+      "code": "XD05-M07",
+      "domain": "XD05",
+      "domainName": "特征值与相似对角化",
+      "groupName": "相似与对角化",
+      "name": "实对称矩阵的正交相似对角化",
+      "recent10": 5,
+      "poolCount": 76
+    },
+    {
+      "code": "XD06-M01",
+      "domain": "XD06",
+      "domainName": "二次型",
+      "groupName": "化标准形与惯性指数",
+      "name": "二次型与其矩阵的互相转化",
+      "recent10": 3,
+      "poolCount": 87
+    },
+    {
+      "code": "XD06-M02",
+      "domain": "XD06",
+      "domainName": "二次型",
+      "groupName": "化标准形与惯性指数",
+      "name": "配方法化标准形与惯性指数计数",
+      "recent10": 4,
+      "poolCount": 68
+    },
+    {
+      "code": "XD06-M03",
+      "domain": "XD06",
+      "domainName": "二次型",
+      "groupName": "化标准形与惯性指数",
+      "name": "平方和型二次型",
+      "recent10": 4,
+      "poolCount": 29
+    },
+    {
+      "code": "XD06-M04",
+      "domain": "XD06",
+      "domainName": "二次型",
+      "groupName": "反求参数与合同、正定",
+      "name": "由标准形或规范形反求参数",
+      "recent10": 5,
+      "poolCount": 100
+    },
+    {
+      "code": "XD06-M05",
+      "domain": "XD06",
+      "domainName": "二次型",
+      "groupName": "反求参数与合同、正定",
+      "name": "合同的判定与合同变换的构造",
+      "recent10": 3,
+      "poolCount": 53
+    },
+    {
+      "code": "XD06-M06",
+      "domain": "XD06",
+      "domainName": "二次型",
+      "groupName": "反求参数与合同、正定",
+      "name": "正定与半正定的判定及应用",
+      "recent10": 3,
+      "poolCount": 74
+    }
+  ],
+  "edges": [
+    {
+      "from": "GL01-M02",
+      "to": "GL01-M04",
+      "why": ""
+    },
+    {
+      "from": "GL01-M03",
+      "to": "GL01-M04",
+      "why": "交事件展不开 → 把条件事件当新样本空间重新归一，按完备事件组分解"
+    },
+    {
+      "from": "GL01-M04",
+      "to": "GL03-M03",
+      "why": "全概率不止用来算概率 → 按离散量分情形，直接求出另一个变量的分布"
+    },
+    {
+      "from": "GL01-M05",
+      "to": "GL01-M01",
+      "why": "正面验 P(AB)=P(A)P(B) 推不动 → 用加法公式把并事件展开再比"
+    },
+    {
+      "from": "GL02-M01",
+      "to": "GL02-M02",
+      "why": "归一性一个方程不够定两个参数 → 补上分布函数的连续性/题给的期望当第二个方程"
+    },
+    {
+      "from": "GL02-M02",
+      "to": "GL02-M06",
+      "why": "分布函数分段积不动 → 先按密度的图分段，本质就是函数分布那套分段法"
+    },
+    {
+      "from": "GL02-M03",
+      "to": "GL02-M02",
+      "why": ""
+    },
+    {
+      "from": "GL02-M04",
+      "to": "GS05-M05",
+      "why": ""
+    },
+    {
+      "from": "GL02-M05",
+      "to": "GL01-M03",
+      "why": "拿不准是否无记忆 → 老实按条件概率定义算一遍 P{X>s+t}/P{X>s}"
+    },
+    {
+      "from": "GL02-M06",
+      "to": "GL02-M02",
+      "why": ""
+    },
+    {
+      "from": "GL03-M03",
+      "to": "GL01-M04",
+      "why": ""
+    },
+    {
+      "from": "GL03-M04",
+      "to": "GL04-M04",
+      "why": ""
+    },
+    {
+      "from": "GL04-M02",
+      "to": "GS03-M04",
+      "why": ""
+    },
+    {
+      "from": "GL04-M03",
+      "to": "GL04-M05",
+      "why": ""
+    },
+    {
+      "from": "GL04-M04",
+      "to": "GS09-M10",
+      "why": ""
+    },
+    {
+      "from": "GL04-M05",
+      "to": "GL04-M04",
+      "why": "判不出独立还是不相关 → 先把 Cov 算出来，为零才谈得上后一步"
+    },
+    {
+      "from": "GL05-M01",
+      "to": "GL04-M03",
+      "why": "切比雪夫的难点不在不等式而在 D(Y) → 转方差的线性组合把它拆开"
+    },
+    {
+      "from": "GL05-M03",
+      "to": "GL02-M03",
+      "why": ""
+    },
+    {
+      "from": "GL06-M03",
+      "to": "GL02-M02",
+      "why": ""
+    },
+    {
+      "from": "GL07-M01",
+      "to": "GL07-M02",
+      "why": "一阶矩里不含待估参数、二阶矩也解不动 → 改走最大似然"
+    },
+    {
+      "from": "GL07-M02",
+      "to": "GS03-M03",
+      "why": ""
+    },
+    {
+      "from": "GL07-M03",
+      "to": "GL04-M02",
+      "why": "E(θ̂) 里出现陌生的期望 → 把 θ̂ 拆成已知分布的量，用期望的线性性逐项取"
+    },
+    {
+      "from": "GL07-M04",
+      "to": "GL06-M02",
+      "why": ""
+    },
+    {
+      "from": "GS01-M01",
+      "to": "GS01-M02",
+      "why": ""
+    },
+    {
+      "from": "GS01-M02",
+      "to": "GS01-M16",
+      "why": ""
+    },
+    {
+      "from": "GS01-M03",
+      "to": "GS01-M04",
+      "why": ""
+    },
+    {
+      "from": "GS01-M04",
+      "to": "GS01-M07",
+      "why": ""
+    },
+    {
+      "from": "GS01-M05",
+      "to": "GS01-M04",
+      "why": ""
+    },
+    {
+      "from": "GS01-M06",
+      "to": "GS01-M03",
+      "why": "取对数后落回 0/0，接等价无穷小或泰勒"
+    },
+    {
+      "from": "GS01-M06",
+      "to": "GS01-M04",
+      "why": "取对数后落回 0/0，接等价无穷小或泰勒"
+    },
+    {
+      "from": "GS01-M07",
+      "to": "GS01-M03",
+      "why": ""
+    },
+    {
+      "from": "GS01-M07",
+      "to": "GS01-M04",
+      "why": ""
+    },
+    {
+      "from": "GS01-M08",
+      "to": "GS01-M09",
+      "why": ""
+    },
+    {
+      "from": "GS01-M08",
+      "to": "GS01-M11",
+      "why": ""
+    },
+    {
+      "from": "GS01-M09",
+      "to": "GS01-M10",
+      "why": ""
+    },
+    {
+      "from": "GS01-M10",
+      "to": "GS01-M09",
+      "why": ""
+    },
+    {
+      "from": "GS01-M11",
+      "to": "GS01-M12",
+      "why": ""
+    },
+    {
+      "from": "GS01-M12",
+      "to": "GS06-M07",
+      "why": "展开困难（含变限积分）→ 用变限积分的定阶手法"
+    },
+    {
+      "from": "GS01-M13",
+      "to": "GS01-M02",
+      "why": "判间断点本质就是逐点分左右极限"
+    },
+    {
+      "from": "GS01-M14",
+      "to": "GS01-M02",
+      "why": ""
+    },
+    {
+      "from": "GS01-M15",
+      "to": "GS02-M02",
+      "why": ""
+    },
+    {
+      "from": "GS01-M16",
+      "to": "GS01-M02",
+      "why": ""
+    },
+    {
+      "from": "GS01-M16",
+      "to": "GS01-M17",
+      "why": ""
+    },
+    {
+      "from": "GS01-M17",
+      "to": "GS01-M16",
+      "why": ""
+    },
+    {
+      "from": "GS01-M18",
+      "to": "GS01-M09",
+      "why": ""
+    },
+    {
+      "from": "GS01-M18",
+      "to": "GS01-M10",
+      "why": ""
+    },
+    {
+      "from": "GS01-M19",
+      "to": "GS02-M03",
+      "why": ""
+    },
+    {
+      "from": "GS02-M01",
+      "to": "GS01-M04",
+      "why": ""
+    },
+    {
+      "from": "GS02-M06",
+      "to": "GS02-M05",
+      "why": "y 还由别的方程隐式确定 → 先隐函数求导"
+    },
+    {
+      "from": "GS02-M07",
+      "to": "GS06-M05",
+      "why": ""
+    },
+    {
+      "from": "GS02-M08",
+      "to": "GS02-M10",
+      "why": ""
+    },
+    {
+      "from": "GS02-M09",
+      "to": "GS02-M08",
+      "why": ""
+    },
+    {
+      "from": "GS02-M09",
+      "to": "GS02-M10",
+      "why": ""
+    },
+    {
+      "from": "GS02-M10",
+      "to": "GS02-M08",
+      "why": ""
+    },
+    {
+      "from": "GS02-M10",
+      "to": "GS02-M09",
+      "why": ""
+    },
+    {
+      "from": "GS03-M01",
+      "to": "GS02-M05",
+      "why": ""
+    },
+    {
+      "from": "GS03-M02",
+      "to": "GS03-M01",
+      "why": ""
+    },
+    {
+      "from": "GS03-M04",
+      "to": "GS06-M08",
+      "why": "目标函数含变限积分或由微分方程给出 → 先解出它"
+    },
+    {
+      "from": "GS03-M04",
+      "to": "GS07-M02",
+      "why": "目标函数含变限积分或由微分方程给出 → 先解出它"
+    },
+    {
+      "from": "GS03-M06",
+      "to": "GS04-M02",
+      "why": ""
+    },
+    {
+      "from": "GS03-M07",
+      "to": "GS01-M04",
+      "why": ""
+    },
+    {
+      "from": "GS03-M08",
+      "to": "GS02-M05",
+      "why": ""
+    },
+    {
+      "from": "GS03-M08",
+      "to": "GS02-M06",
+      "why": ""
+    },
+    {
+      "from": "GS03-M09",
+      "to": "GS02-M05",
+      "why": ""
+    },
+    {
+      "from": "GS03-M10",
+      "to": "GS03-M04",
+      "why": "利润函数价格分段 → 分段求最值再比较"
+    },
+    {
+      "from": "GS03-M11",
+      "to": "GS06-M09",
+      "why": "目标量没有现成公式 → 先用定积分表示面积"
+    },
+    {
+      "from": "GS04-M01",
+      "to": "GS07-M01",
+      "why": "构造不出辅助函数 → 把待证式当微分方程解一遍"
+    },
+    {
+      "from": "GS04-M01",
+      "to": "GS07-M02",
+      "why": "构造不出辅助函数 → 把待证式当微分方程解一遍"
+    },
+    {
+      "from": "GS04-M04",
+      "to": "GS04-M05",
+      "why": "一阶导定不了号 → 转求最值证不等式"
+    },
+    {
+      "from": "GS04-M05",
+      "to": "GS03-M04",
+      "why": ""
+    },
+    {
+      "from": "GS04-M07",
+      "to": "GS05-M02",
+      "why": "直接比较不成 → 先换元统一积分区间"
+    },
+    {
+      "from": "GS04-M08",
+      "to": "GS03-M03",
+      "why": ""
+    },
+    {
+      "from": "GS05-M01",
+      "to": "GS05-M02",
+      "why": ""
+    },
+    {
+      "from": "GS05-M01",
+      "to": "GS05-M03",
+      "why": ""
+    },
+    {
+      "from": "GS05-M02",
+      "to": "GS05-M03",
+      "why": ""
+    },
+    {
+      "from": "GS05-M03",
+      "to": "GS05-M01",
+      "why": "分部后更复杂 → 改凑微分或换元"
+    },
+    {
+      "from": "GS05-M03",
+      "to": "GS05-M02",
+      "why": "分部后更复杂 → 改凑微分或换元"
+    },
+    {
+      "from": "GS05-M04",
+      "to": "GS05-M01",
+      "why": "分母分解不出 → 配方后凑微分走 arctan"
+    },
+    {
+      "from": "GS05-M07",
+      "to": "GS05-M01",
+      "why": "图形不规则 → 老实积分"
+    },
+    {
+      "from": "GS05-M08",
+      "to": "GS05-M02",
+      "why": ""
+    },
+    {
+      "from": "GS05-M09",
+      "to": "GS07-M06",
+      "why": "给的是微分方程 → 那一侧是解方程"
+    },
+    {
+      "from": "GS06-M01",
+      "to": "GS01-M09",
+      "why": ""
+    },
+    {
+      "from": "GS06-M01",
+      "to": "GS01-M18",
+      "why": ""
+    },
+    {
+      "from": "GS06-M02",
+      "to": "GS05-M05",
+      "why": "被积函数大小看不出 → 先用奇偶性消掉一部分"
+    },
+    {
+      "from": "GS06-M03",
+      "to": "GS01-M13",
+      "why": "原函数是否存在，取决于有没有第一类间断点"
+    },
+    {
+      "from": "GS06-M06",
+      "to": "GS03-M01",
+      "why": "直接判不出 → 求导后转成单调/极值、拐点的判法"
+    },
+    {
+      "from": "GS06-M06",
+      "to": "GS03-M05",
+      "why": "直接判不出 → 求导后转成单调/极值、拐点的判法"
+    },
+    {
+      "from": "GS06-M07",
+      "to": "GS01-M03",
+      "why": "对被积函数用等价无穷小估计，或洛必达"
+    },
+    {
+      "from": "GS06-M07",
+      "to": "GS01-M05",
+      "why": "对被积函数用等价无穷小估计，或洛必达"
+    },
+    {
+      "from": "GS06-M08",
+      "to": "GS07-M02",
+      "why": "求导消掉积分号后得到微分方程 → 转去解"
+    },
+    {
+      "from": "GS06-M09",
+      "to": "GS05-M08",
+      "why": ""
+    },
+    {
+      "from": "GS06-M11",
+      "to": "GS06-M05",
+      "why": ""
+    },
+    {
+      "from": "GS07-M01",
+      "to": "GS07-M02",
+      "why": ""
+    },
+    {
+      "from": "GS07-M03",
+      "to": "GS07-M01",
+      "why": ""
+    },
+    {
+      "from": "GS07-M03",
+      "to": "GS07-M02",
+      "why": ""
+    },
+    {
+      "from": "GS07-M04",
+      "to": "GS07-M01",
+      "why": "代换之后落回可分离或一阶线性"
+    },
+    {
+      "from": "GS07-M04",
+      "to": "GS07-M02",
+      "why": "代换之后落回可分离或一阶线性"
+    },
+    {
+      "from": "GS07-M05",
+      "to": "GS07-M01",
+      "why": "降阶后的一阶方程照走 G1 四条"
+    },
+    {
+      "from": "GS07-M05",
+      "to": "GS07-M02",
+      "why": "降阶后的一阶方程照走 G1 四条"
+    },
+    {
+      "from": "GS07-M05",
+      "to": "GS07-M03",
+      "why": "降阶后的一阶方程照走 G1 四条"
+    },
+    {
+      "from": "GS07-M05",
+      "to": "GS07-M04",
+      "why": "降阶后的一阶方程照走 G1 四条"
+    },
+    {
+      "from": "GS07-M06",
+      "to": "GS07-M08",
+      "why": ""
+    },
+    {
+      "from": "GS07-M08",
+      "to": "GS07-M06",
+      "why": "欧拉方程换元 x=e^t 后就是常系数齐次"
+    },
+    {
+      "from": "GS07-M09",
+      "to": "GS07-M06",
+      "why": "由解的性质反推，要先写出通解的一般形式（特征根）"
+    },
+    {
+      "from": "GS07-M11",
+      "to": "GS06-M08",
+      "why": ""
+    },
+    {
+      "from": "GS07-M12",
+      "to": "GS07-M02",
+      "why": "由积分方程/变化率建出来的多半是一阶线性"
+    },
+    {
+      "from": "GS08-M02",
+      "to": "GS08-M01",
+      "why": "按定义验可微，先得有偏导"
+    },
+    {
+      "from": "GS08-M03",
+      "to": "GS08-M08",
+      "why": ""
+    },
+    {
+      "from": "GS08-M06",
+      "to": "GS08-M07",
+      "why": "要二阶偏导就转那一条（先代点再求导）"
+    },
+    {
+      "from": "GS08-M08",
+      "to": "GS10-M06",
+      "why": ""
+    },
+    {
+      "from": "GS08-M09",
+      "to": "GS07-M08",
+      "why": ""
+    },
+    {
+      "from": "GS08-M10",
+      "to": "GS08-M04",
+      "why": "对恒等式求导用的就是链式法则"
+    },
+    {
+      "from": "GS08-M12",
+      "to": "GS08-M11",
+      "why": ""
+    },
+    {
+      "from": "GS08-M13",
+      "to": "GS03-M04",
+      "why": ""
+    },
+    {
+      "from": "GS08-M14",
+      "to": "GS03-M04",
+      "why": ""
+    },
+    {
+      "from": "GS09-M01",
+      "to": "GS01-M10",
+      "why": ""
+    },
+    {
+      "from": "GS09-M04",
+      "to": "GS09-M05",
+      "why": ""
+    },
+    {
+      "from": "GS09-M04",
+      "to": "GS09-M06",
+      "why": ""
+    },
+    {
+      "from": "GS09-M05",
+      "to": "GS09-M06",
+      "why": "换序后仍积不动 → 多半该换坐标系"
+    },
+    {
+      "from": "GS09-M06",
+      "to": "GL02-M04",
+      "why": ""
+    },
+    {
+      "from": "GS09-M06",
+      "to": "GS09-M07",
+      "why": "椭圆/需线性变换 → 走广义极坐标即一般换元"
+    },
+    {
+      "from": "GS09-M08",
+      "to": "GL02-M04",
+      "why": ""
+    },
+    {
+      "from": "GS09-M08",
+      "to": "GS05-M05",
+      "why": ""
+    },
+    {
+      "from": "GS09-M10",
+      "to": "GS06-M10",
+      "why": "旋转体能用一元积分算就别硬上三重积分"
+    },
+    {
+      "from": "GS09-M11",
+      "to": "GS09-M05",
+      "why": "直接累次积不出 → 换序或换元"
+    },
+    {
+      "from": "GS09-M11",
+      "to": "GS09-M07",
+      "why": "直接累次积不出 → 换序或换元"
+    },
+    {
+      "from": "GS10-M02",
+      "to": "GS09-M09",
+      "why": "高斯公式转化后就是三重积分"
+    },
+    {
+      "from": "GS10-M04",
+      "to": "GS10-M02",
+      "why": "三面都投太繁 → 补面成闭走高斯"
+    },
+    {
+      "from": "GS10-M05",
+      "to": "GL02-M04",
+      "why": ""
+    },
+    {
+      "from": "GS10-M05",
+      "to": "GS05-M05",
+      "why": ""
+    },
+    {
+      "from": "GS10-M06",
+      "to": "GS08-M08",
+      "why": ""
+    },
+    {
+      "from": "GS11-M02",
+      "to": "GS11-M01",
+      "why": "先判绝对值级数，那是正项级数判别"
+    },
+    {
+      "from": "GS11-M05",
+      "to": "GS11-M06",
+      "why": "逐项求导消不掉 n → 由和函数满足的 ODE 求"
+    },
+    {
+      "from": "GS11-M06",
+      "to": "GS07-M02",
+      "why": "导出的 ODE 拿去解"
+    },
+    {
+      "from": "GS11-M08",
+      "to": "GS11-M05",
+      "why": "凑不出已知展开式 → 构造幂级数求和函数再代值"
+    },
+    {
+      "from": "GS11-M09",
+      "to": "GS11-M10",
+      "why": "算出系数之后用收敛定理取值"
+    },
+    {
+      "from": "GS11-M11",
+      "to": "GS11-M09",
+      "why": "奇偶延拓之后照 M09/M10 处理"
+    },
+    {
+      "from": "GS11-M11",
+      "to": "GS11-M10",
+      "why": "奇偶延拓之后照 M09/M10 处理"
+    },
+    {
+      "from": "XD01-M02",
+      "to": "XD02-M03",
+      "why": "换行凑不出代数余子式的组合 → 改用 AA*=|A|E 按分量读"
+    },
+    {
+      "from": "XD01-M03",
+      "to": "XD05-M02",
+      "why": ""
+    },
+    {
+      "from": "XD01-M04",
+      "to": "XD01-M01",
+      "why": "完全展开式数不清 → 按含 x 最少的那行（列）展开逐层降次"
+    },
+    {
+      "from": "XD02-M01",
+      "to": "XD02-M02",
+      "why": ""
+    },
+    {
+      "from": "XD02-M02",
+      "to": "XD03-M02",
+      "why": ""
+    },
+    {
+      "from": "XD02-M07",
+      "to": "XD02-M08",
+      "why": ""
+    },
+    {
+      "from": "XD02-M09",
+      "to": "XD02-M06",
+      "why": ""
+    },
+    {
+      "from": "XD03-M01",
+      "to": "XD02-M03",
+      "why": ""
+    },
+    {
+      "from": "XD03-M01",
+      "to": "XD02-M04",
+      "why": ""
+    },
+    {
+      "from": "XD03-M02",
+      "to": "XD04-M01",
+      "why": "表示系数解不出来 → 只问「能不能」时比两个秩就够"
+    },
+    {
+      "from": "XD04-M01",
+      "to": "XD01-M01",
+      "why": "增广阵带参数化不下去 → 方阵时先算 |A|，按 |A|=0 的根分类讨论"
+    },
+    {
+      "from": "XD04-M03",
+      "to": "XD03-M01",
+      "why": "关系式不够写出基础解系 → 回头找「某几个向量线性无关」这类隐含秩信息"
+    },
+    {
+      "from": "XD04-M04",
+      "to": "XD02-M01",
+      "why": "正面证同解太繁 → 改用秩判据 r(A)=r(B)=r(A;B)"
+    },
+    {
+      "from": "XD04-M05",
+      "to": "XD04-M01",
+      "why": "三平面的图看不懂 → 反过来枚举两个秩的每种组合各对应哪种位置"
+    },
+    {
+      "from": "XD05-M01",
+      "to": "XD02-M03",
+      "why": ""
+    },
+    {
+      "from": "XD05-M03",
+      "to": "XD05-M05",
+      "why": "只推出几何重数、题目要代数重数 → 走实对称必可对角化那条免检通道"
+    },
+    {
+      "from": "XD05-M04",
+      "to": "XD05-M03",
+      "why": "不变量全相同仍判不出相似 → 逐个比 r(λE−A)，即每个特征值的特征向量个数"
+    },
+    {
+      "from": "XD05-M05",
+      "to": "XD05-M07",
+      "why": "几何重数算起来麻烦 → 实对称矩阵直接走正交对角化，不必验重数"
+    },
+    {
+      "from": "XD05-M07",
+      "to": "XD03-M04",
+      "why": ""
+    },
+    {
+      "from": "XD06-M03",
+      "to": "XD03-M03",
+      "why": ""
+    },
+    {
+      "from": "XD06-M04",
+      "to": "XD01-M03",
+      "why": "不变量不够定参数 → 补上「标准形少一个平方项 ⟺ 有特征值 0 ⟺ |A|=0」"
+    },
+    {
+      "from": "XD06-M05",
+      "to": "XD05-M06",
+      "why": ""
+    },
+    {
+      "from": "XD06-M06",
+      "to": "XD02-M01",
+      "why": "顺序主子式带参数解不动 → 形如 BᵀB 时改判 B 是否列满秩"
+    }
+  ]
+}

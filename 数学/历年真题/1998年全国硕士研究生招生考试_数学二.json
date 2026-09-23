@@ -1,0 +1,916 @@
+[
+  {
+    "id": 1033,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 1,
+    "indexByPaper": {
+      "数学一": 1,
+      "数学二": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow 0} \\frac{\\sqrt{1+x}+\\sqrt{1-x}-2}{x^{2}}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1514,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $y=-x^3+x^2+2 x$ 与 $x$ 轴所围成的图形的面积 $A=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1515,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 3,
+    "indexByPaper": {
+      "数学二": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\int \\frac{\\ln (\\sin x)}{\\sin ^2 x} \\mathrm{d} x=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1516,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 4,
+    "indexByPaper": {
+      "数学二": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 连续,则 $\\displaystyle \\frac{\\mathrm{d}}{\\mathrm{d} x} \\int_0^x t f\\left(x^2-t^2\\right) \\mathrm{d} t=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1517,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 5,
+    "indexByPaper": {
+      "数学二": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $\\displaystyle y=x \\ln \\left(\\mathrm{e}+\\frac{1}{x}\\right)(x>0)$ 的渐近线方程为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1518,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 6,
+    "indexByPaper": {
+      "数学二": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设数列 $\\left\\{x_n\\right\\}$ 与 $\\left\\{y_n\\right\\}$ 满足 $\\lim x_n y_n=0$, 则下列判断正确的是 $(\\quad)$",
+    "options": {
+      "A": "若 $\\{x_n\\}$ 发散, 则 $\\{y_n\\}$ 必发散",
+      "B": "若 $\\{x_n\\}$ 无界, 则 $\\{y_n\\}$ 必有界",
+      "C": "若 $\\{x_n\\}$ 有界, 则 $\\{y_n\\}$ 必为无穷小",
+      "D": "若 $\\displaystyle \\{\\frac{1}{x_n}\\}$ 为无穷小, 则 $\\{y_n\\}$ 必为无穷小"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量和无穷大量的概念及其关系",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1039,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7,
+      "数学二": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "函数 $f(x)=\\left(x^{2}-x-2\\right)\\left|x^{3}-x\\right|$ 不可导点的个数为 $(\\quad)$",
+    "options": {
+      "A": "$3$",
+      "B": "$2$",
+      "C": "$1$",
+      "D": "$0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的可导性与连续性之间的关系",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1040,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8,
+      "数学二": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "已知函数 $y=y(x)$ 在任意点 $x$ 处的增量 $\\displaystyle \\Delta y=\\frac{y \\Delta x}{1+x^{2}}+\\alpha$, 且当 $\\Delta x \\rightarrow 0$ 时, $\\alpha$ 是 $\\Delta x$ 的高阶无穷小, $y(0)=\\pi$, 则 $y(1)=(\\quad)$",
+    "options": {
+      "A": "$2 \\pi$",
+      "B": "$\\pi$",
+      "C": "$\\mathrm{e}^{\\frac{\\pi}{4}}$",
+      "D": "$\\pi \\mathrm{e}^{\\frac{\\pi}{4}}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "变量可分离的微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1521,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 9,
+    "indexByPaper": {
+      "数学二": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 在 $x=a$ 的某邻域内连续, 且 $f(a)$ 为极大值, 则存在 $\\delta>0$, 当 $x \\in(a-\\delta, a+\\delta)$ 时, 必有 $(\\quad)$",
+    "options": {
+      "A": "$(x-a)[f(x)-f(a)] \\geqslant 0$",
+      "B": "$(x-a)[f(x)-f(a)] \\leqslant 0$",
+      "C": "$\\displaystyle \\lim _{t \\rightarrow a} \\frac{f(t)-f(x)}{(t-x)^2} \\geqslant 0(x \\neq a)$",
+      "D": "$\\displaystyle \\lim _{t \\rightarrow a} \\frac{f(t)-f(x)}{(t-x)^2} \\leqslant 0(x \\neq a)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1522,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 10,
+    "indexByPaper": {
+      "数学二": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 是任一 $n(n \\geqslant 3)$ 阶方阵, $\\boldsymbol{A}^*$ 是其伴随矩阵, 又 $k$ 为常数, 且 $k \\neq 0, \\pm 1$, 则必有 $(k \\boldsymbol{A})^*=(\\quad)$",
+    "options": {
+      "A": "$k \\boldsymbol{A}^{*}$",
+      "B": "$k^{n-1} \\boldsymbol{A}^*$",
+      "C": "$k^n \\boldsymbol{A}^{\\text {* }}$",
+      "D": "$k^{-1} \\boldsymbol{A}^*$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "伴随矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式按行（列）展开定理",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1523,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 11,
+    "indexByPaper": {
+      "数学二": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求函数 $f(x)=(1+x)^{\\frac{x}{\\tan \\left(x-\\frac{\\pi}{4}\\right)}}$ 在区间 $(0,2 \\pi)$ 内的间断点, 并判断其类型",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数间断点的类型",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数连续的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1524,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 12,
+    "indexByPaper": {
+      "数学二": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "确定常数 $a, b, c$ 的值, 使 $\\displaystyle \\lim _{x \\rightarrow 0} \\frac{a x-\\sin x}{\\int_b^x \\frac{\\ln \\left(1+t^3\\right)}{t} \\mathrm{d} t}=c(c \\neq 0)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1045,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 13,
+    "indexByPaper": {
+      "数学一": 13,
+      "数学二": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "从船上向海中沉放某种探测仪器,按探测要求, 需确定仪器的下沉深度 $y$ (从海平面算起) 与下沉速度 $v$ 之间的函数关系. 设仪器在重力作用下, 从海平面由静止开始铅直下沉, 在下沉过程中还受到阻力和浮力的作用. 设仪器的质量为 $m$, 体积为 $B$, 海水比重为 $\\rho$, 仪器所 受的阻力与下沉速度成正比, 比例常数为 $k(k>0)$. 试建立 $y$ 与 $v$ 所满足的微分方程, 并求出函数关系式 $y=y(v)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "微分方程的简单应用",
+        "rel": "主",
+        "depth": [
+          "会建立"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "变量可分离的微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1525,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 13,
+    "indexByPaper": {
+      "数学二": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "利用代换 $\\displaystyle y=\\frac{u}{\\cos x}$ 将方程 $y^{\\prime \\prime} \\cos x-2 y^{\\prime} \\sin x+3 y \\cos x=\\mathrm{e}^x$ 化简, 并求出原方程的通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1526,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 14,
+    "indexByPaper": {
+      "数学二": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "计算定积分 $\\displaystyle \\int_{\\frac{1}{2}}^{\\frac{3}{2}} \\frac{\\mathrm{d} x}{\\sqrt{\\left|x-x^2\\right|}}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1049,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17,
+      "数学二": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $y=f(x)$ 是区间 $[0,1]$ 上的任一非负连续函数.\r\n\r\n(1) 试证存在 $x_{0} \\in(0,1)$, 使得区间 $\\left[0, x_{0}\\right]$ 上以 $f\\left(x_{0}\\right)$ 为高的矩形面积等于区间 $\\left[x_{0}, 1\\right]$ 上以 $y=f(x)$ 为曲边的曲边梯形的面积;\r\n\r\n(2) 又设 $f(x)$ 在 $(0,1)$ 内可导, 且 $\\displaystyle f^{\\prime}(x)>-\\frac{2 f(x)}{x}$, 证明 (1) 中的 $x_{0}$ 是唯一的",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵的幂",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 90402,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 17,
+    "indexByPaper": {
+      "数学二": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设有曲线 $y=\\sqrt{x-1}$, 过原点作其切线, 求由此曲线、切线及 $x$ 轴围成的平面图形绕 $x$ 轴旋转一周所得到的旋转体的表面积.",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1528,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 18,
+    "indexByPaper": {
+      "数学二": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $y=y(x)$ 是一向上凸的连续曲线, 其上任意一点 $(x, y)$ 处的曲率为 $\\displaystyle \\frac{1}{\\sqrt{1+y^{\\prime 2}}}$, 且此曲线上点 $(0,1)$ 处的切线方程为 $y=x+1$, 求该曲线的方程, 并求函数 $y=y(x)$ 的极值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "可降阶的高阶微分方程",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "曲率的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1529,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 19,
+    "indexByPaper": {
+      "数学二": 19
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设 $x \\in(0,1)$, 证明:\r\n\r\n(1) $(1+x) \\ln ^2(1+x)<x^2$;\r\n\r\n(2) $\\dfrac{1}{\\ln 2}-1<\\dfrac{1}{\\ln (1+x)}-\\dfrac{1}{x}<\\dfrac{1}{2}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1530,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 20,
+    "indexByPaper": {
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\left(2 \\boldsymbol{E}-\\boldsymbol{C}^{-1} \\boldsymbol{B}\\right) \\boldsymbol{A}^{\\mathrm{T}}=\\boldsymbol{C}^{-1}$, 其中 $\\boldsymbol{E}$ 是 4 阶单位矩阵, $\\boldsymbol{A}^{\\mathrm{T}}$ 是 4 阶矩阵 $\\boldsymbol{A}$ 的转置矩阵,\r\n\r\n$\\boldsymbol{B}=\\left(\\begin{array}{cccc}\r\n1 & 2 & -3 & -2 \\\\\r\n0 & 1 & 2 & -3 \\\\\r\n0 & 0 & 1 & 2 \\\\\r\n0 & 0 & 0 & 1\r\n\\end{array}\\right)$,\r\n\r\n$\\boldsymbol{C}=\\left(\\begin{array}{llll}\r\n1 & 2 & 0 & 1 \\\\\r\n0 & 1 & 2 & 0 \\\\\r\n0 & 0 & 1 & 2 \\\\\r\n0 & 0 & 0 & 1\r\n\\end{array}\\right)$,\r\n\r\n求 $\\boldsymbol A$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的初等变换",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1531,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1998,
+    "index": 21,
+    "indexByPaper": {
+      "数学二": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $\\boldsymbol{\\alpha}_1=(1,4,0,2)^{\\mathrm{T}}, \\boldsymbol{\\alpha}_2=(2,7,1,3)^{\\mathrm{T}}, \\boldsymbol{\\alpha}_3=(0,1,-1, a)^{\\mathrm{T}}, \\boldsymbol{\\beta}=(3,10, b, 4)^{\\mathrm{T}}$, 问\r\n\r\n(1) $a, b$ 取何值时, $\\boldsymbol{\\beta}$ 不能由 $\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\boldsymbol{\\alpha}_3$ 线性表示?\r\n\r\n(2) $a, b$ 为何值时, $\\boldsymbol{\\beta}$ 可由 $\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\boldsymbol{\\alpha}_3$ 线性表示? 并写出此表达式.",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量的线性组合和线性表示",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

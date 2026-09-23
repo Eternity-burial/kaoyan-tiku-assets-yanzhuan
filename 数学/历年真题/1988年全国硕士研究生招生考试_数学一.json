@@ -1,0 +1,932 @@
+[
+  {
+    "id": 1258,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 1,
+    "indexByPaper": {
+      "数学一": 1
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求幂级数 $\\displaystyle \\sum_{n=1}^{\\infty} \\frac{(x-3)^{n}}{n \\cdot 3^{n}}$ 的收敛域",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "幂级数及其收敛半径、收敛区间（指开区间）和收敛域",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "交错级数与莱布尼茨定理",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1259,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1988,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学二": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $f(x)=\\mathrm{e}^{x^{2}}, f[\\varphi(x)]=1-x$, 且 $\\varphi(x) \\geqslant 0$, 求 $\\varphi(x)$, 并写出其定义域",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "复合函数、反函数、分段函数和隐函数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的概念及表示法",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1260,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 3,
+    "indexByPaper": {
+      "数学一": 3
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $S$ 为曲面 $x^{2}+y^{2}+z^{2}=1$ 的外侧, 计算曲面积分 $\\displaystyle I=\\oiint\\limits_{S} x^{3} \\mathrm{d} y \\mathrm{d} z+y^{3} \\mathrm{d} z \\mathrm{d} x+z^{3} \\mathrm{d} x \\mathrm{d} y$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "高斯（Gauss）公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲面积分的概念、性质及计算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1261,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1988,
+    "index": 4,
+    "indexByPaper": {
+      "数学一": 4,
+      "数学二": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle f(t)=\\lim _{x \\rightarrow \\infty} t\\left(1+\\frac{1}{x}\\right)^{2 t x}$, 则 $f^{\\prime}(t)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的四则运算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1262,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 5,
+    "indexByPaper": {
+      "数学一": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 是周期为 $2$ 的周期函数，它在区间 $(-1,1]$ 上的表达式为 $f(x)=\\left\\{\\begin{array}{ll}2, & -1 \\leqslant x \\leqslant 0, \\\\ x^{3}, & 0<x<1,\\end{array}\\right.$ 则 $f(x)$ 的傅里叶级数在 $x=1$ 处收敛于 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "函数的傅里叶（Fourier）系数与傅里叶级数狄利克雷（Dirichlet）定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1263,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1988,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学二": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 是连续函数, 且 $\\displaystyle \\int_{0}^{x^{3}-1} f(t) \\mathrm{d} t=x$, 则 $f(7)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1264,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $4$ 阶矩阵 $\\boldsymbol{A}=\\left(\\boldsymbol{\\alpha}, \\boldsymbol{\\gamma}_{2}, \\boldsymbol{\\gamma}_{3}, \\boldsymbol{\\gamma}_{4}\\right), \\boldsymbol{B}=\\left(\\boldsymbol{\\beta}, \\boldsymbol{\\gamma}_{2}, \\boldsymbol{\\gamma}_{3}, \\boldsymbol{\\gamma}_{4}\\right)$, 其中 $\\boldsymbol{\\alpha}, \\boldsymbol{\\beta}, \\boldsymbol{\\gamma}_{2}, \\boldsymbol{\\gamma}_{3}, \\boldsymbol{\\gamma}_{4}$ 都是 $4$ 维列向量, 且 $|\\boldsymbol{A}|=4,|\\boldsymbol{B}|=1$, 则 $|\\boldsymbol{A}+\\boldsymbol{B}|=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1265,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1988,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8,
+      "数学二": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若函数 $y=f(x)$ 可导, 且 $\\displaystyle f^{\\prime}\\left(x_{0}\\right)=\\frac{1}{2}$, 则当 $\\Delta x \\rightarrow 0$ 时, 函数 $f(x)$ 在 $x=x_{0}$ 处的微分 $\\mathrm{d} y$ 是 $(\\quad)$",
+    "options": {
+      "A": "与 $\\Delta x$ 等价的无穷小",
+      "B": "与 $\\Delta x$ 同阶的无穷小",
+      "C": "比 $\\Delta x$ 低阶的无穷小",
+      "D": "比 $\\Delta x$ 高阶的无穷小"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1266,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1988,
+    "index": 9,
+    "indexByPaper": {
+      "数学一": 9,
+      "数学二": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $y=f(x)$ 是微分方程 $y^{\\prime \\prime}-2 y^{\\prime}+4 y=0$ 的一个解, 若 $f\\left(x_{0}\\right)>0$ 且 $f^{\\prime}\\left(x_{0}\\right)=0$, 则函数 $f(x)$ 在 $x=x_{0}$ 处 $(\\quad)$",
+    "options": {
+      "A": "取得极大值",
+      "B": "取得极小值",
+      "C": "某邻域内单调增加",
+      "D": "某邻域内单调减少"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "了解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1267,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 10,
+    "indexByPaper": {
+      "数学一": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设空间区域 $\\Omega_{1}: x^{2}+y^{2}+z^{2} \\leqslant R^{2}(z \\geqslant 0) ; \\Omega_{2}: x^{2}+y^{2}+z^{2} \\leqslant R^{2}(x \\geqslant 0, y \\geqslant 0, z \\geqslant 0)$, 则 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\iiint\\limits_{\\Omega_{1}} x \\mathrm{d} v=4 \\iiint\\limits_{\\Omega_{2}} x \\mathrm{d} v$",
+      "B": "$\\displaystyle \\iiint\\limits_{\\Omega_{1}} y \\mathrm{d} v=4 \\iiint\\limits_{\\Omega_{2}} y \\mathrm{d} v$",
+      "C": "$\\displaystyle \\iiint\\limits_{\\Omega_{1}} z \\mathrm{d} v=4 \\iiint\\limits_{\\Omega_{2}} z \\mathrm{d} v$",
+      "D": "$\\displaystyle \\iiint\\limits_{\\Omega_{1}} x y z \\mathrm{d} v=4 \\iiint\\limits_{\\Omega_{2}} x y z \\mathrm{d} v$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1268,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 11,
+    "indexByPaper": {
+      "数学一": 11
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若级数 $\\displaystyle \\sum_{n=0}^{\\infty} a_{n}(x-1)^{n}$ 在 $x=-1$ 处收敛, 则该级数在 $x=2$ 处 $(\\quad)$",
+    "options": {
+      "A": "条件收敛",
+      "B": "绝对收敛",
+      "C": "发散",
+      "D": "收敛性不确定"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "幂级数及其收敛半径、收敛区间（指开区间）和收敛域",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "任意项级数的绝对收敛与条件收敛",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1269,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 12,
+    "indexByPaper": {
+      "数学一": 12
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "$n$ 维向量组 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}(3 \\leqslant s \\leqslant n)$ 线性无关的充分必要条件是 $(\\quad)$",
+    "options": {
+      "A": "有一组不全为零的数 $k_{1}, k_{2}, \\cdots, k_{s}$, 使得 $k_{1} \\boldsymbol{\\alpha}_{1}+k_{2} \\boldsymbol{\\alpha}_{2}+\\cdots+k_{s} \\boldsymbol{\\alpha}_{s} \\neq \\mathbf{0}$",
+      "B": "$\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}$ 中任意两个向量都线性无关",
+      "C": "$\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}$ 中存在一个向量, 它不可由其余向量线性表示",
+      "D": "$\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}$ 中任意一个向量都不可由其余向量线性表示"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1270,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 13,
+    "indexByPaper": {
+      "数学一": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle u=y f\\left(\\frac{x}{y}\\right)+x g\\left(\\frac{y}{x}\\right)$, 其中 $f, g$ 具有二阶连续导数, 求 $\\displaystyle x \\frac{\\partial^{2} u}{\\partial x^{2}}+y \\frac{\\partial^{2} u}{\\partial x \\partial y}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "二阶偏导数",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1271,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1988,
+    "index": 14,
+    "indexByPaper": {
+      "数学一": 14,
+      "数学二": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设函数 $y=y(x)$ 满足微分方程 $y^{\\prime \\prime}-3 y^{\\prime}+2 y=2 \\mathrm{e}^{x}$, 且其图形在点 $(0,1)$ 处的切线与曲线 $y=x^{2}-x+1$ 在该点的切线重合, 求函数 $y=y(x)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1272,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 15,
+    "indexByPaper": {
+      "数学一": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设位于点 $(0,1)$ 的质点 $A$ 对质点 $M$ 的引力大小为 $\\displaystyle \\frac{k}{r^{2}}(k>0$ 为常数, $r$ 为质点 $A$ 与质点 $M$ 之间的距离), 质点 $M$ 沿曲线 $y=\\sqrt{2 x-x^{2}}$ 从点 $B(2,0)$ 运动到点 $O(0,0)$, 求此运动过程中质点 $A$ 对质点 $M$ 的引力所做的功",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "平面曲线积分与路径无关的条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲线积分的概念、性质及计算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "曲线积分和曲面积分的应用",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1273,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $\\boldsymbol{A P}=\\boldsymbol{P B}$, 其中 $\\boldsymbol{B}=\\left(\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & -1\\end{array}\\right), \\boldsymbol{P}=\\left(\\begin{array}{ccc}1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ 2 & 1 & 1\\end{array}\\right)$, 求 $\\boldsymbol{A}$ 及 $\\boldsymbol{A}^{5}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "相似变换、相似矩阵的概念及性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵的幂",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1274,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{lll}2 & 0 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 1 & x\\end{array}\\right)$ 与 $\\boldsymbol{B}=\\left(\\begin{array}{ccc}2 & 0 & 0 \\\\ 0 & y & 0 \\\\ 0 & 0 & -1\\end{array}\\right)$ 相似\r\n\r\n(1) 求 $x, y$\r\n\r\n(2) 求一个满足 $\\boldsymbol{P}^{-1} \\boldsymbol{A P}=\\boldsymbol{B}$ 的可逆矩阵 $\\boldsymbol{P}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "相似变换、相似矩阵的概念及性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵可相似对角化的充分必要条件及相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "实对称矩阵的特征值、特征向量及其相似对角矩阵",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1275,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 18,
+    "indexByPaper": {
+      "数学一": 18
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 在区间 $[a, b]$ 上连续, 且在 $(a, b)$ 内有 $f^{\\prime}(x)>0$. 证明: \r\n\r\n在 $(a, b)$ 内存在唯一 的 $\\xi$, 使曲线 $y=f(x)$ 与两直线 $y=f(\\xi), x=a$ 所围成的平面图形的面积 $S_{1}$ 是曲线 $y=f(x)$ 与两直线 $y=f(\\xi), x=b$ 所围成平面图形面积 $S_{2}$ 的 $3$ 倍",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1276,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 19,
+    "indexByPaper": {
+      "数学一": 19
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设三次独立重复试验中, 事件 $A$ 出现的概率相等, 若已知 $A$ 至少出现一次的概率为 $\\dfrac{19}{27}$, 则事件 $A$ 在一次试验中出现的概率为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "独立重复试验",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1277,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "在区间 $(0,1)$ 中随机地取两个数,则事件“两数之和小于 $\\dfrac{6}{5}$\" 的概率为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "几何型概率",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1278,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 21,
+    "indexByPaper": {
+      "数学一": 21
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 服从均值为 $10$ , 均方差为 $0.02$ 的正态分布, 已知 $\\displaystyle \\Phi(x)=\\frac{1}{\\sqrt{2 \\pi}} \\int_{-\\infty}^{x} \\mathrm{e}^{-\\frac{u^{2}}{2}} \\mathrm{d} u, \\Phi(2.5)=0.9938$, 则 $X$ 落在区间 $(9.95,10.05)$ 内的概率为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1279,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1988,
+    "index": 22,
+    "indexByPaper": {
+      "数学一": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 的概率密度函数为 $\\displaystyle f_{X}(x)=\\frac{1}{\\pi\\left(1+x^{2}\\right)}$, 求随机变量 $Y=1-\\sqrt[3]{X}$ 的概率密度函数 $f_{Y}(y)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "随机变量函数的分布",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "连续型随机变量的概率密度",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

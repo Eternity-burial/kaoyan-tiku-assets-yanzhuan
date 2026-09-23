@@ -1,0 +1,873 @@
+[
+  {
+    "id": 1673,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 1,
+    "indexByPaper": {
+      "数学三": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle f(x)=\\int_0^x \\mathrm{e}^{-\\frac{1}{2} t^2} \\mathrm{d} t,-\\infty<x<+\\infty$, 则\r\n\r\n(1) $f^{\\prime}(x)=$\r\n\r\n(2) $f(x)$ 的单调性是 $\\rule{0.5cm}{0.2mm}$\r\n\r\n(3) $f(x)$ 的奇偶性是 $\\rule{0.5cm}{0.2mm}$\r\n\r\n(4) $f(x)$ 图形的拐点是 $\\rule{0.5cm}{0.2mm}$\r\n\r\n(5) $f(x)$ 的凹、凸区间是 $\\rule{0.5cm}{0.2mm}$\r\n\r\n(6) $f(x)$ 的水平渐近线是 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的有界性、单调性、周期性和奇偶性",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1674,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 2,
+    "indexByPaper": {
+      "数学三": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\left|\\begin{array}{llll}1 & 1 & 1 & 0 \\\\ 1 & 1 & 0 & 1 \\\\ 1 & 0 & 1 & 1 \\\\ 0 & 1 & 1 & 1\\end{array}\\right|=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1675,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 3,
+    "indexByPaper": {
+      "数学三": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{llll}0 & 0 & 0 & 1 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0\\end{array}\\right)$, 则 $\\boldsymbol{A}^{-1}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "分块矩阵及其运算",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1676,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 4,
+    "indexByPaper": {
+      "数学三": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $P(A)=0.4, P(A \\cup B)=0.7$, 那么\r\n\r\n(1) 若 $A$ 与 $B$ 互不相容, 则 $P(B)=\\rule{0.5cm}{0.2mm}$\r\n\r\n(2) 若 $A$ 与 $B$ 相互独立, 则 $P(B)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "概率的基本公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的独立性",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1677,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 5,
+    "indexByPaper": {
+      "数学三": 5
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "若极限 $\\displaystyle \\lim _{x \\rightarrow x_0} f(x)$ 与 $\\displaystyle \\lim _{x \\rightarrow x_0} f(x) g(x)$ 都存在, 则极限 $\\displaystyle \\lim _{x \\rightarrow x_0} g(x)$ 必存在",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限的四则运算",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1678,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 6,
+    "indexByPaper": {
+      "数学三": 6
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "若 $x_0$ 是函数 $f(x)$ 的极值点, 则必有 $f^{\\prime}\\left(x_0\\right)=0$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1679,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 7,
+    "indexByPaper": {
+      "数学三": 7
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "等式 $\\displaystyle \\int_0^a f(x) \\mathrm{d} x=-\\int_0^a f(a-x) \\mathrm{d} x$ 对任何实数 $a$ 都成立",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1680,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 8,
+    "indexByPaper": {
+      "数学三": 8
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 和 $\\boldsymbol{B}$ 都是 $n$ 阶非零矩阵,且 $\\boldsymbol{A B}=\\boldsymbol{O}$, 则 $\\boldsymbol{A}$ 的秩必小于 $n$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1681,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 9,
+    "indexByPaper": {
+      "数学三": 9
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "若事件 $A, B, C$ 满足等式 $A \\cup B=A \\cup C$, 则 $A=B$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的关系与运算",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1682,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 10,
+    "indexByPaper": {
+      "数学三": 10
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求极限 $\\displaystyle \\lim _{x \\rightarrow 1} \\frac{x^x-1}{x \\ln x}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1683,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 11,
+    "indexByPaper": {
+      "数学三": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $u+\\mathrm{e}^u=x y$, 求 $\\dfrac{\\partial^2 u}{\\partial x \\partial y}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元复合函数的求导法与隐函数求导法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "二阶偏导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1684,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 12,
+    "indexByPaper": {
+      "数学三": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求定积分 $\\displaystyle \\int_0^3 \\frac{\\mathrm{d} x}{\\sqrt{x}(1+x)}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1685,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 13,
+    "indexByPaper": {
+      "数学三": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求二重积分 $\\displaystyle \\int_0^{\\frac{\\pi}{6}} \\mathrm{d} y \\int_y^{\\frac{\\pi}{6}} \\frac{\\cos x}{x} \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "二重积分的概念、基本性质和计算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1686,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 14,
+    "indexByPaper": {
+      "数学三": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "讨论级数 $\\displaystyle \\sum_{n=1}^{\\infty} \\frac{(n+1) \\text { ! }}{n^{n+1}}$ 的收敛性",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "正项级数收敛性的判别法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1687,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 15,
+    "indexByPaper": {
+      "数学三": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_n^2$ 和 $\\displaystyle \\sum_{n=1}^{\\infty} b_n^2$ 都收敛, 试证明级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_n b_n$ 绝对收敛",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "正项级数收敛性的判别法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "任意项级数的绝对收敛与条件收敛",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1688,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 16,
+    "indexByPaper": {
+      "数学三": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知某商品的需求量 $D$ 和供给量 $S$ 都是价格 $p$ 的函数: $D=D(p)=\\dfrac{a}{p^2}, \\quad S=S(p)=b p$,\r\n\r\n其中 $a>0, b>0$ 为常数; 价格 $p$ 是时间 $t$ 的函数且满足方程$\r\n\\dfrac{\\mathrm{d} p}{\\mathrm{d} t}=k[D(p)-\\mathrm{S}(p)], ( k$ 为正的常数)\r\n\r\n假设当 $t=0$ 时价格为 $1$ , 试求:\r\n\r\n(1) 需求量等于供给量时的均衡价格 $p_e$\r\n\r\n(2) 价格函数 $p(t)$\r\n\r\n(3) 极限 $\\displaystyle \\lim _{t \\rightarrow+\\infty} p(t)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、常微分方程与差分方程",
+        "kp": "变量可分离的微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、常微分方程与差分方程",
+        "kp": "微分方程的简单应用",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1689,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 17,
+    "indexByPaper": {
+      "数学三": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "过曲线 $y=x^2(x \\geqslant 0)$ 上某点 $A$ 处作一切线, 使之与曲线以及 $x$ 轴所围图形的面积为 $\\dfrac{1}{12}$, 试求:\r\n\r\n(1) 切点 $A$ 的坐标\r\n\r\n(2) 过切点 $A$ 的切线方程\r\n\r\n(3) 由上述所围平面图形绕 $x$ 轴旋转一周所成旋转体的体积",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线与法线",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1690,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 18,
+    "indexByPaper": {
+      "数学三": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知线性方程组 $\\left\\{\\begin{array}{l}\r\nx_1+x_2+2 x_3+3 x_4=1 \\\\ \r\nx_1+3 x_2+6 x_3+x_4=3 \\\\ \r\n3 x_1-x_2-k_1 x_3+15 x_4=3 \\\\ \r\nx_1-5 x_2-10 x_3+12 x_4=k_2\r\n\\end{array}\\right.$\r\n\r\n问 $k_1$ 和 $k_2$ 各取何值时, 方程组无解? \r\n\r\n有唯一解? 有无穷多组解? \r\n\r\n在方程组有无穷多组解的情况下, 试求出一般解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1691,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 19,
+    "indexByPaper": {
+      "数学三": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知向量组 $\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\cdots, \\boldsymbol{\\alpha}_s(s \\geqslant 2)$ 线性无关, 设 $\\boldsymbol{\\beta}_1=\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2, \\boldsymbol{\\beta}_2=\\boldsymbol{\\alpha}_2+\\boldsymbol{\\alpha}_3, \\cdots, \\boldsymbol{\\beta}_s=\\boldsymbol{\\alpha}_s+\\boldsymbol{\\alpha}_1$, 讨论向量组 $\\boldsymbol{\\beta}_1, \\boldsymbol{\\beta}_2, \\cdots, \\boldsymbol{\\beta}_s$ 的线性相关性",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1692,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 20,
+    "indexByPaper": {
+      "数学三": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 是 3 阶方阵, $\\boldsymbol{A}^*$ 是 $\\boldsymbol{A}$ 的伴随矩阵, $\\boldsymbol{A}$ 的行列式 $|\\boldsymbol{A}|=\\dfrac{1}{2}$, 求行列式 $\\left|(3 \\boldsymbol{A})^{-1}-2 \\boldsymbol{A}^*\\right|$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "伴随矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1693,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 21,
+    "indexByPaper": {
+      "数学三": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "玻璃杯成箱出售, 每箱 $20$ 只, 假设各箱含 $0,1,2$ 只次品的概率分别为 $0.8,0.1,0.1$, 一顾客欲购买一箱玻璃杯, 在购买时, 售货员随意取一箱, 而顾客开箱随机查看 4 只, 若无次品,  则买下该箱玻璃杯, 否则不买. 试求:\r\n\r\n(1) 顾客买下该箱的概率 $\\alpha$\r\n\r\n(2) 在顾客买下的一箱中, 确实没有次品的概率 $\\beta$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "概率的基本公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1694,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 22,
+    "indexByPaper": {
+      "数学三": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "某保险公司多年统计资料表明,在索赔户中被盗索赔户占 $20 \\%$, 以 $X$ 表示在随机抽查的 $100$ 个索赔户中因被盗向保险公司索赔的户数\r\n\r\n(1) 写出 $X$ 的概率分布\r\n\r\n(2) 利用棣莫弗一拉普拉斯定理, 求出被盗索赔户不少于 $14$ 户且不多于 $30$ 户的概率的近似值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "五、大数定律和中心极限定理",
+        "kp": "棣莫弗-拉普拉斯（De Moivre-Laplace）定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1695,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1988,
+    "index": 23,
+    "indexByPaper": {
+      "数学三": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "假设随机变量 $X$ 在区间 $(1,2)$ 上服从均匀分布, 试求随机变量 $Y=\\mathrm{e}^{2 X}$ 的概率密度 $f(y)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "随机变量函数的分布",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

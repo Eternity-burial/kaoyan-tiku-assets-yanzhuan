@@ -1,0 +1,146 @@
+[
+  {
+    "domain": "GL01",
+    "domainName": "随机事件与概率",
+    "methodCount": 5,
+    "questionCount": 213
+  },
+  {
+    "domain": "GL02",
+    "domainName": "一维随机变量及其分布",
+    "methodCount": 6,
+    "questionCount": 261
+  },
+  {
+    "domain": "GL03",
+    "domainName": "多维随机变量及其分布",
+    "methodCount": 4,
+    "questionCount": 220
+  },
+  {
+    "domain": "GL04",
+    "domainName": "随机变量的数字特征",
+    "methodCount": 6,
+    "questionCount": 279
+  },
+  {
+    "domain": "GL05",
+    "domainName": "大数定律与中心极限定理",
+    "methodCount": 3,
+    "questionCount": 54
+  },
+  {
+    "domain": "GL06",
+    "domainName": "数理统计的基本概念",
+    "methodCount": 3,
+    "questionCount": 111
+  },
+  {
+    "domain": "GL07",
+    "domainName": "参数估计与假设检验",
+    "methodCount": 5,
+    "questionCount": 195
+  },
+  {
+    "domain": "GS01",
+    "domainName": "函数、极限、连续",
+    "methodCount": 20,
+    "questionCount": 779
+  },
+  {
+    "domain": "GS02",
+    "domainName": "一元微分·概念与计算",
+    "methodCount": 10,
+    "questionCount": 516
+  },
+  {
+    "domain": "GS03",
+    "domainName": "一元微分·应用",
+    "methodCount": 11,
+    "questionCount": 549
+  },
+  {
+    "domain": "GS04",
+    "domainName": "中值定理与不等式证明",
+    "methodCount": 8,
+    "questionCount": 380
+  },
+  {
+    "domain": "GS05",
+    "domainName": "一元积分·计算方法",
+    "methodCount": 9,
+    "questionCount": 614
+  },
+  {
+    "domain": "GS06",
+    "domainName": "一元积分·概念与应用",
+    "methodCount": 14,
+    "questionCount": 741
+  },
+  {
+    "domain": "GS07",
+    "domainName": "常微分方程",
+    "methodCount": 13,
+    "questionCount": 535
+  },
+  {
+    "domain": "GS08",
+    "domainName": "多元函数微分学",
+    "methodCount": 15,
+    "questionCount": 629
+  },
+  {
+    "domain": "GS09",
+    "domainName": "重积分",
+    "methodCount": 11,
+    "questionCount": 504
+  },
+  {
+    "domain": "GS10",
+    "domainName": "曲线曲面积分",
+    "methodCount": 9,
+    "questionCount": 306
+  },
+  {
+    "domain": "GS11",
+    "domainName": "无穷级数",
+    "methodCount": 11,
+    "questionCount": 400
+  },
+  {
+    "domain": "XD01",
+    "domainName": "行列式",
+    "methodCount": 4,
+    "questionCount": 191
+  },
+  {
+    "domain": "XD02",
+    "domainName": "矩阵",
+    "methodCount": 9,
+    "questionCount": 373
+  },
+  {
+    "domain": "XD03",
+    "domainName": "向量组与秩",
+    "methodCount": 5,
+    "questionCount": 267
+  },
+  {
+    "domain": "XD04",
+    "domainName": "线性方程组",
+    "methodCount": 5,
+    "questionCount": 258
+  },
+  {
+    "domain": "XD05",
+    "domainName": "特征值与相似对角化",
+    "methodCount": 7,
+    "questionCount": 349
+  },
+  {
+    "domain": "XD06",
+    "domainName": "二次型",
+    "methodCount": 6,
+    "questionCount": 273
+  }
+]

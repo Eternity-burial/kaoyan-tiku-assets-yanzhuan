@@ -1,0 +1,867 @@
+[
+  {
+    "id": 1648,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 1,
+    "indexByPaper": {
+      "数学三": 1
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow 0} \\mathrm{e}^{\\frac{1}{x}}=\\infty$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的左极限和右极限无穷小量和无穷大量的概念及其关系",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1649,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 2,
+    "indexByPaper": {
+      "数学三": 2
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\int_{-\\pi}^\\pi x^4 \\sin x \\mathrm{d} x=0$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1650,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 3,
+    "indexByPaper": {
+      "数学三": 3
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "若级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_n$ 与 $\\displaystyle \\sum_{n=1}^{\\infty} b_n$ 均发散, 则级数 $\\displaystyle \\sum_{n=1}^{\\infty}\\left(a_n+b_n\\right)$ 必发散",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "级数的基本性质与收敛的必要条件",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1651,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 4,
+    "indexByPaper": {
+      "数学三": 4
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "设 $D$ 是矩阵 $\\boldsymbol{A}$ 的 $r$ 阶非零子式, 且含 $D$ 的一切 $r+1$ 阶子式均为 $0$, 则矩阵 $\\boldsymbol{A}$ 的一切 $r+1$ 阶子式均为 $0$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1652,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 5,
+    "indexByPaper": {
+      "数学三": 5
+    },
+    "type": "判断题",
+    "has_figure": false,
+    "stem": "连续型随机变量取任何给定实数值的概率均为零",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "连续型随机变量的概率密度",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1653,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 6,
+    "indexByPaper": {
+      "数学三": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "下列函数在其定义域内连续的是 $(\\quad)$",
+    "options": {
+      "A": "$f(x)=\\ln x+\\sin x$",
+      "B": "$f(x)= \\begin{cases}\\sin x, & x \\leqslant 0, \\\\ \\cos x, & x>0\\end{cases}$",
+      "C": "$f(x)= \\begin{cases}x+1, & x<0, \\\\ 0, & x=0, \\\\ x-1, & x>0\\end{cases}$",
+      "D": "$f(x)= \\begin{cases}\\dfrac{1}{\\sqrt{|x|}}, & x \\neq 0, \\\\ 0, & x=0\\end{cases}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "初等函数的连续性",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数间断点的类型",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1654,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 7,
+    "indexByPaper": {
+      "数学三": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若 $f(x)$ 在 $(a, b)$ 内可导且 $a<x_1<x_2<b$, 则至少存在一点 $\\xi$,使得 $(\\quad)$",
+    "options": {
+      "A": "$f(b)-f(a)=f^{\\prime}(\\xi)(b-a)(a<\\xi<b)$",
+      "B": "$f(b)-f\\left(x_1\\right)=f^{\\prime}(\\xi)\\left(b-x_1\\right)\\left(x_1<\\xi<b\\right)$",
+      "C": "$f\\left(x_2\\right)-f\\left(x_1\\right)=f^{\\prime}(\\xi)\\left(x_2-x_1\\right)\\left(x_1<\\xi<x_2\\right)$",
+      "D": "$f\\left(x_2\\right)-f(a)=f^{\\prime}(\\xi)\\left(x_2-a\\right)\\left(a<\\xi<x_2\\right)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1655,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 8,
+    "indexByPaper": {
+      "数学三": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "下列广义积分收敛的是 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\int_e^{+\\infty} \\frac{\\ln x}{x} \\mathrm{d} x$",
+      "B": "$\\displaystyle \\int_{\\mathrm{e}}^{+\\infty} \\frac{1}{x \\ln x} \\mathrm{d} x$",
+      "C": "$\\displaystyle \\int_{\\mathrm{e}}^{+\\infty} \\frac{1}{x(\\ln x)^2} \\mathrm{d} x$",
+      "D": "$\\displaystyle \\int_{\\mathrm{e}}^{+\\infty} \\frac{1}{x \\sqrt{\\ln x}} \\mathrm{d} x$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1657,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 9,
+    "indexByPaper": {
+      "数学三": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $n$ 阶方阵 $\\boldsymbol{A}$ 的秩 $r(\\boldsymbol{A})=r<n$, 则在 $\\boldsymbol{A}$ 的 $n$ 个行向量中 $(\\quad)$",
+    "options": {
+      "A": "必有 $r$ 个行向量线性无关",
+      "B": "任意 $r$ 个行向量均线性无关",
+      "C": "任意 $r$ 个行向量均可构成极大线性无关组",
+      "D": "任意一个行向量均可由其他 $r$ 个行向量线性表示"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的秩与矩阵的秩之间的关系",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1658,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 10,
+    "indexByPaper": {
+      "数学三": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $A, B$ 是两个事件且 $P(A B)=0$, 则 $(\\quad)$",
+    "options": {
+      "A": "$A$ 与 $B$ 互斥",
+      "B": "$A B$ 是不可能事件",
+      "C": "$A B$ 未必是不可能事件",
+      "D": "$P(A)=0$ 或 $P(B)=0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "概率的基本性质",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1659,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 11,
+    "indexByPaper": {
+      "数学三": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求极限 $\\displaystyle \\lim _{x \\rightarrow 0}\\left(1+x \\mathrm{e}^x\\right)^{\\frac{1}{x}}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1660,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 12,
+    "indexByPaper": {
+      "数学三": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle y=\\ln \\frac{\\sqrt{1+x^2}-1}{\\sqrt{1+x^2}+1}$, 求 $y^{\\prime}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数和隐函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1661,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 13,
+    "indexByPaper": {
+      "数学三": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle z=\\arctan \\frac{x+y}{x-y}$, 求 $\\mathrm{d} z$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元函数偏导数的概念与计算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "全微分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1662,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 14,
+    "indexByPaper": {
+      "数学三": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\int \\mathrm{e}^{\\sqrt{2 x-1}} \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1663,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 15,
+    "indexByPaper": {
+      "数学三": 15
+    },
+    "type": "解答题",
+    "has_figure": true,
+    "stem": "设 $\\displaystyle y=\\sin x, 0 \\leqslant x \\leqslant \\frac{\\pi}{2}$, 问:\r\n\r\n(1) $t$ 取何值时, 图中阴影部分的面积 $S_1$ 与 $S_2$ 之和 $S=S_1+S_2$ 最小?\r\n\r\n(2) $t$ 取何值时, 面积 $S=S_1+S_2$ 最大?\n\n![阴影部分 S1 与 S2](/uploads/books/3a1ac2da904e650b73f23b182ccfee503459024a81035eadde9b0634e3624a89.png)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1664,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 16,
+    "indexByPaper": {
+      "数学三": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "将函数 $\\displaystyle f(x)=\\frac{1}{x^2-3 x+2}$ 展开成 $x$ 的幂级数, 并指出其收敛区间",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "初等函数的幂级数展开式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1665,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 17,
+    "indexByPaper": {
+      "数学三": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $D$ 是由曲线 $y=x^3$ 与直线 $y=x$ 在第一象限内围成的封闭区域, 求 $\\displaystyle \\iint_D \\mathrm{e}^{x^2} \\mathrm{d} x \\mathrm{d} y$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "二重积分的概念、基本性质和计算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1666,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 18,
+    "indexByPaper": {
+      "数学三": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知某商品的需求量 $x$ 对价格 $p$ 的弹性为 $\\eta=-3 p^3$, 而市场对该商品的最大需求量为 $1$ (万件), 求需求函数",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、常微分方程与差分方程",
+        "kp": "微分方程的简单应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、常微分方程与差分方程",
+        "kp": "变量可分离的微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数的几何意义和经济意义",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1667,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 19,
+    "indexByPaper": {
+      "数学三": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "解线性方程组 $\\left\\{\\begin{array}{l}2 x_1-x_2+4 x_3-3 x_4=-4 \\\\ x_1+x_3-x_4=-3 \\\\ 3 x_1+x_2+x_3=1 \\\\ 7 x_1+7 x_3-3 x_4=3 \\end{array}\\right.$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1668,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 20,
+    "indexByPaper": {
+      "数学三": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设矩阵 $\\boldsymbol{A}$ 和 $\\boldsymbol{B}$ 满足 $\\boldsymbol{A} \\boldsymbol{B}=\\boldsymbol{A}+2 \\boldsymbol{B}$, 求矩阵 $\\boldsymbol{B}$, 其中 $\\boldsymbol{A}=\\left(\\begin{array}{ccc}4 & 2 & 3 \\\\ 1 & 1 & 0 \\\\ -1 & 2 & 3\\end{array}\\right)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的乘法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1669,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 21,
+    "indexByPaper": {
+      "数学三": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求矩阵 $\\left(\\begin{array}{ccc}-3 & -1 & 2 \\\\ 0 & -1 & 4 \\\\ -1 & 0 & 1\\end{array}\\right)$ 的实特征值与对应的特征向量",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1670,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 22,
+    "indexByPaper": {
+      "数学三": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 的概率分布为 $P\\{X=1\\}=0.2, P\\{X=2\\}=0.3, P\\{X=3\\}=0.5$, 写出其分布函数 $F(x)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "随机变量分布函数的概念及其性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "离散型随机变量的概率分布",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1671,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 23,
+    "indexByPaper": {
+      "数学三": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知随机变量 $X$ 的概率密度为 $f(x)=\\left\\{\\begin{array}{ll}\\dfrac{x}{a^2} \\mathrm{e}^{-\\frac{x^2}{2 a^2}}, & x>0, \\\\ 0, & x \\leqslant 0,\\end{array}\\right.$ 求随机变量 $\\displaystyle Y=\\frac{1}{X}$ 的数学期望 $E(Y)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量函数的数学期望",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1672,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1987,
+    "index": 24,
+    "indexByPaper": {
+      "数学三": 24
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设两箱内装有同种零件:第一箱装 $50$ 件, 其中有 $10$ 件一等品; 第二箱装 $3$0 件, 其中有 $18$ 件一等品, 现从两箱中任取一箱, 再从此箱中先后不放回地取两个零件, 求:\r\n\r\n(1) 先取出的零件是一等品的概率 $p$;\r\n\r\n(2) 在先取出的零件是一等品的条件下, 后取出的零件仍是一等品的条件概率 $q$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "概率的基本公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

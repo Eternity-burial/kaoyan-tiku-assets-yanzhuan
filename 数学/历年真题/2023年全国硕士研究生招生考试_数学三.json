@@ -1,0 +1,1097 @@
+[
+  {
+    "id": 38,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 1,
+    "indexByPaper": {
+      "数学三": 1
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "已知函数 $f(x, y)=\\ln (y+|x \\sin y|)$, 则 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)}$ 不存在, $\\displaystyle \\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}$ 存在",
+      "B": "$\\displaystyle \\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)}$ 存在, $\\displaystyle \\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}$ 不存在",
+      "C": "$\\displaystyle \\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)},\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}$ 均存在",
+      "D": "$\\displaystyle \\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)},\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}$ 均不存在"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元函数偏导数的概念与计算",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 2,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2023,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学三": 3,
+      "数学二": 4
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若微分方程 $y^{\\prime \\prime}+a y^{\\prime} +by=0$ 的解在 $(-\\infty,+\\infty)$ 上有界, 则 $(\\quad)$",
+    "options": {
+      "A": "$a<0, b>0$",
+      "B": "$a>0, b>0$",
+      "C": "$a=0, b>0$",
+      "D": "$a=0, b<0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "线性微分方程解的性质及解的结构定理",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 23,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2023,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2,
+      "数学三": 2
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "函数 $f(x)=\\left\\{\\begin{array}{ll}\\dfrac{1}{\\sqrt{1+x^2}}, & x \\leqslant 0, \\\\ (x+1) \\cos x, & x>0\\end{array}\\right.$ 的一个原函数为 $(\\quad)$",
+    "options": {
+      "A": "$F(x)= \\begin{cases}\\ln \\left(\\sqrt{1+x^2}-x\\right), & x \\leqslant 0, \\\\ (x+1) \\cos x-\\sin x, & x>0 .\\end{cases}$",
+      "B": "$F(x)= \\begin{cases}\\ln \\left(\\sqrt{1+x^2}-x\\right)+1, & x \\leqslant 0, \\\\ (x+1) \\cos x-\\sin x, & x>0 .\\end{cases}$",
+      "C": "$F(x)= \\begin{cases}\\ln \\left(\\sqrt{1+x^2}+x\\right), & x \\leqslant 0, \\\\ (x+1) \\sin x+\\cos x, & x>0 .\\end{cases}$",
+      "D": "$F(x)= \\begin{cases}\\ln \\left(\\sqrt{1+x^2}+x\\right)+1, & x \\leqslant 0, \\\\ (x+1) \\sin x+\\cos x, & x>0 .\\end{cases}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "原函数和不定积分的概念",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数连续的概念",
+        "rel": "次",
+        "depth": [
+          "会判别",
+          "理解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 4,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 4,
+    "indexByPaper": {
+      "数学一": 4,
+      "数学三": 4
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "已知 $a_{n}<b_{n}(n=1,2, \\cdots)$, 若级数 $\\displaystyle \\sum_{n=1}^{\\infty} a_{n}$ 与 $\\displaystyle \\sum_{n=1}^{\\infty} b_{n}$ 均收敛, 则 \"$\\displaystyle \\sum_{n=1}^{\\infty} a_{n}$ 绝对收敛\" 是 \"$\\displaystyle \\sum_{n=1}^{\\infty} b_{n}$ 绝对收敛的\"  $(\\quad)$",
+    "options": {
+      "A": "充分必要条件",
+      "B": "充分不必要条件",
+      "C": "必要不充分条件",
+      "D": "既不充分也不必要条件"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "任意项级数的绝对收敛与条件收敛",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "正项级数收敛性的判别法",
+        "rel": "主",
+        "depth": [
+          "会用",
+          "掌握",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "级数的基本性质与收敛的必要条件",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 27,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2023,
+    "index": 5,
+    "indexByPaper": {
+      "数学二": 8,
+      "数学三": 5
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol A, \\boldsymbol B$ 为 $n$ 阶可逆矩阵, $\\boldsymbol E$ 为 $n$ 阶单位矩阵, $\\boldsymbol M^*$ 为矩阵 $\\boldsymbol M$ 的伴随矩阵, 则 $\\left(\\begin{array}{ll}\\boldsymbol A & \\boldsymbol E \\\\ \\boldsymbol O & \\boldsymbol B\\end{array}\\right)^*= (\\quad)$",
+    "options": {
+      "A": "$\\left(\\begin{array}{cc}|\\boldsymbol A| \\boldsymbol B^* & -\\boldsymbol B^* \\boldsymbol A^* \\\\ \\boldsymbol O & |\\boldsymbol B| \\boldsymbol A^*\\end{array}\\right)$",
+      "B": "$\\left(\\begin{array}{cc}|\\boldsymbol A| \\boldsymbol B^* & -\\boldsymbol A^* \\boldsymbol B^* \\\\ \\boldsymbol O & |\\boldsymbol B| \\boldsymbol A^*\\end{array}\\right)$",
+      "C": "$\\left(\\begin{array}{cc}|\\boldsymbol B| \\boldsymbol A^* & -\\boldsymbol B^* \\boldsymbol A^* \\\\ \\boldsymbol O & |\\boldsymbol A| \\boldsymbol B^*\\end{array}\\right)$",
+      "D": "$\\left(\\begin{array}{cc}|\\boldsymbol B| \\boldsymbol A^* & -\\boldsymbol A^* \\boldsymbol B^* \\\\ \\boldsymbol O & |\\boldsymbol A| \\boldsymbol B^*\\end{array}\\right)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "伴随矩阵",
+        "rel": "主",
+        "depth": [
+          "会用",
+          "掌握",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "分块矩阵及其运算",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵乘积的行列式",
+        "rel": "次",
+        "depth": [
+          "了解",
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 90325,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 6,
+    "indexByPaper": {
+      "数学三": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "二次型 $f(x_1,x_2,x_3)=(x_1+x_2)^2+(x_1+x_3)^2-4(x_2-x_3)^2$ 的规范形为",
+    "options": {
+      "A": "$y_1^2+y_2^2$",
+      "B": "$y_1^2-y_2^2$",
+      "C": "$y_1^2+y_2^2-4y_3^2$",
+      "D": "$y_1^2+y_2^2-y_3^2$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "二次型的标准形和规范形",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "惯性定理",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 7,
+    "papers": [
+      "数学一",
+      "数学二",
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7,
+      "数学二": 10,
+      "数学三": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "已知向量 $\\boldsymbol \\alpha_{1}=\\left(\\begin{array}{l}1 \\\\ 2 \\\\ 3\\end{array}\\right), \\quad \\boldsymbol \\alpha_{2}=\\left(\\begin{array}{l}2 \\\\ 1 \\\\ 1\\end{array}\\right), \\quad \\boldsymbol \\beta_{1}=\\left(\\begin{array}{l}2 \\\\ 5 \\\\ 9\\end{array}\\right), \\quad \\boldsymbol \\beta_{2}=\\left(\\begin{array}{l}1 \\\\ 0 \\\\ 1\\end{array}\\right)$, 若 $\\boldsymbol \\gamma$ 既可由 $\\boldsymbol \\alpha_{1}, \\boldsymbol \\alpha_{2}$ 线性表示, 也可由 $\\boldsymbol \\beta_{1}, \\boldsymbol \\beta_{2}$ 线性表示, 则 $\\boldsymbol \\gamma=(\\quad)$",
+    "options": {
+      "A": "$k\\left(\\begin{array}{l}3 \\\\ 3 \\\\ 4\\end{array}\\right), k \\in \\mathbb{R}$",
+      "B": "$k\\left(\\begin{array}{c}3 \\\\ 5 \\\\ 10\\end{array}\\right), k \\in \\mathbb{R}$",
+      "C": "$k\\left(\\begin{array}{c}-1 \\\\ 1 \\\\ 2\\end{array}\\right), k \\in \\mathbb{R}$",
+      "D": "$k\\left(\\begin{array}{l}1 \\\\ 5 \\\\ 8\\end{array}\\right), k \\in \\mathbb{R}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量的线性组合与线性表示",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "齐次线性方程组的基础解系和通解",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 8,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8,
+      "数学三": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 服从参数为 $1$ 的泊松分布, 则 $E(|X-E X|)=(\\quad)$",
+    "options": {
+      "A": "$\\dfrac{1}{\\mathrm e}$",
+      "B": "$\\dfrac{1}{2}$",
+      "C": "$\\dfrac{2}{\\mathrm e}$",
+      "D": "$1$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量函数的数学期望",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "会"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 9,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 9,
+    "indexByPaper": {
+      "数学一": 9,
+      "数学三": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $X_{1}, X_{2}, \\cdots, X_{n}$ 为来自总体 $N\\left(\\mu_{1}, \\sigma^{2}\\right)$ 的简单随机样本, $Y_{1}, Y_{2}, \\cdots, Y_{m}$ 为来自总体 $N\\left(\\mu_{2}, 2 \\sigma^{2}\\right)$ 的简单随机样本, 且两样本相互独立, 记 $\\displaystyle \\bar{X}=\\frac{1}{n} \\sum_{i=1}^{n} X_{i}, \\displaystyle \\bar{Y}=\\frac{1}{m} \\sum_{i=1}^{m} Y_{i}, \\quad S_{1}^{2}=\\frac{1}{n-1} \\sum_{i=1}^{n}\\left(X_{i}-\\bar{X}\\right)^{2}, \\quad S_{2}^{2}=\\frac{1}{m-1} \\sum_{i=1}^{m}\\left(Y_{i}-\\bar{Y}\\right)^{2}$, 则 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\frac{S_{1}^{2}}{S_{2}^{2}} \\sim F(n, m)$",
+      "B": "$\\displaystyle \\frac{S_{1}^{2}}{S_{2}^{2}} \\sim F(n-1, m-1)$",
+      "C": "$\\displaystyle \\frac{2 S_{1}^{2}}{S_{2}^{2}} \\sim F(n, m)$",
+      "D": "$\\displaystyle \\frac{2 S_{1}^{2}}{S_{2}^{2}} \\sim F(n-1, m-1)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "六、数理统计的基本概念",
+        "kp": "正态总体的常用抽样分布",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "六、数理统计的基本概念",
+        "kp": "样本方差和样本矩",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 10,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 10,
+    "indexByPaper": {
+      "数学一": 10,
+      "数学三": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $X_{1}, X_{2}$ 为来自总体 $N\\left(\\mu, \\sigma^{2}\\right)$ 的简单随机样本, 其中 $\\sigma(\\sigma>0)$ 是未知参数, 若 $\\hat{\\sigma}=a\\left|X_{1}-X_{2}\\right|$ 为 $\\sigma$ 的无偏估计, 则 $a=(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\frac{\\sqrt{\\pi}}{2}$",
+      "B": "$\\displaystyle \\frac{\\sqrt{2 \\pi}}{2}$",
+      "C": "$\\sqrt{\\pi}$",
+      "D": "$\\sqrt{2 \\pi}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "七、参数估计",
+        "kp": "估计量的评选标准",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "会"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量函数的数学期望",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 39,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 11,
+    "indexByPaper": {
+      "数学三": 11
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow \\infty} x^2\\left(2-x \\sin \\frac{1}{x}-\\cos \\frac{1}{x}\\right)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "主",
+        "depth": [
+          "会用",
+          "掌握",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "初等函数的幂级数展开式",
+        "rel": "次",
+        "depth": [
+          "会用",
+          "掌握",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 40,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 12,
+    "indexByPaper": {
+      "数学三": 12
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知函数 $f(x, y)$ 满足 $\\displaystyle \\mathrm{d} f(x, y)=\\frac{x \\mathrm{d} y-y \\mathrm{~d} x}{x^2+y^2}, f(1,1)=\\frac{\\pi}{4}$, 则 $f(\\sqrt{3}, 3)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "全微分",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元复合函数的求导法与隐函数求导法",
+        "rel": "次",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 41,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 13,
+    "indexByPaper": {
+      "数学三": 13
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\sum_{n=0}^{\\infty} \\frac{x^{2 n}}{(2 n) !}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "初等函数的幂级数展开式",
+        "rel": "主",
+        "depth": [
+          "会用",
+          "掌握",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "简单幂级数的和函数的求法",
+        "rel": "次",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 42,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 14,
+    "indexByPaper": {
+      "数学三": 14
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设某公司在 $t$ 时刻的资产为 $f(t)$ ，从 0 时刻到 $t$ 时刻的平均资产等于 $\\dfrac{f(t)}{t}-t$ ，假设 $f(t)$ 连续且 $f(0)=0$ ，则 $f(t)=$ $\\qquad$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、常微分方程与差分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "会求",
+          "理解",
+          "了解",
+          "掌握",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 32,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2023,
+    "index": 15,
+    "indexByPaper": {
+      "数学二": 16,
+      "数学三": 15
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知线性方程组 $\\left\\{\\begin{array}{l}\r\na x_1+x_3=1, \\\\ \r\nx_1+a x_2+x_3=0, \\\\ \r\nx_1+2 x_2+a x_3=0, \\\\ \r\na x_1+b x_2=2\r\n\\end{array}\\right.$, 有解, 其中 $a, b$ 为常数.\r\n若 $\\left|\\begin{array}{lll}\r\na & 0 & 1 \\\\ \r\n1 & a & 1 \\\\ \r\n1 & 2 & a\r\n\\end{array}\\right|=4$, 则 $\\left|\\begin{array}{lll} \r\n1 & a & 1 \\\\ \r\n1 & 2 & a \\\\ \r\na & b & 0 \r\n\\end{array}\\right|=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 43,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 16,
+    "indexByPaper": {
+      "数学三": 16
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 与 $Y$ 相互独立, 且 $X \\sim B(1, p), Y \\sim B(2, p), p \\in(0,1)$, 则 $X+Y$ 与 $X-Y$ 的相关系数为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "矩、协方差、相关系数及其性质",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 44,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 17,
+    "indexByPaper": {
+      "数学三": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知可导函数 $y=y(x)$ 满足 $a e^x+y^2+y-\\ln (1+x) \\cos y+b=0$, 且 $y(0)=0$, ${y}^{\\prime}(0)=0$\r\n\r\n(1) 求 $a, b$ 的值;\r\n\r\n(2) 判断 $x=0$ 是否为 $y(x)$ 的极值点",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数和隐函数的微分法",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "掌握",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 35,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2023,
+    "index": 18,
+    "indexByPaper": {
+      "数学二": 19,
+      "数学三": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知平面区域 $D=\\left\\{(x, y) \\mid 0 \\leqslant y \\leqslant \\dfrac{1}{x \\sqrt{1+x^2}}, x \\geqslant 1\\right\\}$\r\n\r\n(1) 求 $D$ 的面积;\r\n\r\n(2) 求 $D$ 绕 $x$ 轴旋转所成旋转体的体积",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "会计算",
+          "了解",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": true
+  },
+  {
+    "id": 45,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 19,
+    "indexByPaper": {
+      "数学三": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知平面区域 $\\mathrm{D}=\\left\\{(x, y) \\mid({x}-1)^2+{y}^2 \\leqslant 1\\right\\}$, 计算二重积分 $\\displaystyle \\iint\\limits_D\\left|\\sqrt{x^2+y^2}-1\\right| \\mathrm{d} x \\mathrm{d} y$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "二重积分的概念、基本性质和计算",
+        "rel": "主",
+        "depth": [
+          "会计算",
+          "理解",
+          "了解",
+          "掌握",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": true
+  },
+  {
+    "id": 20,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2023,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20,
+      "数学二": 21,
+      "数学三": 20
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 在 $[-a, a]$ 上具有二阶连续导数, 证明:\r\n\r\n(1) 若 $f(0)=0$, 则存在 $\\xi \\in(-a, a)$, 使得 $f^{\\prime \\prime}(\\xi)=\\dfrac{1}{a^{2}}[f(a)+f(-a)]$;\r\n\r\n(2) 若 $f(x)$ 在 $(-a, a)$ 内取得极值, 则存在 $\\eta \\in(-a, a)$ 使得  $\r\n\\left|f^{\\prime \\prime}(\\eta)\\right| \\geq \\dfrac{1}{2 a^{2}}|f(a)-f(-a)|$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "会用",
+          "了解",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "次",
+        "depth": [
+          "了解",
+          "理解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 37,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2023,
+    "index": 21,
+    "indexByPaper": {
+      "数学二": 22,
+      "数学三": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设矩阵 $\\boldsymbol{A}$ 满足: 对任意 $x_1, x_2, x_3$ 均有 $\\boldsymbol{A}\\left(\\begin{array}{c}x_1 \\\\ x_2 \\\\ x_3\\end{array}\\right)=\\left(\\begin{array}{c}x_1+x_2+x_3 \\\\ 2 x_1-x_2+x_3 \\\\ x_2-x_3\\end{array}\\right)$\r\n\r\n(1) 求 $\\boldsymbol A$;\r\n\r\n(2) 求可逆矩阵 $\\boldsymbol P$ 与对角矩阵 $\\boldsymbol \\Lambda$, 使得 $\\boldsymbol P^{-1} \\boldsymbol A \\boldsymbol P=\\boldsymbol \\Lambda$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵可相似对角化的充分必要条件及相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "掌握",
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的概念",
+        "rel": "次",
+        "depth": [
+          "了解",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 46,
+    "papers": [
+      "数学三"
+    ],
+    "year": 2023,
+    "index": 22,
+    "indexByPaper": {
+      "数学三": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 的概率密度为 $\\displaystyle f(x)=\\frac{\\mathrm{e}^x}{\\left(1+\\mathrm{e}^x\\right)^2},-\\infty<x<+\\infty$, 令 ${Y}=\\mathrm{e}^{X}$\r\n\r\n(1) 求 $X$ 的分布函数;\r\n\r\n(2) 求 $Y$ 的概率密度;\r\n\r\n(3) $Y$ 的期望是否存在?",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "随机变量分布函数的概念及其性质",
+        "rel": "主",
+        "depth": [
+          "会计算",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "随机变量函数的分布",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "会"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量的数学期望（均值）、方差、标准差及其性质",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "理解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": true
+  }
+]

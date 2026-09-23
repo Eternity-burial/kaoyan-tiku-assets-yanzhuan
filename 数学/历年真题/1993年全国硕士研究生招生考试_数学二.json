@@ -1,0 +1,768 @@
+[
+  {
+    "id": 1145,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 1,
+    "indexByPaper": {
+      "数学一": 1,
+      "数学二": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "函数 $\\displaystyle F(x)=\\int_{1}^{x}\\left(2-\\frac{1}{\\sqrt{t}}\\right) \\mathrm{d} t(x>0)$ 的单调减区间为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1417,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 1,
+    "indexByPaper": {
+      "数学二": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow 0^{+}} x \\ln x=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1418,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "函数 $y=y(x)$ 由方程 $\\sin \\left(x^2+y^2\\right)+\\mathrm{e}^x-x y^2=0$ 所确定,则 $\\dfrac{\\mathrm{d} y}{\\mathrm{d} x}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1419,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 4,
+    "indexByPaper": {
+      "数学二": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\int \\frac{\\tan x}{\\sqrt{\\cos x}} \\mathrm{d} x=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1420,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 5,
+    "indexByPaper": {
+      "数学二": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知曲线 $y=f(x)$ 过点 $\\left(0,-\\dfrac{1}{2}\\right)$, 且其上任一点 $(x, y)$ 处切线的斜率为 $x \\ln \\left(1+x^2\\right)$, 则 $f(x)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "原函数和不定积分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1421,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 6,
+    "indexByPaper": {
+      "数学二": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "(1) 当 $x \\rightarrow 0$ 时, 变量 $\\dfrac{1}{x^2} \\sin \\dfrac{1}{x}$ 是 $(\\quad)$",
+    "options": {
+      "A": "无穷小",
+      "B": "无穷大",
+      "C": "有界的, 但不是无穷小",
+      "D": "无界的, 但不是无穷大"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量和无穷大量的概念及其关系",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1422,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 7,
+    "indexByPaper": {
+      "数学二": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x)=\\left\\{\\begin{array}{ll}\\dfrac{\\left|x^2-1\\right|}{x-1}, & x \\neq 1\\\\ 2, & x=1\\end{array}\\right.$ 则在点 $x=1$ 处函数 $f(x)(\\quad)$",
+    "options": {
+      "A": "不连续",
+      "B": "连续, 但不可导",
+      "C": "可导, 但导数不连续",
+      "D": "可导, 且导数连续"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数连续的概念",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数间断点的类型",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1423,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 8,
+    "indexByPaper": {
+      "数学二": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "已知 $f(x)=\\left\\{\\begin{array}{ll}x^2, & 0 \\leqslant x<1 \\\\ 1, & 1 \\leqslant x \\leqslant 2\\end{array}\\right.$ 设 $\\displaystyle F(x)=\\int_1^x f(t) \\mathrm{d} t(0 \\leqslant x \\leqslant 2)$, 则 $F(x)$ 为 $(\\quad)$",
+    "options": {
+      "A": "$\\begin{cases}\\dfrac{1}{3} x^3, & 0 \\leqslant x<1 \\\\ x, & 1 \\leqslant x \\leqslant 2\\end{cases}$",
+      "B": "$\\begin{cases}\\dfrac{1}{3} x^3-\\dfrac{1}{3}, & 0 \\leqslant x<1 \\\\ x, & 1 \\leqslant x \\leqslant 2\\end{cases}$",
+      "C": "$\\begin{cases}\\dfrac{1}{3} x^3, & 0 \\leqslant x<1 \\\\ x-1, & 1 \\leqslant x \\leqslant 2\\end{cases}$",
+      "D": "$\\begin{cases}\\dfrac{1}{3} x^3-\\dfrac{1}{3}, & 0 \\leqslant x<1 \\\\ x-1, & 1 \\leqslant x \\leqslant 2\\end{cases}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1424,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 9,
+    "indexByPaper": {
+      "数学二": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设常数 $k>0$, 函数 $f(x)=\\ln x-\\dfrac{x}{\\mathrm{e}}+k$ 在 $(0,+\\infty)$ 内的零点个数为 $(\\quad)$",
+    "options": {
+      "A": "$3$",
+      "B": "$2$",
+      "C": "$1$",
+      "D": "$0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1425,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 10,
+    "indexByPaper": {
+      "数学二": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "若 $f(x)=-f(-x)$, 在 $(0,+\\infty)$ 内 $f^{\\prime}(x)>0, f^{\\prime \\prime}(x)>0$, 则 $f(x)$ 在 $(-\\infty, 0)$ 内 $(\\quad)$",
+    "options": {
+      "A": "$f^{\\prime}(x)<0, f^{\\prime \\prime}(x)<0$",
+      "B": "$f^{\\prime}(x)<0, f^{\\prime \\prime}(x)>0$",
+      "C": "$f^{\\prime}(x)>0, f^{\\prime \\prime}(x)<0$",
+      "D": "$f^{\\prime}(x)>0, f^{\\prime \\prime}(x)>0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的有界性、单调性、周期性和奇偶性",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1426,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 11,
+    "indexByPaper": {
+      "数学二": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $y=\\sin \\left[f\\left(x^2\\right)\\right]$, 其中 $f$ 具有二阶导数, 求 $\\dfrac{\\mathrm{d}^2 y}{\\mathrm{d} x^2}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "高阶导数",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1427,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 12,
+    "indexByPaper": {
+      "数学二": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\lim _{x \\rightarrow-\\infty} x\\left(\\sqrt{x^2+100}+x\\right)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限的四则运算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1428,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 13,
+    "indexByPaper": {
+      "数学二": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\int_0^{\\frac{\\pi}{4}} \\frac{x}{1+\\cos 2 x} \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1429,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 14,
+    "indexByPaper": {
+      "数学二": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\int_0^{+\\infty} \\frac{x}{(1+x)^3} \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1430,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 15,
+    "indexByPaper": {
+      "数学二": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求微分方程 $\\left(x^2-1\\right) \\mathrm{d} y+(2 x y-\\cos x) \\mathrm{d} x=0$ 满足初始条件 $y(0)=1$ 的特解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1431,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 16,
+    "indexByPaper": {
+      "数学二": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设二阶常系数线性微分方程 $y^{\\prime \\prime}+\\alpha y^{\\prime}+\\beta y=\\gamma \\mathrm{e}^x$ 的一个特解为 $y=\\mathrm{e}^{2 x}+(1+x) \\mathrm{e}^x$, 求常数 $\\alpha, \\beta, \\gamma$, 并求该方程的通解.",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "线性微分方程解的性质及解的结构定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1432,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 17,
+    "indexByPaper": {
+      "数学二": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设平面图形 $A$ 由 $x^2+y^2 \\leqslant 2 x$ 与 $y \\geqslant x$ 所围成, 求图形 $A$ 绕直线 $x=2$ 旋转一周所得旋转体的体积",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1433,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 18,
+    "indexByPaper": {
+      "数学二": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "作半径为 $r$ 的球的外切正圆锥, 问此圆锥的高 $h$ 为何值时, 其体积 $V$ 最小, 并求出该最小值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1434,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 19,
+    "indexByPaper": {
+      "数学二": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $x>0$, 常数 $a>\\mathrm{e}$. 证明: $(a+x)^a<a^{a+x}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1435,
+    "papers": [
+      "数学二"
+    ],
+    "year": 1993,
+    "index": 20,
+    "indexByPaper": {
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $f^{\\prime}(x)$ 在 $[0, a]$ 上连续, 且 $f(0)=0$, 证明:\r\n\r\n$\\displaystyle \\left|\\int_0^a f(x) \\mathrm{d} x\\right| \\leqslant \\dfrac{M a^2}{2}$,\r\n\r\n其中 $M=\\max\\limits_{0 \\leqslant x \\leqslant a} \\left|f^{\\prime}(x)\\right|$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

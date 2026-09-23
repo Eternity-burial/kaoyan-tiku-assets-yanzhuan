@@ -1,0 +1,824 @@
+[
+  {
+    "id": 1783,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 1,
+    "indexByPaper": {
+      "数学三": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{x \\rightarrow \\infty} \\frac{3 x^2+5}{5 x+3} \\sin \\frac{2}{x}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限的四则运算",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1784,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 2,
+    "indexByPaper": {
+      "数学三": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知函数 $\\displaystyle y=f\\left(\\frac{3 x-2}{3 x+2}\\right), f^{\\prime}(x)=\\arctan x^2$, 则 $\\displaystyle \\left.\\frac{\\mathrm{d} y}{\\mathrm{d} x}\\right|_{x=0}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数和隐函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1785,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 3,
+    "indexByPaper": {
+      "数学三": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "级数 $\\displaystyle \\sum_{n=0}^{\\infty} \\frac{(\\ln 3)^n}{2^n}$ 的和为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、无穷级数",
+        "kp": "几何级数与p级数及其收敛性",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1786,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 4,
+    "indexByPaper": {
+      "数学三": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $4$ 阶矩阵 $\\boldsymbol{A}$ 的秩为 $2$ , 则其伴随矩阵 $\\boldsymbol{A^*}$ 的秩为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "伴随矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1787,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 5,
+    "indexByPaper": {
+      "数学三": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设总体 $X$ 的方差为 $1$ , 根据来自 $X$ 的容量为 $100$ 的简单随机样本, 测得样本均值为 $5$ , 则 $X$ 的数学期望的置信度近似等于 $0.95$ 的置信区间为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "六、数理统计的基本概念",
+        "kp": "正态总体的常用抽样分布",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "六、数理统计的基本概念",
+        "kp": "统计量",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1788,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 6,
+    "indexByPaper": {
+      "数学三": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)=\\left\\{\\begin{array}{l}\\sqrt{|x|} \\sin \\dfrac{1}{x^2}, &x \\neq 0 \\\\ 0, &x=0\\end{array}\\right.$ 则 $f(x)$ 在 $x=0$ 处 $(\\quad)$",
+    "options": {
+      "A": "极限不存在",
+      "B": "极限存在但不连续",
+      "C": "连续但不可导",
+      "D": "可导"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的可导性与连续性之间的关系",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1789,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 7,
+    "indexByPaper": {
+      "数学三": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 为连续函数, 且 $\\displaystyle F(x)=\\int_{\\frac{1}{x}}^{\\ln x} f(t) \\mathrm{d} t$, 则 $F^{\\prime}(x)$ 等于 $(\\quad)$",
+    "options": {
+      "A": "$\\dfrac{1}{x} f(\\ln x)+\\dfrac{1}{x^2} f\\left(\\dfrac{1}{x}\\right)$",
+      "B": "$f(\\ln x)+f\\left(\\dfrac{1}{x}\\right)$",
+      "C": "$\\dfrac{1}{x} f(\\ln x)-\\dfrac{1}{x^2} f\\left(\\dfrac{1}{x}\\right)$",
+      "D": "$f(\\ln x)-f\\left(\\dfrac{1}{x}\\right)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数和隐函数的微分法",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1790,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 8,
+    "indexByPaper": {
+      "数学三": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "$n$ 阶矩阵 $\\boldsymbol{A}$ 具有 $n$ 个不同的特征值是 $\\boldsymbol{A}$ 与对角矩阵相似的 $(\\quad)$",
+    "options": {
+      "A": "充分必要条件",
+      "B": "充分非必要条件",
+      "C": "必要非充分条件",
+      "D": "既非充分又非必要条件"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵可相似对角化的充分必要条件及相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1791,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 9,
+    "indexByPaper": {
+      "数学三": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "假设事件 $A$ 和 $B$ 满足 $P(B \\mid A)=1$, 则 $(\\quad)$",
+    "options": {
+      "A": "$A$ 是必然事件",
+      "B": "$P(B \\mid \\bar{A})=0$",
+      "C": "$A \\supset B$",
+      "D": "$A \\subset B$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的关系与运算",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1792,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 10,
+    "indexByPaper": {
+      "数学三": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 的密度函数为 $\\varphi(x)$, 且 $\\varphi(-x)=\\varphi(x), F(x)$ 是 $X$ 的分布函数, 则对任意实数 $a$, 有 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle F(-a)=1-\\int_0^a \\varphi(x) \\mathrm{d} x$",
+      "B": "$\\displaystyle F(-a)=\\frac{1}{2}-\\int_0^a \\varphi(x) \\mathrm{d} x$",
+      "C": "$F(-a)=F(a)$",
+      "D": "$F(-a)=2 F(a)-1$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "随机变量分布函数的概念及其性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "连续型随机变量的概率密度",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1793,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 11,
+    "indexByPaper": {
+      "数学三": 11
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $z=f(x, y)$ 是由方程 $z-y-x+x \\mathrm{e}^{z-y-x}=0$ 所确定的二元函数, 求 $\\mathrm{d} z$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元复合函数的求导法与隐函数求导法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "全微分",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1794,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 12,
+    "indexByPaper": {
+      "数学三": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $\\displaystyle \\lim _{x \\rightarrow \\infty}\\left(\\frac{x-a}{x+a}\\right)^x=\\int_a^{+\\infty} 4 x^2 \\mathrm{e}^{-2 x} \\mathrm{d} x$, 求常数 $a$ 的值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1795,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 13,
+    "indexByPaper": {
+      "数学三": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设某产品的成本函数为 $C=a q^2+b q+c$, 需求函数为 $\\displaystyle q=\\frac{1}{e}(d-p)$, 其中 $C$ 为成本, $q$ 为 需求量 (即产量), $p$ 为单价, $a, b, c, d, e$ 都是正的常数,且 $d>b$, 求:\r\n\r\n(1) 利润最大时的产量及最大利润;\r\n\r\n(2) 需求对价格的弹性;\r\n\r\n(3) 需求对价格弹性的绝对值为 $1$ 时的产量",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数的几何意义和经济意义",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1796,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 14,
+    "indexByPaper": {
+      "数学三": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "假设: \r\n\r\n(1) 函数 $y=f(x)(0 \\leqslant x<+\\infty)$ 满足条件 $f(0)=0$ 和 $0 \\leqslant f(x) \\leqslant \\mathrm{e}^x-1$;\r\n\r\n(2) 平行于 $y$ 轴的动直线 $M N$ 与曲线 $y=f(x)$ 和 $y=\\mathrm{e}^x-1$ 分别相交于点 $P_1$ 和 $P_2$;\r\n\r\n(3) 曲线 $y=f(x)$, 直线 $M N$ 与 $x$ 轴所围成封闭图形的面积 $S$ 恒等于线段 $P_1 P_2$ 的长度.\r\n\r\n求函数 $y=f(x)$ 的表达式",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、常微分方程与差分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1797,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 15,
+    "indexByPaper": {
+      "数学三": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "假设函数 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 内二阶可导, 过点 $A(0, f(0))$ 与 $B(1, f(1))$ 的直线与曲线 $y=f(x)$ 相交于点 $C(c, f(c))$, 其中 $0<c<1$.\r\n\r\n证明: 在 $(0,1)$ 内至少存在一点 $\\xi$, 使得 $f^{\\prime \\prime}(\\xi)=0$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1798,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 16,
+    "indexByPaper": {
+      "数学三": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "$k$ 为何值时, 线性方程组 $\\left\\{\\begin{array}{l}\r\nx_1+x_2+k x_3=4 \\\\\r\n-x_1+k x_2+x_3=k^2 \\\\\r\nx_1-x_2+2 x_3=-4\r\n\\end{array}\\right.$\r\n\r\n有唯一解、无解、无穷多组解? 在有解情况下, 求出其全部解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "线性方程组的克拉默（Cramer）法则",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1799,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 17,
+    "indexByPaper": {
+      "数学三": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设二次型 $f\\left(x_1, x_2, x_3\\right)=x_1^2+x_2^2+x_3^2+2 \\alpha x_1 x_2+2 \\beta x_2 x_3+2 x_1 x_3$\r\n经过正交变换 $\\boldsymbol{x}=\\boldsymbol{P} \\boldsymbol{y}$ 化为 $f=y_2^2+2 y_3^2$, 其中 $\\boldsymbol{x}=\\left(x_1, x_2, x_3\\right)^{\\mathrm{T}}, \\boldsymbol{y}=\\left(y_1, y_2, y_3\\right)^{\\mathrm{T}}$ 为三维列向量, $\\boldsymbol{P}$ 为三阶正交矩阵, 试求常数 $\\alpha, \\beta$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "用正交变换和配方法化二次型为标准形",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "二次型及其矩阵表示",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1800,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 18,
+    "indexByPaper": {
+      "数学三": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 和 $Y$ 同分布, $X$ 的概率密度为\r\n\r\n$$\r\nf(x)= \\begin{cases}\\dfrac{3}{8} x^2, & 0<x<2 \\\\ 0, & \\text { 其他 }\\end{cases}\r\n$$\r\n\r\n(1) 已知事件 $A=\\{X>a\\}$ 和 $B=\\{Y>a\\}$ 独立, 且 $\\displaystyle P(A \\cup B)=\\frac{3}{4}$, 求常数 $a$;\r\n\r\n(2) 求 $\\displaystyle \\frac{1}{X^2}$ 的数学期望;",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的独立性",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "连续型随机变量的概率密度",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量函数的数学期望",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 2043,
+    "papers": [
+      "数学三"
+    ],
+    "year": 1993,
+    "index": 19,
+    "indexByPaper": {
+      "数学三": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "假设一大型设备在任何长为 $t$ 的时间内发生故障的次数 $N(t)$ 服从参数为 $\\lambda t$ 的泊松分布\r\n\r\n(1) 求相继两次故障之间时间间隔 $T$ 的概率分布;\r\n\r\n(2) 求在设备已经无故障工作 $8$ 小时的情形下,再无故障运行 $8$ 小时的概率 $Q$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "随机变量分布函数的概念及其性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

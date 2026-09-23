@@ -1,0 +1,3650 @@
+{
+  "数一": {
+    "parts": [
+      {
+        "part": "高等数学",
+        "chapters": [
+          {
+            "key": "gs-limit",
+            "title": "函数、极限、连续",
+            "count": 442,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS01-M01",
+                "name": "由极限值反推分子/分母的行为（含保号性）",
+                "count": 36,
+                "done": 0
+              },
+              {
+                "code": "GS01-M02",
+                "name": "分左右极限判存在性与求值",
+                "count": 63,
+                "done": 0
+              },
+              {
+                "code": "GS01-M03",
+                "name": "等价无穷小代换",
+                "count": 149,
+                "done": 0
+              },
+              {
+                "code": "GS01-M04",
+                "name": "泰勒（麦克劳林）展开取主部",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "GS01-M05",
+                "name": "洛必达法则",
+                "count": 87,
+                "done": 0
+              },
+              {
+                "code": "GS01-M06",
+                "name": "幂指函数取对数（$1^\\infty$ / $0^0$ / $\\infty^0$）",
+                "count": 87,
+                "done": 0
+              },
+              {
+                "code": "GS01-M07",
+                "name": "代数变形与换元（通分 / 有理化 / 拆项 / $t=\\frac1x$）",
+                "count": 153,
+                "done": 0
+              },
+              {
+                "code": "GS01-M08",
+                "name": "单调有界准则（含递推数列 $x_{n+1}=f(x_n)$）",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "GS01-M09",
+                "name": "夹逼准则与放缩",
+                "count": 32,
+                "done": 0
+              },
+              {
+                "code": "GS01-M10",
+                "name": "定积分定义求 $n$ 项和极限",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS01-M11",
+                "name": "比阶（求 $\\lim\\frac{\\alpha}{\\beta}$ 判同阶/等价/高阶）",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS01-M12",
+                "name": "主部提取定阶（展开到首个非零项）",
+                "count": 7,
+                "done": 0
+              },
+              {
+                "code": "GS01-M13",
+                "name": "间断点的判定与分类",
+                "count": 28,
+                "done": 0
+              },
+              {
+                "code": "GS01-M14",
+                "name": "分段/含参函数的连续性定参",
+                "count": 14,
+                "done": 0
+              },
+              {
+                "code": "GS01-M15",
+                "name": "闭区间上连续函数性质的应用（零点/介值定理）",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS01-M16",
+                "name": "展开定阶、逐阶匹配系数",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "GS01-M17",
+                "name": "幂指型（$1^\\infty$ 等）定参",
+                "count": 1,
+                "done": 0
+              },
+              {
+                "code": "GS01-M18",
+                "name": "先求和再取极限（裂项 / 求和公式）",
+                "count": 12,
+                "done": 0
+              },
+              {
+                "code": "GS01-M19",
+                "name": "由一个极限推另一个极限",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GS01-M20",
+                "name": "函数性质的判定与函数方程",
+                "count": 22,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-diff",
+            "title": "一元函数微分学的概念与计算",
+            "count": 338,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS02-M01",
+                "name": "用导数定义把给定极限凑成差商",
+                "count": 123,
+                "done": 0
+              },
+              {
+                "code": "GS02-M02",
+                "name": "可导性与可微性的判定（左右导数 / 绝对值 / 分段点）",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS02-M03",
+                "name": "导数概念的充分必要辨析与反例排除",
+                "count": 4,
+                "done": 0
+              },
+              {
+                "code": "GS02-M04",
+                "name": "对数求导法（幂指型 $u^v$ 与多因子连乘连除）",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS02-M05",
+                "name": "隐函数求导（方程两边对 $x$ 求导）",
+                "count": 76,
+                "done": 0
+              },
+              {
+                "code": "GS02-M06",
+                "name": "参数方程求导（一阶与二阶）",
+                "count": 40,
+                "done": 0
+              },
+              {
+                "code": "GS02-M07",
+                "name": "反函数求导",
+                "count": 12,
+                "done": 0
+              },
+              {
+                "code": "GS02-M08",
+                "name": "莱布尼茨公式",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS02-M09",
+                "name": "泰勒系数与高阶导数的互求",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "GS02-M10",
+                "name": "逐阶求导找规律（含特殊点、奇偶周期简化）",
+                "count": 20,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-diff-app",
+            "title": "一元函数微分学的应用",
+            "count": 287,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS03-M01",
+                "name": "求单调区间与极值（一阶导变号 / 二阶导判别）",
+                "count": 136,
+                "done": 0
+              },
+              {
+                "code": "GS03-M02",
+                "name": "不可导点与分段点处的极值判定",
+                "count": 16,
+                "done": 0
+              },
+              {
+                "code": "GS03-M03",
+                "name": "单调性/极值/凹凸性的概念辨析（点处 vs 邻域、构造辅助函数）",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "GS03-M04",
+                "name": "最大值与最小值（闭区间、驻点比较、恒成立求参）",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS03-M05",
+                "name": "拐点的求法（$f''=0$ 或不存在，且两侧变号）",
+                "count": 36,
+                "done": 0
+              },
+              {
+                "code": "GS03-M06",
+                "name": "凹凸性的等价刻画与积分不等式",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS03-M07",
+                "name": "渐近线（水平 / 铅直 / 斜，三类查全）",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS03-M08",
+                "name": "切线与法线方程、截距",
+                "count": 31,
+                "done": 0
+              },
+              {
+                "code": "GS03-M09",
+                "name": "曲率、曲率半径与曲率圆",
+                "count": 23,
+                "done": 0
+              },
+              {
+                "code": "GS03-M11",
+                "name": "相关变化率（几何/物理量对时间求导）",
+                "count": 14,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-mvt",
+            "title": "中值定理与微分不等式",
+            "count": 255,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS04-M01",
+                "name": "罗尔定理与辅助函数的构造",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS04-M02",
+                "name": "拉格朗日与柯西中值定理",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS04-M03",
+                "name": "泰勒公式证含高阶导的等式与估计",
+                "count": 42,
+                "done": 0
+              },
+              {
+                "code": "GS04-M04",
+                "name": "构造辅助函数用单调性证不等式",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "GS04-M05",
+                "name": "用最值（极值）证不等式",
+                "count": 5,
+                "done": 0
+              },
+              {
+                "code": "GS04-M06",
+                "name": "泰勒展开证不等式（含凹凸性、积分均值）",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS04-M07",
+                "name": "定积分不等式（保号性、放缩、积分中值定理）",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "GS04-M08",
+                "name": "零点的存在性与个数",
+                "count": 33,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-int",
+            "title": "一元函数积分学的计算",
+            "count": 406,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS05-M01",
+                "name": "凑微分（第一类换元）",
+                "count": 102,
+                "done": 0
+              },
+              {
+                "code": "GS05-M02",
+                "name": "第二类换元（根式代换 / 三角代换 / 倒代换）",
+                "count": 135,
+                "done": 0
+              },
+              {
+                "code": "GS05-M03",
+                "name": "分部积分（含循环型与建立递推）",
+                "count": 176,
+                "done": 0
+              },
+              {
+                "code": "GS05-M04",
+                "name": "有理函数积分（部分分式 + 配方）",
+                "count": 46,
+                "done": 0
+              },
+              {
+                "code": "GS05-M05",
+                "name": "对称性与奇偶性化简",
+                "count": 62,
+                "done": 0
+              },
+              {
+                "code": "GS05-M06",
+                "name": "周期性与区间可加性（含分段、绝对值）",
+                "count": 79,
+                "done": 0
+              },
+              {
+                "code": "GS05-M07",
+                "name": "用几何意义直接读出积分值",
+                "count": 14,
+                "done": 0
+              },
+              {
+                "code": "GS05-M08",
+                "name": "反常积分化为极限计算",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS05-M09",
+                "name": "由方程或递推间接求积分",
+                "count": 8,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-int-app",
+            "title": "一元函数积分学的概念与应用",
+            "count": 494,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS06-M01",
+                "name": "用定积分定义（黎曼和）求和式极限",
+                "count": 45,
+                "done": 0
+              },
+              {
+                "code": "GS06-M02",
+                "name": "定积分的比较与估值",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "GS06-M03",
+                "name": "原函数的存在性与分段函数求原函数",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS06-M04",
+                "name": "反常积分收敛性的判别",
+                "count": 40,
+                "done": 0
+              },
+              {
+                "code": "GS06-M05",
+                "name": "变限积分求导",
+                "count": 140,
+                "done": 0
+              },
+              {
+                "code": "GS06-M06",
+                "name": "变限积分函数的性质判定",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GS06-M07",
+                "name": "含变限积分的极限与定阶",
+                "count": 26,
+                "done": 0
+              },
+              {
+                "code": "GS06-M08",
+                "name": "含变限积分的方程",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "GS06-M09",
+                "name": "平面图形的面积",
+                "count": 63,
+                "done": 0
+              },
+              {
+                "code": "GS06-M10",
+                "name": "旋转体的体积（圆盘法 / 柱壳法）",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS06-M11",
+                "name": "弧长与旋转面侧面积",
+                "count": 42,
+                "done": 0
+              },
+              {
+                "code": "GS06-M12",
+                "name": "函数的平均值",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "GS06-M13",
+                "name": "微元法解物理应用",
+                "count": 44,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-multi",
+            "title": "多元函数微分学及其应用",
+            "count": 477,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS08-M01",
+                "name": "用定义求偏导数（分段函数、含绝对值）",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "GS08-M02",
+                "name": "可微性的判定与「偏导存在/连续/可微/连续」四者关系",
+                "count": 43,
+                "done": 0
+              },
+              {
+                "code": "GS08-M03",
+                "name": "全微分的计算与「由全微分读出偏导」",
+                "count": 70,
+                "done": 0
+              },
+              {
+                "code": "GS08-M04",
+                "name": "多元复合函数的链式求导（一阶，含抽象函数）",
+                "count": 109,
+                "done": 0
+              },
+              {
+                "code": "GS08-M05",
+                "name": "二阶偏导与混合偏导（对中间变量再求导）",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS08-M06",
+                "name": "隐函数求偏导（方程两边求偏导 / 公式法）",
+                "count": 89,
+                "done": 0
+              },
+              {
+                "code": "GS08-M07",
+                "name": "隐函数的二阶偏导与代点求值",
+                "count": 23,
+                "done": 0
+              },
+              {
+                "code": "GS08-M08",
+                "name": "由全微分（或已知偏导）偏积分还原原函数",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "GS08-M09",
+                "name": "变量代换化偏微分方程（消项 / 化为常微分方程）",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "GS08-M10",
+                "name": "由恒等式待定系数定抽象函数的偏导值",
+                "count": 2,
+                "done": 0
+              },
+              {
+                "code": "GS08-M11",
+                "name": "无条件极值（驻点 + $AC-B^2$ 判别）",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "GS08-M12",
+                "name": "条件极值与拉格朗日乘数法",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS08-M13",
+                "name": "闭区域上的最大最小值与恒成立求参",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GS08-M14",
+                "name": "方向导数与梯度",
+                "count": 35,
+                "done": 0
+              },
+              {
+                "code": "GS08-M15",
+                "name": "曲面的切平面与法线、空间曲线的切线与法平面",
+                "count": 47,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-double",
+            "title": "重积分及其应用",
+            "count": 385,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS09-M01",
+                "name": "用二重积分的定义（黎曼和）求和式极限 / 由和式识别积分",
+                "count": 7,
+                "done": 0
+              },
+              {
+                "code": "GS09-M02",
+                "name": "不计算比较积分大小与估值",
+                "count": 25,
+                "done": 0
+              },
+              {
+                "code": "GS09-M03",
+                "name": "对称性化简（区域对称 + 被积奇偶 / 关于 $y=x$ 轮换）",
+                "count": 133,
+                "done": 0
+              },
+              {
+                "code": "GS09-M04",
+                "name": "直角坐标累次积分（定限与选序）",
+                "count": 114,
+                "done": 0
+              },
+              {
+                "code": "GS09-M05",
+                "name": "交换积分次序",
+                "count": 84,
+                "done": 0
+              },
+              {
+                "code": "GS09-M06",
+                "name": "极坐标换元",
+                "count": 173,
+                "done": 0
+              },
+              {
+                "code": "GS09-M07",
+                "name": "一般换元与雅可比行列式",
+                "count": 5,
+                "done": 0
+              },
+              {
+                "code": "GS09-M08",
+                "name": "含参数或含未知积分值的二重积分",
+                "count": 16,
+                "done": 0
+              },
+              {
+                "code": "GS09-M09",
+                "name": "三重积分的柱面/球面坐标与截面法",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS09-M10",
+                "name": "重积分的应用（体积、质量、形心）",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS09-M11",
+                "name": "无界区域上的反常二重积分",
+                "count": 3,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-ode",
+            "title": "微分方程及其应用",
+            "count": 355,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS07-M01",
+                "name": "变量可分离",
+                "count": 72,
+                "done": 0
+              },
+              {
+                "code": "GS07-M02",
+                "name": "一阶线性方程",
+                "count": 96,
+                "done": 0
+              },
+              {
+                "code": "GS07-M03",
+                "name": "全微分（恰当）方程",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS07-M04",
+                "name": "变量代换化为可解型",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS07-M05",
+                "name": "可降阶的高阶方程",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "GS07-M06",
+                "name": "二阶常系数齐次线性方程",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "GS07-M07",
+                "name": "二阶常系数非齐次线性方程",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS07-M08",
+                "name": "欧拉方程",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS07-M09",
+                "name": "由解的形式或性质反推方程与参数",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS07-M10",
+                "name": "线性方程解的结构",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS07-M11",
+                "name": "由几何条件建立微分方程",
+                "count": 32,
+                "done": 0
+              },
+              {
+                "code": "GS07-M12",
+                "name": "由积分方程或变化率建立微分方程",
+                "count": 39,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-series",
+            "title": "无穷级数",
+            "count": 288,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS11-M01",
+                "name": "正项级数的判别（比较 / 比值 / 根值 + 定阶）",
+                "count": 79,
+                "done": 0
+              },
+              {
+                "code": "GS11-M02",
+                "name": "交错级数与绝对/条件收敛",
+                "count": 31,
+                "done": 0
+              },
+              {
+                "code": "GS11-M03",
+                "name": "敛散性的概念辨析与反例",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "GS11-M04",
+                "name": "收敛半径与收敛域",
+                "count": 70,
+                "done": 0
+              },
+              {
+                "code": "GS11-M05",
+                "name": "求和函数（逐项求导 / 逐项积分）",
+                "count": 54,
+                "done": 0
+              },
+              {
+                "code": "GS11-M06",
+                "name": "由和函数满足的微分方程求和",
+                "count": 13,
+                "done": 0
+              },
+              {
+                "code": "GS11-M07",
+                "name": "函数展开成幂级数（间接展开）",
+                "count": 33,
+                "done": 0
+              },
+              {
+                "code": "GS11-M08",
+                "name": "数项级数求和",
+                "count": 54,
+                "done": 0
+              },
+              {
+                "code": "GS11-M09",
+                "name": "傅里叶系数的计算",
+                "count": 19,
+                "done": 0
+              },
+              {
+                "code": "GS11-M10",
+                "name": "狄利克雷收敛定理求某点的和",
+                "count": 16,
+                "done": 0
+              },
+              {
+                "code": "GS11-M11",
+                "name": "正弦/余弦级数与奇偶延拓",
+                "count": 7,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-line-surf",
+            "title": "曲线积分与曲面积分",
+            "count": 219,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS10-M01",
+                "name": "格林公式",
+                "count": 43,
+                "done": 0
+              },
+              {
+                "code": "GS10-M02",
+                "name": "高斯公式",
+                "count": 36,
+                "done": 0
+              },
+              {
+                "code": "GS10-M03",
+                "name": "斯托克斯公式",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "GS10-M04",
+                "name": "第二类曲面积分的直接计算",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS10-M05",
+                "name": "第一类曲线与曲面积分",
+                "count": 69,
+                "done": 0
+              },
+              {
+                "code": "GS10-M06",
+                "name": "路径无关与二元全微分的原函数",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "GS10-M07",
+                "name": "散度与旋度的计算",
+                "count": 9,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 3674,
+        "done": 0
+      },
+      {
+        "part": "线性代数",
+        "chapters": [
+          {
+            "key": "xd-det",
+            "title": "行列式",
+            "count": 127,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD01-M01",
+                "name": "具体行列式的化简计算",
+                "count": 53,
+                "done": 0
+              },
+              {
+                "code": "XD01-M02",
+                "name": "代数余子式的线性组合",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "XD01-M03",
+                "name": "抽象行列式的求值",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "XD01-M04",
+                "name": "行列式作为参数的函数",
+                "count": 9,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-mat",
+            "title": "矩阵",
+            "count": 225,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD02-M01",
+                "name": "秩的不等式与等式",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "XD02-M02",
+                "name": "用分块矩阵的初等变换比较秩",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "XD02-M03",
+                "name": "伴随矩阵的秩、行列式与基本等式",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "XD02-M04",
+                "name": "初等矩阵与初等变换",
+                "count": 50,
+                "done": 0
+              },
+              {
+                "code": "XD02-M05",
+                "name": "分块矩阵的乘法、求逆与伴随",
+                "count": 27,
+                "done": 0
+              },
+              {
+                "code": "XD02-M06",
+                "name": "秩一矩阵的识别与用法",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "XD02-M07",
+                "name": "逆矩阵与矩阵方程的恒等变形",
+                "count": 74,
+                "done": 0
+              },
+              {
+                "code": "XD02-M08",
+                "name": "矩阵方程按列化为方程组",
+                "count": 4,
+                "done": 0
+              },
+              {
+                "code": "XD02-M09",
+                "name": "方阵的高次幂",
+                "count": 24,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-vec",
+            "title": "向量组",
+            "count": 184,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD03-M01",
+                "name": "线性相关性的判定与含参定参数",
+                "count": 95,
+                "done": 0
+              },
+              {
+                "code": "XD03-M02",
+                "name": "线性表示与向量组等价",
+                "count": 61,
+                "done": 0
+              },
+              {
+                "code": "XD03-M03",
+                "name": "求秩、极大无关组与满秩分解",
+                "count": 65,
+                "done": 0
+              },
+              {
+                "code": "XD03-M04",
+                "name": "施密特正交化与内积条件",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "XD03-M05",
+                "name": "基、坐标与过渡矩阵（仅数学一）",
+                "count": 11,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-eq",
+            "title": "线性方程组",
+            "count": 186,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD04-M01",
+                "name": "有解性的判别与含参讨论",
+                "count": 65,
+                "done": 0
+              },
+              {
+                "code": "XD04-M02",
+                "name": "求通解：特解加基础解系",
+                "count": 92,
+                "done": 0
+              },
+              {
+                "code": "XD04-M03",
+                "name": "由向量组的线性关系直接写出解",
+                "count": 41,
+                "done": 0
+              },
+              {
+                "code": "XD04-M04",
+                "name": "同解、公共解与解集的包含",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "XD04-M05",
+                "name": "方程组的几何意义（仅数学一）",
+                "count": 6,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-eig",
+            "title": "矩阵的特征值与特征向量",
+            "count": 263,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD05-M01",
+                "name": "由定义式反求参数或向量",
+                "count": 104,
+                "done": 0
+              },
+              {
+                "code": "XD05-M02",
+                "name": "由矩阵的关系式确定特征值",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "XD05-M03",
+                "name": "由秩确定特征值的重数",
+                "count": 72,
+                "done": 0
+              },
+              {
+                "code": "XD05-M04",
+                "name": "相似的判定与相似不变量",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "XD05-M05",
+                "name": "可相似对角化的判定",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "XD05-M06",
+                "name": "求相似变换矩阵与对角阵",
+                "count": 80,
+                "done": 0
+              },
+              {
+                "code": "XD05-M07",
+                "name": "实对称矩阵的正交相似对角化",
+                "count": 47,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-quad",
+            "title": "二次型",
+            "count": 226,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD06-M01",
+                "name": "二次型与其矩阵的互相转化",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "XD06-M02",
+                "name": "配方法化标准形与惯性指数计数",
+                "count": 50,
+                "done": 0
+              },
+              {
+                "code": "XD06-M03",
+                "name": "平方和型二次型",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "XD06-M04",
+                "name": "由标准形或规范形反求参数",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "XD06-M05",
+                "name": "合同的判定与合同变换的构造",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "XD06-M06",
+                "name": "正定与半正定的判定及应用",
+                "count": 55,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 1196,
+        "done": 0
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapters": [
+          {
+            "key": "gl-event",
+            "title": "随机事件及其概率",
+            "count": 109,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL01-M01",
+                "name": "事件运算与加法、减法公式",
+                "count": 28,
+                "done": 0
+              },
+              {
+                "code": "GL01-M02",
+                "name": "古典概型与几何概型",
+                "count": 20,
+                "done": 0
+              },
+              {
+                "code": "GL01-M03",
+                "name": "条件概率与乘法公式（含由条件概率方程反求参数）",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "GL01-M04",
+                "name": "全概率公式与贝叶斯公式",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GL01-M05",
+                "name": "独立性的判定与应用（与互不相容的辨析）",
+                "count": 34,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-rv",
+            "title": "随机变量及其分布",
+            "count": 128,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL02-M01",
+                "name": "由归一性与分布函数的性质定参数",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GL02-M02",
+                "name": "分布函数、密度与区间概率的互求（含混合型）",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "GL02-M03",
+                "name": "常见分布的识别与直接套用",
+                "count": 31,
+                "done": 0
+              },
+              {
+                "code": "GL02-M04",
+                "name": "正态分布的标准化、对称性与线性变换",
+                "count": 25,
+                "done": 0
+              },
+              {
+                "code": "GL02-M05",
+                "name": "指数分布与几何分布的无记忆性",
+                "count": 8,
+                "done": 0
+              },
+              {
+                "code": "GL02-M06",
+                "name": "一维随机变量函数的分布（分布函数法与枚举合并）",
+                "count": 41,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-multi",
+            "title": "多维随机变量及其分布",
+            "count": 138,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL03-M01",
+                "name": "联合、边缘与条件分布的互求",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "GL03-M02",
+                "name": "二维随机变量的独立性判定",
+                "count": 24,
+                "done": 0
+              },
+              {
+                "code": "GL03-M03",
+                "name": "两个随机变量函数的分布：和、差、积、商与最值",
+                "count": 75,
+                "done": 0
+              },
+              {
+                "code": "GL03-M04",
+                "name": "二维正态分布的性质与线性组合",
+                "count": 7,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-num",
+            "title": "随机变量的数字特征",
+            "count": 175,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL04-M01",
+                "name": "随机变量函数的期望（不求分布直接算）",
+                "count": 85,
+                "done": 0
+              },
+              {
+                "code": "GL04-M02",
+                "name": "期望与方差的运算性质",
+                "count": 79,
+                "done": 0
+              },
+              {
+                "code": "GL04-M03",
+                "name": "方差的线性组合与协方差的双线性展开",
+                "count": 52,
+                "done": 0
+              },
+              {
+                "code": "GL04-M04",
+                "name": "协方差与相关系数的计算",
+                "count": 77,
+                "done": 0
+              },
+              {
+                "code": "GL04-M05",
+                "name": "不相关与独立的辨析",
+                "count": 23,
+                "done": 0
+              },
+              {
+                "code": "GL04-M06",
+                "name": "用对称性与奇偶性简化数字特征",
+                "count": 15,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-lln",
+            "title": "大数定律与中心极限定理",
+            "count": 46,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL05-M01",
+                "name": "切比雪夫不等式估计概率",
+                "count": 13,
+                "done": 0
+              },
+              {
+                "code": "GL05-M02",
+                "name": "大数定律与依概率收敛",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GL05-M03",
+                "name": "中心极限定理的标准化近似",
+                "count": 19,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-stat",
+            "title": "数理统计的基本概念",
+            "count": 78,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL06-M01",
+                "name": "三大抽样分布（$\\chi^2$/$t$/$F$）的构造与自由度",
+                "count": 48,
+                "done": 0
+              },
+              {
+                "code": "GL06-M02",
+                "name": "正态总体下样本均值与样本方差的分布及独立性",
+                "count": 61,
+                "done": 0
+              },
+              {
+                "code": "GL06-M03",
+                "name": "次序统计量与经验分布函数",
+                "count": 3,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-est",
+            "title": "参数估计与假设检验",
+            "count": 141,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL07-M01",
+                "name": "矩估计",
+                "count": 48,
+                "done": 0
+              },
+              {
+                "code": "GL07-M02",
+                "name": "最大似然估计",
+                "count": 82,
+                "done": 0
+              },
+              {
+                "code": "GL07-M03",
+                "name": "估计量的无偏性与有效性",
+                "count": 41,
+                "done": 0
+              },
+              {
+                "code": "GL07-M04",
+                "name": "假设检验：拒绝域与两类错误",
+                "count": 26,
+                "done": 0
+              },
+              {
+                "code": "GL07-M05",
+                "name": "区间估计（正态总体均值的置信区间）",
+                "count": 1,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 797,
+        "done": 0
+      }
+    ]
+  },
+  "数二": {
+    "parts": [
+      {
+        "part": "高等数学",
+        "chapters": [
+          {
+            "key": "gs-limit",
+            "title": "函数、极限、连续",
+            "count": 442,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS01-M01",
+                "name": "由极限值反推分子/分母的行为（含保号性）",
+                "count": 36,
+                "done": 0
+              },
+              {
+                "code": "GS01-M02",
+                "name": "分左右极限判存在性与求值",
+                "count": 63,
+                "done": 0
+              },
+              {
+                "code": "GS01-M03",
+                "name": "等价无穷小代换",
+                "count": 149,
+                "done": 0
+              },
+              {
+                "code": "GS01-M04",
+                "name": "泰勒（麦克劳林）展开取主部",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "GS01-M05",
+                "name": "洛必达法则",
+                "count": 87,
+                "done": 0
+              },
+              {
+                "code": "GS01-M06",
+                "name": "幂指函数取对数（$1^\\infty$ / $0^0$ / $\\infty^0$）",
+                "count": 87,
+                "done": 0
+              },
+              {
+                "code": "GS01-M07",
+                "name": "代数变形与换元（通分 / 有理化 / 拆项 / $t=\\frac1x$）",
+                "count": 153,
+                "done": 0
+              },
+              {
+                "code": "GS01-M08",
+                "name": "单调有界准则（含递推数列 $x_{n+1}=f(x_n)$）",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "GS01-M09",
+                "name": "夹逼准则与放缩",
+                "count": 32,
+                "done": 0
+              },
+              {
+                "code": "GS01-M10",
+                "name": "定积分定义求 $n$ 项和极限",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS01-M11",
+                "name": "比阶（求 $\\lim\\frac{\\alpha}{\\beta}$ 判同阶/等价/高阶）",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS01-M12",
+                "name": "主部提取定阶（展开到首个非零项）",
+                "count": 7,
+                "done": 0
+              },
+              {
+                "code": "GS01-M13",
+                "name": "间断点的判定与分类",
+                "count": 28,
+                "done": 0
+              },
+              {
+                "code": "GS01-M14",
+                "name": "分段/含参函数的连续性定参",
+                "count": 14,
+                "done": 0
+              },
+              {
+                "code": "GS01-M15",
+                "name": "闭区间上连续函数性质的应用（零点/介值定理）",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS01-M16",
+                "name": "展开定阶、逐阶匹配系数",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "GS01-M17",
+                "name": "幂指型（$1^\\infty$ 等）定参",
+                "count": 1,
+                "done": 0
+              },
+              {
+                "code": "GS01-M18",
+                "name": "先求和再取极限（裂项 / 求和公式）",
+                "count": 12,
+                "done": 0
+              },
+              {
+                "code": "GS01-M19",
+                "name": "由一个极限推另一个极限",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GS01-M20",
+                "name": "函数性质的判定与函数方程",
+                "count": 22,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-diff",
+            "title": "一元函数微分学的概念与计算",
+            "count": 338,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS02-M01",
+                "name": "用导数定义把给定极限凑成差商",
+                "count": 123,
+                "done": 0
+              },
+              {
+                "code": "GS02-M02",
+                "name": "可导性与可微性的判定（左右导数 / 绝对值 / 分段点）",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS02-M03",
+                "name": "导数概念的充分必要辨析与反例排除",
+                "count": 4,
+                "done": 0
+              },
+              {
+                "code": "GS02-M04",
+                "name": "对数求导法（幂指型 $u^v$ 与多因子连乘连除）",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS02-M05",
+                "name": "隐函数求导（方程两边对 $x$ 求导）",
+                "count": 76,
+                "done": 0
+              },
+              {
+                "code": "GS02-M06",
+                "name": "参数方程求导（一阶与二阶）",
+                "count": 40,
+                "done": 0
+              },
+              {
+                "code": "GS02-M07",
+                "name": "反函数求导",
+                "count": 12,
+                "done": 0
+              },
+              {
+                "code": "GS02-M08",
+                "name": "莱布尼茨公式",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS02-M09",
+                "name": "泰勒系数与高阶导数的互求",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "GS02-M10",
+                "name": "逐阶求导找规律（含特殊点、奇偶周期简化）",
+                "count": 20,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-diff-app",
+            "title": "一元函数微分学的应用",
+            "count": 287,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS03-M01",
+                "name": "求单调区间与极值（一阶导变号 / 二阶导判别）",
+                "count": 136,
+                "done": 0
+              },
+              {
+                "code": "GS03-M02",
+                "name": "不可导点与分段点处的极值判定",
+                "count": 16,
+                "done": 0
+              },
+              {
+                "code": "GS03-M03",
+                "name": "单调性/极值/凹凸性的概念辨析（点处 vs 邻域、构造辅助函数）",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "GS03-M04",
+                "name": "最大值与最小值（闭区间、驻点比较、恒成立求参）",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS03-M05",
+                "name": "拐点的求法（$f''=0$ 或不存在，且两侧变号）",
+                "count": 36,
+                "done": 0
+              },
+              {
+                "code": "GS03-M06",
+                "name": "凹凸性的等价刻画与积分不等式",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS03-M07",
+                "name": "渐近线（水平 / 铅直 / 斜，三类查全）",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS03-M08",
+                "name": "切线与法线方程、截距",
+                "count": 31,
+                "done": 0
+              },
+              {
+                "code": "GS03-M09",
+                "name": "曲率、曲率半径与曲率圆",
+                "count": 23,
+                "done": 0
+              },
+              {
+                "code": "GS03-M11",
+                "name": "相关变化率（几何/物理量对时间求导）",
+                "count": 14,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-mvt",
+            "title": "中值定理与微分不等式",
+            "count": 255,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS04-M01",
+                "name": "罗尔定理与辅助函数的构造",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS04-M02",
+                "name": "拉格朗日与柯西中值定理",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS04-M03",
+                "name": "泰勒公式证含高阶导的等式与估计",
+                "count": 42,
+                "done": 0
+              },
+              {
+                "code": "GS04-M04",
+                "name": "构造辅助函数用单调性证不等式",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "GS04-M05",
+                "name": "用最值（极值）证不等式",
+                "count": 5,
+                "done": 0
+              },
+              {
+                "code": "GS04-M06",
+                "name": "泰勒展开证不等式（含凹凸性、积分均值）",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS04-M07",
+                "name": "定积分不等式（保号性、放缩、积分中值定理）",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "GS04-M08",
+                "name": "零点的存在性与个数",
+                "count": 33,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-int",
+            "title": "一元函数积分学的计算",
+            "count": 406,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS05-M01",
+                "name": "凑微分（第一类换元）",
+                "count": 102,
+                "done": 0
+              },
+              {
+                "code": "GS05-M02",
+                "name": "第二类换元（根式代换 / 三角代换 / 倒代换）",
+                "count": 135,
+                "done": 0
+              },
+              {
+                "code": "GS05-M03",
+                "name": "分部积分（含循环型与建立递推）",
+                "count": 176,
+                "done": 0
+              },
+              {
+                "code": "GS05-M04",
+                "name": "有理函数积分（部分分式 + 配方）",
+                "count": 46,
+                "done": 0
+              },
+              {
+                "code": "GS05-M05",
+                "name": "对称性与奇偶性化简",
+                "count": 62,
+                "done": 0
+              },
+              {
+                "code": "GS05-M06",
+                "name": "周期性与区间可加性（含分段、绝对值）",
+                "count": 79,
+                "done": 0
+              },
+              {
+                "code": "GS05-M07",
+                "name": "用几何意义直接读出积分值",
+                "count": 14,
+                "done": 0
+              },
+              {
+                "code": "GS05-M08",
+                "name": "反常积分化为极限计算",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS05-M09",
+                "name": "由方程或递推间接求积分",
+                "count": 8,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-int-app",
+            "title": "一元函数积分学的概念与应用",
+            "count": 494,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS06-M01",
+                "name": "用定积分定义（黎曼和）求和式极限",
+                "count": 45,
+                "done": 0
+              },
+              {
+                "code": "GS06-M02",
+                "name": "定积分的比较与估值",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "GS06-M03",
+                "name": "原函数的存在性与分段函数求原函数",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS06-M04",
+                "name": "反常积分收敛性的判别",
+                "count": 40,
+                "done": 0
+              },
+              {
+                "code": "GS06-M05",
+                "name": "变限积分求导",
+                "count": 140,
+                "done": 0
+              },
+              {
+                "code": "GS06-M06",
+                "name": "变限积分函数的性质判定",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GS06-M07",
+                "name": "含变限积分的极限与定阶",
+                "count": 26,
+                "done": 0
+              },
+              {
+                "code": "GS06-M08",
+                "name": "含变限积分的方程",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "GS06-M09",
+                "name": "平面图形的面积",
+                "count": 63,
+                "done": 0
+              },
+              {
+                "code": "GS06-M10",
+                "name": "旋转体的体积（圆盘法 / 柱壳法）",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS06-M11",
+                "name": "弧长与旋转面侧面积",
+                "count": 42,
+                "done": 0
+              },
+              {
+                "code": "GS06-M12",
+                "name": "函数的平均值",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "GS06-M13",
+                "name": "微元法解物理应用",
+                "count": 44,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-multi",
+            "title": "多元函数微分学及其应用",
+            "count": 413,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS08-M01",
+                "name": "用定义求偏导数（分段函数、含绝对值）",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "GS08-M02",
+                "name": "可微性的判定与「偏导存在/连续/可微/连续」四者关系",
+                "count": 43,
+                "done": 0
+              },
+              {
+                "code": "GS08-M03",
+                "name": "全微分的计算与「由全微分读出偏导」",
+                "count": 70,
+                "done": 0
+              },
+              {
+                "code": "GS08-M04",
+                "name": "多元复合函数的链式求导（一阶，含抽象函数）",
+                "count": 109,
+                "done": 0
+              },
+              {
+                "code": "GS08-M05",
+                "name": "二阶偏导与混合偏导（对中间变量再求导）",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS08-M06",
+                "name": "隐函数求偏导（方程两边求偏导 / 公式法）",
+                "count": 89,
+                "done": 0
+              },
+              {
+                "code": "GS08-M07",
+                "name": "隐函数的二阶偏导与代点求值",
+                "count": 23,
+                "done": 0
+              },
+              {
+                "code": "GS08-M08",
+                "name": "由全微分（或已知偏导）偏积分还原原函数",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "GS08-M09",
+                "name": "变量代换化偏微分方程（消项 / 化为常微分方程）",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "GS08-M10",
+                "name": "由恒等式待定系数定抽象函数的偏导值",
+                "count": 2,
+                "done": 0
+              },
+              {
+                "code": "GS08-M11",
+                "name": "无条件极值（驻点 + $AC-B^2$ 判别）",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "GS08-M12",
+                "name": "条件极值与拉格朗日乘数法",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS08-M13",
+                "name": "闭区域上的最大最小值与恒成立求参",
+                "count": 15,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-double",
+            "title": "重积分及其应用",
+            "count": 374,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS09-M01",
+                "name": "用二重积分的定义（黎曼和）求和式极限 / 由和式识别积分",
+                "count": 7,
+                "done": 0
+              },
+              {
+                "code": "GS09-M02",
+                "name": "不计算比较积分大小与估值",
+                "count": 25,
+                "done": 0
+              },
+              {
+                "code": "GS09-M03",
+                "name": "对称性化简（区域对称 + 被积奇偶 / 关于 $y=x$ 轮换）",
+                "count": 133,
+                "done": 0
+              },
+              {
+                "code": "GS09-M04",
+                "name": "直角坐标累次积分（定限与选序）",
+                "count": 114,
+                "done": 0
+              },
+              {
+                "code": "GS09-M05",
+                "name": "交换积分次序",
+                "count": 84,
+                "done": 0
+              },
+              {
+                "code": "GS09-M06",
+                "name": "极坐标换元",
+                "count": 173,
+                "done": 0
+              },
+              {
+                "code": "GS09-M07",
+                "name": "一般换元与雅可比行列式",
+                "count": 5,
+                "done": 0
+              },
+              {
+                "code": "GS09-M08",
+                "name": "含参数或含未知积分值的二重积分",
+                "count": 16,
+                "done": 0
+              },
+              {
+                "code": "GS09-M10",
+                "name": "重积分的应用（体积、质量、形心）",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS09-M11",
+                "name": "无界区域上的反常二重积分",
+                "count": 3,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-ode",
+            "title": "微分方程及其应用",
+            "count": 355,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS07-M01",
+                "name": "变量可分离",
+                "count": 72,
+                "done": 0
+              },
+              {
+                "code": "GS07-M02",
+                "name": "一阶线性方程",
+                "count": 96,
+                "done": 0
+              },
+              {
+                "code": "GS07-M03",
+                "name": "全微分（恰当）方程",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS07-M04",
+                "name": "变量代换化为可解型",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS07-M05",
+                "name": "可降阶的高阶方程",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "GS07-M06",
+                "name": "二阶常系数齐次线性方程",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "GS07-M07",
+                "name": "二阶常系数非齐次线性方程",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS07-M08",
+                "name": "欧拉方程",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS07-M09",
+                "name": "由解的形式或性质反推方程与参数",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS07-M10",
+                "name": "线性方程解的结构",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS07-M11",
+                "name": "由几何条件建立微分方程",
+                "count": 32,
+                "done": 0
+              },
+              {
+                "code": "GS07-M12",
+                "name": "由积分方程或变化率建立微分方程",
+                "count": 39,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 3102,
+        "done": 0
+      },
+      {
+        "part": "线性代数",
+        "chapters": [
+          {
+            "key": "xd-det",
+            "title": "行列式",
+            "count": 127,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD01-M01",
+                "name": "具体行列式的化简计算",
+                "count": 53,
+                "done": 0
+              },
+              {
+                "code": "XD01-M02",
+                "name": "代数余子式的线性组合",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "XD01-M03",
+                "name": "抽象行列式的求值",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "XD01-M04",
+                "name": "行列式作为参数的函数",
+                "count": 9,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-mat",
+            "title": "矩阵",
+            "count": 225,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD02-M01",
+                "name": "秩的不等式与等式",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "XD02-M02",
+                "name": "用分块矩阵的初等变换比较秩",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "XD02-M03",
+                "name": "伴随矩阵的秩、行列式与基本等式",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "XD02-M04",
+                "name": "初等矩阵与初等变换",
+                "count": 50,
+                "done": 0
+              },
+              {
+                "code": "XD02-M05",
+                "name": "分块矩阵的乘法、求逆与伴随",
+                "count": 27,
+                "done": 0
+              },
+              {
+                "code": "XD02-M06",
+                "name": "秩一矩阵的识别与用法",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "XD02-M07",
+                "name": "逆矩阵与矩阵方程的恒等变形",
+                "count": 74,
+                "done": 0
+              },
+              {
+                "code": "XD02-M08",
+                "name": "矩阵方程按列化为方程组",
+                "count": 4,
+                "done": 0
+              },
+              {
+                "code": "XD02-M09",
+                "name": "方阵的高次幂",
+                "count": 24,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-vec",
+            "title": "向量组",
+            "count": 184,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD03-M01",
+                "name": "线性相关性的判定与含参定参数",
+                "count": 95,
+                "done": 0
+              },
+              {
+                "code": "XD03-M02",
+                "name": "线性表示与向量组等价",
+                "count": 61,
+                "done": 0
+              },
+              {
+                "code": "XD03-M03",
+                "name": "求秩、极大无关组与满秩分解",
+                "count": 65,
+                "done": 0
+              },
+              {
+                "code": "XD03-M04",
+                "name": "施密特正交化与内积条件",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "XD03-M05",
+                "name": "基、坐标与过渡矩阵（仅数学一）",
+                "count": 11,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-eq",
+            "title": "线性方程组",
+            "count": 186,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD04-M01",
+                "name": "有解性的判别与含参讨论",
+                "count": 65,
+                "done": 0
+              },
+              {
+                "code": "XD04-M02",
+                "name": "求通解：特解加基础解系",
+                "count": 92,
+                "done": 0
+              },
+              {
+                "code": "XD04-M03",
+                "name": "由向量组的线性关系直接写出解",
+                "count": 41,
+                "done": 0
+              },
+              {
+                "code": "XD04-M04",
+                "name": "同解、公共解与解集的包含",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "XD04-M05",
+                "name": "方程组的几何意义（仅数学一）",
+                "count": 6,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-eig",
+            "title": "矩阵的特征值与特征向量",
+            "count": 263,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD05-M01",
+                "name": "由定义式反求参数或向量",
+                "count": 104,
+                "done": 0
+              },
+              {
+                "code": "XD05-M02",
+                "name": "由矩阵的关系式确定特征值",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "XD05-M03",
+                "name": "由秩确定特征值的重数",
+                "count": 72,
+                "done": 0
+              },
+              {
+                "code": "XD05-M04",
+                "name": "相似的判定与相似不变量",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "XD05-M05",
+                "name": "可相似对角化的判定",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "XD05-M06",
+                "name": "求相似变换矩阵与对角阵",
+                "count": 80,
+                "done": 0
+              },
+              {
+                "code": "XD05-M07",
+                "name": "实对称矩阵的正交相似对角化",
+                "count": 47,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-quad",
+            "title": "二次型",
+            "count": 226,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD06-M01",
+                "name": "二次型与其矩阵的互相转化",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "XD06-M02",
+                "name": "配方法化标准形与惯性指数计数",
+                "count": 50,
+                "done": 0
+              },
+              {
+                "code": "XD06-M03",
+                "name": "平方和型二次型",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "XD06-M04",
+                "name": "由标准形或规范形反求参数",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "XD06-M05",
+                "name": "合同的判定与合同变换的构造",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "XD06-M06",
+                "name": "正定与半正定的判定及应用",
+                "count": 55,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 1196,
+        "done": 0
+      }
+    ]
+  },
+  "数三": {
+    "parts": [
+      {
+        "part": "高等数学",
+        "chapters": [
+          {
+            "key": "gs-limit",
+            "title": "函数、极限、连续",
+            "count": 442,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS01-M01",
+                "name": "由极限值反推分子/分母的行为（含保号性）",
+                "count": 36,
+                "done": 0
+              },
+              {
+                "code": "GS01-M02",
+                "name": "分左右极限判存在性与求值",
+                "count": 63,
+                "done": 0
+              },
+              {
+                "code": "GS01-M03",
+                "name": "等价无穷小代换",
+                "count": 149,
+                "done": 0
+              },
+              {
+                "code": "GS01-M04",
+                "name": "泰勒（麦克劳林）展开取主部",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "GS01-M05",
+                "name": "洛必达法则",
+                "count": 87,
+                "done": 0
+              },
+              {
+                "code": "GS01-M06",
+                "name": "幂指函数取对数（$1^\\infty$ / $0^0$ / $\\infty^0$）",
+                "count": 87,
+                "done": 0
+              },
+              {
+                "code": "GS01-M07",
+                "name": "代数变形与换元（通分 / 有理化 / 拆项 / $t=\\frac1x$）",
+                "count": 153,
+                "done": 0
+              },
+              {
+                "code": "GS01-M08",
+                "name": "单调有界准则（含递推数列 $x_{n+1}=f(x_n)$）",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "GS01-M09",
+                "name": "夹逼准则与放缩",
+                "count": 32,
+                "done": 0
+              },
+              {
+                "code": "GS01-M10",
+                "name": "定积分定义求 $n$ 项和极限",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS01-M11",
+                "name": "比阶（求 $\\lim\\frac{\\alpha}{\\beta}$ 判同阶/等价/高阶）",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS01-M12",
+                "name": "主部提取定阶（展开到首个非零项）",
+                "count": 7,
+                "done": 0
+              },
+              {
+                "code": "GS01-M13",
+                "name": "间断点的判定与分类",
+                "count": 28,
+                "done": 0
+              },
+              {
+                "code": "GS01-M14",
+                "name": "分段/含参函数的连续性定参",
+                "count": 14,
+                "done": 0
+              },
+              {
+                "code": "GS01-M15",
+                "name": "闭区间上连续函数性质的应用（零点/介值定理）",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS01-M16",
+                "name": "展开定阶、逐阶匹配系数",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "GS01-M17",
+                "name": "幂指型（$1^\\infty$ 等）定参",
+                "count": 1,
+                "done": 0
+              },
+              {
+                "code": "GS01-M18",
+                "name": "先求和再取极限（裂项 / 求和公式）",
+                "count": 12,
+                "done": 0
+              },
+              {
+                "code": "GS01-M19",
+                "name": "由一个极限推另一个极限",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GS01-M20",
+                "name": "函数性质的判定与函数方程",
+                "count": 22,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-diff",
+            "title": "一元函数微分学的概念与计算",
+            "count": 314,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS02-M01",
+                "name": "用导数定义把给定极限凑成差商",
+                "count": 123,
+                "done": 0
+              },
+              {
+                "code": "GS02-M02",
+                "name": "可导性与可微性的判定（左右导数 / 绝对值 / 分段点）",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS02-M03",
+                "name": "导数概念的充分必要辨析与反例排除",
+                "count": 4,
+                "done": 0
+              },
+              {
+                "code": "GS02-M04",
+                "name": "对数求导法（幂指型 $u^v$ 与多因子连乘连除）",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS02-M05",
+                "name": "隐函数求导（方程两边对 $x$ 求导）",
+                "count": 76,
+                "done": 0
+              },
+              {
+                "code": "GS02-M07",
+                "name": "反函数求导",
+                "count": 12,
+                "done": 0
+              },
+              {
+                "code": "GS02-M08",
+                "name": "莱布尼茨公式",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS02-M09",
+                "name": "泰勒系数与高阶导数的互求",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "GS02-M10",
+                "name": "逐阶求导找规律（含特殊点、奇偶周期简化）",
+                "count": 20,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-diff-app",
+            "title": "一元函数微分学的应用",
+            "count": 290,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS03-M01",
+                "name": "求单调区间与极值（一阶导变号 / 二阶导判别）",
+                "count": 136,
+                "done": 0
+              },
+              {
+                "code": "GS03-M02",
+                "name": "不可导点与分段点处的极值判定",
+                "count": 16,
+                "done": 0
+              },
+              {
+                "code": "GS03-M03",
+                "name": "单调性/极值/凹凸性的概念辨析（点处 vs 邻域、构造辅助函数）",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "GS03-M04",
+                "name": "最大值与最小值（闭区间、驻点比较、恒成立求参）",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS03-M05",
+                "name": "拐点的求法（$f''=0$ 或不存在，且两侧变号）",
+                "count": 36,
+                "done": 0
+              },
+              {
+                "code": "GS03-M06",
+                "name": "凹凸性的等价刻画与积分不等式",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS03-M07",
+                "name": "渐近线（水平 / 铅直 / 斜，三类查全）",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS03-M08",
+                "name": "切线与法线方程、截距",
+                "count": 31,
+                "done": 0
+              },
+              {
+                "code": "GS03-M10",
+                "name": "经济应用（边际、弹性、平均成本、利润最大化）",
+                "count": 27,
+                "done": 0
+              },
+              {
+                "code": "GS03-M11",
+                "name": "相关变化率（几何/物理量对时间求导）",
+                "count": 14,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-mvt",
+            "title": "中值定理与微分不等式",
+            "count": 255,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS04-M01",
+                "name": "罗尔定理与辅助函数的构造",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS04-M02",
+                "name": "拉格朗日与柯西中值定理",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS04-M03",
+                "name": "泰勒公式证含高阶导的等式与估计",
+                "count": 42,
+                "done": 0
+              },
+              {
+                "code": "GS04-M04",
+                "name": "构造辅助函数用单调性证不等式",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "GS04-M05",
+                "name": "用最值（极值）证不等式",
+                "count": 5,
+                "done": 0
+              },
+              {
+                "code": "GS04-M06",
+                "name": "泰勒展开证不等式（含凹凸性、积分均值）",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS04-M07",
+                "name": "定积分不等式（保号性、放缩、积分中值定理）",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "GS04-M08",
+                "name": "零点的存在性与个数",
+                "count": 33,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-int",
+            "title": "一元函数积分学的计算",
+            "count": 406,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS05-M01",
+                "name": "凑微分（第一类换元）",
+                "count": 102,
+                "done": 0
+              },
+              {
+                "code": "GS05-M02",
+                "name": "第二类换元（根式代换 / 三角代换 / 倒代换）",
+                "count": 135,
+                "done": 0
+              },
+              {
+                "code": "GS05-M03",
+                "name": "分部积分（含循环型与建立递推）",
+                "count": 176,
+                "done": 0
+              },
+              {
+                "code": "GS05-M04",
+                "name": "有理函数积分（部分分式 + 配方）",
+                "count": 46,
+                "done": 0
+              },
+              {
+                "code": "GS05-M05",
+                "name": "对称性与奇偶性化简",
+                "count": 62,
+                "done": 0
+              },
+              {
+                "code": "GS05-M06",
+                "name": "周期性与区间可加性（含分段、绝对值）",
+                "count": 79,
+                "done": 0
+              },
+              {
+                "code": "GS05-M07",
+                "name": "用几何意义直接读出积分值",
+                "count": 14,
+                "done": 0
+              },
+              {
+                "code": "GS05-M08",
+                "name": "反常积分化为极限计算",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS05-M09",
+                "name": "由方程或递推间接求积分",
+                "count": 8,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-int-app",
+            "title": "一元函数积分学的概念与应用",
+            "count": 439,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS06-M01",
+                "name": "用定积分定义（黎曼和）求和式极限",
+                "count": 45,
+                "done": 0
+              },
+              {
+                "code": "GS06-M02",
+                "name": "定积分的比较与估值",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "GS06-M03",
+                "name": "原函数的存在性与分段函数求原函数",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS06-M04",
+                "name": "反常积分收敛性的判别",
+                "count": 40,
+                "done": 0
+              },
+              {
+                "code": "GS06-M05",
+                "name": "变限积分求导",
+                "count": 140,
+                "done": 0
+              },
+              {
+                "code": "GS06-M06",
+                "name": "变限积分函数的性质判定",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GS06-M07",
+                "name": "含变限积分的极限与定阶",
+                "count": 26,
+                "done": 0
+              },
+              {
+                "code": "GS06-M08",
+                "name": "含变限积分的方程",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "GS06-M09",
+                "name": "平面图形的面积",
+                "count": 63,
+                "done": 0
+              },
+              {
+                "code": "GS06-M10",
+                "name": "旋转体的体积（圆盘法 / 柱壳法）",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "GS06-M12",
+                "name": "函数的平均值",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "GS06-M14",
+                "name": "经济应用的定积分建模",
+                "count": 7,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-multi",
+            "title": "多元函数微分学及其应用",
+            "count": 413,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS08-M01",
+                "name": "用定义求偏导数（分段函数、含绝对值）",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "GS08-M02",
+                "name": "可微性的判定与「偏导存在/连续/可微/连续」四者关系",
+                "count": 43,
+                "done": 0
+              },
+              {
+                "code": "GS08-M03",
+                "name": "全微分的计算与「由全微分读出偏导」",
+                "count": 70,
+                "done": 0
+              },
+              {
+                "code": "GS08-M04",
+                "name": "多元复合函数的链式求导（一阶，含抽象函数）",
+                "count": 109,
+                "done": 0
+              },
+              {
+                "code": "GS08-M05",
+                "name": "二阶偏导与混合偏导（对中间变量再求导）",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS08-M06",
+                "name": "隐函数求偏导（方程两边求偏导 / 公式法）",
+                "count": 89,
+                "done": 0
+              },
+              {
+                "code": "GS08-M07",
+                "name": "隐函数的二阶偏导与代点求值",
+                "count": 23,
+                "done": 0
+              },
+              {
+                "code": "GS08-M08",
+                "name": "由全微分（或已知偏导）偏积分还原原函数",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "GS08-M09",
+                "name": "变量代换化偏微分方程（消项 / 化为常微分方程）",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "GS08-M10",
+                "name": "由恒等式待定系数定抽象函数的偏导值",
+                "count": 2,
+                "done": 0
+              },
+              {
+                "code": "GS08-M11",
+                "name": "无条件极值（驻点 + $AC-B^2$ 判别）",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "GS08-M12",
+                "name": "条件极值与拉格朗日乘数法",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS08-M13",
+                "name": "闭区域上的最大最小值与恒成立求参",
+                "count": 15,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-double",
+            "title": "重积分及其应用",
+            "count": 374,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS09-M01",
+                "name": "用二重积分的定义（黎曼和）求和式极限 / 由和式识别积分",
+                "count": 7,
+                "done": 0
+              },
+              {
+                "code": "GS09-M02",
+                "name": "不计算比较积分大小与估值",
+                "count": 25,
+                "done": 0
+              },
+              {
+                "code": "GS09-M03",
+                "name": "对称性化简（区域对称 + 被积奇偶 / 关于 $y=x$ 轮换）",
+                "count": 133,
+                "done": 0
+              },
+              {
+                "code": "GS09-M04",
+                "name": "直角坐标累次积分（定限与选序）",
+                "count": 114,
+                "done": 0
+              },
+              {
+                "code": "GS09-M05",
+                "name": "交换积分次序",
+                "count": 84,
+                "done": 0
+              },
+              {
+                "code": "GS09-M06",
+                "name": "极坐标换元",
+                "count": 173,
+                "done": 0
+              },
+              {
+                "code": "GS09-M07",
+                "name": "一般换元与雅可比行列式",
+                "count": 5,
+                "done": 0
+              },
+              {
+                "code": "GS09-M08",
+                "name": "含参数或含未知积分值的二重积分",
+                "count": 16,
+                "done": 0
+              },
+              {
+                "code": "GS09-M10",
+                "name": "重积分的应用（体积、质量、形心）",
+                "count": 22,
+                "done": 0
+              },
+              {
+                "code": "GS09-M11",
+                "name": "无界区域上的反常二重积分",
+                "count": 3,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-ode",
+            "title": "微分方程及其应用",
+            "count": 365,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS07-M01",
+                "name": "变量可分离",
+                "count": 72,
+                "done": 0
+              },
+              {
+                "code": "GS07-M02",
+                "name": "一阶线性方程",
+                "count": 96,
+                "done": 0
+              },
+              {
+                "code": "GS07-M03",
+                "name": "全微分（恰当）方程",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "GS07-M04",
+                "name": "变量代换化为可解型",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS07-M06",
+                "name": "二阶常系数齐次线性方程",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "GS07-M07",
+                "name": "二阶常系数非齐次线性方程",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "GS07-M08",
+                "name": "欧拉方程",
+                "count": 6,
+                "done": 0
+              },
+              {
+                "code": "GS07-M09",
+                "name": "由解的形式或性质反推方程与参数",
+                "count": 49,
+                "done": 0
+              },
+              {
+                "code": "GS07-M10",
+                "name": "线性方程解的结构",
+                "count": 30,
+                "done": 0
+              },
+              {
+                "code": "GS07-M11",
+                "name": "由几何条件建立微分方程",
+                "count": 32,
+                "done": 0
+              },
+              {
+                "code": "GS07-M12",
+                "name": "由积分方程或变化率建立微分方程",
+                "count": 39,
+                "done": 0
+              },
+              {
+                "code": "GS07-M13",
+                "name": "一阶常系数线性差分方程",
+                "count": 14,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gs-series",
+            "title": "无穷级数",
+            "count": 265,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GS11-M01",
+                "name": "正项级数的判别（比较 / 比值 / 根值 + 定阶）",
+                "count": 79,
+                "done": 0
+              },
+              {
+                "code": "GS11-M02",
+                "name": "交错级数与绝对/条件收敛",
+                "count": 31,
+                "done": 0
+              },
+              {
+                "code": "GS11-M03",
+                "name": "敛散性的概念辨析与反例",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "GS11-M04",
+                "name": "收敛半径与收敛域",
+                "count": 70,
+                "done": 0
+              },
+              {
+                "code": "GS11-M05",
+                "name": "求和函数（逐项求导 / 逐项积分）",
+                "count": 54,
+                "done": 0
+              },
+              {
+                "code": "GS11-M06",
+                "name": "由和函数满足的微分方程求和",
+                "count": 13,
+                "done": 0
+              },
+              {
+                "code": "GS11-M07",
+                "name": "函数展开成幂级数（间接展开）",
+                "count": 33,
+                "done": 0
+              },
+              {
+                "code": "GS11-M08",
+                "name": "数项级数求和",
+                "count": 54,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 3324,
+        "done": 0
+      },
+      {
+        "part": "线性代数",
+        "chapters": [
+          {
+            "key": "xd-det",
+            "title": "行列式",
+            "count": 127,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD01-M01",
+                "name": "具体行列式的化简计算",
+                "count": 53,
+                "done": 0
+              },
+              {
+                "code": "XD01-M02",
+                "name": "代数余子式的线性组合",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "XD01-M03",
+                "name": "抽象行列式的求值",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "XD01-M04",
+                "name": "行列式作为参数的函数",
+                "count": 9,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-mat",
+            "title": "矩阵",
+            "count": 225,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD02-M01",
+                "name": "秩的不等式与等式",
+                "count": 34,
+                "done": 0
+              },
+              {
+                "code": "XD02-M02",
+                "name": "用分块矩阵的初等变换比较秩",
+                "count": 9,
+                "done": 0
+              },
+              {
+                "code": "XD02-M03",
+                "name": "伴随矩阵的秩、行列式与基本等式",
+                "count": 57,
+                "done": 0
+              },
+              {
+                "code": "XD02-M04",
+                "name": "初等矩阵与初等变换",
+                "count": 50,
+                "done": 0
+              },
+              {
+                "code": "XD02-M05",
+                "name": "分块矩阵的乘法、求逆与伴随",
+                "count": 27,
+                "done": 0
+              },
+              {
+                "code": "XD02-M06",
+                "name": "秩一矩阵的识别与用法",
+                "count": 17,
+                "done": 0
+              },
+              {
+                "code": "XD02-M07",
+                "name": "逆矩阵与矩阵方程的恒等变形",
+                "count": 74,
+                "done": 0
+              },
+              {
+                "code": "XD02-M08",
+                "name": "矩阵方程按列化为方程组",
+                "count": 4,
+                "done": 0
+              },
+              {
+                "code": "XD02-M09",
+                "name": "方阵的高次幂",
+                "count": 24,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-vec",
+            "title": "向量组",
+            "count": 184,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD03-M01",
+                "name": "线性相关性的判定与含参定参数",
+                "count": 95,
+                "done": 0
+              },
+              {
+                "code": "XD03-M02",
+                "name": "线性表示与向量组等价",
+                "count": 61,
+                "done": 0
+              },
+              {
+                "code": "XD03-M03",
+                "name": "求秩、极大无关组与满秩分解",
+                "count": 65,
+                "done": 0
+              },
+              {
+                "code": "XD03-M04",
+                "name": "施密特正交化与内积条件",
+                "count": 10,
+                "done": 0
+              },
+              {
+                "code": "XD03-M05",
+                "name": "基、坐标与过渡矩阵（仅数学一）",
+                "count": 11,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-eq",
+            "title": "线性方程组",
+            "count": 186,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD04-M01",
+                "name": "有解性的判别与含参讨论",
+                "count": 65,
+                "done": 0
+              },
+              {
+                "code": "XD04-M02",
+                "name": "求通解：特解加基础解系",
+                "count": 92,
+                "done": 0
+              },
+              {
+                "code": "XD04-M03",
+                "name": "由向量组的线性关系直接写出解",
+                "count": 41,
+                "done": 0
+              },
+              {
+                "code": "XD04-M04",
+                "name": "同解、公共解与解集的包含",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "XD04-M05",
+                "name": "方程组的几何意义（仅数学一）",
+                "count": 6,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-eig",
+            "title": "矩阵的特征值与特征向量",
+            "count": 263,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD05-M01",
+                "name": "由定义式反求参数或向量",
+                "count": 104,
+                "done": 0
+              },
+              {
+                "code": "XD05-M02",
+                "name": "由矩阵的关系式确定特征值",
+                "count": 73,
+                "done": 0
+              },
+              {
+                "code": "XD05-M03",
+                "name": "由秩确定特征值的重数",
+                "count": 72,
+                "done": 0
+              },
+              {
+                "code": "XD05-M04",
+                "name": "相似的判定与相似不变量",
+                "count": 51,
+                "done": 0
+              },
+              {
+                "code": "XD05-M05",
+                "name": "可相似对角化的判定",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "XD05-M06",
+                "name": "求相似变换矩阵与对角阵",
+                "count": 80,
+                "done": 0
+              },
+              {
+                "code": "XD05-M07",
+                "name": "实对称矩阵的正交相似对角化",
+                "count": 47,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "xd-quad",
+            "title": "二次型",
+            "count": 226,
+            "done": 0,
+            "methods": [
+              {
+                "code": "XD06-M01",
+                "name": "二次型与其矩阵的互相转化",
+                "count": 78,
+                "done": 0
+              },
+              {
+                "code": "XD06-M02",
+                "name": "配方法化标准形与惯性指数计数",
+                "count": 50,
+                "done": 0
+              },
+              {
+                "code": "XD06-M03",
+                "name": "平方和型二次型",
+                "count": 21,
+                "done": 0
+              },
+              {
+                "code": "XD06-M04",
+                "name": "由标准形或规范形反求参数",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "XD06-M05",
+                "name": "合同的判定与合同变换的构造",
+                "count": 37,
+                "done": 0
+              },
+              {
+                "code": "XD06-M06",
+                "name": "正定与半正定的判定及应用",
+                "count": 55,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 1196,
+        "done": 0
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapters": [
+          {
+            "key": "gl-event",
+            "title": "随机事件及其概率",
+            "count": 109,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL01-M01",
+                "name": "事件运算与加法、减法公式",
+                "count": 28,
+                "done": 0
+              },
+              {
+                "code": "GL01-M02",
+                "name": "古典概型与几何概型",
+                "count": 20,
+                "done": 0
+              },
+              {
+                "code": "GL01-M03",
+                "name": "条件概率与乘法公式（含由条件概率方程反求参数）",
+                "count": 58,
+                "done": 0
+              },
+              {
+                "code": "GL01-M04",
+                "name": "全概率公式与贝叶斯公式",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GL01-M05",
+                "name": "独立性的判定与应用（与互不相容的辨析）",
+                "count": 34,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-rv",
+            "title": "随机变量及其分布",
+            "count": 128,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL02-M01",
+                "name": "由归一性与分布函数的性质定参数",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GL02-M02",
+                "name": "分布函数、密度与区间概率的互求（含混合型）",
+                "count": 47,
+                "done": 0
+              },
+              {
+                "code": "GL02-M03",
+                "name": "常见分布的识别与直接套用",
+                "count": 31,
+                "done": 0
+              },
+              {
+                "code": "GL02-M04",
+                "name": "正态分布的标准化、对称性与线性变换",
+                "count": 25,
+                "done": 0
+              },
+              {
+                "code": "GL02-M05",
+                "name": "指数分布与几何分布的无记忆性",
+                "count": 8,
+                "done": 0
+              },
+              {
+                "code": "GL02-M06",
+                "name": "一维随机变量函数的分布（分布函数法与枚举合并）",
+                "count": 41,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-multi",
+            "title": "多维随机变量及其分布",
+            "count": 138,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL03-M01",
+                "name": "联合、边缘与条件分布的互求",
+                "count": 88,
+                "done": 0
+              },
+              {
+                "code": "GL03-M02",
+                "name": "二维随机变量的独立性判定",
+                "count": 24,
+                "done": 0
+              },
+              {
+                "code": "GL03-M03",
+                "name": "两个随机变量函数的分布：和、差、积、商与最值",
+                "count": 75,
+                "done": 0
+              },
+              {
+                "code": "GL03-M04",
+                "name": "二维正态分布的性质与线性组合",
+                "count": 7,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-num",
+            "title": "随机变量的数字特征",
+            "count": 175,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL04-M01",
+                "name": "随机变量函数的期望（不求分布直接算）",
+                "count": 85,
+                "done": 0
+              },
+              {
+                "code": "GL04-M02",
+                "name": "期望与方差的运算性质",
+                "count": 79,
+                "done": 0
+              },
+              {
+                "code": "GL04-M03",
+                "name": "方差的线性组合与协方差的双线性展开",
+                "count": 52,
+                "done": 0
+              },
+              {
+                "code": "GL04-M04",
+                "name": "协方差与相关系数的计算",
+                "count": 77,
+                "done": 0
+              },
+              {
+                "code": "GL04-M05",
+                "name": "不相关与独立的辨析",
+                "count": 23,
+                "done": 0
+              },
+              {
+                "code": "GL04-M06",
+                "name": "用对称性与奇偶性简化数字特征",
+                "count": 15,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-lln",
+            "title": "大数定律与中心极限定理",
+            "count": 46,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL05-M01",
+                "name": "切比雪夫不等式估计概率",
+                "count": 13,
+                "done": 0
+              },
+              {
+                "code": "GL05-M02",
+                "name": "大数定律与依概率收敛",
+                "count": 15,
+                "done": 0
+              },
+              {
+                "code": "GL05-M03",
+                "name": "中心极限定理的标准化近似",
+                "count": 19,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-stat",
+            "title": "数理统计的基本概念",
+            "count": 78,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL06-M01",
+                "name": "三大抽样分布（$\\chi^2$/$t$/$F$）的构造与自由度",
+                "count": 48,
+                "done": 0
+              },
+              {
+                "code": "GL06-M02",
+                "name": "正态总体下样本均值与样本方差的分布及独立性",
+                "count": 61,
+                "done": 0
+              },
+              {
+                "code": "GL06-M03",
+                "name": "次序统计量与经验分布函数",
+                "count": 3,
+                "done": 0
+              }
+            ]
+          },
+          {
+            "key": "gl-est",
+            "title": "参数估计与假设检验",
+            "count": 141,
+            "done": 0,
+            "methods": [
+              {
+                "code": "GL07-M01",
+                "name": "矩估计",
+                "count": 48,
+                "done": 0
+              },
+              {
+                "code": "GL07-M02",
+                "name": "最大似然估计",
+                "count": 82,
+                "done": 0
+              },
+              {
+                "code": "GL07-M03",
+                "name": "估计量的无偏性与有效性",
+                "count": 41,
+                "done": 0
+              },
+              {
+                "code": "GL07-M04",
+                "name": "假设检验：拒绝域与两类错误",
+                "count": 26,
+                "done": 0
+              },
+              {
+                "code": "GL07-M05",
+                "name": "区间估计（正态总体均值的置信区间）",
+                "count": 1,
+                "done": 0
+              }
+            ]
+          }
+        ],
+        "count": 797,
+        "done": 0
+      }
+    ]
+  }
+}

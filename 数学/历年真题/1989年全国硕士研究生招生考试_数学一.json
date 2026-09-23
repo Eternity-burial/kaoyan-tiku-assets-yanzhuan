@@ -1,0 +1,933 @@
+[
+  {
+    "id": 1235,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 1,
+    "indexByPaper": {
+      "数学一": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知 $f^{\\prime}(3)=2$, 则 $\\displaystyle \\lim _{h \\rightarrow 0} \\frac{f(3-h)-f(3)}{2 h}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1236,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学二": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 是连续函数, 且 $\\displaystyle f(x)=x+2 \\int_{0}^{1} f(t) \\mathrm{d} t$, 则 $f(x)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1237,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 3,
+    "indexByPaper": {
+      "数学一": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设平面曲线 $L$ 为下半圆 $y=-\\sqrt{1-x^{2}}$, 则曲线积分 $\\displaystyle\\int_{L}\\left(x^{2}+y^{2}\\right) \\mathrm{d} s=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲线积分的概念、性质及计算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1238,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 4,
+    "indexByPaper": {
+      "数学一": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "向量场 $\\boldsymbol{u}(x, y, z)=x y^{2} \\boldsymbol{i}+y \\mathrm{e}^{z} \\boldsymbol{j}+x \\ln \\left(1+z^{2}\\right) \\boldsymbol{k}$ 在点 $(1,1,0)$ 处的散度 $\\operatorname{div} \\boldsymbol{u}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "散度、旋度的概念及计算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的偏导数和全微分",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1239,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 5,
+    "indexByPaper": {
+      "数学一": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{lll}3 & 0 & 0 \\\\ 1 & 4 & 0 \\\\ 0 & 0 & 3\\end{array}\\right), \\boldsymbol{E}=\\left(\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$, 则逆矩阵 $(\\boldsymbol{A}-2 \\boldsymbol{E})^{-1}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的初等变换",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1240,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学二": 13
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "当 $x>0$ 时,曲线 $y=x \\sin \\dfrac{1}{x}(\\quad)$",
+    "options": {
+      "A": "有且仅有水平渐近线",
+      "B": "有且仅有铅直渐近线",
+      "C": "既有水平渐近线,也有铅直渐近线",
+      "D": "既无水平渐近线,也无铅直渐近线"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "两个重要极限",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1241,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "已知曲面 $z=4-x^{2}-y^{2}$ 上点 $P$ 处的切平面平行于平面 $2 x+2 y+z-1=0$, 则点 $P$ 的坐标为 $(\\quad)$",
+    "options": {
+      "A": "$(1,-1,2)$",
+      "B": "$(-1,1,2)$",
+      "C": "$(1,1,2)$",
+      "D": "$(-1,-1,2)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "空间曲线的切线和法平面曲面的切平面和法线",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、向量代数和空间解析几何",
+        "kp": "平面与平面、平面与直线、直线与直线的夹角以及平行、垂直的条件",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1242,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设线性无关的函数 $y_{1}, y_{2}, y_{3}$ 都是二阶非齐次线性微分方程 $y^{\\prime \\prime}+p(x) y^{\\prime}+q(x) y=f(x)$ 的特解, $C_{1}, C_{2}$ 为任意常数, 则该非齐次线性微分方程的通解为 $(\\quad)$",
+    "options": {
+      "A": "$C_{1} y_{1}+C_{2} y_{2}+y_{3}$",
+      "B": "$C_{1} y_{1}+C_{2} y_{2}-\\left(C_{1}+C_{2}\\right) y_{3}$",
+      "C": "$C_{1} y_{1}+C_{2} y_{2}-\\left(1-C_{1}-C_{2}\\right) y_{3}$",
+      "D": "$C_{1} y_{1}+C_{2} y_{2}+\\left(1-C_{1}-C_{2}\\right) y_{3}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "线性微分方程解的性质及解的结构定理",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1243,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 9,
+    "indexByPaper": {
+      "数学一": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $\\displaystyle f(x)=x^{2}(0 \\leqslant x<1), S(x)=\\sum_{n=1}^{\\infty} b_{n} \\sin n \\pi x\\ (-\\infty<x<+\\infty)$, 其中 $\\displaystyle b_{n}=2 \\int_{0}^{1} f(x) \\sin n \\pi x \\mathrm{d} x(n=1,2, \\cdots)$, 则 $\\displaystyle S\\left(-\\frac{1}{2}\\right)=(\\quad)$",
+    "options": {
+      "A": "$-\\dfrac{1}{2}$",
+      "B": "$-\\dfrac{1}{4}$",
+      "C": "$\\dfrac{1}{4}$",
+      "D": "$\\dfrac{1}{2}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "函数在[0,l]上的正弦级数和余弦级数",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "函数的傅里叶（Fourier）系数与傅里叶级数狄利克雷（Dirichlet）定理",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1244,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 10,
+    "indexByPaper": {
+      "数学一": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 为 4 阶矩阵, 且 $|\\boldsymbol{A}|=0$, 则 $\\boldsymbol{A}$ 中 $(\\quad)$",
+    "options": {
+      "A": "必有一列元素全为 $0$",
+      "B": "必有两列元素对应成比例",
+      "C": "必有一列向量是其余列向量的线性组合",
+      "D": "任一列向量是其余列向量的线性组合"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1245,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 11,
+    "indexByPaper": {
+      "数学一": 11
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $z=f(2 x-y)+g(x, x y)$, 其中 $f(t)$ 二阶可导, $g(u, v)$ 具有二阶连续偏导数, 求 $\\displaystyle \\frac{\\partial^{2} z}{\\partial x \\partial y}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "二阶偏导数",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1246,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 12,
+    "indexByPaper": {
+      "数学一": 12
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设曲线积分 $\\displaystyle \\int_{C} x y^{2} \\mathrm{d} x+\\varphi(x) y \\mathrm{d} y$ 与路径无关, 其中 $\\varphi(x)$ 具有连续的导数, 且 $\\varphi(0)=0$, 计算 $\\displaystyle \\int_{(0,0)}^{(1,1)} x y^{2} \\mathrm{d} x+\\varphi(x) y \\mathrm{d} y$ 的值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "平面曲线积分与路径无关的条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲线积分的概念、性质及计算",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1247,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 13,
+    "indexByPaper": {
+      "数学一": 13
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "计算三重积分 $\\displaystyle \\iiint\\limits_{\\Omega}(x+z) \\mathrm{d} v$, 其中 $\\Omega$ 是由 $z=\\sqrt{x^{2}+y^{2}}$ 与 $z=\\sqrt{1-x^{2}-y^{2}}$ 所围成的区域",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1248,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 14,
+    "indexByPaper": {
+      "数学一": 14
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "将函数 $f(x)=\\arctan\\displaystyle  \\frac{1+x}{1-x}$ 展开成 $x$ 的幂级数",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "初等函数的幂级数展开式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "幂级数在其收敛区间内的基本性质",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1249,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 15,
+    "indexByPaper": {
+      "数学一": 15,
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle f(x)=\\sin x-\\int_{0}^{x}(x-t) f(t) \\mathrm{d} t$, 其中 $f(x)$ 为连续函数, 求 $f(x)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1250,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 1989,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16,
+      "数学二": 21
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "证明: 方程 $\\displaystyle \\ln x=\\frac{x}{\\mathrm{e}}-\\int_{0}^{\\pi} \\sqrt{1-\\cos 2 x} \\mathrm{d} x$ 在区间 $(0,+\\infty)$ 内有且仅有两个不同的实根",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1251,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "问 $\\lambda$ 为何值时, 线性方程组 \r\n\r\n$\\left\\{\\begin{array}{l}x_1+x_3=\\lambda \\\\ 4 x_1+x_2+2 x_3=\\lambda+2 \\\\ 6 x_1+x_2+4 x_3=2 \\lambda+3\\end{array}\\right.$ \r\n\r\n有解, 并求出解的一般形式",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1252,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 18,
+    "indexByPaper": {
+      "数学一": 18
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设 $\\lambda$ 为 $n$ 阶可逆矩阵 $\\boldsymbol{A}$ 的一个特征值, 证明:\r\n\r\n(1) $\\dfrac{1}{\\lambda}$ 为 $\\boldsymbol{A}^{-1}$ 的特征值;\r\n\r\n(2) $\\dfrac{|\\boldsymbol{A}|}{\\lambda}$ 为 $\\boldsymbol{A}$ 的伴随矩阵 $\\boldsymbol{A}^{*}$ 的特征值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "伴随矩阵",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1253,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 19,
+    "indexByPaper": {
+      "数学一": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设半径为 $R$ 的球面 $\\Sigma$ 的球心在定球面 $x^{2}+y^{2}+z^{2}=a^{2}(a>0)$ 上, 问当 $R$ 取何值时, 球面 $\\Sigma$ 位于定球面内部的那部分面积最大?",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的最大值与最小值",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲面积分的概念、性质及计算",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1254,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知随机事件 $A$ 的概率 $P(A)=0.5$, 随机事件 $B$ 的概率 $P(B)=0.6$, 以及条件概率 $P(B \\mid A)=0.8$, 则 $P(A \\cup B)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "概率的基本公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1255,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 21,
+    "indexByPaper": {
+      "数学一": 21
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "甲、乙两入独立对同一目标射击一次, 其命中率分别为 0.6 和 0.5 , 已知目标被击中, 则它是甲击中的概率为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的独立性",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1256,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 22,
+    "indexByPaper": {
+      "数学一": 22
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "若随机变量 $\\xi$ 在 $(1,6)$ 上服从均匀分布, 则方程 $x^{2}+\\xi x+1=0$ 有实根的概率为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "连续型随机变量的概率密度",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 1257,
+    "papers": [
+      "数学一"
+    ],
+    "year": 1989,
+    "index": 23,
+    "indexByPaper": {
+      "数学一": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 与 $Y$ 独立, 且 $X$ 服从均值为 $1$, 标准差为 $\\sqrt{2}$ 的正态分布, 而 $Y$ 服从标准正态分布, 试求随机变量 $Z=2 X-Y+3$ 的概率密度函数",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "两个及两个以上随机变量简单函数的分布",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量的数学期望（均值）、方差、标准差及其性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

@@ -1,0 +1,996 @@
+[
+  {
+    "id": 858,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 1,
+    "indexByPaper": {
+      "数学二": 1
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $\\displaystyle y=\\frac{x+4 \\sin x}{5 x-2 \\cos x}$ 的水平渐近线方程为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 836,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学二": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "微分方程 $\\displaystyle y^{\\prime}=\\frac{y(1-x)}{x}$ 的通解是 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "变量可分离的微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 859,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)=\\left\\{\\begin{array}{ll}\r\n\\dfrac{1}{x^3} \\int_0^x \\sin t^2 \\mathrm{d} t, & x \\neq 0\\\\\r\na, & x=0\r\n\\end{array}\\right.$ 在 $x=0$ 处连续, 则 $a=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数连续的概念",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 860,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 3,
+    "indexByPaper": {
+      "数学二": 3
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "反常积分 $\\displaystyle \\int_0^{+\\infty} \\frac{x \\mathrm{d} x}{\\left(1+x^2\\right)^2}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 839,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 5,
+    "indexByPaper": {
+      "数学一": 5,
+      "数学二": 6,
+      "数学三": 4
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{array}{cc}2 & 1 \\\\ -1 & 2\\end{array}\\right), \\boldsymbol{E}$ 为 $2$ 阶单位矩阵, 矩阵 $\\boldsymbol{B}$ 满足 $\\boldsymbol{B} \\boldsymbol{A}=\\boldsymbol{B}+2 \\boldsymbol{E}$, 则 $|\\boldsymbol{B}|=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵乘积的行列式",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 861,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 5,
+    "indexByPaper": {
+      "数学二": 5
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设函数 $y=y(x)$ 由方程 $y=1-x \\mathrm{e}^y$ 确定, 则 $\\left.\\dfrac{\\mathrm{d} y}{\\mathrm{d} x}\\right|_{x=0}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 841,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7,
+      "数学二": 7,
+      "数学三": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $y=f(x)$ 具有二阶导数, 且 $f^{\\prime}(x)>0, f^{\\prime \\prime}(x)>0, \\Delta x$ 为自变量 $x$ 在点 $x_{0}$ 处的增量, $\\Delta y$ 与 $\\mathrm{d} y$ 分别为 $f(x)$ 在点 $x_{0}$ 处对应的增量与微分, 若 $\\Delta x>0$, 则 $(\\quad)$",
+    "options": {
+      "A": "$0<\\mathrm{d} y<\\Delta y$",
+      "B": "$0<\\Delta y<\\mathrm{d} y$",
+      "C": "$\\Delta y<\\mathrm{d} y<0$",
+      "D": "$\\mathrm{d} y<\\Delta y<0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 842,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8,
+      "数学二": 11
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x, y)$ 为连续函数, 则 $\\displaystyle \\int_{0}^{\\frac{\\pi}{4}} \\mathrm{d} \\theta \\int_{0}^{1} f(r \\cos \\theta, r \\sin \\theta) r \\mathrm{d} r$ 等于 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\int_{0}^{\\frac{\\sqrt{2}}{2}} \\mathrm{d} x \\int_{x}^{\\sqrt{1-x^{2}}} f(x, y) \\mathrm{d} y$",
+      "B": "$\\displaystyle \\int_{0}^{\\frac{\\sqrt{2}}{2}} \\mathrm{d} x \\int_{0}^{\\sqrt{1-x^{2}}} f(x, y) \\mathrm{d} y$",
+      "C": "$\\displaystyle \\int_{0}^{\\frac{\\sqrt{2}}{2}} \\mathrm{d} y \\int_{y}^{\\sqrt{1-y^{2}}} f(x, y) \\mathrm{d} x$",
+      "D": "$\\displaystyle \\int_{0}^{\\frac{\\sqrt{2}}{2}} \\mathrm{d} y \\int_{0}^{\\sqrt{1-y^{2}}} f(x, y) \\mathrm{d} x$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 862,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 8,
+    "indexByPaper": {
+      "数学二": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x)$ 是奇函数, 除 $x=0$ 外处处连续, $x=0$ 是其第一类间断点, 则 $\\displaystyle \\int_0^x f(t) \\mathrm{d} t$ 是 $(\\quad)$",
+    "options": {
+      "A": "连续的奇函数",
+      "B": "连续的偶函数",
+      "C": "在 $x=0$ 间断的奇函数",
+      "D": "在 $x=0$ 间断的偶函数"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的有界性、单调性、周期性和奇偶性",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 863,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 9,
+    "indexByPaper": {
+      "数学二": 9
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $g(x)$ 可微, $h(x)=\\mathrm{e}^{1+g(x)}, h^{\\prime}(1)=1, g^{\\prime}(1)=2$, 则 $g(1)$ 等于 $(\\quad)$",
+    "options": {
+      "A": "$\\ln 3-1$",
+      "B": "$-\\ln 3-1$",
+      "C": "$-\\ln 2-1$",
+      "D": "$\\ln 2-1$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 844,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 10,
+    "indexByPaper": {
+      "数学一": 10,
+      "数学二": 12,
+      "数学三": 11
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $f(x, y)$ 与 $\\varphi(x, y)$ 均为可微函数, 且 $\\varphi_{y}^{\\prime}(x, y) \\neq 0$. 已知 $\\left(x_{0}, y_{0}\\right)$ 是 $f(x, y)$ 在约束条件 $\\varphi(x, y)=0$ 下的一个极值点, 下列选项正确的是 $(\\quad)$",
+    "options": {
+      "A": "若 $f_{x}^{\\prime}\\left(x_{0}, y_{0}\\right)=0$, 则 $f_{y}^{\\prime}\\left(x_{0}, y_{0}\\right)=0$",
+      "B": "若 $f_{x}^{\\prime}\\left(x_{0}, y_{0}\\right)=0$, 则 $f_{y}^{\\prime}\\left(x_{0}, y_{0}\\right) \\neq 0$",
+      "C": "若 $f_{x}^{\\prime}\\left(x_{0}, y_{0}\\right) \\neq 0$, 则 $f_{y}^{\\prime}\\left(x_{0}, y_{0}\\right)=0$",
+      "D": "若 $f_{x}^{\\prime}\\left(x_{0}, y_{0}\\right) \\neq 0$, 则 $f_{y}^{\\prime}\\left(x_{0}, y_{0}\\right) \\neq 0$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的极值和条件极值",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 864,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 10,
+    "indexByPaper": {
+      "数学二": 10
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "函数 $y=C_1 \\mathrm{e}^x+C_2 \\mathrm{e}^{-2 x}+x \\mathrm{e}^x$ 满足的一个微分方程是 $(\\quad)$",
+    "options": {
+      "A": "$y^{\\prime \\prime}-y^{\\prime}-2 y=3 x \\mathrm{e}^x$",
+      "B": "$y^{\\prime \\prime}-y^{\\prime}-2 y=3 \\mathrm{e}^x$",
+      "C": "$y^{\\prime \\prime}+y^{\\prime}-2 y=3 x \\mathrm{e}^x$",
+      "D": "$y^{\\prime \\prime}+y^{\\prime}-2 y=3 \\mathrm{e}^x$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 845,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 11,
+    "indexByPaper": {
+      "数学一": 11,
+      "数学二": 13,
+      "数学三": 12
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}$ 均为 $n$ 维列向量, $\\boldsymbol{A}$ 是 $m \\times n$ 矩阵,下列选项正确的是 $(\\quad)$",
+    "options": {
+      "A": "若 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_s$ 线性相关, 则 $\\boldsymbol{A} \\boldsymbol{\\alpha}_{1}, \\boldsymbol{A} \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{A} \\boldsymbol{\\alpha}_{s}$ 线性相关",
+      "B": "若 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}$ 线性相关, 则 $\\boldsymbol{A} \\boldsymbol{\\alpha}_{1}, \\boldsymbol{A} \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{A} \\boldsymbol{\\alpha}_{s}$ 线性无关",
+      "C": "若 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}$ 线性无关, 则 $\\boldsymbol{A} \\boldsymbol{\\alpha}_{1}, \\boldsymbol{A} \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{A} \\boldsymbol{\\alpha}_{s}$ 线性相关",
+      "D": "若 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{\\alpha}_{s}$ 线性无关, 则 $\\boldsymbol{A} \\boldsymbol{\\alpha}_{1}, \\boldsymbol{A} \\boldsymbol{\\alpha}_{2}, \\cdots, \\boldsymbol{A} \\boldsymbol{\\alpha}_{s}$ 线性无关"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的秩与矩阵的秩之间的关系",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 846,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 12,
+    "indexByPaper": {
+      "数学一": 12,
+      "数学二": 14,
+      "数学三": 13
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵, 将 $\\boldsymbol{A}$ 的第 $2$ 行加到第 $1$ 行得 $\\boldsymbol{B}$, 再将 $\\boldsymbol{B}$ 的第 $1$ 列的 $-1$ 倍加到第 $2$ 列得 $\\boldsymbol{C}$, 记 $\\boldsymbol{P}=\\left(\\begin{array}{lll}1 & 1 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$, 则 $(\\quad)$",
+    "options": {
+      "A": "$\\boldsymbol{C}=\\boldsymbol{P}^{-1} \\boldsymbol{A} \\boldsymbol{P}$",
+      "B": "$\\boldsymbol{C}=\\boldsymbol{P A} \\boldsymbol{P}^{-1}$",
+      "C": "$\\boldsymbol{C}=\\boldsymbol{P}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{P}$",
+      "D": "$\\boldsymbol{C}=\\mathbf{P A} \\boldsymbol{P}^{\\mathrm{T}}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的初等变换",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "初等矩阵",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 849,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 15,
+    "indexByPaper": {
+      "数学一": 15,
+      "数学二": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设区域 $D=\\left\\{(x, y) \\mid x^{2}+y^{2} \\leqslant 1, x \\geqslant 0\\right\\}$, 计算二重积分 $\\displaystyle I=\\iint\\limits_{D} \\frac{1+x y}{1+x^{2}+y^{2}} \\mathrm{d} x \\mathrm{d} y$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "主",
+        "depth": [
+          "会计算"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 865,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 15,
+    "indexByPaper": {
+      "数学二": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "试确定常数 $A, B, C$ 的值, 使得\r\n$\\mathrm{e}^x\\left(1+B x+C x^2\\right)=1+A x+o\\left(x^3\\right)$,\r\n其中 $o\\left(x^3\\right)$ 是当 $x \\rightarrow 0$ 时比 $x^3$ 高阶的无穷小",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "洛必达（L'Hospital）法则",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 850,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16,
+      "数学二": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设数列 $\\left\\{x_{n}\\right\\}$ 满足 $0<x_{1}<\\pi, x_{n+1}=\\sin x_{n}(n=1,2, \\cdots)$.\r\n\r\n(1) 证明 $\\displaystyle \\lim _{n \\rightarrow \\infty} x_{n}$ 存在, 并求该极限;\r\n\r\n(2) 计算 $\\displaystyle \\lim _{n \\rightarrow \\infty}\\left(\\frac{x_{n+1}}{x_{n}}\\right)^{\\frac{1}{x_{n}^{2}}}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限存在的两个准则：单调有界准则和夹逼准则",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量的性质及无穷小量的比较",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 866,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 16,
+    "indexByPaper": {
+      "数学二": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求 $\\displaystyle \\int \\frac{\\arcsin \\mathrm{e}^x}{\\mathrm{e}^x} \\mathrm{d} x$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "有理函数、三角函数有理式和简单无理函数的积分",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 875,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 17,
+    "indexByPaper": {
+      "数学三": 17,
+      "数学二": 19
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "证明: 当 $0<a<b<\\pi$ 时, $b \\sin b+2 \\cos b+\\pi b>a \\sin a+2 \\cos a+\\pi a$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 852,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 18,
+    "indexByPaper": {
+      "数学一": 18,
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设函数 $f(u)$ 在 $(0,+\\infty)$ 内具有二阶导数, 且 $z=f\\left(\\sqrt{x^{2}+y^{2}}\\right)$ 满足等式 $\\dfrac{\\partial^{2} z}{\\partial x^{2}}+\\dfrac{\\partial^{2} z}{\\partial y^{2}}=0$.\r\n\r\n(1) 验证 $f^{\\prime \\prime}(u)+\\dfrac{f^{\\prime}(u)}{u}=0$;\r\n\r\n(2) 若 $f(1)=0, f^{\\prime}(1)=1$, 求函数 $f(u)$ 的表达式",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "可降阶的高阶微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 854,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20,
+      "数学二": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知非齐次线性方程组 $\\left\\{\\begin{array}{l}x_{1}+x_{2}+x_{3}+x_{4}=-1 \\\\ 4 x_{1}+3 x_{2}+5 x_{3}-x_{4}=-1  \\\\ a x_{1}+x_{2}+3 x_{3}+b x_{4}=1\\end{array}\\right.$, 有 $3$ 个线性无关的解\r\n\r\n(1) 证明: 方程组系数矩阵 $\\boldsymbol{A}$ 的秩 $r(\\boldsymbol{A})=2$;\r\n\r\n(2) 求 $a, b$ 的值及方程组的通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "线性方程组解的性质和解的结构",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "次",
+        "depth": [
+          "会用"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 855,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 21,
+    "indexByPaper": {
+      "数学一": 21,
+      "数学二": 23,
+      "数学三": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 3 阶实对称矩阵 $\\boldsymbol{A}$ 的各行元素之和均为 $3$, 向量$\\boldsymbol{\\alpha}_{1}=(-1,2,-1)^{\\mathrm{T}}, \\boldsymbol{\\alpha}_{2}=(0,-1,1)^{\\mathrm{T}}$ 是线性方程组 $\\boldsymbol{A} \\boldsymbol{X}=\\mathbf{0}$ 的两个解.\r\n\r\n(1) 求 $\\boldsymbol{A}$ 的特征值与特征向量;\r\n\r\n(2) 求正交矩阵 $\\boldsymbol Q$ 和对角矩阵 $\\boldsymbol{\\Lambda}$, 使得 $\\displaystyle Q^{\\mathrm{T}} \\boldsymbol{AQ}=\\boldsymbol{\\Lambda}$\r\n\r\n(3) (数三) 求 $\\boldsymbol{A}$ 及 $(\\boldsymbol{A} - \\dfrac{3}{2} \\boldsymbol{E})^6$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "实对称矩阵的特征值、特征向量及其相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "线性无关向量组的正交规范化方法",
+        "rel": "主",
+        "depth": [
+          "会用"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "正交矩阵及其性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 867,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2006,
+    "index": 21,
+    "indexByPaper": {
+      "数学二": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知曲线 $L$ 的方程为 $\\left\\{\\begin{array}{l}x=t^2+1 \\\\ y=4 t-t^2\\end{array}(t \\geqslant 0)\\right.$\r\n\r\n(1) 讨论 $L$ 的凹凸性;\r\n\r\n(2) 过点 $(-1,0)$ 引 $L$ 的切线, 求切点 $\\left(x_0, y_0\\right)$, 并写出切线的方程;\r\n\r\n(3) 求此切线与 $L$ (对应于 $x \\leqslant x_0$ 的部分) 及 $x$ 轴所围成的平面图形的面积",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

@@ -1,0 +1,1117 @@
+[
+  {
+    "id": 544,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 1,
+    "indexByPaper": {
+      "数学一": 1,
+      "数学二": 1,
+      "数学三": 1
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "曲线 $y=\\dfrac{x^{2}+x}{x^{2}-1}$ 渐近线的条数为 $(\\quad)$",
+    "options": {
+      "A": "$0$",
+      "B": "$1$",
+      "C": "$2$",
+      "D": "$3$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数间断点的类型",
+        "rel": "次",
+        "depth": [
+          "会判别",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 545,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学二": 2,
+      "数学三": 2
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)=\\left(\\mathrm{e}^{x}-1\\right)\\left(\\mathrm{e}^{2 x}-2\\right) \\cdots\\left(\\mathrm{e}^{n x}-n\\right)$, 其中 $n$ 为正整数, 则 $f^{\\prime}(0)=(\\quad)$",
+    "options": {
+      "A": "$(-1)^{n-1}(n-1) !$",
+      "B": "$(-1)^{n}(n-1) !$",
+      "C": "$(-1)^{n-1} n$ !",
+      "D": "$(-1)^{n} n !$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的四则运算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数和微分的概念",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 546,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 3,
+    "indexByPaper": {
+      "数学一": 3
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $f(x, y)$ 在点 $(0,0)$ 处连续, 那么下列命题正确的是 $(\\quad)$",
+    "options": {
+      "A": "若极限 $\\lim\\limits _{\\substack{x \\rightarrow 0 \\\\ y \\rightarrow 0}} \\dfrac{f(x, y)}{|x|+|y|}$ 存在, 则函数 $f(x, y)$ 在点 $(0,0)$ 处可微",
+      "B": "若极限 $\\lim\\limits _{\\substack{x \\rightarrow 0 \\\\ y \\rightarrow 0}} \\dfrac{f(x, y)}{x^{2}+y^{2}}$ 存在, 则函数 $f(x, y)$ 在点 $(0,0)$ 处可微",
+      "C": "若函数 $f(x, y)$ 在点 $(0,0)$ 处可微, 则极限 $\\lim\\limits _{\\substack{x \\rightarrow 0 \\\\ y \\rightarrow 0}} \\dfrac{f(x, y)}{|x|+|y|}$ 存在",
+      "D": "若函数 $f(x, y)$ 在点 $(0,0)$ 处可微, 则极限 $\\lim\\limits _{\\substack{x \\rightarrow 0 \\\\ y \\rightarrow 0}} \\dfrac{f(x, y)}{x^{2}+y^{2}}$ 存在"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的偏导数和全微分",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "全微分存在的必要条件和充分条件",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "二元函数的极限与连续的概念",
+        "rel": "次",
+        "depth": [
+          "了解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 547,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 4,
+    "indexByPaper": {
+      "数学一": 4,
+      "数学二": 4
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\displaystyle I_{k}=\\int_{0}^{k \\pi} \\mathrm{e}^{x^{2}} \\sin x \\mathrm{d} x(k=1,2,3)$, 则有 $(\\quad)$",
+    "options": {
+      "A": "$I_{1}<I_{2}<I_{3}$",
+      "B": "$I_{3}<I_{2}<I_{1}$",
+      "C": "$I_{2}<I_{3}<I_{1}$",
+      "D": "$I_{2}<I_{1}<I_{3}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 548,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 5,
+    "indexByPaper": {
+      "数学一": 5,
+      "数学二": 7,
+      "数学三": 5
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{\\alpha}_{1}=\\left(\\begin{array}{l}0 \\\\ 0 \\\\ c_{1}\\end{array}\\right), \\boldsymbol{\\alpha}_{2}=\\left(\\begin{array}{l}0 \\\\ 1 \\\\ c_{2}\\end{array}\\right), \\boldsymbol{\\alpha}_{3}=\\left(\\begin{array}{c}1 \\\\ -1 \\\\ c_{3}\\end{array}\\right), \\boldsymbol{\\alpha}_{4}=\\left(\\begin{array}{c}-1 \\\\ 1 \\\\ c_{4}\\end{array}\\right)$, 其中 $c_{1}, c_{2}, c_{3}, c_{4}$ 为任意常数, 则下列向量组线性相关的为 $(\\quad)$",
+    "options": {
+      "A": "$\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}$",
+      "B": "$\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{4}$",
+      "C": "$\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{3}, \\boldsymbol{\\alpha}_{4}$",
+      "D": "$\\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}, \\boldsymbol{\\alpha}_{4}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式按行（列）展开定理",
+        "rel": "次",
+        "depth": [
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 549,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学二": 8,
+      "数学三": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵, $\\boldsymbol{P}$ 为 $3$ 阶可逆矩阵, 且 $\\boldsymbol{P}^{-1} \\boldsymbol{A} \\boldsymbol{P}=\\left(\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 2\\end{array}\\right)$, 若 $\\boldsymbol{P}=\\left(\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}\\right)$, $\\boldsymbol Q=\\left(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}\\right)$, 则 $\\boldsymbol{Q}^{-1} \\boldsymbol{AQ} =(\\quad)$",
+    "options": {
+      "A": "$\\left(\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$",
+      "B": "$\\left(\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 2\\end{array}\\right)$",
+      "C": "$\\left(\\begin{array}{lll}2 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 2\\end{array}\\right)$",
+      "D": "$\\left(\\begin{array}{lll}2 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 1\\end{array}\\right)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "相似变换、相似矩阵的概念及性质",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "初等矩阵",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 550,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 7,
+    "indexByPaper": {
+      "数学一": 7
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 与 $Y$ 相互独立, 且分别服从参数为 $1$ 与参数为 $4$ 的指数分布, 则 $P\\{X<Y\\}=(\\quad)$",
+    "options": {
+      "A": "$\\dfrac{1}{5}$",
+      "B": "$\\dfrac{1}{3}$",
+      "C": "$\\dfrac{2}{3}$",
+      "D": "$\\dfrac{4}{5}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "随机变量的独立性和不相关性",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "二维连续型随机变量的概率密度、边缘概率密度和条件密度",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 551,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 8,
+    "indexByPaper": {
+      "数学一": 8
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "将长度为 $1 \\mathrm{m}$ 的木棒随机地截成两段, 则两段长度的相关系数为 $(\\quad)$",
+    "options": {
+      "A": "$1$",
+      "B": "$\\dfrac{1}{2}$",
+      "C": "$-\\dfrac{1}{2}$",
+      "D": "$-1$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "矩、协方差、相关系数及其性质",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 552,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 9,
+    "indexByPaper": {
+      "数学一": 9
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "若函数 $f(x)$ 满足方程 $f^{\\prime \\prime}(x)+f^{\\prime}(x)-2 f(x)=0$ 及 $f^{\\prime \\prime}(x)+f(x)=2 \\mathrm{e}^{x}$, 则 $f(x)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "简单的二阶常系数非齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 553,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 10,
+    "indexByPaper": {
+      "数学一": 10
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\int_{0}^{2} x \\sqrt{2 x-x^{2}} \\mathrm{d} x=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 554,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 11,
+    "indexByPaper": {
+      "数学一": 11
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$\\left.\\operatorname{\\mathbf{grad}}\\left(x y+\\dfrac{z}{y}\\right)\\right|_{(2,1,1)}=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "方向导数和梯度",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 555,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 12,
+    "indexByPaper": {
+      "数学一": 12
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\Sigma=\\{(x, y, z) \\mid x+y+z=1, x \\geqslant 0, y \\geqslant 0, z \\geqslant 0\\}$, 则 $\\displaystyle \\iint\\limits_{\\Sigma} y^{2} \\mathrm{d} S=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲面积分的概念、性质及计算",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 556,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 13,
+    "indexByPaper": {
+      "数学一": 13
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{\\alpha}$ 为 $3$ 维单位列向量, $\\boldsymbol{E}$ 为 $3$ 阶单位矩阵, 则矩阵 $\\boldsymbol{E}-\\boldsymbol{\\alpha} \\boldsymbol{\\alpha}^{\\mathrm{T}}$ 的秩为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 557,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2012,
+    "index": 14,
+    "indexByPaper": {
+      "数学一": 14,
+      "数学三": 14
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $A, B, C$ 是随机事件, $A, C$ 互不相容, $\\displaystyle P(A B)=\\frac{1}{2}, P(C)=\\frac{1}{3}$, 则 $P(A B \\mid \\bar{C})=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "条件概率",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "一、随机事件和概率",
+        "kp": "事件的关系与运算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 558,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 15,
+    "indexByPaper": {
+      "数学一": 15,
+      "数学二": 20,
+      "数学三": 18
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "证明: $\\displaystyle  x \\ln \\frac{1+x}{1-x}+\\cos x \\geqslant 1+\\frac{x^{2}}{2}(-1<x<1)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "次",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 559,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16,
+      "数学二": 16
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求函数 $\\displaystyle f(x, y)=x \\mathrm{e}^{-\\frac{x^{2}+y^{2}}{2}}$ 的极值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的极值和条件极值",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、多元函数微分学",
+        "kp": "多元函数的偏导数和全微分",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 560,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求幂级数 $\\displaystyle \\sum_{n=0}^{\\infty} \\frac{4 n^{2}+4 n+3}{2 n+1} x^{2 n}$ 的收敛域及和函数",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "简单幂级数的和函数的求法",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "幂级数及其收敛半径、收敛区间（指开区间）和收敛域",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "七、无穷级数",
+        "kp": "幂级数在其收敛区间内的基本性质",
+        "rel": "次",
+        "depth": [
+          "了解"
+        ]
+      }
+    ],
+    "calcHeavy": true
+  },
+  {
+    "id": 561,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 18,
+    "indexByPaper": {
+      "数学一": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知曲线 $L:\\left\\{\\begin{array}{l}x=f(t), \\\\ y=\\cos t\\end{array}\\left(0 \\leqslant t<\\dfrac{\\pi}{2}\\right)\\right.$, 其中函数 $f(t)$ 具有连续导数, 且 $f(0)=0$, $f^{\\prime}(t)>0\\left(0<t<\\dfrac{\\pi}{2}\\right)$, 若曲线 $L$ 的切线与 $x$ 轴的交点到切点的距离恒为 $1$ , 求函数 $f(t)$ 的表达式, 并求以曲线 $L$ 及 $x$ 轴和 $y$ 轴为边界的区域的面积",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "八、常微分方程",
+        "kp": "变量可分离的微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": true
+  },
+  {
+    "id": 562,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 19,
+    "indexByPaper": {
+      "数学一": 19
+    },
+    "type": "解答题",
+    "has_figure": true,
+    "stem": "已知 $L$ 是第一象限中从点 $(0,0)$ 沿圆周 $x^{2}+y^{2}=2 x$ 到点 $(2,0)$, 再沿圆周 $x^{2}+y^{2}=4$ 到 点 $(0,2)$ 的曲线段, 计算曲线积分 $\\displaystyle I=\\int_{L} 3 x^{2} y \\mathrm{d} x+\\left(x^{3}+x-2 y\\right) \\mathrm{d} y$\n\n![积分路径 L](/figures/562.svg)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "格林（Green）公式",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "两类曲线积分的概念、性质及计算",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "平面曲线积分与路径无关的条件",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 563,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20,
+      "数学二": 22,
+      "数学三": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $\\boldsymbol{A}=\\left(\\begin{array}{cccc}1 & a & 0 & 0 \\\\ 0 & 1 & a & 0 \\\\ 0 & 0 & 1 & a \\\\ a & 0 & 0 & 1\\end{array}\\right), \\boldsymbol{\\beta}=\\left(\\begin{array}{c}1 \\\\ -1 \\\\ 0 \\\\ 0\\end{array}\\right)$\r\n\r\n(1) 计算行列式 $|\\boldsymbol{A}|$;\r\n\r\n(2) 当实数 $a$ 为何值时, 方程组 $\\boldsymbol{Ax} =\\boldsymbol{\\beta}$ 有无穷多解, 并求其通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式按行（列）展开定理",
+        "rel": "主",
+        "depth": [
+          "会"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 564,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2012,
+    "index": 21,
+    "indexByPaper": {
+      "数学一": 21,
+      "数学二": 23,
+      "数学三": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "已知 $\\boldsymbol{A}=\\left(\\begin{array}{ccc}1 & 0 & 1 \\\\ 0 & 1 & 1 \\\\ -1 & 0 & a \\\\ 0 & a & -1\\end{array}\\right)$, 二次型 $f\\left(x_{1}, x_{2}, x_{3}\\right)=\\boldsymbol{x}^{\\mathrm{T}}\\left(\\boldsymbol{A}^{\\mathrm{T}} \\boldsymbol{A}\\right) \\boldsymbol{x}$ 的秩为 $2$ ,\r\n\r\n(1) 求实数 $a$ 的值;\r\n\r\n(2) 求正交变换 $\\boldsymbol{x}=\\boldsymbol{Q y}$ 将 $f$ 化为标准形",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "用正交变换和配方法化二次型为标准形",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "六、二次型",
+        "kp": "二次型的秩",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "实对称矩阵的特征值、特征向量及其相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 565,
+    "papers": [
+      "数学一",
+      "数学三"
+    ],
+    "year": 2012,
+    "index": 22,
+    "indexByPaper": {
+      "数学一": 22,
+      "数学三": 22
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设二维离散型随机变量 $X, Y$ 的概率分布为\r\n\r\n$\\begin{array}{|c|c|c|c|c|}\r\n\\hline\r\nX \\diagdown Y  & 0 & 1 & 2 \\\\\r\n\\hline\r\n0 & \\dfrac{1}{4} & 0 & \\dfrac{1}{4}  \\\\\r\n\\hline\r\n1 & 0 & \\dfrac{1}{3} & 0 \\\\\r\n\\hline\r\n2 & \\dfrac{1}{12} & 0 & \\dfrac{1}{12}\\\\\r\n\\hline\r\n\\end{array}$\r\n\r\n(1) 求 $P\\{X=2 Y\\}$;\r\n\r\n(2) 求 $\\operatorname{Cov}(X-Y, Y)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "二维离散型随机变量的概率分布、边缘分布和条件分布",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "矩、协方差、相关系数及其性质",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "四、随机变量的数字特征",
+        "kp": "随机变量函数的数学期望",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 566,
+    "papers": [
+      "数学一"
+    ],
+    "year": 2012,
+    "index": 23,
+    "indexByPaper": {
+      "数学一": 23
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设随机变量 $X$ 与 $Y$ 相互独立, 且分别服从正态分布 $N\\left(\\mu, \\sigma^{2}\\right)$ 与 $N\\left(\\mu, 2 \\sigma^{2}\\right)$, 其中 $\\sigma$ 是未知参数且 $\\sigma>0$. 设 $Z=X-Y$.\r\n\r\n(1) 求 $Z$ 的概率密度 $f\\left(z ; \\sigma^{2}\\right)$;\r\n\r\n(2) 设 $Z_{1}, Z_{2}, \\cdots, Z_{n}$ 为来自总体 $Z$ 的简单随机样本, 求 $\\sigma^{2}$ 的最大似然估计量 $\\hat{\\sigma}^{2}$; \r\n\r\n(3) 证明: $\\hat{\\sigma}^{2}$ 为 $\\sigma^{2}$ 的无偏估计量",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "概率论与数理统计",
+        "chapter": "三、多维随机变量及其分布",
+        "kp": "两个及两个以上随机变量简单函数的分布",
+        "rel": "主",
+        "depth": [
+          "会求"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "七、参数估计",
+        "kp": "最大似然估计法",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "七、参数估计",
+        "kp": "估计量的评选标准",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "会"
+        ]
+      },
+      {
+        "part": "概率论与数理统计",
+        "chapter": "二、随机变量及其分布",
+        "kp": "常见随机变量的分布",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]

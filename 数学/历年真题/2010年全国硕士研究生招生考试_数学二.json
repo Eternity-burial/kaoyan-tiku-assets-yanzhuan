@@ -1,0 +1,1083 @@
+[
+  {
+    "id": 665,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 1,
+    "indexByPaper": {
+      "数学二": 1
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "函数 $\\displaystyle f(x)=\\frac{x^2-x}{x^2-1} \\sqrt{1+\\frac{1}{x^2}}$ 的无穷间断点的个数为 $(\\quad)$",
+    "options": {
+      "A": "$0$",
+      "B": "$1$",
+      "C": "$2$",
+      "D": "$3$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数间断点的类型",
+        "rel": "主",
+        "depth": [
+          "会判别",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "函数的左极限与右极限",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "无穷小量和无穷大量的概念及其关系",
+        "rel": "次",
+        "depth": [
+          "会用",
+          "掌握",
+          "理解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 643,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 2,
+    "indexByPaper": {
+      "数学一": 2,
+      "数学二": 5
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设函数 $z=z(x, y)$ 是由方程 $\\displaystyle F\\left(\\frac{y}{x}, \\frac{z}{x}\\right)=0$ 确定的, 其中 $F$ 为可微函数, 且 $F_{2}^{\\prime} \\neq 0$, 则 $\\displaystyle x \\frac{\\partial z}{\\partial x}+y \\frac{\\partial z}{\\partial y}=(\\quad)$",
+    "options": {
+      "A": "$x$",
+      "B": "$z$",
+      "C": "$-x$",
+      "D": "$-z$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元函数的偏导数和全微分",
+        "rel": "次",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 666,
+    "papers": [
+      "数学二",
+      "数学三"
+    ],
+    "year": 2010,
+    "index": 2,
+    "indexByPaper": {
+      "数学二": 2,
+      "数学三": 2
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $y_1, y_2$ 是一阶线性非齐次微分方程 $y^{\\prime}+p(x) y=q(x)$ 的两个特解, 若常数 $\\lambda, \\mu$ 使 $\\lambda y_1+\\mu y_2$ 是该方程的解, $\\lambda y_1-\\mu y_2$ 是该方程对应的齐次方程的解, 则 $(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\lambda=\\frac{1}{2}, \\mu=\\frac{1}{2}$",
+      "B": "$\\displaystyle \\lambda=-\\frac{1}{2}, \\mu=-\\frac{1}{2}$",
+      "C": "$\\displaystyle \\lambda=\\frac{2}{3}, \\mu=\\frac{1}{3}$",
+      "D": "$\\displaystyle \\lambda=\\frac{2}{3}, \\mu=\\frac{2}{3}$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "线性微分方程解的性质及解的结构定理",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "一阶线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 644,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 3,
+    "indexByPaper": {
+      "数学一": 3,
+      "数学二": 4
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $m, n$ 均是正整数, 则反常积分 $\\displaystyle \\int_{0}^{1} \\frac{\\sqrt[m]{\\ln ^{2}(1-x)}}{\\sqrt[n]{x}} \\mathrm{d} x$ 的敛散性 $(\\quad)$",
+    "options": {
+      "A": "仅与 $m$ 的取值有关",
+      "B": "仅与 $n$ 的取值有关",
+      "C": "与 $m, n$ 的取值都有关",
+      "D": "与 $m, n$ 的取值都无关"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "反常（广义）积分",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "了解",
+          "会计算",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 667,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 3,
+    "indexByPaper": {
+      "数学二": 3
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "曲线 $y=x^2$ 与曲线 $y=a \\ln x(a \\neq 0)$ 相切, 则 $a=(\\quad)$",
+    "options": {
+      "A": "$4 \\mathrm{e}$",
+      "B": "$3 \\mathrm{e}$",
+      "C": "$2 \\mathrm{e}$",
+      "D": "$\\mathrm e$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "平面曲线的切线和法线",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "理解",
+          "了解",
+          "会用",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数的几何意义和物理意义",
+        "rel": "次",
+        "depth": [
+          "会求",
+          "理解",
+          "了解",
+          "会用",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 645,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 4,
+    "indexByPaper": {
+      "数学一": 4,
+      "数学二": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "$\\displaystyle \\lim _{n \\rightarrow \\infty} \\sum_{i=1}^{n} \\sum_{j=1}^{n} \\frac{n}{(n+i)\\left(n^{2}+j^{2}\\right)}=(\\quad)$",
+    "options": {
+      "A": "$\\displaystyle \\int_{0}^{1} \\mathrm{d} x \\int_{0}^{x} \\frac{1}{(1+x)\\left(1+y^{2}\\right)} \\mathrm{d} y$",
+      "B": "$\\displaystyle \\int_{0}^{1} \\mathrm{d} x \\int_{0}^{x} \\frac{1}{(1+x)(1+y)} \\mathrm{d} y$",
+      "C": "$\\displaystyle \\int_{0}^{1} \\mathrm{d} x \\int_{0}^{1} \\frac{1}{(1+x)(1+y)} \\mathrm{d} y$",
+      "D": "$\\displaystyle \\int_{0}^{1} \\mathrm{d} x \\int_{0}^{1} \\frac{1}{(1+x)\\left(1+y^{2}\\right)} \\mathrm{d} y$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "六、多元函数积分学",
+        "kp": "二重积分与三重积分的概念、性质、计算和应用",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "理解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 668,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 5,
+    "indexByPaper": {
+      "数学二": 7,
+      "数学三": 5
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设向量组 (I): $\\boldsymbol{\\alpha}_1, \\boldsymbol{\\alpha}_2, \\cdots, \\boldsymbol{\\alpha}_r$ 可由向量组 (II): $\\boldsymbol{\\beta}_1, \\boldsymbol{\\beta}_2, \\cdots, \\boldsymbol{\\beta}_s$ 线性表示. 下列命题正确的是 $(\\quad)$",
+    "options": {
+      "A": "若向量组 (I) 线性无关,则 $r \\leqslant s$",
+      "B": "若向量组 (I) 线性相关, 则 $r>s$",
+      "C": "若向量组 (II) 线性无关, 则 $r \\leqslant s$",
+      "D": "若向量组 (II) 线性相关, 则 $r>s$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量的线性组合与线性表示",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的线性相关与线性无关",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "向量组的秩",
+        "rel": "次",
+        "depth": [
+          "会求"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 647,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 6,
+    "indexByPaper": {
+      "数学一": 6,
+      "数学二": 8,
+      "数学三": 6
+    },
+    "type": "选择题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}$ 为 $4$ 阶实对称矩阵, 且 $\\boldsymbol{A}^{2}+\\boldsymbol{A}=\\boldsymbol{O}$. 若 $\\boldsymbol{A}$ 的秩为 $3$, 则 $\\boldsymbol{A}$ 相似于 $(\\quad)$",
+    "options": {
+      "A": "$\\left(\\begin{array}{llll}1 & & & \\\\ & 1 & & \\\\ & & 1 & \\\\ & & & 0\\end{array}\\right)$",
+      "B": "$\\left(\\begin{array}{llll}1 & & & \\\\ & -1 & & \\\\ & & -1 & \\\\ & & & 0\\end{array}\\right)$",
+      "C": "$\\left(\\begin{array}{llll}1 & & & \\\\ & 1 & & \\\\ & & -1 & \\\\ & & & 0\\end{array}\\right)$",
+      "D": "$\\left(\\begin{array}{llll}-1 & & & \\\\ & -1 & & \\\\ & & -1 & \\\\ & & & 0\\end{array}\\right)$"
+    },
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "实对称矩阵的特征值和特征向量及相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "矩阵的秩",
+        "rel": "次",
+        "depth": [
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 669,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 9,
+    "indexByPaper": {
+      "数学二": 9
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "$3$ 阶常系数齐次线性微分方程 $y^{\\prime \\prime \\prime}-2 y^{\\prime \\prime}+y^{\\prime}-2 y=0$ 的通解为 $y=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "高于二阶的某些常系数齐次线性微分方程",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "五、常微分方程",
+        "kp": "二阶常系数齐次线性微分方程",
+        "rel": "次",
+        "depth": [
+          "掌握",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 670,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 10,
+    "indexByPaper": {
+      "数学二": 10
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "曲线 $\\displaystyle y=\\frac{2 x^3}{x^2+1}$ 的渐近线方程为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数图形的凹凸性、拐点及渐近线",
+        "rel": "主",
+        "depth": [
+          "会描绘",
+          "会用",
+          "会求",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 671,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 11,
+    "indexByPaper": {
+      "数学二": 11
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "函数 $y=\\ln (1-2 x)$ 在 $x=0$ 处的 $n$ 阶导数 $y^{(n)}(0)=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "高阶导数",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 672,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 12,
+    "indexByPaper": {
+      "数学二": 12
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "当 $0 \\leqslant \\theta \\leqslant \\pi$ 时, 对数螺线 $r=\\mathrm{e}^\\theta$ 的弧长为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 673,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 13,
+    "indexByPaper": {
+      "数学二": 13
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "已知一个长方形的长 $l$ 以 $2 \\mathrm{cm} / \\mathrm{s}$ 的速率增加, 宽 $w$ 以 $3 \\mathrm{cm} / \\mathrm{s}$ 的速率增加. 则当 $l=12 \\mathrm{cm}$, $w=5 \\mathrm{cm}$ 时, 它的对角线增加的速率为 $\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "导数的几何意义和物理意义",
+        "rel": "次",
+        "depth": [
+          "会求",
+          "理解",
+          "了解",
+          "会用",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 684,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 13,
+    "indexByPaper": {
+      "数学三": 13,
+      "数学二": 14
+    },
+    "type": "填空题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}, \\boldsymbol{B}$ 为 3 阶矩阵, 且 $|\\boldsymbol{A}|=3,|\\boldsymbol{B}|=2,\\left|\\boldsymbol{A}{ }^{-1}+\\boldsymbol{B}\\right|=2$, 则 $\\left|\\boldsymbol{A}+\\boldsymbol{B}^{-1}\\right|=\\rule{0.5cm}{0.2mm}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "方阵乘积的行列式",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "二、矩阵",
+        "kp": "逆矩阵的概念和性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 657,
+    "papers": [
+      "数学一",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 16,
+    "indexByPaper": {
+      "数学一": 16,
+      "数学二": 15
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "求函数 $\\displaystyle f(x)=\\int_{1}^{x^{2}}\\left(x^{2}-t\\right) \\mathrm{e}^{-t^{2}} \\mathrm{d} t$ 的单调区间与极值",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "积分上限的函数及其导数",
+        "rel": "主",
+        "depth": [
+          "理解",
+          "会求",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数单调性的判别",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "函数的极值",
+        "rel": "主",
+        "depth": [
+          "掌握",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 658,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 17,
+    "indexByPaper": {
+      "数学一": 17,
+      "数学二": 16,
+      "数学三": 18
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "(1) 比较 $\\displaystyle \\int_{0}^{1}|\\ln t|[\\ln (1+t)]^{n} \\mathrm{d} t$ 与 $\\displaystyle \\int_{0}^{1} t^{n}|\\ln t| \\mathrm{d} t(n=1,2, \\cdots)$ 的大小, 说明理由;\r\n\r\n(2) 记 $\\displaystyle u_{n}=\\int_{0}^{1}|\\ln t|[\\ln (1+t)]^{n} \\mathrm{d} t\\left(n=1,2, \\cdots\\right)$, 求极限 $\\displaystyle \\lim _{n \\rightarrow \\infty} u_{n}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的概念和基本性质",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "极限存在的两个准则：单调有界准则和夹逼准则",
+        "rel": "主",
+        "depth": [
+          "了解"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分和定积分的换元积分法与分部积分法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 674,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 17,
+    "indexByPaper": {
+      "数学二": 17
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设函数 $y=f(x)$ 由参数方程 $\\left\\{\\begin{array}{l}x=2 t+t^2, \\\\ y=\\psi(t)\\end{array}(t>-1)\\right.$ 所确定, 其中 $\\psi(t)$ 具有二阶导数, 且 $\\displaystyle \\psi(1)=\\frac{5}{2}, \\psi^{\\prime}(1)=6$, 已知 $\\displaystyle \\frac{\\mathrm{d}^2 y}{\\mathrm{d} x^2}=\\frac{3}{4(1+t)}$, 求函数 $\\psi(t)$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "复合函数、反函数、隐函数以及参数方程所确定的函数的微分法",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "高阶导数",
+        "rel": "次",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "不定积分的基本性质",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": true
+  },
+  {
+    "id": 675,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 18,
+    "indexByPaper": {
+      "数学二": 18
+    },
+    "type": "解答题",
+    "has_figure": true,
+    "stem": "一个高为 $l$ 的柱体形贮油罐, 底面是长轴为 $2 a$, 短轴为 $2 b$ 的椭圆. 现将贮油罐平放, 当油罐中油面高度为 $\\displaystyle \\frac{3}{2} b$ 时 (如图所示), 计算油的质量.\r\n(长度单位为 $\\mathrm{m}$, 质量单位为 $\\mathrm{kg}$, 油的密度为常数 $\\rho \\mathrm{kg} / \\mathrm{m}^3$ )\n\n![浮筒横截面示意图](/figures/675.svg)",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "三、一元函数积分学",
+        "kp": "定积分的应用",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 676,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 19,
+    "indexByPaper": {
+      "数学二": 19
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设函数 $u=f(x, y)$ 具有二阶连续偏导数, 且满足等式 $\\displaystyle 4 \\frac{\\partial^2 u}{\\partial x^2}+12 \\frac{\\partial^2 u}{\\partial x \\partial y}+5 \\frac{\\partial^2 u}{\\partial y^2}=0$, 确定 $a, b$ 的值, 使等式在变换 $\\xi=x+a y, \\eta=x+b y$ 下简化为 $\\displaystyle \\frac{\\partial^2 u}{\\partial \\xi \\partial \\eta}=0$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "多元复合函数、隐函数的求导法",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "二阶偏导数",
+        "rel": "主",
+        "depth": [
+          "会求",
+          "了解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": true
+  },
+  {
+    "id": 661,
+    "papers": [
+      "数学一",
+      "数学三",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 20,
+    "indexByPaper": {
+      "数学一": 20,
+      "数学二": 22,
+      "数学三": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}=\\left(\\begin{array}{ccc}\\lambda & 1 & 1 \\\\ 0 & \\lambda-1 & 0 \\\\ 1 & 1 & \\lambda\\end{array}\\right), \\boldsymbol{b}=\\left(\\begin{array}{l}a \\\\ 1 \\\\ 1\\end{array}\\right)$. 已知线性方程组 $\\boldsymbol{Ax} =\\boldsymbol{b}$ 存在两个不同的解\r\n\r\n(1) 求 $\\lambda, a$;\r\n\r\n(2) 求方程组 $\\boldsymbol{Ax}=\\boldsymbol{b}$ 的通解",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组有解的充分必要条件",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "四、线性方程组",
+        "kp": "非齐次线性方程组的通解",
+        "rel": "主",
+        "depth": [
+          "理解"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "一、行列式",
+        "kp": "行列式的概念和基本性质",
+        "rel": "次",
+        "depth": [
+          "了解",
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 677,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 20,
+    "indexByPaper": {
+      "数学二": 20
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "计算二重积分 $I=\\displaystyle \\iint\\limits_D r^2 \\sin \\theta \\sqrt{1-r^2 \\cos 2 \\theta} \\mathrm{d} r \\mathrm{d} \\theta$, 其中 $\\displaystyle D=\\left\\{(r, \\theta) \\mid 0 \\leqslant r \\leqslant \\sec \\theta, 0 \\leqslant \\theta \\leqslant \\frac{\\pi}{4}\\right\\}$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "四、多元函数微积分学",
+        "kp": "二重积分的概念、基本性质和计算",
+        "rel": "主",
+        "depth": [
+          "了解",
+          "掌握",
+          "理解"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 678,
+    "papers": [
+      "数学三",
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 21,
+    "indexByPaper": {
+      "数学二": 23,
+      "数学三": 21
+    },
+    "type": "解答题",
+    "has_figure": false,
+    "stem": "设 $\\boldsymbol{A}=\\left(\\begin{array}{ccc}0 & -1 & 4 \\\\ -1 & 3 & a \\\\ 4 & a & 0\\end{array}\\right)$, 有正交矩阵 $\\boldsymbol{Q}$ 使得 $\\boldsymbol{Q}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{Q}$ 为对角矩阵. 若 $\\boldsymbol{Q}$ 的第 $1$ 列为 $\\displaystyle \\frac{1}{\\sqrt{6}}(1,2,1)^{\\mathrm{T}}$,\r\n求 $a, \\boldsymbol Q$",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "矩阵的特征值和特征向量的概念、性质",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "五、矩阵的特征值和特征向量",
+        "kp": "实对称矩阵的特征值和特征向量及相似对角矩阵",
+        "rel": "主",
+        "depth": [
+          "掌握"
+        ]
+      },
+      {
+        "part": "线性代数",
+        "chapter": "三、向量",
+        "kp": "线性无关向量组的正交规范化方法",
+        "rel": "次",
+        "depth": [
+          "掌握"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  },
+  {
+    "id": 691,
+    "papers": [
+      "数学二"
+    ],
+    "year": 2010,
+    "index": 21,
+    "indexByPaper": {
+      "数学二": 21
+    },
+    "type": "证明题",
+    "has_figure": false,
+    "stem": "设函数 $f(x)$ 在闭区间 $[0,1]$ 上连续, 在开区间 $(0,1)$ 内可导, 且 $f(0)=0, f(1)=\\dfrac{1}{3}$. 证明: 存在 $\\xi \\in\\left(0, \\dfrac{1}{2}\\right), \\eta \\in\\left(\\dfrac{1}{2}, 1\\right)$, 使得 $f^{\\prime}(\\xi)+f^{\\prime}(\\eta)=\\xi^2+\\eta^2$.",
+    "options": {},
+    "hasSolution": true,
+    "difficulty": 0,
+    "difficultyEst": false,
+    "skill": "",
+    "methods": [],
+    "kps": [
+      {
+        "part": "高等数学",
+        "chapter": "二、一元函数微分学",
+        "kp": "微分中值定理",
+        "rel": "主",
+        "depth": [
+          "会用",
+          "了解",
+          "理解",
+          "会"
+        ]
+      },
+      {
+        "part": "高等数学",
+        "chapter": "一、函数、极限、连续",
+        "kp": "闭区间上连续函数的性质",
+        "rel": "次",
+        "depth": [
+          "了解",
+          "理解",
+          "会"
+        ]
+      }
+    ],
+    "calcHeavy": false
+  }
+]
